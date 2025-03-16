@@ -1,0 +1,6 @@
+@HierarchyGeneratorApi_HostAddress = http://localhost:5199
+
+GET {{HierarchyGeneratorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
