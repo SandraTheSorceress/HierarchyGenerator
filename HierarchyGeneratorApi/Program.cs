@@ -1,3 +1,4 @@
+using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IHierarchyService, HierarchyService>();
+builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
 
 var app = builder.Build();
 
