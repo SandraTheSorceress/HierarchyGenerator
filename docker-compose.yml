@@ -1,0 +1,18 @@
+services:
+ db:
+  container_name: HierarchyGeneratorDatabase
+  build:
+      context: HierarchyGeneratorDatabase
+      dockerfile: Dockerfile   
+  environment:
+      - MYSQL_ROOT_PASSWORD=password
+  ports:
+     - "3306:3306"
+  volumes:
+     - ./HierarchyGeneratorDatabase/data:/var/lib/mysql
+  healthcheck:
+    test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+    interval: 30s
+    retries: 5
+    start_period: 30s
+    timeout: 10s
