@@ -16,29 +16,27 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.MapGet("/api/hierarchies", () =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
+    List<Hierarchy> hierarchies = new List<Hierarchy>();
+    Hierarchy h1 = new Hierarchy(1, "FirstHierarchy", 5, DateTime.Now,DateTime.Now);
+    Hierarchy h2 = new Hierarchy(2, "SecondHierarchy", 7, DateTime.Now, DateTime.Now);
+    Hierarchy h3 = new Hierarchy(3, "ThirdHierarchy", 9, DateTime.Now, DateTime.Now);
+    Hierarchy h4 = new Hierarchy(4, "FourthHierarchy", 3, DateTime.Now, DateTime.Now);
+    Hierarchy h5 = new Hierarchy(5, "FifthsHierarchy", 1, DateTime.Now, DateTime.Now);
+    hierarchies.Add(h1);
+    hierarchies.Add(h2);
+    hierarchies.Add(h3);
+    hierarchies.Add(h4);
+    hierarchies.Add(h5);
+    return hierarchies;
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+record Hierarchy(int Id, string Name, int NumberOfNodes, DateTime CreatedDate, DateTime LastModified)
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    
 }

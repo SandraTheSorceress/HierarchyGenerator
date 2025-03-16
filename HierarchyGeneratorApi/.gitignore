@@ -50,6 +50,7 @@ artifacts/
 obj
 # VS Code
 .vscode/
+.vs/
 
 *_i.c
 *_p.c
