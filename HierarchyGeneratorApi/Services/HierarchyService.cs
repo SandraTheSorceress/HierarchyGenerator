@@ -1,5 +1,6 @@
 ﻿using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
+using Serilog;
 
 namespace HierarchyGeneratorApi.Services;
 
@@ -13,6 +14,8 @@ public class HierarchyService : IHierarchyService
     }
     public List<Hierarchy> GetHierarchies()
     {
-        return _hierarchyRepository.GetHierarchies();
+        List<Hierarchy> hierarchies = _hierarchyRepository.GetHierarchies();
+        Log.Information("{Count} hierarchies have been fetched from the database", hierarchies.Count);
+        return hierarchies;
     }
 }
