@@ -1,4 +1,5 @@
 using HierarchyGeneratorApi.Data;
+using HierarchyGeneratorApi.Middleware;
 using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
 using Microsoft.EntityFrameworkCore;
@@ -34,7 +35,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseMiddleware<LoggingMiddleware>();
 
 app.MapControllers();
 app.Run();
