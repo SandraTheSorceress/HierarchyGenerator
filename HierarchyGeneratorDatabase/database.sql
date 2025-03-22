@@ -1,18 +1,19 @@
-	CREATE DATABASE hierarchy_generator;
+CREATE DATABASE hierarchy_generator;
 
-	use hierarchy_generator;
+use hierarchy_generator;
 
-	create table hierarchy (
-	id int PRIMARY KEY,
-	name text,
-	numberOfNodes int,
-	createdDate DATETIME,
-	lastModified DATETIME
-	);
+CREATE TABLE Hierarchies (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    NumberOfNodes int NOT NULL,
+    CreatedDate datetime NOT NULL,
+    LastModified datetime NOT NULL,
+    CONSTRAINT PK_Hierarchies PRIMARY KEY (Id)
+) CHARACTER SET=utf8mb4;
 
-	insert into hierarchy values (1, "Hierarch 1", 1, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (2, "Hierarch 2",5, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (3, "Hierarch 3",7, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (4, "Hierarch 4", 9, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified) values ("Hierarchy 1", 1, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified) values ("Hierarchy 2", 5, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified) values ("Hierarchy 3", 7, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified) values ("Hierarchy 4", 9, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
 
-	commit;
+commit;
