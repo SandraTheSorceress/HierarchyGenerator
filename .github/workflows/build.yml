@@ -1,0 +1,26 @@
+name: Build ASP.NET API
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore Dependencies
+        run: dotnet restore HierarchyGeneratorApi
+
+      - name: Build Application
+        run: dotnet build HierarchyGeneratorApi --configuration Release --no-restore
