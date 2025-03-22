@@ -2,7 +2,7 @@ name: Build ASP.NET API and React App
 
 on:
   push:
-    branches: [main, feature/26]
+    branches: [main]
   pull_request:
     branches: [main]
 
