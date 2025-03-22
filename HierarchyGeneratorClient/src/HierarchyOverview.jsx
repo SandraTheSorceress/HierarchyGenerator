@@ -1,8 +1,8 @@
-function HierarchyOverview({hierarchies}) {
+function HierarchyOverview({hierarchyList}) {
     return (
       <ul>
         {
-          hierarchies.map( (hierarchy) => (
+          hierarchyList.map( (hierarchy) => (
             <li key={hierarchy.id} style={{ listStyleType: "none" }}>{hierarchy.name}</li>
           ))
         }
