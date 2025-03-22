@@ -1,4 +1,14 @@
 services:
+ api:
+  container_name: HierarchyGeneratorApi
+  build:
+      context: HierarchyGeneratorApi
+      dockerfile: Dockerfile
+  depends_on:
+      db:
+        condition: service_healthy
+  ports:
+      - "1337:80"
  db:
   container_name: HierarchyGeneratorDatabase
   build:
