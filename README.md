@@ -18,4 +18,6 @@ Go to [API Swagger](http://localhost:1337/swagger/index.html)
 
 [High-level architectural design](./documentation/high-level-arch-design/README.md)
 
+[About the frontend](./HierarchyGeneratorClient/README.md)
+
 [About the database](./HierarchyGeneratorDatabase/README.md)
