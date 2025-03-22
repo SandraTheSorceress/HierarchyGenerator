@@ -2,7 +2,7 @@ name: Build ASP.NET API
 
 on:
   push:
-    branches: [main, feature/20]
+    branches: [main]
   pull_request:
     branches: [main]
 
