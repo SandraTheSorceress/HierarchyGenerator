@@ -1,9 +1,13 @@
 using HierarchyGeneratorApi.Data;
+using HierarchyGeneratorApi.Middleware;
 using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
-using System.Data.Entity;
+using Serilog;
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +35,7 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseMiddleware<LoggingMiddleware>();
 
 app.MapControllers();
 app.Run();
