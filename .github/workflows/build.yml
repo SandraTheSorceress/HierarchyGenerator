@@ -1,4 +1,4 @@
-name: Build ASP.NET API
+name: Build ASP.NET API and React App
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  build-api:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +19,27 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Restore Dependencies
+      - name: Restore .NET Dependencies
         run: dotnet restore HierarchyGeneratorApi
 
-      - name: Build Application
+      - name: Build .NET Application
         run: dotnet build HierarchyGeneratorApi --configuration Release --no-restore
+
+  build-react:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      - name: Install Node Dependencies
+        run: npm install
+        working-directory: HierarchyGeneratorClient
+
+      - name: Build React App
+        run: npm run build
+        working-directory: HierarchyGeneratorClient
