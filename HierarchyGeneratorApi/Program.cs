@@ -1,5 +1,9 @@
+using HierarchyGeneratorApi.Data;
 using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using System.Data.Entity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +14,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IHierarchyService, HierarchyService>();
 builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+
 
 var app = builder.Build();
 

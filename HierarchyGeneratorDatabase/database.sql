@@ -2,7 +2,7 @@
 
 	use hierarchy_generator;
 
-	create table hierarchy (
+	create table hierarchies (
 	id int PRIMARY KEY,
 	name text,
 	numberOfNodes int,
@@ -10,9 +10,9 @@
 	lastModified DATETIME
 	);
 
-	insert into hierarchy values (1, "Hierarch 1", 1, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (2, "Hierarch 2",5, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (3, "Hierarch 3",7, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
-	insert into hierarchy values (4, "Hierarch 4", 9, '2025-03-16 14:30:00', '2025-03-16 14:30:00');
+	insert into hierarchies values (1, "Hierarchy 1", 1, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+	insert into hierarchies values (2, "Hierarchy 2",5, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+	insert into hierarchies values (3, "Hierarchy 3",7, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
+	insert into hierarchies values (4, "Hierarchy 4", 9, '2025-03-22 14:30:00', '2025-03-22 14:30:00');
 
 	commit;
