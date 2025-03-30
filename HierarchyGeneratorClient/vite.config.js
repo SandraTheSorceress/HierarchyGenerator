@@ -10,10 +10,11 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      "/api": {
+      "/backend": {
         target: "http://localhost:1337",
         changeOrigin: true,
         secure: false,
+        rewrite: (path) => path.replace(/^\/backend/, '')
       },
     },
   },

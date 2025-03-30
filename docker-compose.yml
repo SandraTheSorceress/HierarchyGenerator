@@ -1,4 +1,13 @@
 services:
+ client:
+  container_name: HierarchyGeneratorClient
+  build:
+      context: HierarchyGeneratorClient
+      dockerfile: Dockerfile
+  depends_on:
+      - api
+  ports:
+      - "8080:80"
  api:
   container_name: HierarchyGeneratorApi
   build:

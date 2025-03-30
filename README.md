@@ -6,7 +6,9 @@ Run the following command in this folder:
 
     docker-compose up -d
 
-Go to [API Swagger](http://localhost:1337/swagger/index.html)
+Open [Hierarchy Generator App](http://localhost:8080)
+
+Backend is available here: [API Swagger](http://localhost:8080/backend/swagger/index.html)
 
 ## How to stop the application?
 
