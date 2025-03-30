@@ -8,7 +8,7 @@ Run the following command in this folder:
 
 Open [Hierarchy Generator App](http://localhost:8080)
 
-Backend is available here: [API Swagger](http://localhost:8080/backend/swagger/index.html)
+Backend is available here: [API Swagger](http://localhost:1337/swagger/index.html)
 
 ## How to stop the application?
 
@@ -23,5 +23,7 @@ Backend is available here: [API Swagger](http://localhost:8080/backend/swagger/i
 [About the frontend](./HierarchyGeneratorClient/README.md)
 
 [About the UI design](./documentation/ui-design/README.md)
+
+[About the API design](./documentation/api-design/README.md)
 
 [About the database](./HierarchyGeneratorDatabase/README.md)
