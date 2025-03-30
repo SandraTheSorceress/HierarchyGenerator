@@ -18,14 +18,16 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div>
       <Header title="Hierarchy Generator" />
       {!error ? (
-        <HierarchyOverview hierarchyList={hierarchies} />
+        <div className="flex items-center justify-center pt-7">
+          <HierarchyOverview hierarchyList={hierarchies} />
+        </div>
       ) : (
         <p style={{ color: "red" }}>{error}</p>
       )}
-    </>
+    </div>
   );
 }
 
