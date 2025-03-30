@@ -3,7 +3,7 @@ function HierarchyOverview({hierarchyList}) {
       <ul>
         {
           hierarchyList.map( (hierarchy) => (
-            <li key={hierarchy.id} style={{ listStyleType: "none" }}>{hierarchy.name}</li>
+            <li key={hierarchy.id}>{hierarchy.name}</li>
           ))
         }
       </ul>
