@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/api/hierarchy")
+    fetch("/backend/api/hierarchy")
       .then((response) => response.json())
       .then((data) => setHierarchies(data))
       .catch((err) => {

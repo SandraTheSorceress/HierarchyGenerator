@@ -19,6 +19,9 @@ RUN npm run build
 # Set up a minimal server to serve the built app using Nginx
 FROM nginx:alpine
 
+# Copy the custom nginx.conf to the appropriate location in the Nginx container
+COPY nginx.conf /etc/nginx/nginx.conf
+
 # Copy the built app from the previous stage into the Nginx container
 COPY --from=build /app/dist /usr/share/nginx/html
 
