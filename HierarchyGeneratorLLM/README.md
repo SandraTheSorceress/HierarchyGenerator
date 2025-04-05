@@ -1,5 +1,13 @@
 # Hierarchy Large Language Model (LLM)
 
+## About OLlama
+
+[Ollama](https://ollama.com/) is a tool that allows users to interact with AI models in a chat-based format. It enables you to run various AI models locally on your computer.
+
+## Phi3 Mini
+
+[Phi3 Mini](https://ollama.com/library/phi3) is a compact and efficient version of a machine learning model, designed for tasks like natural language processing. It balances performance and resource usage, making it ideal for use in environments with limited computing power.
+
 ## How to Test if the Docker Image is Working Using the Terminal
 
 Follow these steps to test the Docker image for LLM:
