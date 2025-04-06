@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="p-5">
       <Header title="Hierarchy Generator" />
 
       {loading ? (
