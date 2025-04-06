@@ -7,12 +7,14 @@ function App() {
   const [hierarchies, setHierarchies] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch("/backend/api/hierarchy?page=1&limit=10")
+    fetch(`/backend/api/hierarchy?search=${searchQuery}&page=${page}&limit=5`)
       .then((response) => response.json())
       .then((data) => {
-        setHierarchies(data.data);
+        setHierarchies(data);
         setLoading(false);
       })
       .catch((err) => {
@@ -21,16 +23,16 @@ function App() {
         );
         setLoading(false);
       });
-  }, []);
+  }, [searchQuery, page]);
 
   return (
-    <div>
+    <div className="p-5">
       <Header title="Hierarchy Generator" />
 
       {loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
-            color="#642392"
+            color="oklch(0.379 0.146 265.522)"
             size={150}
             aria-label="Loading Spinner"
             data-testid="loader"
@@ -39,9 +41,7 @@ function App() {
       ) : error ? (
         <p style={{ color: "red" }}>{error}</p>
       ) : (
-        <div className="flex items-center justify-center pt-7">
-          <HierarchyOverview hierarchyList={hierarchies} />
-        </div>
+          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} />
       )}
     </div>
   );
