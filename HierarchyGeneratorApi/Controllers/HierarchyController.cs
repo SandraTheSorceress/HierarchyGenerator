@@ -15,25 +15,39 @@ public class HierarchyController : ControllerBase
     }
 
     [HttpGet("/api/hierarchy")]
-    public ActionResult<ListResponseDTO> GetHierarchies(int page = 1, int limit = 5)
+    public ActionResult<ListResponseDTO> GetHierarchies(string? search, int page = 1, int limit = 5)
     {
-
+        
         ListResponseDTO responseDTO = new ListResponseDTO();
         
-        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies().OrderBy(h => h.CreatedDate).ToList(); ;
+        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies().OrderBy(h => h.CreatedDate).ToList();
+
+        if (!string.IsNullOrEmpty(search))
+        {
+            hierarchies = hierarchies.FindAll(h => h.Name.ToLower().Contains(search.ToLower()));
+        }
 
         ListMetaDTO meta = new ListMetaDTO();
         meta.Total = hierarchies.Count;
         meta.Limit = limit;
         meta.Page = page;
         meta.TotalPages = meta.Total / meta.Limit;
+        if(meta.TotalPages == 0) {
+            meta.TotalPages = 1;
+        }
+
         if(meta.Page < 1 || meta.Page > meta.TotalPages)
         {
             return BadRequest(new { message = "Page does not exist." });
         }
 
         int startingIndex = 0 + (((page - 1) * limit));
-        List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, limit);
+        int endIndex = limit;
+        if(endIndex > meta.Total)
+        {
+            endIndex = meta.Total;
+        }
+        List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, endIndex);
         foreach (var hierarchy in hierarchiesInCurrentPage)
         {
             HierarchyDTO hierarchyDTO = new HierarchyDTO()
