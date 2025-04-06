@@ -7,9 +7,10 @@ function App() {
   const [hierarchies, setHierarchies] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    fetch("/backend/api/hierarchy?page=1&limit=10")
+    fetch(`/backend/api/hierarchy?search=${searchQuery}&page=1&limit=10`)
       .then((response) => response.json())
       .then((data) => {
         setHierarchies(data);
@@ -21,7 +22,7 @@ function App() {
         );
         setLoading(false);
       });
-  }, []);
+  }, [searchQuery]);
 
   return (
     <div className="p-5">
@@ -39,7 +40,7 @@ function App() {
       ) : error ? (
         <p style={{ color: "red" }}>{error}</p>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} />
+          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} />
       )}
     </div>
   );
