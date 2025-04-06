@@ -9,10 +9,10 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/backend/api/hierarchy")
+    fetch("/backend/api/hierarchy?page=1&limit=10")
       .then((response) => response.json())
       .then((data) => {
-        setHierarchies(data);
+        setHierarchies(data.data);
         setLoading(false);
       })
       .catch((err) => {
