@@ -97,7 +97,10 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage }) {
                  dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                 placeholder="Search"
                 required=""
-                onChange={(event) => setSearchQuery(event.target.value)}
+                onChange={(event) => {
+                  setPage(1)
+                  setSearchQuery(event.target.value)
+                }}
               />
             </div>
           </form>
