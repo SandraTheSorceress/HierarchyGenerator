@@ -12,7 +12,7 @@ function App() {
     fetch("/backend/api/hierarchy?page=1&limit=10")
       .then((response) => response.json())
       .then((data) => {
-        setHierarchies(data.data);
+        setHierarchies(data);
         setLoading(false);
       })
       .catch((err) => {
@@ -30,7 +30,7 @@ function App() {
       {loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
-            color="#642392"
+            color="oklch(0.379 0.146 265.522)"
             size={150}
             aria-label="Loading Spinner"
             data-testid="loader"
