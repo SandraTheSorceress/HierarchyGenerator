@@ -3,6 +3,7 @@ using HierarchyGeneratorApi.Middleware;
 using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.AI;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -17,10 +18,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IHierarchyService, HierarchyService>();
+builder.Services.AddScoped<IRandomService, RandomService>();
 builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+builder.Services.AddSingleton<IChatClient>(new OllamaChatClient(new Uri("http://localhost:11434/"), "phi3:mini"));
+
 
 if (builder.Environment.IsProduction())
 {
