@@ -12,6 +12,21 @@ This endpoint retrieves a list of hierarchy objects with optional search and pag
 | `limit`       | integer  | The number of items per page (optional)          | No       | `10`          |
 | `page`        | integer  | The page number to retrieve (optional)           | No       | `1`           |
 
+### Response
+
+| Field              | Type     | Description                                      |
+|--------------------|----------|--------------------------------------------------|
+| `id`               | integer  | Unique identifier of the hierarchy               |
+| `name`             | string   | Name of the hierarchy                            |
+| `numberOfNodes`    | integer  | Number of nodes in the hierarchy                 |
+| `numberOfEndUsers` | integer  | Number of end users linked to the hierarchy      |
+| `numberOfAttributes`| integer | Number of attributes in the hierarchy            |
+| `numberOfContacts` | integer  | Number of contacts in the hierarchy              |
+| `createdDate`      | string   | Date and time the hierarchy was created          |
+| `lastModified`     | string   | Date and time the hierarchy was last modified    |
+| `status`           | string   | Current status of the hierarchy (TODO, PROCESSING, CREATED) |
+
+
 ### Example Request:
 
 ```plaintext
@@ -31,7 +46,8 @@ Content-Type: text/json
       "numberOfAttributes": 50,
       "numberOfContacts": 15,
       "createdDate": "2025-03-22T14:30:00",
-      "lastModified": "2025-03-22T14:30:00"
+      "lastModified": "2025-03-22T14:30:00",
+      "status": "CREATED"
     },
     // More items...
   ],
@@ -69,4 +85,30 @@ node_id, node_label, parent, contact_id
 3,Gothenburg,1,user3
 4,Malmö,1,user4
 5,Solna,2,user5
+```
+
+## POST /api/hierarchy
+
+This endpoint creates a new hierarchy.
+
+### Request Body
+
+| Field   | Type   | Description                              | Required |
+|---------|--------|------------------------------------------|----------|
+| `name`  | string | The name of the new hierarchy.           | Yes      |
+
+## DELETE /api/hierarchy/{id}
+
+This endpoint allows you to delete a specific hierarchy.
+
+### URL Parameters
+
+| Parameter     | Type     | Description                                      | Required | Default Value |
+|---------------|----------|--------------------------------------------------|----------|---------------|
+| `id`          | integer  | The unique identifier of the hierarchy to delete | Yes      | N/A           |
+
+### Example Request:
+
+```plaintext
+DELETE /api/hierarchy/1
 ```
