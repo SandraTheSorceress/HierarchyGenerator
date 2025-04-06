@@ -1,6 +1,6 @@
-﻿namespace HierarchyGeneratorApi.Models;
+﻿namespace HierarchyGeneratorApi.DTOs;
 
-public class Hierarchy
+public class HierarchyDTO
 {
     public int Id { get; set; }
     public string Name { get; set; }
