@@ -11,7 +11,7 @@ function App() {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch(`/backend/api/hierarchy?search=${searchQuery}&page=1&limit=10`)
+    fetch(`/backend/api/hierarchy?search=${searchQuery}&page=${page}&limit=10`)
       .then((response) => response.json())
       .then((data) => {
         setHierarchies(data);
