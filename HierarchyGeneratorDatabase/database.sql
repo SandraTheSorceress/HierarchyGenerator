@@ -16,14 +16,14 @@ CREATE TABLE Hierarchies (
 ) CHARACTER SET=utf8mb4;
 
 insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 1", 1, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 2", 5, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "PROCESSING");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 3", 7, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 4", 9, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "TODO");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 5", 1, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 6", 5, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "PROCESSING");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 7", 7, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 8", 9, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "TODO");
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 9", 1, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 2", 5, '2025-03-22 14:31:00', '2025-03-22 14:30:00', "PROCESSING");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 3", 7, '2025-03-22 14:32:00', '2025-03-22 14:30:00', "CREATED");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 4", 9, '2025-03-22 14:33:00', '2025-03-22 14:30:00', "TODO");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 5", 1, '2025-03-22 14:34:00', '2025-03-22 14:30:00', "CREATED");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 6", 5, '2025-03-22 14:35:00', '2025-03-22 14:30:00', "PROCESSING");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 7", 7, '2025-03-22 14:36:00', '2025-03-22 14:30:00', "CREATED");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 8", 9, '2025-03-22 14:37:00', '2025-03-22 14:30:00', "TODO");
+insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 9", 1, '2025-03-22 14:20:00', '2025-03-22 14:30:00', "CREATED");
 insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 10", 5, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "PROCESSING");
 insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 11", 7, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "CREATED");
 insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values ("Hierarchy 12", 9, '2025-03-22 14:30:00', '2025-03-22 14:30:00', "TODO");

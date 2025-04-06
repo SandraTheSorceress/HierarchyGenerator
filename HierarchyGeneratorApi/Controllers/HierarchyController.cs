@@ -20,7 +20,7 @@ public class HierarchyController : ControllerBase
 
         ListResponseDTO responseDTO = new ListResponseDTO();
         
-        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies();
+        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies().OrderBy(h => h.CreatedDate).ToList(); ;
 
         ListMetaDTO meta = new ListMetaDTO();
         meta.Total = hierarchies.Count;
