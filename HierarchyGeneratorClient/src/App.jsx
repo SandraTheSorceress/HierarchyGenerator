@@ -39,9 +39,7 @@ function App() {
       ) : error ? (
         <p style={{ color: "red" }}>{error}</p>
       ) : (
-        <div className="flex items-center justify-center pt-7">
           <HierarchyOverview hierarchyList={hierarchies} />
-        </div>
       )}
     </div>
   );
