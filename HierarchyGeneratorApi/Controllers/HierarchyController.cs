@@ -2,6 +2,7 @@
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace HierarchyGeneratorApi.Controllers;
 
@@ -31,10 +32,7 @@ public class HierarchyController : ControllerBase
         meta.Total = hierarchies.Count;
         meta.Limit = limit;
         meta.Page = page;
-        meta.TotalPages = meta.Total / meta.Limit;
-        if(meta.TotalPages == 0) {
-            meta.TotalPages = 1;
-        }
+        meta.TotalPages = (meta.Total / meta.Limit) + 1;
 
         if(meta.Page < 1 || meta.Page > meta.TotalPages)
         {
@@ -42,12 +40,15 @@ public class HierarchyController : ControllerBase
         }
 
         int startingIndex = 0 + (((page - 1) * limit));
-        int endIndex = limit;
-        if(endIndex > meta.Total)
+        int hierarchiesInPage = limit;
+
+
+        if(startingIndex + limit > meta.Total)
         {
-            endIndex = meta.Total;
+            hierarchiesInPage = meta.Total - startingIndex;
         }
-        List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, endIndex);
+        Log.Information("StartIndex: {startingIndex}, hierarchiesInPage {hierarchiesInPage}", startingIndex, hierarchiesInPage);
+        List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, hierarchiesInPage);
         foreach (var hierarchy in hierarchiesInCurrentPage)
         {
             HierarchyDTO hierarchyDTO = new HierarchyDTO()
