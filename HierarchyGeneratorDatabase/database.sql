@@ -15,7 +15,7 @@ CREATE TABLE Hierarchies (
     CONSTRAINT PK_Hierarchies PRIMARY KEY (Id)
 ) CHARACTER SET=utf8mb4;
 
-insert into hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
+insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 ("Acme Corp Global Operations", 5, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),
 ("Zenith Financial Holdings Org Chart", 4, '2025-03-12 12:05:00', '2025-03-24 15:20:00', "CREATED"),
 ("BlueNova Technologies Division Structure", 3, '2025-03-13 14:25:00', '2025-03-25 18:30:00', "CREATED"),
