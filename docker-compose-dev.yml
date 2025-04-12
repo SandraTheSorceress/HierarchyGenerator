@@ -1,14 +1,18 @@
 services:
  client:
   container_name: HierarchyGeneratorClient
-  image: alexandraisaksson/hierarchy-generator-client:latest
+  build:
+      context: HierarchyGeneratorClient
+      dockerfile: Dockerfile
   depends_on:
       - api
   ports:
       - "8080:80"
  api:
   container_name: HierarchyGeneratorApi
-  image: alexandraisaksson/hierarchy-generator-api:latest
+  build:
+      context: HierarchyGeneratorApi
+      dockerfile: Dockerfile
   depends_on:
       db:
         condition: service_healthy
@@ -16,7 +20,9 @@ services:
       - "1337:80"
  db:
   container_name: HierarchyGeneratorDatabase
-  image: alexandraisaksson/hierarchy-generator-database:latest
+  build:
+      context: HierarchyGeneratorDatabase
+      dockerfile: Dockerfile   
   environment:
       - MYSQL_ROOT_PASSWORD=password
   ports:
