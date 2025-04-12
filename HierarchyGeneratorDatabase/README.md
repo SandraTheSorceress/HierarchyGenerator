@@ -18,5 +18,3 @@ Password is `password`
 Go to parent folder and run:
 
     docker-compose down
-
-Also, delete the HierarchyGeneratorDatabase/data folder, which stores database files on disk outside the container.

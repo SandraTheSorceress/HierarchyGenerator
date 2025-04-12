@@ -10,15 +10,18 @@ Open [Hierarchy Generator App](http://localhost:8080)
 
 Backend is available here: [API Swagger](http://localhost:1337/swagger/index.html)
 
-Interact with the LLM via Docker using the following command:
-
-    docker-compose exec llm ollama run phi3:mini
-
 ## How to stop the application?
 
     docker-compose down
 
-**Note that database files are persisted on disk inside the folder `HierarchyGenerator\HierarchyGeneratorDatabase\data`** .
+## For development
+This script builds images from the code and starts the containers:
+
+    dev_run.bat
+
+This script stops and removes the containers, along with associated images and volumes:
+
+    dev_stop.bat
 
 ## More documentation
 
