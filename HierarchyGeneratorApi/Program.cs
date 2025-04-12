@@ -23,7 +23,11 @@ builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
-builder.Services.AddSingleton<IChatClient>(new OllamaChatClient(new Uri("http://localhost:11434/"), "phi3:mini"));
+
+var ollamaUrl = builder.Configuration.GetValue<string>("OllamaUrl")
+                ?? throw new InvalidOperationException("OllamaUrl is not configured.");
+
+builder.Services.AddSingleton<IChatClient>(new OllamaChatClient(new Uri(ollamaUrl), "phi3:mini"));
 
 
 if (builder.Environment.IsProduction())
