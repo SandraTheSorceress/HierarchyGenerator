@@ -11,4 +11,6 @@ public class L1
     [ForeignKey("Hierarchy")]
     public int HierarchyId { get; set; }
     public Hierarchy Hierarchy { get; set; }
+
+    public ICollection<L1Contact> Contacts { get; set; } = new List<L1Contact>();
 }

@@ -23,12 +23,23 @@ public class HierarchyService : IHierarchyService
         }
 
         StringBuilder sb = new StringBuilder();
-        sb.Append("NodeId, NodeLabel, ParentId");
+        sb.Append("NodeId, NodeLabel, ParentId, ContactId");
         sb.Append(Environment.NewLine);
         foreach (var l1 in hierarchy.L1s)
         {
-            sb.Append($"{l1.Id}, {l1.Name}, {l1.Hierarchy.Id}");
-            sb.Append(Environment.NewLine);
+            if(l1.Contacts.Any())
+            {
+                foreach (var contact in l1.Contacts)
+                {
+                    sb.Append($"{l1.Id}, {l1.Name},, {contact.Name}");
+                    sb.Append(Environment.NewLine);
+                }
+            } else
+            {
+                sb.Append($"{l1.Id}, {l1.Name},,");
+                sb.Append(Environment.NewLine);
+            }
+
         }
 
         return sb.ToString();

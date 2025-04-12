@@ -21,6 +21,9 @@ public class HierarchyRepository : IHierarchyRepository
 
     public Hierarchy? GetHierarchyById(int id)
     {
-        return _context.Hierarchies.Include(h => h.L1s).FirstOrDefault(h => h.Id == id);
+        return _context.Hierarchies
+            .Include(h => h.L1s)
+            .ThenInclude(l1 => l1.Contacts)
+            .FirstOrDefault(h => h.Id == id);
     }
 }

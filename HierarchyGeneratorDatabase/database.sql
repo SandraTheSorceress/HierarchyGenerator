@@ -23,13 +23,26 @@ CREATE TABLE L1 (
     CONSTRAINT FK_L1_Hierarchies_HierarchyId FOREIGN KEY (HierarchyId) REFERENCES Hierarchies (Id) ON DELETE CASCADE
 ) CHARACTER SET=utf8mb4;
 
+CREATE TABLE L1Contact (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    L1Id int NOT NULL,
+    CONSTRAINT PK_L1Contact PRIMARY KEY (Id),
+    CONSTRAINT FK_L1Contact_L1_L1Id FOREIGN KEY (L1Id) REFERENCES L1 (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
 CREATE INDEX IX_L1_HierarchyId ON L1 (HierarchyId);
+CREATE INDEX IX_L1Contact_L1Id ON L1Contact (L1Id);
 
 insert into Hierarchies (Id, Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 (1, "Country Hierarchies", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED");
-insert into L1(Name, HierarchyId) values ('Sweden', 1);
-insert into L1(Name, HierarchyId) values ('Norway', 1);
-insert into L1(Name, HierarchyId) values ('Denmark', 1);
+insert into L1(Id, Name, HierarchyId) values (1, 'Sweden', 1);
+insert into L1(Id, Name, HierarchyId) values (2, 'Norway', 1);
+insert into L1(Id, Name, HierarchyId) values (3, 'Denmark', 1);
+
+insert into L1Contact(Name, L1Id) values ('Swedish King', 1);
+insert into L1Contact(Name, L1Id) values ('Swedish Queen', 1);
+insert into L1Contact(Name, L1Id) values ('Danish Queen', 3);
 
 insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 ("Acme Corp Global Operations", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),
