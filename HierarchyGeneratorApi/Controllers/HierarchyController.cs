@@ -74,12 +74,12 @@ public class HierarchyController : ControllerBase
     [HttpGet("/api/hierarchy/{id}/download")]
     public ActionResult<string> DownloadHierarchy(int id)
     {
-        string csv = """
-            id,name
-            1,sweden
-            2,norway
-            3,denmark
-            """;
+
+        string? csv = _hierarchyService.GetCSV(id);
+        if(csv == null)
+        {
+            return NotFound(new { message = "Hierarchy does not exist." });
+        }
         byte[] fileBytes = System.Text.Encoding.UTF8.GetBytes(csv);
 
         return File(fileBytes, "text/csv", $"hierarchy_{id}.csv");

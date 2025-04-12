@@ -15,8 +15,24 @@ CREATE TABLE Hierarchies (
     CONSTRAINT PK_Hierarchies PRIMARY KEY (Id)
 ) CHARACTER SET=utf8mb4;
 
+CREATE TABLE L1 (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    HierarchyId int NOT NULL,
+    CONSTRAINT PK_L1 PRIMARY KEY (Id),
+    CONSTRAINT FK_L1_Hierarchies_HierarchyId FOREIGN KEY (HierarchyId) REFERENCES Hierarchies (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE INDEX IX_L1_HierarchyId ON L1 (HierarchyId);
+
+insert into Hierarchies (Id, Name, NumberOfNodes, CreatedDate, LastModified, Status) values
+(1, "Country Hierarchies", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED");
+insert into L1(Name, HierarchyId) values ('Sweden', 1);
+insert into L1(Name, HierarchyId) values ('Norway', 1);
+insert into L1(Name, HierarchyId) values ('Denmark', 1);
+
 insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
-("Acme Corp Global Operations", 5, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),
+("Acme Corp Global Operations", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),
 ("Zenith Financial Holdings Org Chart", 4, '2025-03-12 12:05:00', '2025-03-24 15:20:00', "CREATED"),
 ("BlueNova Technologies Division Structure", 3, '2025-03-13 14:25:00', '2025-03-25 18:30:00', "CREATED"),
 ("Summit Energy Corporate Hierarchy", 6, '2025-03-14 09:00:00', '2025-03-26 11:15:00', "CREATED"),
@@ -69,3 +85,5 @@ insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status)
 
 
 commit;
+
+

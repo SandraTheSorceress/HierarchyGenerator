@@ -1,5 +1,6 @@
 ﻿using HierarchyGeneratorApi.Data;
 using HierarchyGeneratorApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace HierarchyGeneratorApi.Repositories;
 
@@ -16,5 +17,10 @@ public class HierarchyRepository : IHierarchyRepository
     {
         List<Hierarchy> hierarchies = _context.Hierarchies.ToList();
         return hierarchies;
+    }
+
+    public Hierarchy? GetHierarchyById(int id)
+    {
+        return _context.Hierarchies.Include(h => h.L1s).FirstOrDefault(h => h.Id == id);
     }
 }
