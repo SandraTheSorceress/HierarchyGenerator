@@ -28,7 +28,7 @@ services:
   ports:
      - "3306:3306"
   volumes:
-     - ./HierarchyGeneratorDatabase/data:/var/lib/mysql
+     - mysql_data:/var/lib/mysql
   healthcheck:
     test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
     interval: 30s
@@ -42,3 +42,5 @@ services:
       dockerfile: Dockerfile
   ports:
       - "11434:11434"
+volumes:
+    mysql_data:
