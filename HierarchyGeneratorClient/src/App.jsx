@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./Header";
 import HierarchyOverview from "./HierarchyOverview";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import errorImage from "./assets/error.png";
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -50,7 +51,20 @@ function App() {
           />
         </div>
       ) : error ? (
-        <p style={{ color: "red" }}>{error}</p>
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
+          <h1 className="text-6xl font-bold text-red-800 mb-2">
+            Ooops
+          </h1>
+          <img
+            src={errorImage}
+            alt="Error"
+            className="mb-4 w-128"
+          />
+          <h2 className="text-3xl font-bold text-red-800 mb-2">
+            The dog broke the server
+          </h2>
+          <p className="text-lg text-red-600">{message}</p>
+        </div>
       ) : (
           <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} refreshPage={refreshPage} setMessage={setMessage} />
       )}
