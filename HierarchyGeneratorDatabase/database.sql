@@ -6,17 +6,18 @@ CREATE TABLE Hierarchies (
     Id int NOT NULL AUTO_INCREMENT,
     Name longtext CHARACTER SET utf8mb4 NOT NULL,
     NumberOfNodes int NULL,
-	NumberOfEndUsers int NULL,
-	NumberOfAttributes int NULL,
-	NumberOfContacts int NULL,
-    CreatedDate datetime NOT NULL,
-    LastModified datetime NOT NULL,
-	Status longtext CHARACTER SET utf8mb4 NOT NULL,
+    NumberOfEndUsers int NULL,
+    NumberOfAttributes int NULL,
+    NumberOfContacts int NULL,
+    CreatedDate datetime(6) NOT NULL,
+    LastModified datetime(6) NOT NULL,
+    Status longtext CHARACTER SET utf8mb4 NOT NULL,
     CONSTRAINT PK_Hierarchies PRIMARY KEY (Id)
 ) CHARACTER SET=utf8mb4;
 
 CREATE TABLE L1 (
     Id int NOT NULL AUTO_INCREMENT,
+    NodeId int NOT NULL,
     Name longtext CHARACTER SET utf8mb4 NOT NULL,
     HierarchyId int NOT NULL,
     CONSTRAINT PK_L1 PRIMARY KEY (Id),
@@ -31,18 +32,71 @@ CREATE TABLE L1Contact (
     CONSTRAINT FK_L1Contact_L1_L1Id FOREIGN KEY (L1Id) REFERENCES L1 (Id) ON DELETE CASCADE
 ) CHARACTER SET=utf8mb4;
 
+CREATE TABLE L2 (
+    Id int NOT NULL AUTO_INCREMENT,
+    NodeId int NOT NULL,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    L1Id int NOT NULL,
+    CONSTRAINT PK_L2 PRIMARY KEY (Id),
+    CONSTRAINT FK_L2_L1_L1Id FOREIGN KEY (L1Id) REFERENCES L1 (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE TABLE L2Contact (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    L2Id int NOT NULL,
+    CONSTRAINT PK_L2Contact PRIMARY KEY (Id),
+    CONSTRAINT FK_L2Contact_L2_L2Id FOREIGN KEY (L2Id) REFERENCES L2 (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE TABLE L3 (
+    Id int NOT NULL AUTO_INCREMENT,
+    NodeId int NOT NULL,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    L2Id int NOT NULL,
+    CONSTRAINT PK_L3 PRIMARY KEY (Id),
+    CONSTRAINT FK_L3_L2_L2Id FOREIGN KEY (L2Id) REFERENCES L2 (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
+CREATE TABLE L3Contact (
+    Id int NOT NULL AUTO_INCREMENT,
+    Name longtext CHARACTER SET utf8mb4 NOT NULL,
+    L3Id int NOT NULL,
+    CONSTRAINT PK_L3Contact PRIMARY KEY (Id),
+    CONSTRAINT FK_L3Contact_L3_L3Id FOREIGN KEY (L3Id) REFERENCES L3 (Id) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+
 CREATE INDEX IX_L1_HierarchyId ON L1 (HierarchyId);
+
 CREATE INDEX IX_L1Contact_L1Id ON L1Contact (L1Id);
+
+CREATE INDEX IX_L2_L1Id ON L2 (L1Id);
+
+CREATE INDEX IX_L2Contact_L2Id ON L2Contact (L2Id);
+
+CREATE INDEX IX_L3_L2Id ON L3 (L2Id);
+
+CREATE INDEX IX_L3Contact_L3Id ON L3Contact (L3Id);
+
+
 
 insert into Hierarchies (Id, Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 (1, "Country Hierarchies", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED");
-insert into L1(Id, Name, HierarchyId) values (1, 'Sweden', 1);
-insert into L1(Id, Name, HierarchyId) values (2, 'Norway', 1);
-insert into L1(Id, Name, HierarchyId) values (3, 'Denmark', 1);
+insert into L1(Id, NodeId, Name, HierarchyId) values (1, 1, 'Sweden', 1);
+insert into L1(Id, NodeId, Name, HierarchyId) values (2, 2, 'Norway', 1);
+insert into L1(Id, NodeId, Name, HierarchyId) values (3, 3, 'Denmark', 1);
 
 insert into L1Contact(Name, L1Id) values ('Swedish King', 1);
 insert into L1Contact(Name, L1Id) values ('Swedish Queen', 1);
 insert into L1Contact(Name, L1Id) values ('Danish Queen', 3);
+
+insert into L2(Id, NodeId, Name, L1Id) values (1, 4, 'Stockholm', 1);
+insert into L2(Id, NodeId, Name, L1Id) values (2, 5, 'Copenhagen', 3);
+
+insert into L3(Id, NodeId, Name, L2Id) values (1, 6, 'Haninge', 1);
+insert into L3(Id, NodeId, Name, L2Id) values (2, 7, 'Järfälla', 1);
+
+insert into L3Contact(Name, L3Id) values ('Alexandra', 2);
 
 insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 ("Acme Corp Global Operations", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),

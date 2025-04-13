@@ -2,12 +2,12 @@
 
 namespace HierarchyGeneratorApi.Models;
 
-public class L1Contact
+public class L3Contact
 {
     public int Id { get; set; }
     public string Name { get; set; }
 
-    [ForeignKey("L1")]
-    public int L1Id { get; set; }
-    public L1 L1 { get; set; }
+    [ForeignKey("L3")]
+    public int L3Id { get; set; }
+    public L3 L3 { get; set; }
 }

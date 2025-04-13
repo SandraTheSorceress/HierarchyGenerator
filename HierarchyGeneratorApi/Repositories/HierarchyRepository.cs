@@ -23,7 +23,10 @@ public class HierarchyRepository : IHierarchyRepository
     {
         return _context.Hierarchies
             .Include(h => h.L1s)
-            .ThenInclude(l1 => l1.Contacts)
+                .ThenInclude(l1 => l1.Contacts)
+            .Include(h => h.L1s)
+                .ThenInclude(l1 => l1.L2s)
+                    .ThenInclude(l2 => l2.Contacts)
             .FirstOrDefault(h => h.Id == id);
     }
 }
