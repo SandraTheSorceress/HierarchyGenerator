@@ -16,6 +16,11 @@ public class HierarchyService : IHierarchyService
         _level1Service = level1Service;
     }
 
+    public void DeleteHierarchy(int hierarchyId)
+    {
+        _hierarchyRepository.DeleteHierarchy(hierarchyId);
+    }
+
     public string? GetCSV(int hierarchyId)
     {
         Hierarchy? hierarchy = _hierarchyRepository.GetHierarchyById(hierarchyId);
@@ -34,5 +39,11 @@ public class HierarchyService : IHierarchyService
         List<Hierarchy> hierarchies = _hierarchyRepository.GetHierarchies();
         Log.Information("{Count} hierarchies have been fetched from the database", hierarchies.Count);
         return hierarchies;
+    }
+
+    public bool IsHierarchyPresent(int hierarchyId)
+    {
+        bool isExisting = _hierarchyRepository.IsHierarchyPresent(hierarchyId);
+        return isExisting;
     }
 }

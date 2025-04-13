@@ -13,6 +13,17 @@ public class HierarchyRepository : IHierarchyRepository
         _context = context;
     }
 
+    public void DeleteHierarchy(int hierarchyId)
+    {
+        var hierarchy = _context.Hierarchies.Find(hierarchyId);
+        if (hierarchy == null)
+        {
+            throw new InvalidOperationException($"Hierarchy {hierarchyId} does not exist.");
+        }
+        _context.Hierarchies.Remove(hierarchy);
+        _context.SaveChanges();
+    }
+
     public List<Hierarchy> GetHierarchies()
     {
         List<Hierarchy> hierarchies = _context.Hierarchies.ToList();
@@ -43,5 +54,10 @@ public class HierarchyRepository : IHierarchyRepository
                             .ThenInclude(l4 => l4.L5s)
                                 .ThenInclude(l5 => l5.Contacts)
             .FirstOrDefault(h => h.Id == id);
+    }
+
+    public bool IsHierarchyPresent(int hierarchyId)
+    {
+        return _context.Hierarchies.Any(h => h.Id == hierarchyId);
     }
 }
