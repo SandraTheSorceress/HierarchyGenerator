@@ -13,4 +13,5 @@ public class L3
     public L2 L2 { get; set; }
 
     public List<L3Contact> Contacts { get; set; } = new List<L3Contact>();
+    public List<L4> L4s { get; set; } = new List<L4>();
 }
