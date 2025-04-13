@@ -119,10 +119,12 @@ CREATE INDEX `IX_L5_L4Id` ON `L5` (`L4Id`);
 
 CREATE INDEX `IX_L5Contact_L5Id` ON `L5Contact` (`L5Id`);
 
-
+/*
+	Country Hierarchies
+*/
 
 insert into Hierarchies (Id, Name, NumberOfNodes, CreatedDate, LastModified, Status) values
-(1, "Country Hierarchies", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED");
+(1, "Nordic Escape", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED");
 insert into L1(Id, NodeId, Name, HierarchyId) values (1, 1, 'Sweden', 1);
 insert into L1(Id, NodeId, Name, HierarchyId) values (2, 2, 'Norway', 1);
 insert into L1(Id, NodeId, Name, HierarchyId) values (3, 3, 'Denmark', 1);
@@ -149,6 +151,45 @@ insert into L5(Id, NodeId, Name, L4Id) values (3, 12, 'Stråvägen', 1);
 
 insert into L5Contact(Name, L5Id) values ('Eidemiller', 3);
 insert into L5Contact(Name, L5Id) values ('Isaksson', 2);
+
+/*
+  Global Healthcare Network
+*/
+
+insert into Hierarchies (Id, Name, NumberOfNodes, CreatedDate, LastModified, Status) values
+(102, "Global Healthcare Network", 5, '2025-01-05 10:30:00', '2025-03-25 16:00:00', "CREATED");
+
+insert into L1(Id, NodeId, Name, HierarchyId) values (104, 1, 'North America', 102);
+insert into L1(Id, NodeId, Name, HierarchyId) values (105, 2, 'Europe', 102);
+insert into L1(Id, NodeId, Name, HierarchyId) values (106, 3, 'Asia', 102);
+
+insert into L2(Id, NodeId, Name, L1Id) values (103, 4, 'USA', 104);
+insert into L2(Id, NodeId, Name, L1Id) values (104, 5, 'Canada', 104);
+insert into L2(Id, NodeId, Name, L1Id) values (105, 6, 'Germany', 105);
+insert into L2(Id, NodeId, Name, L1Id) values (106, 7, 'Japan', 106);
+
+insert into L3(Id, NodeId, Name, L2Id) values (103, 8, 'California', 103);
+insert into L3(Id, NodeId, Name, L2Id) values (104, 9, 'Ontario', 104);
+insert into L3(Id, NodeId, Name, L2Id) values (105, 10, 'Bavaria', 105);
+insert into L3(Id, NodeId, Name, L2Id) values (106, 11, 'Tokyo Prefecture', 106);
+
+insert into L4(Id, NodeId, Name, L3Id) values (103, 12, 'Los Angeles', 103);
+insert into L4(Id, NodeId, Name, L3Id) values (104, 13, 'Toronto', 104);
+insert into L4(Id, NodeId, Name, L3Id) values (105, 14, 'Munich', 105);
+insert into L4(Id, NodeId, Name, L3Id) values (106, 15, 'Tokyo', 106);
+
+insert into L5(Id, NodeId, Name, L4Id) values (104, 28, 'Sunset Medical Center', 103);
+insert into L5(Id, NodeId, Name, L4Id) values (105, 29, 'Toronto General', 104);
+insert into L5(Id, NodeId, Name, L4Id) values (106, 30, 'Munich Care', 105);
+insert into L5(Id, NodeId, Name, L4Id) values (107, 31, 'Tokyo Wellness Clinic', 106);
+
+insert into L5Contact(Name, L5Id) values ('Dr. Alice Monroe', 104);
+insert into L5Contact(Name, L5Id) values ('Dr. Hiroshi Tanaka', 107);
+insert into L5Contact(Name, L5Id) values ('Nurse Julia Stein', 106);
+
+/*
+ EMPTY Hierarchies
+*/
 
 insert into Hierarchies (Name, NumberOfNodes, CreatedDate, LastModified, Status) values
 ("Acme Corp Global Operations", 3, '2025-03-11 08:15:00', '2025-03-23 09:45:00', "CREATED"),
