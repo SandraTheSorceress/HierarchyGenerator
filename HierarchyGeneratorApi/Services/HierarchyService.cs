@@ -8,10 +8,12 @@ namespace HierarchyGeneratorApi.Services;
 public class HierarchyService : IHierarchyService
 {
     private readonly IHierarchyRepository _hierarchyRepository;
+    private readonly ILevel1Service _level1Service;
 
-    public HierarchyService(IHierarchyRepository hierarchyRepository)
+    public HierarchyService(IHierarchyRepository hierarchyRepository, ILevel1Service level1Service)
     {
         _hierarchyRepository = hierarchyRepository;
+        _level1Service = level1Service;
     }
 
     public string? GetCSV(int hierarchyId)
@@ -22,27 +24,9 @@ public class HierarchyService : IHierarchyService
             return null;
         }
 
-        StringBuilder sb = new StringBuilder();
-        sb.Append("NodeId, NodeLabel, ParentId, ContactId");
-        sb.Append(Environment.NewLine);
-        foreach (var l1 in hierarchy.L1s)
-        {
-            if(l1.Contacts.Any())
-            {
-                foreach (var contact in l1.Contacts)
-                {
-                    sb.Append($"{l1.Id}, {l1.Name},, {contact.Name}");
-                    sb.Append(Environment.NewLine);
-                }
-            } else
-            {
-                sb.Append($"{l1.Id}, {l1.Name},,");
-                sb.Append(Environment.NewLine);
-            }
+        string csv = _level1Service.GetCSV(hierarchy.L1s);
 
-        }
-
-        return sb.ToString();
+        return csv;
     }
 
     public List<Hierarchy> GetHierarchies()

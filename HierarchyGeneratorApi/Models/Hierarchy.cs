@@ -12,7 +12,7 @@ public class Hierarchy
     public DateTime LastModified { get; set; }
     public string Status { get; set; }
 
-    public ICollection<L1> L1s { get; set; } = new List<L1>();
+    public List<L1> L1s { get; set; } = new List<L1>();
 }
 
 
