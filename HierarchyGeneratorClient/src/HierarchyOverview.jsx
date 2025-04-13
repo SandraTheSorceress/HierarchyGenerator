@@ -1,4 +1,7 @@
+import { useEffect, useState } from "react";
+
 function daysAgo(dateString) {
+  
   const givenDate = new Date(dateString);
   const now = new Date();
 
@@ -11,6 +14,25 @@ function daysAgo(dateString) {
   if (diffInDays === 0) return "Today";
   if (diffInDays === 1) return "1 day ago";
   return `${diffInDays} days ago`;
+}
+
+function deleteHierarchy(hierarchy, setMessage, refreshPage) {
+  fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
+    method: 'DELETE',
+  })
+  .then((response) => {
+    if (!response.ok) throw new Error('Failed to delete');
+    refreshPage();
+    setMessage(`${hierarchy.name} is deleted`);
+
+    // Clear the message after 5 seconds
+    setTimeout(() => setMessage(''), 5000);
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+    setMessage('Failed to delete');
+    setTimeout(() => setMessage(''), 3000);
+  });
 }
 
 function calculateRangeStart(hierarchyList) {
@@ -33,7 +55,7 @@ function calculateRangeEnd(hierarchyList) {
   return endRange;
 }
 
-function HierarchyOverview({ hierarchyList, setSearchQuery, setPage }) {
+function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage }) {
   const page_buttons = [];
   for (let i = 1; i <= hierarchyList.meta.totalPages; i++) {
     if(i == hierarchyList.meta.page){
@@ -135,12 +157,16 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage }) {
                 </th>
                 <td className="px-6 py-4">{daysAgo(hierarchy.createdDate)}</td>
                 <td className="px-6 py-4">
-                  <a
-                    href="#"
+                  <button
                     className="inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
+                    onClick={
+                      () => {
+                        deleteHierarchy(hierarchy, setMessage, refreshPage);
+                      }
+                    }
                   >
                     Delete
-                  </a>
+                  </button>
                 </td>
                 <td className="px-6 py-4">
                   <a

@@ -9,6 +9,12 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [refreshFlag, setRefreshFlag] = useState(false);
+  const [message, setMessage] = useState('');
+
+  const refreshPage = () => {
+    setRefreshFlag(prev => !prev);
+  };
 
   useEffect(() => {
     fetch(`/backend/api/hierarchy?search=${searchQuery}&page=${page}&limit=5`)
@@ -23,10 +29,15 @@ function App() {
         );
         setLoading(false);
       });
-  }, [searchQuery, page]);
+  }, [searchQuery, page, refreshFlag]);
 
   return (
     <div className="p-5">
+      {message && (
+          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 border border-red-300 text-red-700 px-6 py-3 rounded-md shadow-lg">
+          {message}
+        </div>
+      )}
       <Header title="Hierarchy Generator" />
 
       {loading ? (
@@ -41,7 +52,7 @@ function App() {
       ) : error ? (
         <p style={{ color: "red" }}>{error}</p>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} />
+          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} refreshPage={refreshPage} setMessage={setMessage} />
       )}
     </div>
   );
