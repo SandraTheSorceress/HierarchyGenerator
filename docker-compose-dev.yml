@@ -25,6 +25,8 @@ services:
       dockerfile: Dockerfile   
   environment:
       - MYSQL_ROOT_PASSWORD=password
+      - LANG=C.UTF-8
+      - MYSQL_CHARSET=utf8mb4
   ports:
      - "3306:3306"
   volumes:

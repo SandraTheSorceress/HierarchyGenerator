@@ -1,4 +1,4 @@
-CREATE DATABASE hierarchy_generator;
+CREATE DATABASE hierarchy_generator CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 use hierarchy_generator;
 CREATE TABLE `Hierarchies` (
