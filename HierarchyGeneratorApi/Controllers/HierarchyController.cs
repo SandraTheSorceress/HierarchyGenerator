@@ -3,6 +3,7 @@ using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Services;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
+using System.Data.Entity.Hierarchy;
 
 namespace HierarchyGeneratorApi.Controllers;
 
@@ -69,8 +70,20 @@ public class HierarchyController : ControllerBase
 
         return responseDTO;
     }
-   
 
+    [HttpGet("/api/hierarchy/{id}/download")]
+    public ActionResult<string> DownloadHierarchy(int id)
+    {
+
+        string? csv = _hierarchyService.GetCSV(id);
+        if(csv == null)
+        {
+            return NotFound(new { message = "Hierarchy does not exist." });
+        }
+        byte[] fileBytes = System.Text.Encoding.UTF8.GetBytes(csv);
+
+        return File(fileBytes, "text/csv", $"hierarchy_{id}.csv");
+    }
 }
 
 
