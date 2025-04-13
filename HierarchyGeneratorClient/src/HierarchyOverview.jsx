@@ -137,15 +137,15 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage }) {
                 <td className="px-6 py-4">
                   <a
                     href="#"
-                    className="font-medium text-red-600 dark:text-red-500 hover:underline"
+                    className="inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
                   >
                     Delete
                   </a>
                 </td>
                 <td className="px-6 py-4">
                   <a
-                    href="#"
-                    className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                    href={`/backend/api/hierarchy/${hierarchy.id}/download`}
+                    className="inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
                   >
                     Download
                   </a>
