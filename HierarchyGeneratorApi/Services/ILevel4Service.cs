@@ -2,7 +2,7 @@
 
 namespace HierarchyGeneratorApi.Services;
 
-public interface ILevel3Service
+public interface ILevel4Service
 {
-    string GetCSV(int L2NodeId, List<L3> l3s);
+    string GetCSV(int L3NodeId, List<L4> l4s);
 }
