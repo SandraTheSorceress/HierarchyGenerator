@@ -33,4 +33,4 @@ This script stops and removes the containers, along with associated images and v
 
 [About the API design](./documentation/api-design/README.md)
 
-[About the database](./HierarchyGeneratorDatabase/README.md)
+[About the database design](./HierarchyGeneratorDatabase/README.md)
