@@ -19,6 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IHierarchyService, HierarchyService>();
 builder.Services.AddScoped<ILevel1Service, Level1Service>();
 builder.Services.AddScoped<ILevel2Service, Level2Service>();
+builder.Services.AddScoped<ILevel3Service, Level3Service>();
 builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),

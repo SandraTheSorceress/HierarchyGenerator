@@ -27,6 +27,21 @@ public class HierarchyRepository : IHierarchyRepository
             .Include(h => h.L1s)
                 .ThenInclude(l1 => l1.L2s)
                     .ThenInclude(l2 => l2.Contacts)
+            .Include(h => h.L1s)
+                .ThenInclude(l1 => l1.L2s)
+                    .ThenInclude(l2 => l2.L3s)
+                        .ThenInclude(l3 => l3.Contacts)
+            .Include(h => h.L1s)
+                .ThenInclude(l1 => l1.L2s)
+                    .ThenInclude(l2 => l2.L3s)
+                        .ThenInclude(l3 => l3.L4s)
+                            .ThenInclude(l4 => l4.Contacts)
+            .Include(h => h.L1s)
+                .ThenInclude(l1 => l1.L2s)
+                    .ThenInclude(l2 => l2.L3s)
+                        .ThenInclude(l3 => l3.L4s)
+                            .ThenInclude(l4 => l4.L5s)
+                                .ThenInclude(l5 => l5.Contacts)
             .FirstOrDefault(h => h.Id == id);
     }
 }
