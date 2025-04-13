@@ -84,6 +84,21 @@ public class HierarchyController : ControllerBase
 
         return File(fileBytes, "text/csv", $"hierarchy_{id}.csv");
     }
+
+    [HttpDelete("/api/hierarchy/{id}")]
+    public ActionResult<string> DeleteHierarchy(int id)
+    {
+        Boolean isExisting = _hierarchyService.IsHierarchyPresent(id);
+        if (isExisting)
+        {
+            _hierarchyService.DeleteHierarchy(id);
+            return NoContent();
+        } else
+        {
+            return NotFound(new { message = "Hierarchy does not exist." });
+        }
+        
+    }
 }
 
 
