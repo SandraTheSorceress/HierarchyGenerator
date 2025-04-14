@@ -1,6 +1,7 @@
 services:
  client:
   container_name: HierarchyGeneratorClient
+  platform: linux/amd64
   image: alexandraisaksson/hierarchy-generator-client:latest
   depends_on:
       - api
@@ -8,6 +9,7 @@ services:
       - "8080:80"
  api:
   container_name: HierarchyGeneratorApi
+  platform: linux/amd64
   image: alexandraisaksson/hierarchy-generator-api:latest
   depends_on:
       db:
@@ -16,6 +18,7 @@ services:
       - "1337:80"
  db:
   container_name: HierarchyGeneratorDatabase
+  platform: linux/amd64
   image: alexandraisaksson/hierarchy-generator-database:latest
   environment:
       - MYSQL_ROOT_PASSWORD=password
