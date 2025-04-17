@@ -93,9 +93,29 @@ This endpoint creates a new hierarchy.
 
 ### Request Body
 
-| Field   | Type   | Description                              | Required |
-|---------|--------|------------------------------------------|----------|
-| `name`  | string | The name of the new hierarchy.           | Yes      |
+| Field   | Type | Description                                                                                      | Required |
+|---------|------|--------------------------------------------------------------------------------------------------|----------|
+| `name`  | string | The name of the new hierarchy.                                                                  | Yes      |
+| `theme` | string | The theme associated with the hierarchy.                                                        | Yes      |
+| `l1`    | enum   | Number of Level 1 nodes. One of: `A_FEW`, `SOME`, `SURPRISE_ME`.                                | Yes      |
+| `l2`    | enum   | Number of Level 2 nodes. One of: `NONE`, `A_FEW`, `SOME`, `SURPRISE_ME`.                        | Yes      |
+| `l3`    | enum   | Number of Level 3 nodes. One of: `NONE`, `A_FEW`, `SOME`, `SURPRISE_ME`.                        | Yes      |
+| `l4`    | enum   | Number of Level 4 nodes. One of: `NONE`, `A_FEW`, `SOME`, `SURPRISE_ME`.                        | Yes      |
+| `l5`    | enum   | Number of Level 5 nodes. One of: `NONE`, `A_FEW`, `SOME`, `A_LOT`, `TONS`, `SURPRISE_ME`.       | Yes      |
+
+### Example Request:
+
+```json
+{
+  "name": "My Fantasy Hierarchy",
+  "theme": "FANTASY_KINGDOM",
+  "l1": "SOME",
+  "l2": "A_FEW",
+  "l3": "SOME",
+  "l4": "NONE",
+  "l5": "NONE"
+}
+```
 
 ## DELETE /api/hierarchy/{id}
 
