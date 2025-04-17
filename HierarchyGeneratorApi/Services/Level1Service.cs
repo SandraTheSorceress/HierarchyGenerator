@@ -100,10 +100,21 @@ public class Level1Service : ILevel1Service
             "nel", "mir", "hel", "ral", "mon", "lon", "sel", "dan", "kel", "rol"
         };
 
-        List<string> titles = new List<string> { "Realm of", "Kingdom of", "Dominion of", "Empire of", "Sovereignty of", "Lands of" };
+        List<string> titles = new List<string> { "realm of", "kingdom of", "dominion of", "empire of", "sovereignty of", "lands of" };
 
         List<string> adjectives = new List<string>
         {
+            "Elven", "Dwarven", "Orcish", "Gnomish", "Halfling", "Human", "Draconic", "Tiefling", "Goblin", "Hobgoblin",
+            "Kobold", "Trollkin", "Ogre", "Fey", "Sylvan", "Celestial", "Fiendish", "Elemental", "Djinn", "Efreeti",
+            "Aarakocra", "Minotaur", "Satyr", "Triton", "Merfolk", "Undead", "Vampiric", "Lichborne", "Ghoul", "Revenant",
+            "Skeleton", "Wight", "Golem", "Constructed", "Warforged", "Changeling", "Shifter", "Tabaxi", "Kenku", "Lizardfolk",
+            "Yuan-ti", "Genasi", "Bugbear", "Myconid", "Dryadic", "Nymphic", "Druidic", "Archfey", "Infernal", "Abyssal",
+            "Trollborn", "Lycanthropic", "Werewolf", "Weretiger", "Centaurian", "Phoenixborn", "Dragonborn", "Sea Elf", "High Elf", "Wood Elf",
+            "Dark Elf", "Drow", "Stone Dwarf", "Hill Dwarf", "Mountain Dwarf", "Blood Elf", "Fire Elf", "Moon Elf", "Sun Elf", "Frost Elf",
+            "Cloud Giant", "Storm Giant", "Fire Giant", "Frost Giant", "Hill Giant", "Titanic", "Eldritch", "Ancient One", "Runeborn", "Starspawn",
+            "Aetherial", "Shadowkin", "Shade", "Dhampir", "Necrid", "Arcani", "Planar", "Voidwalker", "Spectral", "Wisp",
+            "Beastkin", "Feral", "Felborn", "Demonic", "Celestian", "Astral", "Primal", "Tideborn", "Sand Elf", "Skyfolk",
+            "Stonekin", "Glacial", "Ashenborn", "Runic", "Feytouched", "Thornborn", "Ironblood", "Stormtouched", "Snowborn", "Windborne",
             "Glorious", "Eternal", "Majestic", "Fabled", "Divine", "Mystic", "Sacred", "Vast",
             "Radiant", "Infinite", "Ancient", "Epic", "Timeless", "Grand", "Sovereign", "Celestial",
             "Wondrous", "Celestial", "Noble", "Shining", "Resplendent", "Serene", "Mighty", "Royal",
@@ -115,7 +126,20 @@ public class Level1Service : ILevel1Service
             "Timeless", "Flame-touched", "Oblivion", "Silent", "Arcane", "Storm-wrought", "Blood-soaked",
             "Unrivaled", "Mournful", "Bitter", "Forgotten", "Stormy", "Flame-born", "Shadowed", "Frozen",
             "Searing", "Enduring", "Wicked", "Haunting", "Vengeful", "Twilight", "Glittering", "Infernal",
-            "Twisting", "Ancient", "Unbroken", "Relentless", "Vast", "Unseen", "Twinkling", "Crimson"
+            "Twisting", "Ancient", "Unbroken", "Relentless", "Vast", "Unseen", "Twinkling", "Crimson",
+            "Goblin", "Elven", "Dwarven", "Dragon", "Arcane", "Fiery", "Moonlit", "Witchborn", "Shadow",
+            "Beastly", "Ancient", "Frost-wrought", "Silvered", "Crimson", "Wyrm", "Grim", "Stormborn",
+            "Darkwood", "Wild", "Bane", "Demonborn", "Hellfire", "Venomous", "Bloodthirsty", "Ominous",
+            "Forsaken", "Mournful", "Grim", "Royal", "Briar", "Ironclad", "Seraphic", "Wicked", "Sun-kissed",
+            "Searing", "Diamond", "Seraphic", "Doomed", "Feathered", "Sunlit", "Thunderstruck", "Frostbitten",
+            "Cursed", "Whispering", "Wraith", "Cavernous", "Shattered", "Raging", "Unbroken", "Glooming",
+            "Vengeful", "Violet", "Steel-wrought", "Frost-bound", "Brimstone", "Rustic", "Ancientwood", "Vengeful",
+            "Glistening", "Shadowmourn", "Moonshrouded", "Torn", "Unholy", "Dread", "Mist-shrouded", "Bloodclad",
+            "Hallowed", "Shattered", "Raven", "Eclipsed", "Voidborn", "Silverclad", "Dreadwrought", "Sunshadowed",
+            "Misty", "Starry", "Torn", "Shattered", "Wrathful", "Searing", "Cinder", "Doomstruck", "Gloomclad",
+            "Omen", "Wyrmgold", "Windborn", "Frostforged", "Petrified", "Flameclad", "Terror-wrought", "Stoneborn",
+            "Ashen", "Gravebound", "Tidal", "Silvershade", "Ether-bound", "Flamelit", "Lifeless", "Blackened",
+            "Doomclad", "Wyrmclad", "Sable", "Silver-touched", "Starlit", "Thunderscourged", "Seaswept"
         };
 
 
