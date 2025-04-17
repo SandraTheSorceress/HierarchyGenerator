@@ -8,6 +8,7 @@ namespace HierarchyGeneratorApi.Services;
 
 public class Level1Service : ILevel1Service
 {
+    private readonly Random random = new Random();
     private readonly ILevel2Service _level2Service;
 
     public Level1Service(ILevel2Service level2Service)
@@ -35,20 +36,41 @@ public class Level1Service : ILevel1Service
             default:
                 throw new ArgumentException("Unsupported L1 option");
         }
-        Random random = new Random();
         int numberOfNodes = random.Next(minNumberOfNodes, maxNumberOfNodes);
 
         List<L1> l1s = new List<L1>();
-        for (int i = 0; i < numberOfNodes; i++)
+        HashSet<string> takenNames = new HashSet<string>();
+        for (int i = 1; i <= numberOfNodes; i++)
         {
+
+            string randomName;
+            do
+            {
+                randomName = GenerateName(parameters);
+            } while (takenNames.Contains(randomName));
+            takenNames.Add(randomName);
+
             L1 l1 = new L1()
             {
                 NodeId = i,
-                Name = $"My L1 Node {i}"
+                Name = randomName
             };
             l1s.Add(l1);
         }
         return l1s;
+    }
+
+    private string GenerateName(CreateHierarchyParameters parameters)
+    {
+        List<string> startingPhonemes = new List<string>{ "Ar", "Thal", "Vor", "Kael" };
+        List<string> middlePhonemes = new List<string>{ "en", "or", "ai", "ul" };
+        List<string> endingPhonemes = new List<string>{ "dor", "heim", "spire" };
+
+        string start = startingPhonemes[random.Next(startingPhonemes.Count)];
+        string middle = middlePhonemes[random.Next(middlePhonemes.Count)];
+        string end = endingPhonemes[random.Next(endingPhonemes.Count)];
+
+        return start + middle + end;
     }
 
     public string GetCSV(List<L1> l1s)
