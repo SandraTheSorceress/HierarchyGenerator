@@ -8,4 +8,5 @@ public interface IHierarchyRepository
     List<Hierarchy> GetHierarchies();
     Hierarchy? GetHierarchyById(int hierarchyId);
     bool IsHierarchyPresent(int hierarchyId);
+    void SaveHierarchy(Hierarchy hierarchy);
 }

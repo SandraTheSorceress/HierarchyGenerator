@@ -1,7 +1,9 @@
-﻿using HierarchyGeneratorApi.Models;
+﻿using HierarchyGeneratorApi.DTOs;
+using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
 using Serilog;
 using System.Text;
+using System.Xml.Linq;
 
 namespace HierarchyGeneratorApi.Services;
 
@@ -14,6 +16,16 @@ public class HierarchyService : IHierarchyService
     {
         _hierarchyRepository = hierarchyRepository;
         _level1Service = level1Service;
+    }
+
+    public void CreateHierarchy(CreateHierarchyParameters parameters)
+    {
+        Hierarchy hierarchy = new Hierarchy() {
+            Name = parameters.Name,
+            CreatedDate = DateTime.Now,
+            LastModified = DateTime.Now,
+        };
+        _hierarchyRepository.SaveHierarchy(hierarchy);
     }
 
     public void DeleteHierarchy(int hierarchyId)
