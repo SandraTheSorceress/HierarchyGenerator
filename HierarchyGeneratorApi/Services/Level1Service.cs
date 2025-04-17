@@ -37,40 +37,45 @@ public class Level1Service : ILevel1Service
                 throw new ArgumentException("Unsupported L1 option");
         }
         int numberOfNodes = random.Next(minNumberOfNodes, maxNumberOfNodes);
+        List<string> names = GenerateNames(numberOfNodes, parameters.Theme);
 
         List<L1> l1s = new List<L1>();
-        HashSet<string> takenNames = new HashSet<string>();
-        for (int i = 1; i <= numberOfNodes; i++)
+        int nodeId = 1;
+        foreach (var name in names)
         {
-
-            string randomName;
-            do
-            {
-                randomName = GenerateName(parameters);
-            } while (takenNames.Contains(randomName));
-            takenNames.Add(randomName);
-
             L1 l1 = new L1()
             {
-                NodeId = i,
-                Name = randomName
+                NodeId = nodeId++,
+                Name = name,
             };
             l1s.Add(l1);
         }
         return l1s;
     }
 
-    private string GenerateName(CreateHierarchyParameters parameters)
+    private List<string> GenerateNames(int numberOfNodes, Theme theme)
     {
-        List<string> startingPhonemes = new List<string>{ "Ar", "Thal", "Vor", "Kael" };
-        List<string> middlePhonemes = new List<string>{ "en", "or", "ai", "ul" };
-        List<string> endingPhonemes = new List<string>{ "dor", "heim", "spire" };
+        HashSet<string> generatedNames = new HashSet<string>();
 
-        string start = startingPhonemes[random.Next(startingPhonemes.Count)];
-        string middle = middlePhonemes[random.Next(middlePhonemes.Count)];
-        string end = endingPhonemes[random.Next(endingPhonemes.Count)];
+        List<string> startingPhonemes = new List<string> { "Ar", "Thal", "Vor", "Kael" };
+        List<string> middlePhonemes = new List<string> { "en", "or", "ai", "ul" };
+        List<string> endingPhonemes = new List<string> { "dor", "heim", "spire" };
 
-        return start + middle + end;
+        for (int i = 0; i < numberOfNodes; i++)
+        {
+            string randomName;
+            do
+            {
+                string start = startingPhonemes[random.Next(startingPhonemes.Count)];
+                string middle = middlePhonemes[random.Next(middlePhonemes.Count)];
+                string end = endingPhonemes[random.Next(endingPhonemes.Count)];
+
+                randomName = start + middle + end;
+            } while (generatedNames.Contains(randomName));
+            generatedNames.Add(randomName);
+        }
+
+        return generatedNames.ToList();
     }
 
     public string GetCSV(List<L1> l1s)
