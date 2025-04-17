@@ -1,4 +1,5 @@
-﻿using HierarchyGeneratorApi.Models;
+﻿using HierarchyGeneratorApi.DTOs;
+using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
 using System.Text;
 
@@ -11,6 +12,18 @@ public class Level1Service : ILevel1Service
     public Level1Service(ILevel2Service level2Service)
     {
         _level2Service = level2Service;
+    }
+
+    public List<L1> GenerateL1s(CreateHierarchyParameters parameters)
+    {
+        List<L1> l1s = new List<L1>();
+        L1 l1 = new L1()
+        {
+            NodeId=1,
+            Name="My L1 Node"
+        };
+        l1s.Add(l1);
+        return l1s;
     }
 
     public string GetCSV(List<L1> l1s)

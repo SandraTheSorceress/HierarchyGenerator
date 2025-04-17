@@ -25,6 +25,8 @@ public class HierarchyService : IHierarchyService
             CreatedDate = DateTime.Now,
             LastModified = DateTime.Now,
         };
+        List<L1> L1s = _level1Service.GenerateL1s(parameters);
+        hierarchy.L1s = L1s;
         _hierarchyRepository.SaveHierarchy(hierarchy);
     }
 
