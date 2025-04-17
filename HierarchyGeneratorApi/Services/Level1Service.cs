@@ -1,6 +1,7 @@
 ﻿using HierarchyGeneratorApi.DTOs;
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
+using System;
 using System.Text;
 
 namespace HierarchyGeneratorApi.Services;
@@ -16,13 +17,37 @@ public class Level1Service : ILevel1Service
 
     public List<L1> GenerateL1s(CreateHierarchyParameters parameters)
     {
-        List<L1> l1s = new List<L1>();
-        L1 l1 = new L1()
+        int minNumberOfNodes, maxNumberOfNodes;
+        switch (parameters.L1)
         {
-            NodeId=1,
-            Name="My L1 Node"
-        };
-        l1s.Add(l1);
+            case L1Option.A_FEW:
+                minNumberOfNodes = 1;
+                maxNumberOfNodes = 3;
+                break;
+            case L1Option.SOME:
+                minNumberOfNodes = 4;
+                maxNumberOfNodes = 7;
+                break;
+            case L1Option.SURPRISE_ME:
+                minNumberOfNodes = 1;
+                maxNumberOfNodes = 7;
+                break;
+            default:
+                throw new ArgumentException("Unsupported L1 option");
+        }
+        Random random = new Random();
+        int numberOfNodes = random.Next(minNumberOfNodes, maxNumberOfNodes);
+
+        List<L1> l1s = new List<L1>();
+        for (int i = 0; i < numberOfNodes; i++)
+        {
+            L1 l1 = new L1()
+            {
+                NodeId = i,
+                Name = $"My L1 Node {i}"
+            };
+            l1s.Add(l1);
+        }
         return l1s;
     }
 
