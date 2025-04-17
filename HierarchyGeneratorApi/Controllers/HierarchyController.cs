@@ -99,6 +99,16 @@ public class HierarchyController : ControllerBase
         }
         
     }
+
+    [HttpPost("/api/hierarchy")]
+    public ActionResult CreateHierchy([FromBody] CreateHierarchyParameters parameters)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest("Bad request!");
+        }
+        return Created();
+    }
 }
 
 
