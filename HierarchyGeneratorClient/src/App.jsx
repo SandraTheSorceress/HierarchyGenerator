@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./Header";
 import HierarchyOverview from "./HierarchyOverview";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import errorImage from "./assets/error.png";
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -9,6 +10,12 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [refreshFlag, setRefreshFlag] = useState(false);
+  const [message, setMessage] = useState('');
+
+  const refreshPage = () => {
+    setRefreshFlag(prev => !prev);
+  };
 
   useEffect(() => {
     fetch(`/backend/api/hierarchy?search=${searchQuery}&page=${page}&limit=5`)
@@ -23,10 +30,15 @@ function App() {
         );
         setLoading(false);
       });
-  }, [searchQuery, page]);
+  }, [searchQuery, page, refreshFlag]);
 
   return (
     <div className="p-5">
+      {message && (
+          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 border border-red-300 text-red-700 px-6 py-3 rounded-md shadow-lg">
+          {message}
+        </div>
+      )}
       <Header title="Hierarchy Generator" />
 
       {loading ? (
@@ -39,9 +51,22 @@ function App() {
           />
         </div>
       ) : error ? (
-        <p style={{ color: "red" }}>{error}</p>
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
+          <h1 className="text-6xl font-bold text-red-800 mb-2">
+            Ooops
+          </h1>
+          <img
+            src={errorImage}
+            alt="Error"
+            className="mb-4 w-128"
+          />
+          <h2 className="text-3xl font-bold text-red-800 mb-2">
+            The dog broke the server
+          </h2>
+          <p className="text-lg text-red-600">{message}</p>
+        </div>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} />
+          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} refreshPage={refreshPage} setMessage={setMessage} />
       )}
     </div>
   );
