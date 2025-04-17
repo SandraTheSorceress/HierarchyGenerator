@@ -5,7 +5,9 @@ namespace HierarchyGeneratorApi.DTOs;
 public class CreateHierarchyParameters
 {
     public string Name { get; set; }
-    public string Theme { get; set; }
+
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public Theme Theme { get; set; }
 
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public L1Option L1 { get; set; }
@@ -21,6 +23,13 @@ public class CreateHierarchyParameters
 
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public L5Option L5 { get; set; }
+}
+
+public enum Theme
+{
+    FANTASY,
+    SPACE,
+    VIKING
 }
 
 public enum L1Option
