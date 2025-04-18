@@ -14,11 +14,15 @@ public class NameRepository : INameRepository
     public List<string> GetAdjectivesForL1Place(Theme theme) => GetAdjectivesForPlace(theme, "L1");
     public List<string> GetAdjectivesForL2Place(Theme theme) => GetAdjectivesForPlace(theme, "L2");
     public List<string> GetAdjectivesForL3Place(Theme theme) => GetAdjectivesForPlace(theme, "L3");
+    public List<string> GetAdjectivesForL4Place(Theme theme) => GetAdjectivesForPlace(theme, "L4");
+    public List<string> GetAdjectivesForL5Place(Theme theme) => GetAdjectivesForPlace(theme, "L5");
 
     public List<string> GetTitlesForL1Place(Theme theme) => GetTitlesForPlace(theme, "L1");
     public List<string> GetTitlesForL2Place(Theme theme) => GetTitlesForPlace(theme, "L2");
     public List<string> GetTitlesForL3Place(Theme theme) => GetTitlesForPlace(theme, "L3");
-    
+    public List<string> GetTitlesForL4Place(Theme theme) => GetTitlesForPlace(theme, "L4");
+    public List<string> GetTitlesForL5Place(Theme theme) => GetTitlesForPlace(theme, "L5");
+
     public List<string> GetStartingPhonemesForPlace(Theme theme) => GetPhonemesForPlace(theme, "STARTING");
     public List<string> GetMiddlePhonemesForPlace(Theme theme) => GetPhonemesForPlace(theme, "MIDDLE");
     public List<string> GetEndingPhonemesForPlace(Theme theme) => GetPhonemesForPlace(theme, "ENDING");

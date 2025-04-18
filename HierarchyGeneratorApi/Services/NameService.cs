@@ -49,6 +49,41 @@ public class NameService : INameService
         return placeNamesWithTitlesAndAdjectives;
     }
 
+    public List<string> GenerateL4PlaceNames(Theme theme, int numberOfNames)
+    {
+        List<string> placeNames = GeneratePlaceNames(theme, numberOfNames);
+
+        List<string> placeNamesWithTitles = DecorateWithL4Title(theme, placeNames);
+
+        List<string> placeNamesWithTitlesAndAdjectives = DecorateWithL4Adjective(theme, placeNamesWithTitles);
+
+        return placeNamesWithTitlesAndAdjectives;
+    }
+
+    public List<string> GenerateL5PlaceNames(Theme theme, int numberOfNames)
+    {
+        HashSet<string> placeTitles = new HashSet<string>();
+        List<string> adjecetives = _nameRepository.GetAdjectivesForL5Place(theme);
+        List<string> titles = _nameRepository.GetTitlesForL5Place(theme);
+
+        for (int i = 0; i < numberOfNames; i++)
+        {
+            string randomName;
+            do
+            {
+                string adjecetive = adjecetives[random.Next(adjecetives.Count)];
+                string title = titles[random.Next(titles.Count)];
+
+                randomName = $"{adjecetive} {title}";
+            } while (placeTitles.Contains(randomName));
+            placeTitles.Add(randomName);
+
+        }
+
+        return placeTitles.ToList();
+    }
+
+
     private List<string> DecorateWithL1Adjective(Theme theme, List<string> placeNames)
     {
         List<string> placeNamesWithAdjectives = new List<string>();
@@ -76,6 +111,18 @@ public class NameService : INameService
     {
         List<string> placeNamesWithAdjectives = new List<string>();
         List<string> adjectives = _nameRepository.GetAdjectivesForL3Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string adjective = adjectives[random.Next(adjectives.Count)];
+            placeNamesWithAdjectives.Add($"{adjective} {placeName}");
+        }
+        return placeNamesWithAdjectives;
+    }
+
+    private List<string> DecorateWithL4Adjective(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithAdjectives = new List<string>();
+        List<string> adjectives = _nameRepository.GetAdjectivesForL4Place(theme);
         foreach (var placeName in placeNames)
         {
             string adjective = adjectives[random.Next(adjectives.Count)];
@@ -120,6 +167,17 @@ public class NameService : INameService
         return placeNamesWithTitles;
     }
 
+    private List<string> DecorateWithL4Title(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithTitles = new List<string>();
+        List<string> titles = _nameRepository.GetTitlesForL4Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string title = titles[random.Next(titles.Count)];
+            placeNamesWithTitles.Add($"{title} {placeName}");
+        }
+        return placeNamesWithTitles;
+    }
 
     private List<string> GeneratePlaceNames(Theme theme, int numberOfNames)
     {
@@ -145,5 +203,6 @@ public class NameService : INameService
 
         return placeNames.ToList();
     }
+
 
 }
