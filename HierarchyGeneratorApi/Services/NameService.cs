@@ -38,6 +38,17 @@ public class NameService : INameService
         return placeNamesWithTitlesAndAdjectives;
     }
 
+    public List<string> GenerateL3PlaceNames(Theme theme, int numberOfNames)
+    {
+        List<string> placeNames = GeneratePlaceNames(theme, numberOfNames);
+
+        List<string> placeNamesWithTitles = DecorateWithL3Title(theme, placeNames);
+
+        List<string> placeNamesWithTitlesAndAdjectives = DecorateWithL3Adjective(theme, placeNamesWithTitles);
+
+        return placeNamesWithTitlesAndAdjectives;
+    }
+
     private List<string> DecorateWithL1Adjective(Theme theme, List<string> placeNames)
     {
         List<string> placeNamesWithAdjectives = new List<string>();
@@ -53,6 +64,18 @@ public class NameService : INameService
     {
         List<string> placeNamesWithAdjectives = new List<string>();
         List<string> adjectives = _nameRepository.GetAdjectivesForL2Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string adjective = adjectives[random.Next(adjectives.Count)];
+            placeNamesWithAdjectives.Add($"{adjective} {placeName}");
+        }
+        return placeNamesWithAdjectives;
+    }
+
+    private List<string> DecorateWithL3Adjective(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithAdjectives = new List<string>();
+        List<string> adjectives = _nameRepository.GetAdjectivesForL3Place(theme);
         foreach (var placeName in placeNames)
         {
             string adjective = adjectives[random.Next(adjectives.Count)];
@@ -85,6 +108,19 @@ public class NameService : INameService
         return placeNamesWithTitles;
     }
 
+    private List<string> DecorateWithL3Title(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithTitles = new List<string>();
+        List<string> titles = _nameRepository.GetTitlesForL3Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string title = titles[random.Next(titles.Count)];
+            placeNamesWithTitles.Add($"{title} {placeName}");
+        }
+        return placeNamesWithTitles;
+    }
+
+
     private List<string> GeneratePlaceNames(Theme theme, int numberOfNames)
     {
         HashSet<string> placeNames = new HashSet<string>();
@@ -109,4 +145,5 @@ public class NameService : INameService
 
         return placeNames.ToList();
     }
+
 }

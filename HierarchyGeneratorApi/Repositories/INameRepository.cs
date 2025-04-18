@@ -12,5 +12,6 @@ public interface INameRepository
     public List<string> GetAdjectivesForL2Place(Theme theme);
     public List<string> GetTitlesForL1Place(Theme theme);
     public List<string> GetTitlesForL2Place(Theme theme);
-
+    public List<string> GetTitlesForL3Place(Theme theme);
+    public List<string> GetAdjectivesForL3Place(Theme theme);
 }

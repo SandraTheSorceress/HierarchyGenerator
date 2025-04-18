@@ -32,6 +32,8 @@ public class Level2Service : ILevel2Service
                 NodeId = _nodeCountService.GetNextNodeId(),
                 Name = name,
             };
+            List<L3> L3s = _level3Service.GenerateL3s(parameters);
+            l2.L3s = L3s;
             l2s.Add(l2);
         }
         return l2s;
