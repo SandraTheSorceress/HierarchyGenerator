@@ -56,13 +56,8 @@ public class HierarchyController : ControllerBase
             {
                 Id = hierarchy.Id,
                 Name = hierarchy.Name,
-                NumberOfNodes = hierarchy.NumberOfNodes,
-                NumberOfEndUsers = hierarchy.NumberOfEndUsers,
-                NumberOfAttributes = hierarchy.NumberOfAttributes,
-                NumberOfContacts = hierarchy.NumberOfContacts,
                 CreatedDate = hierarchy.CreatedDate,
-                LastModified = hierarchy.LastModified,
-                Status = hierarchy.Status,
+                LastModified = hierarchy.LastModified
             };
             responseDTO.data.Add(hierarchyDTO);
         }
@@ -98,6 +93,17 @@ public class HierarchyController : ControllerBase
             return NotFound(new { message = "Hierarchy does not exist." });
         }
         
+    }
+
+    [HttpPost("/api/hierarchy")]
+    public ActionResult CreateHierchy([FromBody] CreateHierarchyParameters parameters)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest("Bad request!");
+        }
+        _hierarchyService.CreateHierarchy(parameters);
+        return Created();
     }
 }
 

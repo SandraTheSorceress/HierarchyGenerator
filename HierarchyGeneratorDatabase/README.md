@@ -23,7 +23,7 @@ Go to parent folder and run:
 
 ```mermaid
 erDiagram
-    Hierarchy ||--o{ L1 : has
+    Hierarchies ||--o{ L1 : has
     L1 ||--o{ L1Contact : has
     L1 ||--o{ L2 : has
     L2 ||--o{ L2Contact : has
@@ -34,7 +34,7 @@ erDiagram
     L4 ||--o{ L5 : has
     L5 ||--o{ L5Contact : has
 
-    Hierarchy {
+    Hierarchies {
         Id	int PK
         Name longtext
         NumberOfNodes int
@@ -44,6 +44,30 @@ erDiagram
         CreatedDate	datetime(6)
         LastModified datetime(6)
         Status longtext
+    }
+
+    NamePhonemes {
+        Id	int PK
+        Theme longtext
+        Category longtext
+        Position longtext
+        Value longtext
+    }
+
+    NameAdjectives {
+        Id	int PK
+        Theme longtext
+        Level longtext
+        Category longtext
+        Value longtext
+    }
+
+    NameTitles {
+        Id	int PK
+        Theme longtext
+        Level longtext
+        Category longtext
+        Value longtext
     }
 
     L1 {

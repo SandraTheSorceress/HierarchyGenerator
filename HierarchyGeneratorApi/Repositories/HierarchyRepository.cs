@@ -60,4 +60,10 @@ public class HierarchyRepository : IHierarchyRepository
     {
         return _context.Hierarchies.Any(h => h.Id == hierarchyId);
     }
+
+    public void SaveHierarchy(Hierarchy hierarchy)
+    {
+        _context.Hierarchies.Add(hierarchy);
+        _context.SaveChanges();
+    }
 }

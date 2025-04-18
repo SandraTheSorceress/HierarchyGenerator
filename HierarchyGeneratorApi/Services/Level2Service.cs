@@ -1,4 +1,5 @@
-﻿using HierarchyGeneratorApi.Models;
+﻿using HierarchyGeneratorApi.DTOs;
+using HierarchyGeneratorApi.Models;
 using System.Text;
 
 namespace HierarchyGeneratorApi.Services;
@@ -7,10 +8,35 @@ public class Level2Service : ILevel2Service
 {
 
     private readonly ILevel3Service _level3Service;
+    private readonly INameService _nameService;
+    private readonly INodeCountService _nodeCountService;
 
-    public Level2Service(ILevel3Service level3Service)
+    public Level2Service(ILevel3Service level3Service, INameService nameService, INodeCountService nodeCountService)
     {
         _level3Service = level3Service;
+        _nameService = nameService;
+        _nodeCountService = nodeCountService;
+    }
+
+    public List<L2> GenerateL2s(CreateHierarchyParameters parameters)
+    {
+        int numberOfNodes = _nodeCountService.GetNumberOfNodes(parameters.L2);
+        List<string> names = _nameService.GenerateL2PlaceNames(parameters.Theme, numberOfNodes);
+
+        List<L2> l2s = new();
+        foreach (var name in names)
+        {
+
+            L2 l2 = new()
+            {
+                NodeId = _nodeCountService.GetNextNodeId(),
+                Name = name,
+            };
+            List<L3> L3s = _level3Service.GenerateL3s(parameters);
+            l2.L3s = L3s;
+            l2s.Add(l2);
+        }
+        return l2s;
     }
 
     public string GetCSV(int L1NodeId, List<L2> l2s)

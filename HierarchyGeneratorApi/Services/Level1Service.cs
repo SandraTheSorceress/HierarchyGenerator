@@ -1,16 +1,45 @@
-﻿using HierarchyGeneratorApi.Models;
+﻿using HierarchyGeneratorApi.DTOs;
+using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
+using System;
+using System.Data.Entity.Hierarchy;
 using System.Text;
 
 namespace HierarchyGeneratorApi.Services;
 
 public class Level1Service : ILevel1Service
 {
-    private readonly ILevel2Service _level2Service;
 
-    public Level1Service(ILevel2Service level2Service)
+    private readonly ILevel2Service _level2Service;
+    private readonly INameService _nameService;
+    private readonly INodeCountService _nodeCountService;
+
+    public Level1Service(ILevel2Service level2Service, INameService nameService, INodeCountService nodeCountService)
     {
         _level2Service = level2Service;
+        _nameService = nameService;
+        _nodeCountService = nodeCountService;
+    }
+
+    public List<L1> GenerateL1s(CreateHierarchyParameters parameters)
+    {
+        int numberOfNodes = _nodeCountService.GetNumberOfNodes(parameters.L1);
+        List<string> names = _nameService.GenerateL1PlaceNames(parameters.Theme, numberOfNodes);
+
+        List<L1> l1s = new();
+        foreach (var name in names)
+        {
+            
+            L1 l1 = new()
+            {
+                NodeId = _nodeCountService.GetNextNodeId(),
+                Name = name,
+            };
+            List<L2> L2s = _level2Service.GenerateL2s(parameters);
+            l1.L2s = L2s;
+            l1s.Add(l1);
+        }
+        return l1s;
     }
 
     public string GetCSV(List<L1> l1s)
