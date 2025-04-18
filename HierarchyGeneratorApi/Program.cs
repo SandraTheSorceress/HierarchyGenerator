@@ -27,6 +27,7 @@ builder.Services.AddScoped<ILevel3Service, Level3Service>();
 builder.Services.AddScoped<ILevel4Service, Level4Service>();
 builder.Services.AddScoped<ILevel5Service, Level5Service>();
 builder.Services.AddScoped<IHierarchyRepository, HierarchyRepository>();
+builder.Services.AddScoped<INameRepository, NameRepository>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
