@@ -2,6 +2,7 @@
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
 using System;
+using System.Data.Entity.Hierarchy;
 using System.Text;
 
 namespace HierarchyGeneratorApi.Services;
@@ -25,15 +26,17 @@ public class Level1Service : ILevel1Service
         int numberOfNodes = _nodeCountService.GetNumberOfNodes(parameters.L1);
         List<string> names = _nameService.GenerateL1PlaceNames(parameters.Theme, numberOfNodes);
 
-        List<L1> l1s = new List<L1>();
-        int nodeId = 1;
+        List<L1> l1s = new();
         foreach (var name in names)
         {
-            L1 l1 = new L1()
+            
+            L1 l1 = new()
             {
-                NodeId = nodeId++,
+                NodeId = _nodeCountService.GetNextNodeId(),
                 Name = name,
             };
+            List<L2> L2s = _level2Service.GenerateL2s(parameters);
+            l1.L2s = L2s;
             l1s.Add(l1);
         }
         return l1s;

@@ -27,10 +27,32 @@ public class NameService : INameService
 
     }
 
+    public List<string> GenerateL2PlaceNames(Theme theme, int numberOfNames)
+    {
+        List<string> placeNames = GeneratePlaceNames(theme, numberOfNames);
+
+        List<string> placeNamesWithTitles = DecorateWithL2Title(theme, placeNames);
+
+        List<string> placeNamesWithTitlesAndAdjectives = DecorateWithL2Adjective(theme, placeNamesWithTitles);
+
+        return placeNamesWithTitlesAndAdjectives;
+    }
+
     private List<string> DecorateWithL1Adjective(Theme theme, List<string> placeNames)
     {
         List<string> placeNamesWithAdjectives = new List<string>();
         List<string> adjectives = _nameRepository.GetAdjectivesForL1Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string adjective = adjectives[random.Next(adjectives.Count)];
+            placeNamesWithAdjectives.Add($"{adjective} {placeName}");
+        }
+        return placeNamesWithAdjectives;
+    }
+    private List<string> DecorateWithL2Adjective(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithAdjectives = new List<string>();
+        List<string> adjectives = _nameRepository.GetAdjectivesForL2Place(theme);
         foreach (var placeName in placeNames)
         {
             string adjective = adjectives[random.Next(adjectives.Count)];
@@ -43,6 +65,18 @@ public class NameService : INameService
     {
         List<string> placeNamesWithTitles = new List<string>();
         List<string> titles = _nameRepository.GetTitlesForL1Place(theme);
+        foreach (var placeName in placeNames)
+        {
+            string title = titles[random.Next(titles.Count)];
+            placeNamesWithTitles.Add($"{title} {placeName}");
+        }
+        return placeNamesWithTitles;
+    }
+
+    private List<string> DecorateWithL2Title(Theme theme, List<string> placeNames)
+    {
+        List<string> placeNamesWithTitles = new List<string>();
+        List<string> titles = _nameRepository.GetTitlesForL2Place(theme);
         foreach (var placeName in placeNames)
         {
             string title = titles[random.Next(titles.Count)];

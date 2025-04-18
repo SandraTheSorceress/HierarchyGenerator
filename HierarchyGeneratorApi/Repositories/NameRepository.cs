@@ -1,6 +1,5 @@
 ﻿using HierarchyGeneratorApi.Data;
 using HierarchyGeneratorApi.DTOs;
-using HierarchyGeneratorApi.Models;
 
 namespace HierarchyGeneratorApi.Repositories;
 
@@ -25,12 +24,36 @@ public class NameRepository : INameRepository
         return adjectives;
     }
 
+    public List<string> GetAdjectivesForL2Place(Theme theme)
+    {
+        List<string> adjectives = _context.NameAdjectives
+            .Where(np => np.Theme == theme.ToString()
+                && np.Category == "PLACE"
+                && np.NodeLevel == "L2")
+                .Select(np => np.Value)
+                .ToList();
+
+        return adjectives;
+    }
+
     public List<string> GetTitlesForL1Place(Theme theme)
     {
         List<string> titles = _context.NameTitles
             .Where(np => np.Theme == theme.ToString()
                 && np.Category == "PLACE"
                 && np.NodeLevel == "L1")
+                .Select(np => np.Value)
+                .ToList();
+
+        return titles;
+    }
+
+    public List<string> GetTitlesForL2Place(Theme theme)
+    {
+        List<string> titles = _context.NameTitles
+            .Where(np => np.Theme == theme.ToString()
+                && np.Category == "PLACE"
+                && np.NodeLevel == "L2")
                 .Select(np => np.Value)
                 .ToList();
 
@@ -72,4 +95,5 @@ public class NameRepository : INameRepository
 
         return phonemes;
     }
+
 } 
