@@ -12,6 +12,31 @@ public class NameRepository : INameRepository
     {
         _context = context;
     }
+
+    public List<string> GetAdjectivesForL1Place(Theme theme)
+    {
+        List<string> adjectives = _context.NameAdjectives
+            .Where(np => np.Theme == theme.ToString()
+                && np.Category == "PLACE"
+                && np.NodeLevel == "L1")
+                .Select(np => np.Value)
+                .ToList();
+
+        return adjectives;
+    }
+
+    public List<string> GetTitlesForL1Place(Theme theme)
+    {
+        List<string> titles = _context.NameTitles
+            .Where(np => np.Theme == theme.ToString()
+                && np.Category == "PLACE"
+                && np.NodeLevel == "L1")
+                .Select(np => np.Value)
+                .ToList();
+
+        return titles;
+    }
+
     public List<string> GetEndingPhonemesForPlace(Theme theme)
     {
         List<string> phonemes = _context.NamePhonemes

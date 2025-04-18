@@ -9,5 +9,6 @@ public class AppDbContext : DbContext
 
     public DbSet<Hierarchy> Hierarchies { get; set; }
     public DbSet<NamePhoneme> NamePhonemes { get; set; }
-
+    public DbSet<NameAdjective> NameAdjectives { get; set; }
+    public DbSet<NameTitle> NameTitles { get; set; }
 }

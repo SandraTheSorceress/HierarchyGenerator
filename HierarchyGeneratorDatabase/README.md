@@ -54,6 +54,22 @@ erDiagram
         Value longtext
     }
 
+    NameAdjectives {
+        Id	int PK
+        Theme longtext
+        Level longtext
+        Category longtext
+        Value longtext
+    }
+
+    NameTitles {
+        Id	int PK
+        Theme longtext
+        Level longtext
+        Category longtext
+        Value longtext
+    }
+
     L1 {
         Id	int PK
         NodeId int
