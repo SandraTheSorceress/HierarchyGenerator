@@ -8,37 +8,21 @@ namespace HierarchyGeneratorApi.Services;
 
 public class Level1Service : ILevel1Service
 {
-    private readonly Random random = new Random();
+
     private readonly ILevel2Service _level2Service;
     private readonly INameService _nameService;
+    private readonly INodeCountService _nodeCountService;
 
-    public Level1Service(ILevel2Service level2Service, INameService nameService)
+    public Level1Service(ILevel2Service level2Service, INameService nameService, INodeCountService nodeCountService)
     {
         _level2Service = level2Service;
         _nameService = nameService;
+        _nodeCountService = nodeCountService;
     }
 
     public List<L1> GenerateL1s(CreateHierarchyParameters parameters)
     {
-        int minNumberOfNodes, maxNumberOfNodes;
-        switch (parameters.L1)
-        {
-            case L1Option.A_FEW:
-                minNumberOfNodes = 1;
-                maxNumberOfNodes = 3;
-                break;
-            case L1Option.SOME:
-                minNumberOfNodes = 4;
-                maxNumberOfNodes = 7;
-                break;
-            case L1Option.SURPRISE_ME:
-                minNumberOfNodes = 1;
-                maxNumberOfNodes = 7;
-                break;
-            default:
-                throw new ArgumentException("Unsupported L1 option");
-        }
-        int numberOfNodes = random.Next(minNumberOfNodes, maxNumberOfNodes);
+        int numberOfNodes = _nodeCountService.GetNumberOfNodes(parameters.L1);
         List<string> names = _nameService.GenerateL1PlaceNames(parameters.Theme, numberOfNodes);
 
         List<L1> l1s = new List<L1>();
