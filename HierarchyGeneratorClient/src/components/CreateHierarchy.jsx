@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ThemeSelector from "./ThemeSelector";
+import NodeAmountSelector from "./NodeAmountSelector";
 
 export default function CreateHierarchy({
   setMessage,
@@ -8,9 +9,28 @@ export default function CreateHierarchy({
 }) {
   const [name, setName] = useState("");
   const [selectedTheme, setSelectedTheme] = useState("fantasy");
+  const [l1Nodes, setL1Nodes] = useState("A_FEW");
+  const [l2Nodes, setL2Nodes] = useState("NONE");
+  const [l3Nodes, setL3Nodes] = useState("NONE");
 
   const handleThemeChange = (e) => {
     setSelectedTheme(e.target.value);
+  };
+
+  const handleL1NodesChange = (e) => {
+    setL1Nodes(e.target.value);
+  };
+
+  const handleL2NodesChange = (e) => {
+    const newValue = e.target.value;
+    setL2Nodes(newValue);
+    if (newValue === "NONE") {
+      setL3Nodes("NONE");
+    }
+  };
+
+  const handleL3NodesChange = (e) => {
+    setL3Nodes(e.target.value);
   };
 
   const handleSubmit = (e) => {
@@ -19,8 +39,8 @@ export default function CreateHierarchy({
     const payload = {
       name: name,
       theme: "FANTASY",
-      l1: "A_FEW",
-      l2: "NONE",
+      l1: l1Nodes,
+      l2: l2Nodes,
       l3: "NONE",
       l4: "NONE",
       l5: "NONE",
@@ -49,6 +69,26 @@ export default function CreateHierarchy({
       });
   };
 
+  const l1Options = [
+    { value: "A_FEW", display: "A few" },
+    { value: "SOME", display: "Some" },
+    { value: "SURPRISE_ME", display: "Surprise me" },
+  ];
+
+  const l2Options = [
+    { value: "NONE", display: "None" },
+    { value: "A_FEW", display: "A few" },
+    { value: "SOME", display: "Some" },
+    { value: "SURPRISE_ME", display: "Surprise me" },
+  ];
+
+  const l3Options = [
+    { value: "NONE", display: "None" },
+    { value: "A_FEW", display: "A few" },
+    { value: "SOME", display: "Some" },
+    { value: "SURPRISE_ME", display: "Surprise me" },
+  ];
+
   return (
     <div>
       <h1 className="text-4xl font-bold mb-4 text-center">
@@ -57,8 +97,6 @@ export default function CreateHierarchy({
 
       <div className="p-4 flex items-start gap-8">
         <div className="flex-1">
-
-
           <form onSubmit={handleSubmit}>
             <div class="mb-4">
               <label
@@ -69,12 +107,38 @@ export default function CreateHierarchy({
               </label>
               <input
                 id="name"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out"
-                placeholder="Enter hierarchy Name"
+                class="w-full bg-gray-50 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out"
+                placeholder="Enter hierarchy name"
                 type="text"
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
+
+            <NodeAmountSelector
+              label="How many L1 nodes do you want?"
+              name="l1Nodes"
+              options={l1Options}
+              selected={l1Nodes}
+              onChange={handleL1NodesChange}
+            />
+
+            <NodeAmountSelector
+              label="How many L2 nodes do you want?"
+              name="l2Nodes"
+              options={l2Options}
+              selected={l2Nodes}
+              onChange={handleL2NodesChange}
+            />
+
+            {l2Nodes !== "NONE" && (
+              <NodeAmountSelector
+                label="How many L3 nodes do you want?"
+                name="l3Nodes"
+                options={l3Options}
+                selected={l3Nodes}
+                onChange={handleL3NodesChange}
+              />
+            )}
 
             <div className="flex items-center gap-2 flex-wrap">
               <button
@@ -94,12 +158,9 @@ export default function CreateHierarchy({
           </form>
         </div>
         <div className="flex-1">
-        <label
-                class="block text-gray-700 text-sm font-bold mb-2"
-                for="name"
-              >
-                Choose a theme
-              </label>
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+            Choose a theme
+          </label>
           <ThemeSelector
             selectedTheme={selectedTheme}
             handleThemeChange={handleThemeChange}
