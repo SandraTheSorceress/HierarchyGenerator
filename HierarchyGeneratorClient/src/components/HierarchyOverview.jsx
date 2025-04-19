@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
 import { daysAgo, calculateRangeStart, calculateRangeEnd } from "../utils/utils";
-
+import Pagination from "./Pagination";
 
 function deleteHierarchy(hierarchy, setMessage, refreshPage) {
   fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
@@ -24,36 +23,6 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
 
 
 function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage }) {
-  const page_buttons = [];
-  for (let i = 1; i <= hierarchyList.meta.totalPages; i++) {
-    if(i == hierarchyList.meta.page){
-      page_buttons.push(
-        <li key={i}>
-        <a
-          href="#"
-          aria-current="page"
-          className="flex items-center justify-center px-3 h-8 leading-tight text-primary-600 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-primary-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-          >
-          {i}
-        </a>
-      </li>
-    );
-    } else {
-
-      page_buttons.push(
-        <li key={i}>
-        <a
-          href="#"
-          onClick={() => setPage(i)}
-          className="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-          >
-          {i}
-        </a>
-      </li>
-    );
-  }
-  }
-
   return (
     <div className="bg-gray-50 dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden mt-10">
       <div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
@@ -164,9 +133,11 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
             </span>
             hierarchies
           </span>
-          <ul className="inline-flex -space-x-px rtl:space-x-reverse text-sm h-8">
-            { page_buttons }
-          </ul>
+          <Pagination
+            currentPage={hierarchyList.meta.page}
+            totalPages={hierarchyList.meta.totalPages}
+            onPageChange={setPage}
+          />
         </nav>
       </div>
     </div>
