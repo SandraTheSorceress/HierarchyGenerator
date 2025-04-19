@@ -1,12 +1,14 @@
 import { useState } from "react";
 import ThemeSelector from "./ThemeSelector";
 import NodeAmountSelector from "./NodeAmountSelector";
+import PacmanLoader from "react-spinners/PacmanLoader";
 
 export default function CreateHierarchy({
   setMessage,
   setMessageType,
   setView,
 }) {
+  const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
   const [selectedTheme, setSelectedTheme] = useState("FANTASY");
   const [l1Nodes, setL1Nodes] = useState("A_FEW");
@@ -54,6 +56,7 @@ export default function CreateHierarchy({
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
 
     const payload = {
       name: name,
@@ -85,6 +88,9 @@ export default function CreateHierarchy({
         setMessageType("error");
         setMessage("Failed to create hierarchy.");
         setTimeout(() => setMessage(""), 3000);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   };
 
@@ -126,6 +132,21 @@ export default function CreateHierarchy({
 
   return (
     <div>
+      {loading && (
+        <div className="absolute inset-0 z-10 bg-white bg-opacity-70 flex items-center justify-center">
+          <div>
+          <h1 className="text-center text-4xl font-bold text-blue-900 mb-[5rem]">Hierarchy generation in progress ...</h1>
+          <PacmanLoader
+            color="oklch(0.379 0.146 265.522)"
+            size={150}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+
+          </div>
+
+        </div>
+      )}
       <h1 className="text-4xl font-bold mb-4 text-center">
         Generate New Hierarchy
       </h1>
