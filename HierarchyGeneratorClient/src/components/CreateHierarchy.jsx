@@ -12,6 +12,8 @@ export default function CreateHierarchy({
   const [l1Nodes, setL1Nodes] = useState("A_FEW");
   const [l2Nodes, setL2Nodes] = useState("NONE");
   const [l3Nodes, setL3Nodes] = useState("NONE");
+  const [l4Nodes, setL4Nodes] = useState("NONE");
+  const [l5Nodes, setL5Nodes] = useState("NONE");
 
   const handleThemeChange = (e) => {
     setSelectedTheme(e.target.value);
@@ -30,7 +32,24 @@ export default function CreateHierarchy({
   };
 
   const handleL3NodesChange = (e) => {
-    setL3Nodes(e.target.value);
+    const newValue = e.target.value;
+    setL3Nodes(newValue);
+    if (newValue === "NONE") {
+      setL4Nodes("NONE");
+    }
+  };
+
+  const handleL4NodesChange = (e) => {
+    const newValue = e.target.value;
+    setL4Nodes(newValue);
+    if (newValue === "NONE") {
+      setL5Nodes("NONE");
+    }
+  };
+
+  const handleL5NodesChange = (e) => {
+    const newValue = e.target.value;
+    setL5Nodes(newValue);
   };
 
   const handleSubmit = (e) => {
@@ -41,9 +60,9 @@ export default function CreateHierarchy({
       theme: "FANTASY",
       l1: l1Nodes,
       l2: l2Nodes,
-      l3: "NONE",
-      l4: "NONE",
-      l5: "NONE",
+      l3: l3Nodes,
+      l4: l4Nodes,
+      l5: l5Nodes,
     };
 
     fetch("/backend/api/hierarchy", {
@@ -86,6 +105,22 @@ export default function CreateHierarchy({
     { value: "NONE", display: "None" },
     { value: "A_FEW", display: "A few" },
     { value: "SOME", display: "Some" },
+    { value: "SURPRISE_ME", display: "Surprise me" },
+  ];
+
+  const l4Options = [
+    { value: "NONE", display: "None" },
+    { value: "A_FEW", display: "A few" },
+    { value: "SOME", display: "Some" },
+    { value: "SURPRISE_ME", display: "Surprise me" },
+  ];
+
+  const l5Options = [
+    { value: "NONE", display: "None" },
+    { value: "A_FEW", display: "A few" },
+    { value: "SOME", display: "Some" },
+    { value: "A_LOT", display: "A lot" },
+    { value: "TONS", display: "Tons" },
     { value: "SURPRISE_ME", display: "Surprise me" },
   ];
 
@@ -137,6 +172,26 @@ export default function CreateHierarchy({
                 options={l3Options}
                 selected={l3Nodes}
                 onChange={handleL3NodesChange}
+              />
+            )}
+
+            {l3Nodes !== "NONE" && (
+              <NodeAmountSelector
+                label="How many L4 nodes do you want?"
+                name="l4Nodes"
+                options={l4Options}
+                selected={l4Nodes}
+                onChange={handleL4NodesChange}
+              />
+            )}
+
+            {l4Nodes !== "NONE" && (
+              <NodeAmountSelector
+                label="How many L5 nodes do you want?"
+                name="l5Nodes"
+                options={l5Options}
+                selected={l5Nodes}
+                onChange={handleL5NodesChange}
               />
             )}
 
