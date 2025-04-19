@@ -16,6 +16,7 @@ export default function CreateHierarchy({
   const [l3Nodes, setL3Nodes] = useState("NONE");
   const [l4Nodes, setL4Nodes] = useState("NONE");
   const [l5Nodes, setL5Nodes] = useState("NONE");
+  const [invalidName, setInvalidName] = useState(false);
 
   const handleThemeChange = (e) => {
     setSelectedTheme(e.target.value);
@@ -56,6 +57,16 @@ export default function CreateHierarchy({
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!name.trim()) {
+      setMessageType("error");
+      setMessage("Please enter a name for the hierarchy.");
+      setTimeout(() => setMessage(""), 3000);
+      setInvalidName(true);
+      setTimeout(() => setInvalidName(false), 3000);
+      return;
+    }
+
     setLoading(true);
 
     const payload = {
@@ -142,7 +153,6 @@ export default function CreateHierarchy({
             aria-label="Loading Spinner"
             data-testid="loader"
           />
-
           </div>
 
         </div>
@@ -163,7 +173,7 @@ export default function CreateHierarchy({
               </label>
               <input
                 id="name"
-                class="w-full bg-gray-50 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out"
+                className={`w-full ${invalidName ? "bg-red-50" : "bg-gray-50"} px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out`}
                 placeholder="Enter hierarchy name"
                 type="text"
                 onChange={(e) => setName(e.target.value)}
