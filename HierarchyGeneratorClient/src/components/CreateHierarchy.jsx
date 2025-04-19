@@ -57,13 +57,25 @@ export default function CreateHierarchy({
 
       <div className="p-4 flex items-start gap-8">
         <div className="flex-1">
-          <h2 className="text-2xl font-bold mb-4">Name hierarchy</h2>
+
+
           <form onSubmit={handleSubmit}>
-            <input
-              className="border p-2 mb-2 block w-full"
-              placeholder="Hierarchy Name"
-              onChange={(e) => setName(e.target.value)}
-            />
+            <div class="mb-4">
+              <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="name"
+              >
+                Name your hierarchy
+              </label>
+              <input
+                id="name"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out"
+                placeholder="Enter hierarchy Name"
+                type="text"
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
+
             <div className="flex items-center gap-2 flex-wrap">
               <button
                 type="submit"
@@ -82,7 +94,12 @@ export default function CreateHierarchy({
           </form>
         </div>
         <div className="flex-1">
-          <h2 className="text-2xl font-bold mb-4">Choose a theme</h2>
+        <label
+                class="block text-gray-700 text-sm font-bold mb-2"
+                for="name"
+              >
+                Choose a theme
+              </label>
           <ThemeSelector
             selectedTheme={selectedTheme}
             handleThemeChange={handleThemeChange}
