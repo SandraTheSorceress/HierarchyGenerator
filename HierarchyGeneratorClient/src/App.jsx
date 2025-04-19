@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Header from "./Header";
-import HierarchyOverview from "./HierarchyOverview";
+import Header from "./components/Header";
+import HierarchyOverview from "./components/HierarchyOverview";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import errorImage from "./assets/error.png";
 
