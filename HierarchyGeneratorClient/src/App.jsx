@@ -4,6 +4,7 @@ import HierarchyOverview from "./components/HierarchyOverview";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
+import Message from "./components/Message";
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -12,6 +13,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState("");
   const [page, setPage] = useState(1);
   const [refreshFlag, setRefreshFlag] = useState(false);
+  const [messageType, setMessageType] = useState('')
   const [message, setMessage] = useState('');
   const [view, setView] = useState('create');
 
@@ -38,15 +40,11 @@ function App() {
 
   return (
     <div className="p-5">
-      {message && (
-          <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-red-100 border border-red-300 text-red-700 px-6 py-3 rounded-md shadow-lg">
-          {message}
-        </div>
-      )}
+      <Message message={message} messageType={messageType} />
       <Header title="Hierarchy Generator" />
 
       {view === 'create' ? (
-        <CreateHierarchy setMessage={setMessage} setView={setView} />
+        <CreateHierarchy setMessage={setMessage} setView={setView} setMessageType={setMessageType} />
       ) : loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
