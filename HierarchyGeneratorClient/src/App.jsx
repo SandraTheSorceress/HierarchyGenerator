@@ -15,7 +15,7 @@ function App() {
   const [refreshFlag, setRefreshFlag] = useState(false);
   const [messageType, setMessageType] = useState('')
   const [message, setMessage] = useState('');
-  const [view, setView] = useState('create');
+  const [view, setView] = useState('overview');
 
   const refreshPage = () => {
     setRefreshFlag(prev => !prev);
