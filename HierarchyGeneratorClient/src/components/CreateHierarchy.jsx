@@ -8,7 +8,7 @@ export default function CreateHierarchy({
   setView,
 }) {
   const [name, setName] = useState("");
-  const [selectedTheme, setSelectedTheme] = useState("fantasy");
+  const [selectedTheme, setSelectedTheme] = useState("FANTASY");
   const [l1Nodes, setL1Nodes] = useState("A_FEW");
   const [l2Nodes, setL2Nodes] = useState("NONE");
   const [l3Nodes, setL3Nodes] = useState("NONE");
@@ -57,7 +57,7 @@ export default function CreateHierarchy({
 
     const payload = {
       name: name,
-      theme: "FANTASY",
+      theme: selectedTheme,
       l1: l1Nodes,
       l2: l2Nodes,
       l3: l3Nodes,

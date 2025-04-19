@@ -4,9 +4,9 @@ import theme_space from "../assets/theme_space.jpg";
 import theme_viking from "../assets/theme_viking.jpg";
 
 const themeImages = {
-  fantasy: theme_fantasy,
-  space: theme_space,
-  viking: theme_viking,
+  FANTASY: theme_fantasy,
+  SPACE: theme_space,
+  VIKING: theme_viking,
 };
 
 export default function ThemeSelector({ selectedTheme, handleThemeChange }) {
@@ -17,8 +17,8 @@ export default function ThemeSelector({ selectedTheme, handleThemeChange }) {
           <input
             type="radio"
             name="theme"
-            value="fantasy"
-            checked={selectedTheme === "fantasy"}
+            value="FANTASY"
+            checked={selectedTheme === "FANTASY"}
             onChange={handleThemeChange}
             className="mr-2"
           />
@@ -28,8 +28,8 @@ export default function ThemeSelector({ selectedTheme, handleThemeChange }) {
           <input
             type="radio"
             name="theme"
-            value="space"
-            checked={selectedTheme === "space"}
+            value="SPACE"
+            checked={selectedTheme === "SPACE"}
             onChange={handleThemeChange}
             className="mr-2"
           />
@@ -39,8 +39,8 @@ export default function ThemeSelector({ selectedTheme, handleThemeChange }) {
           <input
             type="radio"
             name="theme"
-            value="viking"
-            checked={selectedTheme === "viking"}
+            value="VIKING"
+            checked={selectedTheme === "VIKING"}
             onChange={handleThemeChange}
             className="mr-2"
           />
