@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import HierarchyOverview from "./components/HierarchyOverview";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
 
 function App() {
@@ -12,12 +13,15 @@ function App() {
   const [page, setPage] = useState(1);
   const [refreshFlag, setRefreshFlag] = useState(false);
   const [message, setMessage] = useState('');
+  const [view, setView] = useState('create');
 
   const refreshPage = () => {
     setRefreshFlag(prev => !prev);
   };
 
   useEffect(() => {
+    if (view !== 'overview') return;
+
     fetch(`/backend/api/hierarchy?search=${searchQuery}&page=${page}&limit=5`)
       .then((response) => response.json())
       .then((data) => {
@@ -30,7 +34,7 @@ function App() {
         );
         setLoading(false);
       });
-  }, [searchQuery, page, refreshFlag]);
+  }, [searchQuery, page, refreshFlag, view]);
 
   return (
     <div className="p-5">
@@ -41,7 +45,9 @@ function App() {
       )}
       <Header title="Hierarchy Generator" />
 
-      {loading ? (
+      {view === 'create' ? (
+        <CreateHierarchy setMessage={setMessage} setView={setView} />
+      ) : loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
             color="oklch(0.379 0.146 265.522)"
@@ -66,7 +72,13 @@ function App() {
           <p className="text-lg text-red-600">{message}</p>
         </div>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} setSearchQuery={setSearchQuery} setPage={setPage} refreshPage={refreshPage} setMessage={setMessage} />
+          <HierarchyOverview hierarchyList={hierarchies} 
+          setSearchQuery={setSearchQuery} 
+          setPage={setPage} 
+          refreshPage={refreshPage} 
+          setMessage={setMessage}
+          setView={setView}
+           />
       )}
     </div>
   );

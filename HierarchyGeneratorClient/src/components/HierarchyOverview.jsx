@@ -10,8 +10,6 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
     if (!response.ok) throw new Error('Failed to delete');
     refreshPage();
     setMessage(`${hierarchy.name} is deleted`);
-
-    // Clear the message after 5 seconds
     setTimeout(() => setMessage(''), 5000);
   })
   .catch((error) => {
@@ -23,14 +21,24 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
 
 
 
-function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage }) {
+function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView }) {
   return (
     <div className="bg-gray-50 dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden mt-10">
       <div className="p-4">
-      <SearchBar onSearch={(query) => {
-          setPage(1);
-          setSearchQuery(query);
-        }} />
+        <div className="flex items-center gap-2 flex-wrap">
+          <SearchBar
+            onSearch={(query) => {
+              setPage(1);
+              setSearchQuery(query);
+            }}
+          />
+          <button
+            className="inline-block px-4 py-2 bg-green-400 text-white rounded-md hover:bg-green-700 transition-colors"
+            onClick={() => setView("create")}
+          >
+            New Hierarchy
+          </button>
+        </div>
       </div>
 
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg px-2">
@@ -63,11 +71,9 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
                 <td className="px-6 py-4">
                   <button
                     className="inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
-                    onClick={
-                      () => {
-                        deleteHierarchy(hierarchy, setMessage, refreshPage);
-                      }
-                    }
+                    onClick={() => {
+                      deleteHierarchy(hierarchy, setMessage, refreshPage);
+                    }}
                   >
                     Delete
                   </button>
