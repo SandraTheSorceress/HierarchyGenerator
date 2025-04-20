@@ -1,5 +1,6 @@
 using System.Net.Http.Headers;
 using System.Text;
+using System.Xml.Linq;
 using Newtonsoft.Json;
 
 namespace MyIntegrationTests
@@ -51,8 +52,58 @@ namespace MyIntegrationTests
 
             var response = await _client.PostAsync("/api/hierarchy", content);
 
-            response.EnsureSuccessStatusCode();
             Assert.Equal(System.Net.HttpStatusCode.NoContent, response.StatusCode);
+        }
+
+
+        [Fact]
+        public async Task PostHierarchyWithoutBearerToken_ShouldReturnUnauthorized()
+        {
+            var postData = new
+            {
+                Name = "TestHierarchy created by xUnit"
+            };
+
+            var content = new StringContent(JsonConvert.SerializeObject(postData), Encoding.UTF8, "application/json");
+
+            var response = await _client.PostAsync("/api/hierarchy", content);
+
+            Assert.Equal(System.Net.HttpStatusCode.Unauthorized, response.StatusCode);
+        }
+
+
+        [Fact]
+        public async Task PostHierarchyWithEmptytName_ShouldReturnBadRequest()
+        {
+            SetBearerToken();
+
+            var postData = new
+            {
+                Name = ""
+            };
+
+            var content = new StringContent(JsonConvert.SerializeObject(postData), Encoding.UTF8, "application/json");
+
+            var response = await _client.PostAsync("/api/hierarchy", content);
+
+            Assert.Equal(System.Net.HttpStatusCode.BadRequest, response.StatusCode);
+        }
+
+        [Fact]
+        public async Task PostHierarchyWithNameLongerThan200chars_ShouldReturnBadRequest()
+        {
+            SetBearerToken();
+
+            var postData = new
+            {
+                Name = "abcdefghijklmnopqrstuvxyzåäöabcdefghijklmnopqrstuvxyzåäöabcdefghijklmnopqrstuvxyzåäöabcdefghijklmnopqrstuvxyzåäöabcdefghijklmnopqrstuvxyzåäöabcdefghijklmnopqrstuvxyzåäöabcdefghijklmnovxyzåäöabcdefghij1"
+            };
+
+            var content = new StringContent(JsonConvert.SerializeObject(postData), Encoding.UTF8, "application/json");
+
+            var response = await _client.PostAsync("/api/hierarchy", content);
+
+            Assert.Equal(System.Net.HttpStatusCode.BadRequest, response.StatusCode);
         }
 
         [Fact]
