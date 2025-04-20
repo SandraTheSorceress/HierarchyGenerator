@@ -2,26 +2,33 @@ import { daysAgo, calculateRangeStart, calculateRangeEnd } from "../utils/utils"
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
 
-function deleteHierarchy(hierarchy, setMessage, refreshPage) {
-  fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
-    method: 'DELETE',
-  })
-  .then((response) => {
-    if (!response.ok) throw new Error('Failed to delete');
-    refreshPage();
-    setMessage(`${hierarchy.name} is deleted`);
-    setTimeout(() => setMessage(''), 3000);
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-    setMessage('Failed to delete');
-    setTimeout(() => setMessage(''), 3000);
-  });
-}
 
 
 
-function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView, userInfo }) {
+
+function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView, userInfo, googleToken }) {
+
+  function deleteHierarchy(hierarchy) {
+    fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
+      method: 'DELETE',
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${googleToken}`,
+      },
+    })
+    .then((response) => {
+      if (!response.ok) throw new Error('Failed to delete');
+      refreshPage();
+      setMessage(`${hierarchy.name} is deleted`);
+      setTimeout(() => setMessage(''), 3000);
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+      setMessage('Failed to delete');
+      setTimeout(() => setMessage(''), 3000);
+    });
+  }
+
   return (
     <div className="bg-gray-50 dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden mt-10">
       <div className="p-4">
@@ -69,20 +76,24 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
                   {hierarchy.name}
                 </th>
                 <td className="px-6 py-4">{daysAgo(hierarchy.createdDate)}</td>
-                <td className="px-6 py-4">
+                
+                <td className="px-6 py-4  text-right">
+                {userInfo && (
                   <button
-                    className="inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
+                    className="min-w-[90px] inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
                     onClick={() => {
                       deleteHierarchy(hierarchy, setMessage, refreshPage);
                     }}
                   >
                     Delete
                   </button>
+                  )}
                 </td>
-                <td className="px-6 py-4">
+                
+                <td className="px-6 py-4 text-right">
                   <a
                     href={`/backend/api/hierarchy/${hierarchy.id}/download`}
-                    className="inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
+                    className="min-w-[90px] inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
                   >
                     Download
                   </a>
