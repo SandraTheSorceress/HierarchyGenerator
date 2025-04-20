@@ -6,6 +6,7 @@ import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
 import Message from "./components/Message";
 import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from "jwt-decode";
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -17,9 +18,18 @@ function App() {
   const [messageType, setMessageType] = useState('')
   const [message, setMessage] = useState('');
   const [view, setView] = useState('overview');
+  const [googleToken, setGoogleToken] = useState(null);
+  const [userInfo, setUserInfo] = useState(null);
 
   const handleLoginSuccess = (credentialResponse) => {
-    console.log(credentialResponse);
+    const token = credentialResponse.credential;
+    const decoded = jwtDecode(token);
+
+    setGoogleToken(token);
+    setUserInfo(decoded);
+
+    console.log("Google Token:", token);
+    console.log("User Info:", decoded);
   };
 
   const refreshPage = () => {
@@ -47,16 +57,38 @@ function App() {
     <div className="p-5">
       <Message message={message} messageType={messageType} />
       <Header title="Hierarchy Generator" />
-      <div style={{ padding: 40 }}>
-      <h2>Login with Google</h2>
-      <GoogleLogin
-        onSuccess={handleLoginSuccess}
-        onError={() => console.log("Login Failed")}
-      />
-    </div>
+      <div className="flex justify-end items-center p-4">
+        {userInfo ? (
+          <div className="mt-4">
+            <p>
+              Logged in as <strong>{userInfo.given_name}</strong>
+            </p>
+            <button
+              onClick={() => {
+                setGoogleToken(null);
+                setUserInfo(null);
+                setMessage("You have been logged out.");
+                setMessageType("info");
+              }}
+              className="mt-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
+            >
+              Logout
+            </button>
+          </div>
+        ) : (
+          <GoogleLogin
+            onSuccess={handleLoginSuccess}
+            onError={() => console.log("Login Failed")}
+          />
+        )}
+      </div>
 
-      {view === 'create' ? (
-        <CreateHierarchy setMessage={setMessage} setView={setView} setMessageType={setMessageType} />
+      {view === "create" ? (
+        <CreateHierarchy
+          setMessage={setMessage}
+          setView={setView}
+          setMessageType={setMessageType}
+        />
       ) : loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
@@ -68,27 +100,22 @@ function App() {
         </div>
       ) : error ? (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
-          <h1 className="text-6xl font-bold text-red-800 mb-2">
-            Ooops
-          </h1>
-          <img
-            src={errorImage}
-            alt="Error"
-            className="mb-4 w-128"
-          />
+          <h1 className="text-6xl font-bold text-red-800 mb-2">Ooops</h1>
+          <img src={errorImage} alt="Error" className="mb-4 w-128" />
           <h2 className="text-3xl font-bold text-red-800 mb-2">
             The dog broke the server
           </h2>
           <p className="text-lg text-red-600">{message}</p>
         </div>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} 
-          setSearchQuery={setSearchQuery} 
-          setPage={setPage} 
-          refreshPage={refreshPage} 
+        <HierarchyOverview
+          hierarchyList={hierarchies}
+          setSearchQuery={setSearchQuery}
+          setPage={setPage}
+          refreshPage={refreshPage}
           setMessage={setMessage}
           setView={setView}
-           />
+        />
       )}
     </div>
   );
