@@ -1,12 +1,14 @@
+import { useState } from "react";
 import { daysAgo, calculateRangeStart, calculateRangeEnd } from "../utils/utils";
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
-
-
-
+import ConfirmationModal from "./ConfirmationModal";
 
 
 function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView, userInfo, googleToken }) {
+
+  const [showModal, setShowModal] = useState(false);
+  const [selectedHierarchy, setSelectedHierarchy] = useState(null);
 
   function deleteHierarchy(hierarchy) {
     fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
@@ -40,12 +42,13 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
             }}
           />
           {userInfo && (
-          <button
-            className="inline-block px-4 py-2 bg-green-400 text-white rounded-md hover:bg-green-700 transition-colors"
-            onClick={() => setView("create")}
-          >
-            New Hierarchy
-          </button>)}
+            <button
+              className="inline-block px-4 py-2 bg-green-400 text-white rounded-md hover:bg-green-700 transition-colors"
+              onClick={() => setView("create")}
+            >
+              New Hierarchy
+            </button>
+          )}
         </div>
       </div>
 
@@ -76,20 +79,21 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
                   {hierarchy.name}
                 </th>
                 <td className="px-6 py-4">{daysAgo(hierarchy.createdDate)}</td>
-                
+
                 <td className="px-6 py-4  text-right">
-                {userInfo && (
-                  <button
-                    className="min-w-[90px] inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
-                    onClick={() => {
-                      deleteHierarchy(hierarchy, setMessage, refreshPage);
-                    }}
-                  >
-                    Delete
-                  </button>
+                  {userInfo && (
+                    <button
+                      className="min-w-[90px] inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
+                      onClick={() => {
+                        setSelectedHierarchy(hierarchy);
+                        setShowModal(true);
+                      }}
+                    >
+                      Delete
+                    </button>
                   )}
                 </td>
-                
+
                 <td className="px-6 py-4 text-right">
                   <a
                     href={`/backend/api/hierarchy/${hierarchy.id}/download`}
@@ -125,6 +129,21 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
           />
         </nav>
       </div>
+      {showModal && selectedHierarchy && (
+        <ConfirmationModal
+          title="Confirm Deletion"
+          message={`Are you sure you want to delete "${selectedHierarchy.name}"? This action cannot be undone.`}
+          onConfirm={() => {
+            deleteHierarchy(selectedHierarchy);
+            setShowModal(false);
+            setSelectedHierarchy(null);
+          }}
+          onCancel={() => {
+            setShowModal(false);
+            setSelectedHierarchy(null);
+          }}
+        />
+      )}
     </div>
   );
 }
