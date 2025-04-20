@@ -52,7 +52,7 @@ function App() {
       setUserInfo={setUserInfo}
       setMessage={setMessage}
       setMessageType={setMessageType}
-      
+      setView={setView}
       />
 
       {view === "create" ? (
@@ -87,6 +87,7 @@ function App() {
           refreshPage={refreshPage}
           setMessage={setMessage}
           setView={setView}
+          userInfo={userInfo}
         />
       )}
     </div>

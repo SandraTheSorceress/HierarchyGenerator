@@ -8,6 +8,7 @@ function Header({
   setUserInfo,
   setMessage,
   setMessageType,
+  setView
 }) {
   const handleLoginSuccess = (credentialResponse) => {
     const token = credentialResponse.credential;
@@ -18,7 +19,7 @@ function Header({
 
     setMessageType("success");
     setMessage(`Hello ${decoded.given_name}! You have been logged in`);
-    setTimeout(() => setMessage(''), 3000);
+    setTimeout(() => setMessage(""), 3000);
 
     console.log("Google Token:", token);
     console.log("User Info:", decoded);
@@ -41,11 +42,13 @@ function Header({
             </p>
             <button
               onClick={() => {
+                setView("overview");
                 setGoogleToken(null);
                 setUserInfo(null);
                 setMessageType("success");
                 setMessage("You have been logged out.");
-                setTimeout(() => setMessage(''), 3000);
+                setTimeout(() => setMessage(""), 3000);
+
               }}
               className="px-4 py-2 bg-gray-400 text-white rounded-full shadow hover:bg-gray-700 transition duration-200 text-sm"
             >
