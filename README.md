@@ -8,8 +8,6 @@ Run the following command in this folder:
 
 Open [Hierarchy Generator App](http://localhost:8080)
 
-Backend is available here: [API Swagger](http://localhost:1337/swagger/index.html)
-
 ## How to stop the application?
 
     docker-compose down
