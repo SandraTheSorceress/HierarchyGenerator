@@ -5,6 +5,7 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
 import Message from "./components/Message";
+import { GoogleLogin } from '@react-oauth/google';
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -16,6 +17,10 @@ function App() {
   const [messageType, setMessageType] = useState('')
   const [message, setMessage] = useState('');
   const [view, setView] = useState('overview');
+
+  const handleLoginSuccess = (credentialResponse) => {
+    console.log(credentialResponse);
+  };
 
   const refreshPage = () => {
     setRefreshFlag(prev => !prev);
@@ -42,6 +47,13 @@ function App() {
     <div className="p-5">
       <Message message={message} messageType={messageType} />
       <Header title="Hierarchy Generator" />
+      <div style={{ padding: 40 }}>
+      <h2>Login with Google</h2>
+      <GoogleLogin
+        onSuccess={handleLoginSuccess}
+        onError={() => console.log("Login Failed")}
+      />
+    </div>
 
       {view === 'create' ? (
         <CreateHierarchy setMessage={setMessage} setView={setView} setMessageType={setMessageType} />
