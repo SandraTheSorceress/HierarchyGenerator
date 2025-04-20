@@ -23,7 +23,7 @@ public class HierarchyController : ControllerBase
         
         ListResponseDTO responseDTO = new ListResponseDTO();
         
-        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies().OrderBy(h => h.CreatedDate).ToList();
+        List<Hierarchy> hierarchies = _hierarchyService.GetHierarchies().OrderByDescending(h => h.LastModified).ToList();
 
         if (!string.IsNullOrEmpty(search))
         {
