@@ -5,8 +5,8 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
 import Message from "./components/Message";
-import { GoogleLogin } from '@react-oauth/google';
-import { jwtDecode } from "jwt-decode";
+
+
 
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
@@ -21,16 +21,7 @@ function App() {
   const [googleToken, setGoogleToken] = useState(null);
   const [userInfo, setUserInfo] = useState(null);
 
-  const handleLoginSuccess = (credentialResponse) => {
-    const token = credentialResponse.credential;
-    const decoded = jwtDecode(token);
 
-    setGoogleToken(token);
-    setUserInfo(decoded);
-
-    console.log("Google Token:", token);
-    console.log("User Info:", decoded);
-  };
 
   const refreshPage = () => {
     setRefreshFlag(prev => !prev);
@@ -56,32 +47,13 @@ function App() {
   return (
     <div className="p-5">
       <Message message={message} messageType={messageType} />
-      <Header title="Hierarchy Generator" />
-      <div className="flex justify-end items-center p-4">
-        {userInfo ? (
-          <div className="mt-4">
-            <p>
-              Logged in as <strong>{userInfo.given_name}</strong>
-            </p>
-            <button
-              onClick={() => {
-                setGoogleToken(null);
-                setUserInfo(null);
-                setMessage("You have been logged out.");
-                setMessageType("info");
-              }}
-              className="mt-2 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"
-            >
-              Logout
-            </button>
-          </div>
-        ) : (
-          <GoogleLogin
-            onSuccess={handleLoginSuccess}
-            onError={() => console.log("Login Failed")}
-          />
-        )}
-      </div>
+      <Header userInfo={userInfo} 
+      setGoogleToken={setGoogleToken} 
+      setUserInfo={setUserInfo}
+      setMessage={setMessage}
+      setMessageType={setMessageType}
+      
+      />
 
       {view === "create" ? (
         <CreateHierarchy

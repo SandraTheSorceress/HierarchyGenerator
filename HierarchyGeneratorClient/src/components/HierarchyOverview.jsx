@@ -10,7 +10,7 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
     if (!response.ok) throw new Error('Failed to delete');
     refreshPage();
     setMessage(`${hierarchy.name} is deleted`);
-    setTimeout(() => setMessage(''), 5000);
+    setTimeout(() => setMessage(''), 3000);
   })
   .catch((error) => {
     console.error('Error:', error);
