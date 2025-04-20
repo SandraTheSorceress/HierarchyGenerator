@@ -6,6 +6,8 @@ import CreateHierarchy from "./components/CreateHierarchy";
 import errorImage from "./assets/error.png";
 import Message from "./components/Message";
 
+
+
 function App() {
   const [hierarchies, setHierarchies] = useState([]);
   const [error, setError] = useState(null);
@@ -16,6 +18,10 @@ function App() {
   const [messageType, setMessageType] = useState('')
   const [message, setMessage] = useState('');
   const [view, setView] = useState('overview');
+  const [googleToken, setGoogleToken] = useState(null);
+  const [userInfo, setUserInfo] = useState(null);
+
+
 
   const refreshPage = () => {
     setRefreshFlag(prev => !prev);
@@ -41,10 +47,21 @@ function App() {
   return (
     <div className="p-5">
       <Message message={message} messageType={messageType} />
-      <Header title="Hierarchy Generator" />
+      <Header userInfo={userInfo} 
+      setGoogleToken={setGoogleToken} 
+      setUserInfo={setUserInfo}
+      setMessage={setMessage}
+      setMessageType={setMessageType}
+      setView={setView}
+      />
 
-      {view === 'create' ? (
-        <CreateHierarchy setMessage={setMessage} setView={setView} setMessageType={setMessageType} />
+      {view === "create" ? (
+        <CreateHierarchy
+          setMessage={setMessage}
+          setView={setView}
+          setMessageType={setMessageType}
+          googleToken={googleToken}
+        />
       ) : loading ? (
         <div className="flex items-center justify-center pt-7">
           <PacmanLoader
@@ -56,27 +73,23 @@ function App() {
         </div>
       ) : error ? (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center">
-          <h1 className="text-6xl font-bold text-red-800 mb-2">
-            Ooops
-          </h1>
-          <img
-            src={errorImage}
-            alt="Error"
-            className="mb-4 w-128"
-          />
+          <h1 className="text-6xl font-bold text-red-800 mb-2">Ooops</h1>
+          <img src={errorImage} alt="Error" className="mb-4 w-128" />
           <h2 className="text-3xl font-bold text-red-800 mb-2">
             The dog broke the server
           </h2>
           <p className="text-lg text-red-600">{message}</p>
         </div>
       ) : (
-          <HierarchyOverview hierarchyList={hierarchies} 
-          setSearchQuery={setSearchQuery} 
-          setPage={setPage} 
-          refreshPage={refreshPage} 
+        <HierarchyOverview
+          hierarchyList={hierarchies}
+          setSearchQuery={setSearchQuery}
+          setPage={setPage}
+          refreshPage={refreshPage}
           setMessage={setMessage}
           setView={setView}
-           />
+          userInfo={userInfo}
+        />
       )}
     </div>
   );

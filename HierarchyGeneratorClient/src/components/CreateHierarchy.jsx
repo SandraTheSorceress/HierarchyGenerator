@@ -7,6 +7,7 @@ export default function CreateHierarchy({
   setMessage,
   setMessageType,
   setView,
+  googleToken,
 }) {
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
@@ -84,6 +85,7 @@ export default function CreateHierarchy({
       body: JSON.stringify(payload),
       headers: {
         "Content-Type": "application/json",
+        Authorization: `Bearer ${googleToken}`,
       },
     })
       .then((res) => {

@@ -10,7 +10,7 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
     if (!response.ok) throw new Error('Failed to delete');
     refreshPage();
     setMessage(`${hierarchy.name} is deleted`);
-    setTimeout(() => setMessage(''), 5000);
+    setTimeout(() => setMessage(''), 3000);
   })
   .catch((error) => {
     console.error('Error:', error);
@@ -21,7 +21,7 @@ function deleteHierarchy(hierarchy, setMessage, refreshPage) {
 
 
 
-function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView }) {
+function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage, setMessage, setView, userInfo }) {
   return (
     <div className="bg-gray-50 dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden mt-10">
       <div className="p-4">
@@ -32,12 +32,13 @@ function HierarchyOverview({ hierarchyList, setSearchQuery, setPage, refreshPage
               setSearchQuery(query);
             }}
           />
+          {userInfo && (
           <button
             className="inline-block px-4 py-2 bg-green-400 text-white rounded-md hover:bg-green-700 transition-colors"
             onClick={() => setView("create")}
           >
             New Hierarchy
-          </button>
+          </button>)}
         </div>
       </div>
 
