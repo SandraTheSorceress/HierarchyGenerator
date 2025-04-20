@@ -1,6 +1,7 @@
 ﻿using HierarchyGeneratorApi.DTOs;
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using System.Data.Entity.Hierarchy;
@@ -80,6 +81,7 @@ public class HierarchyController : ControllerBase
         return File(fileBytes, "text/csv", $"hierarchy_{id}.csv");
     }
 
+    [Authorize]
     [HttpDelete("/api/hierarchy/{id}")]
     public ActionResult<string> DeleteHierarchy(int id)
     {
@@ -95,6 +97,7 @@ public class HierarchyController : ControllerBase
         
     }
 
+    [Authorize]
     [HttpPost("/api/hierarchy")]
     public ActionResult CreateHierchy([FromBody] CreateHierarchyParameters parameters)
     {

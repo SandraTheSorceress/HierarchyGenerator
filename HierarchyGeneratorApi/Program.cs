@@ -2,9 +2,11 @@ using HierarchyGeneratorApi.Data;
 using HierarchyGeneratorApi.Middleware;
 using HierarchyGeneratorApi.Repositories;
 using HierarchyGeneratorApi.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using System.Text.Json.Serialization;
+
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -12,8 +14,12 @@ Log.Logger = new LoggerConfiguration()
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(jwtOptions =>
+{
+    jwtOptions.Authority = "https://accounts.google.com";
+    jwtOptions.Audience = "124048570352-kc8tmq3fm46tsu0meti06ivgp7p42f58.apps.googleusercontent.com";
+});
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter(null, allowIntegerValues: false));
