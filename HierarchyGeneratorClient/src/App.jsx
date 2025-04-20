@@ -89,6 +89,7 @@ function App() {
           setMessage={setMessage}
           setView={setView}
           userInfo={userInfo}
+          googleToken={googleToken}
         />
       )}
     </div>
