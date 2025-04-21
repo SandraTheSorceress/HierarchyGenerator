@@ -68,7 +68,7 @@ export default function CreateHierarchy({
       return;
     }
 
-    setLoading(true);npm
+    setLoading(true);
 
     const payload = {
       name: name,
