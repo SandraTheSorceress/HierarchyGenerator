@@ -17,18 +17,16 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
           onClick={() => setIsExpanded(!isExpanded)}
         >
           {/* Arrow Icon */}
-          {isExpanded ? (
-            <ChevronDown size={24} />
-          ) : (
-            <ChevronRight size={24} />
-          )}
+          {isExpanded ? <ChevronDown size={24} /> : <ChevronRight size={24} />}
           {hierarchy.name}
         </th>
 
-        <td className="px-6 py-4 cursor-pointer"
-        onClick={() => setIsExpanded(!isExpanded)}
+        <td
+          className="px-6 py-4 cursor-pointer"
+          onClick={() => setIsExpanded(!isExpanded)}
         >
-            {daysAgo(hierarchy.createdDate)}</td>
+          {daysAgo(hierarchy.createdDate)}
+        </td>
 
         <td className="px-6 py-4 text-right">
           {userInfo && (
@@ -55,11 +53,30 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
 
       {isExpanded && (
         <tr className="bg-gray-100 dark:bg-gray-800">
-          <td colSpan="4" className="px-6 py-4 text-gray-700 dark:text-gray-300">
-            <div className="ml-16">
-              <p><strong>Nodes:</strong> {hierarchy.nodeCount}</p>
-              <p><strong>Contacts:</strong> {hierarchy.nodeCount}</p>
-              <p><strong>Attributes:</strong> 10</p>
+          <td colSpan="4" className="px-6 py-4">
+            <div className="bg-white dark:bg-gray-900 p-4 rounded-lg border dark:border-gray-700">
+              <div className="space-y-3">
+                <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
+                  <strong>Hierarchy ID:</strong>{" "}
+                  <span className="text-gray-500 dark:text-gray-400">
+                    {hierarchy.id}
+                  </span>
+                </p>
+                <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
+                  <strong>Nodes:</strong>{" "}
+                  <span className="text-gray-500 dark:text-gray-400">
+                    {hierarchy.numberOfNodes}
+                  </span>
+                </p>
+                <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
+                  <strong>Contacts:</strong>{" "}
+                  <span className="text-gray-500 dark:text-gray-400">0</span>
+                </p>
+                <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
+                  <strong>Attributes:</strong>{" "}
+                  <span className="text-gray-500 dark:text-gray-400">0</span>
+                </p>
+              </div>
             </div>
           </td>
         </tr>
