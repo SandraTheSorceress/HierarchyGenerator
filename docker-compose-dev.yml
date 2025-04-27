@@ -5,7 +5,8 @@ services:
       context: HierarchyGeneratorClient
       dockerfile: Dockerfile
   depends_on:
-      - api
+      api:
+        condition: service_healthy
   ports:
       - "8080:80"
  api:
@@ -18,6 +19,12 @@ services:
         condition: service_healthy
   ports:
       - "1337:80"
+  healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
  db:
   container_name: HierarchyGeneratorDatabase
   build:
