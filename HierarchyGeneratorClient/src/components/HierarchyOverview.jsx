@@ -1,8 +1,5 @@
 import { useState } from "react";
-import {
-  calculateRangeStart,
-  calculateRangeEnd,
-} from "../utils/utils";
+
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
 import ConfirmationModal from "./ConfirmationModal";
@@ -95,21 +92,8 @@ function HierarchyOverview({
           className="flex items-center flex-column flex-wrap md:flex-row justify-between p-4"
           aria-label="Table navigation"
         >
-          <span className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto">
-            Showing{" "}
-            <span className="font-semibold text-gray-900 dark:text-white">
-              {calculateRangeStart(hierarchyList)}-
-              {calculateRangeEnd(hierarchyList)}
-            </span>{" "}
-            of{" "}
-            <span className="font-semibold text-gray-900 dark:text-white">
-              {hierarchyList.meta.total}{" "}
-            </span>
-            hierarchies
-          </span>
           <Pagination
-            currentPage={hierarchyList.meta.page}
-            totalPages={hierarchyList.meta.totalPages}
+            hierarchyList={hierarchyList}
             onPageChange={setPage}
           />
         </nav>
