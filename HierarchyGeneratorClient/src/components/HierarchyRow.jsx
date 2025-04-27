@@ -2,7 +2,7 @@ import { useState } from "react";
 import { daysAgo } from "../utils/utils";
 import { ChevronRight, ChevronDown } from "lucide-react";
 
-function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
+function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -37,6 +37,19 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
               }}
             >
               Delete
+            </button>
+          )}
+        </td>
+
+        <td className="px-6 py-4 text-right">
+          {userInfo && (
+            <button
+              className="min-w-[90px] inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
+              onClick={(e) => {
+                onChangeNameClick(hierarchy);
+              }}
+            >
+              Change Name
             </button>
           )}
         </td>

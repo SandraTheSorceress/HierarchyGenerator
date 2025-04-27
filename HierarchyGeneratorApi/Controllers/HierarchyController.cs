@@ -104,6 +104,11 @@ public class HierarchyController : ControllerBase
     [HttpPut("/api/hierarchy/{id}")]
     public ActionResult UpdateHierarchyName(int id, [FromBody] UpdateHierarchyNameDTO updateRequest)
     {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest("Bad request!");
+        }
+
         bool isExisting = _hierarchyService.IsHierarchyPresent(id);
         if (isExisting)
         {

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
 import DeleteConfirmationModal from "./DeleteConfirmationModal";
+import ChangeNameModal from "./ChangeNameModal";
 import HierarchyRow from "./HierarchyRow";
 
 function HierarchyOverview({
@@ -16,7 +17,9 @@ function HierarchyOverview({
   googleToken,
 }) {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [showChangeNameModal, setShowChangeNameModal] = useState(false);
   const [selectedHierarchy, setSelectedHierarchy] = useState(null);
+  const [newNameInputValue, setNewNameInputValue] = useState(null);
 
   function deleteHierarchy(hierarchy) {
     fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
@@ -35,6 +38,33 @@ function HierarchyOverview({
       .catch((error) => {
         console.error("Error:", error);
         setMessage("Failed to delete");
+        setTimeout(() => setMessage(""), 3000);
+      });
+  }
+
+  function changeNameHierarchy(hierarchyId, newName) {
+
+    const payload = {
+      newName: newName,
+    };
+
+    fetch(`/backend/api/hierarchy/${hierarchyId}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${googleToken}`,
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Failed to update name");
+        refreshPage();
+        setMessage(`Hierarchy with id ${hierarchyId} has changed name to ${newName} .`);
+        setTimeout(() => setMessage(""), 3000);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setMessage("Failed to change name");
         setTimeout(() => setMessage(""), 3000);
       });
   }
@@ -84,6 +114,11 @@ function HierarchyOverview({
                   setSelectedHierarchy(hierarchy);
                   setShowDeleteModal(true);
                 }}
+                onChangeNameClick={(hierarchy) => {
+                  setNewNameInputValue(hierarchy.name)
+                  setSelectedHierarchy(hierarchy);
+                  setShowChangeNameModal(true);
+                }}
               />
             ))}
           </tbody>
@@ -109,6 +144,22 @@ function HierarchyOverview({
           }}
           onCancel={() => {
             setShowDeleteModal(false);
+            setSelectedHierarchy(null);
+          }}
+        />
+      )}
+      {showChangeNameModal && selectedHierarchy && (
+        <ChangeNameModal
+          currentName={selectedHierarchy.name}
+          newNameInputValue={newNameInputValue}
+          setNewNameInputValue={setNewNameInputValue}
+          onConfirm={() => {
+            changeNameHierarchy(selectedHierarchy.id, newNameInputValue);
+            setShowChangeNameModal(false);
+            setSelectedHierarchy(null);
+          }}
+          onCancel={() => {
+            setShowChangeNameModal(false);
             setSelectedHierarchy(null);
           }}
         />
