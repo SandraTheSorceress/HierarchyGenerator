@@ -3,8 +3,6 @@ using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
-using System.Data.Entity.Hierarchy;
 
 namespace HierarchyGeneratorApi.Controllers;
 
