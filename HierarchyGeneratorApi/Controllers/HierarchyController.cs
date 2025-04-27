@@ -42,7 +42,7 @@ public class HierarchyController : ControllerBase
         List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, hierarchiesInPage);
         foreach (var hierarchy in hierarchiesInCurrentPage)
         {
-            int numerOfNodes = 100;
+            int numerOfNodes = _hierarchyService.CountNodes(hierarchy.Id);
             HierarchyDTO hierarchyDTO = new HierarchyDTO()
             {
                 Id = hierarchy.Id,
