@@ -2,8 +2,7 @@
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
 using Serilog;
-using System.Text;
-using System.Xml.Linq;
+using System.Data.Entity.Hierarchy;
 
 namespace HierarchyGeneratorApi.Services;
 
@@ -16,6 +15,36 @@ public class HierarchyService : IHierarchyService
     {
         _hierarchyRepository = hierarchyRepository;
         _level1Service = level1Service;
+    }
+
+    public int CountNodes(int hierarchyId)
+    {
+        int hierarchyCount = 0;
+        Hierarchy? hierarchy = _hierarchyRepository.GetHierarchyById(hierarchyId);
+        if (hierarchy == null)
+        {
+            return hierarchyCount;
+        }
+        foreach (var l1 in hierarchy.L1s) {
+            hierarchyCount++;
+            foreach (var l2 in l1.L2s)
+            {
+                hierarchyCount++;
+                foreach (var l3 in l2.L3s)
+                {
+                    hierarchyCount++;
+                    foreach (var l4 in l3.L4s)
+                    {
+                        hierarchyCount++;
+                        foreach (var l5 in l4.L5s)
+                        {
+                            hierarchyCount++;
+                        }
+                    }
+                }
+            }
+        }
+        return hierarchyCount;
     }
 
     public void CreateHierarchy(CreateHierarchyParameters parameters)

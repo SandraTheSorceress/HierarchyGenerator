@@ -11,10 +11,12 @@ namespace HierarchyGeneratorApi.Controllers;
 public class HierarchyController : ControllerBase
 {
     private readonly IHierarchyService _hierarchyService;
+    private readonly IListMetaService _listMetaService;
 
-    public HierarchyController(IHierarchyService hierarchyService)
+    public HierarchyController(IHierarchyService hierarchyService, IListMetaService listMetaService)
     {
         _hierarchyService = hierarchyService;
+        _listMetaService = listMetaService;
     }
 
     [HttpGet("/api/hierarchy")]
@@ -30,33 +32,22 @@ public class HierarchyController : ControllerBase
             hierarchies = hierarchies.FindAll(h => h.Name.ToLower().Contains(search.ToLower()));
         }
 
-        ListMetaDTO meta = new ListMetaDTO();
-        meta.Total = hierarchies.Count;
-        meta.Limit = limit;
-        meta.Page = page;
-        meta.TotalPages = (meta.Total / meta.Limit) + 1;
-
-        if(meta.Page < 1 || meta.Page > meta.TotalPages)
+        ListMetaDTO meta = _listMetaService.CreateMeta(hierarchies, page, limit);
+        if (meta.Page < 1 || meta.Page > meta.TotalPages)
         {
             return BadRequest(new { message = "Page does not exist." });
         }
 
-        int startingIndex = 0 + (((page - 1) * limit));
-        int hierarchiesInPage = limit;
-
-
-        if(startingIndex + limit > meta.Total)
-        {
-            hierarchiesInPage = meta.Total - startingIndex;
-        }
-        Log.Information("StartIndex: {startingIndex}, hierarchiesInPage {hierarchiesInPage}", startingIndex, hierarchiesInPage);
+        var (startingIndex, hierarchiesInPage) = _listMetaService.CalculatePagination(hierarchies.Count, page, limit);
         List<Hierarchy> hierarchiesInCurrentPage = hierarchies.GetRange(startingIndex, hierarchiesInPage);
         foreach (var hierarchy in hierarchiesInCurrentPage)
         {
+            int numerOfNodes = _hierarchyService.CountNodes(hierarchy.Id);
             HierarchyDTO hierarchyDTO = new HierarchyDTO()
             {
                 Id = hierarchy.Id,
                 Name = hierarchy.Name,
+                NumberOfNodes = numerOfNodes,
                 CreatedDate = hierarchy.CreatedDate,
                 LastModified = hierarchy.LastModified
             };

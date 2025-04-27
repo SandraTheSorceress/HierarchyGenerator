@@ -1,6 +1,6 @@
 import React from "react";
 
-function ConfirmationModal({ title, message, onConfirm, onCancel }) {
+function DeleteConfirmationModal({ title, message, onConfirm, onCancel }) {
   return (
     <div className="fixed inset-0 bg-opacity-30 backdrop-blur-sm flex items-center justify-center z-50">
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-6 w-full max-w-md">
@@ -25,4 +25,4 @@ function ConfirmationModal({ title, message, onConfirm, onCancel }) {
   );
 }
 
-export default ConfirmationModal;
+export default DeleteConfirmationModal;
