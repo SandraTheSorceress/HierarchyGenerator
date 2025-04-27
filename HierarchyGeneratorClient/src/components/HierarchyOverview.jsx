@@ -15,11 +15,13 @@ function HierarchyOverview({
   setView,
   userInfo,
   googleToken,
+  setMessageType
 }) {
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [showChangeNameModal, setShowChangeNameModal] = useState(false);
   const [selectedHierarchy, setSelectedHierarchy] = useState(null);
   const [newNameInputValue, setNewNameInputValue] = useState(null);
+  const [invalidName, setInvalidName] = useState(false);
 
   function deleteHierarchy(hierarchy) {
     fetch(`/backend/api/hierarchy/${hierarchy.id}`, {
@@ -44,6 +46,25 @@ function HierarchyOverview({
 
   function changeNameHierarchy(hierarchyId, newName) {
 
+    if (!newName.trim()) {
+      setMessageType("error");
+      setMessage("Please enter a name for the hierarchy.");
+      setTimeout(() => setMessage(""), 3000);
+      setInvalidName(true);
+      setTimeout(() => setInvalidName(false), 3000);
+      return;
+    }
+    if (newName.length > 30) {
+      setMessageType("error");
+      setMessage("Please enter a name shorter than 30 characters.");
+      setTimeout(() => setMessage(""), 3000);
+      setInvalidName(true);
+      setTimeout(() => setInvalidName(false), 3000);
+      return;
+    }
+    setShowChangeNameModal(false);
+    setSelectedHierarchy(null);
+
     const payload = {
       newName: newName,
     };
@@ -59,11 +80,12 @@ function HierarchyOverview({
       .then((response) => {
         if (!response.ok) throw new Error("Failed to update name");
         refreshPage();
+        setMessageType("success");
         setMessage(`Hierarchy with id ${hierarchyId} has changed name to ${newName} .`);
         setTimeout(() => setMessage(""), 3000);
       })
       .catch((error) => {
-        console.error("Error:", error);
+        setMessageType("error");
         setMessage("Failed to change name");
         setTimeout(() => setMessage(""), 3000);
       });
@@ -156,10 +178,10 @@ function HierarchyOverview({
           currentName={selectedHierarchy.name}
           newNameInputValue={newNameInputValue}
           setNewNameInputValue={setNewNameInputValue}
+          invalidName={invalidName}
           onConfirm={() => {
             changeNameHierarchy(selectedHierarchy.id, newNameInputValue);
-            setShowChangeNameModal(false);
-            setSelectedHierarchy(null);
+
           }}
           onCancel={() => {
             setShowChangeNameModal(false);

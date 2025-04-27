@@ -1,22 +1,28 @@
 import React from "react";
 
-function ChangeNameModal({ currentName, onConfirm, onCancel, setNewNameInputValue, newNameInputValue }) {
-  const title = `Change name for "${currentName}"`
+function ChangeNameModal({
+  currentName,
+  onConfirm,
+  onCancel,
+  setNewNameInputValue,
+  newNameInputValue,
+  invalidName
+}) {
+  const title = `Change name for "${currentName}"`;
   return (
     <div className="fixed inset-0 bg-opacity-30 backdrop-blur-sm flex items-center justify-center z-50">
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-6 w-full max-w-md">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
           {title}
-          </h2>
+        </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
-          <input type="text"
-                      className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
-                      focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 
-                      dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
-                      dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                      onChange={(e) => setNewNameInputValue(e.target.value)}
-                      value={newNameInputValue}
-
+          <input
+            type="text"
+            className={`w-full ${
+              invalidName ? "bg-red-50" : "bg-gray-50"
+            } px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-150 ease-in-out`}
+            onChange={(e) => setNewNameInputValue(e.target.value)}
+            value={newNameInputValue}
           ></input>
         </p>
         <div className="flex justify-end gap-3">
