@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Pagination from "./Pagination";
 import SearchBar from "./SearchBar";
-import ConfirmationModal from "./ConfirmationModal";
+import DeleteConfirmationModal from "./DeleteConfirmationModal";
 import HierarchyRow from "./HierarchyRow";
 
 function HierarchyOverview({
@@ -15,7 +15,7 @@ function HierarchyOverview({
   userInfo,
   googleToken,
 }) {
-  const [showModal, setShowModal] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [selectedHierarchy, setSelectedHierarchy] = useState(null);
 
   function deleteHierarchy(hierarchy) {
@@ -82,7 +82,7 @@ function HierarchyOverview({
                 userInfo={userInfo}
                 onDeleteClick={(hierarchy) => {
                   setSelectedHierarchy(hierarchy);
-                  setShowModal(true);
+                  setShowDeleteModal(true);
                 }}
               />
             ))}
@@ -98,17 +98,17 @@ function HierarchyOverview({
           />
         </nav>
       </div>
-      {showModal && selectedHierarchy && (
-        <ConfirmationModal
+      {showDeleteModal && selectedHierarchy && (
+        <DeleteConfirmationModal
           title="Confirm Deletion"
           message={`Are you sure you want to delete "${selectedHierarchy.name}"? This action cannot be undone.`}
           onConfirm={() => {
             deleteHierarchy(selectedHierarchy);
-            setShowModal(false);
+            setShowDeleteModal(false);
             setSelectedHierarchy(null);
           }}
           onCancel={() => {
-            setShowModal(false);
+            setShowDeleteModal(false);
             setSelectedHierarchy(null);
           }}
         />
