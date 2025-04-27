@@ -98,6 +98,9 @@ function HierarchyOverview({
                 Name
               </th>
               <th scope="col" className="px-6 py-3">
+                Last modified
+              </th>
+              <th scope="col" className="px-6 py-3">
                 Created
               </th>
               <th scope="col" className="px-6 py-4"></th>

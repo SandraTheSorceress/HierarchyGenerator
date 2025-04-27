@@ -20,7 +20,12 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick })
           {isExpanded ? <ChevronDown size={24} /> : <ChevronRight size={24} />}
           {hierarchy.name}
         </th>
-
+        <td
+          className="px-6 py-4 cursor-pointer"
+          onClick={() => setIsExpanded(!isExpanded)}
+        >
+          {daysAgo(hierarchy.lastModified)}
+        </td>
         <td
           className="px-6 py-4 cursor-pointer"
           onClick={() => setIsExpanded(!isExpanded)}
@@ -66,7 +71,7 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick })
 
       {isExpanded && (
         <tr className="bg-gray-100 dark:bg-gray-800">
-          <td colSpan="4" className="px-6 py-4">
+          <td colSpan="6" className="px-6 py-4">
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg border dark:border-gray-700">
               <div className="space-y-3">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200">
