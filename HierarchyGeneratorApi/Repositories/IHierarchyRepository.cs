@@ -9,4 +9,5 @@ public interface IHierarchyRepository
     Hierarchy? GetHierarchyById(int hierarchyId);
     bool IsHierarchyPresent(int hierarchyId);
     void SaveHierarchy(Hierarchy hierarchy);
+    void UpdateHierarchyName(int hierarchyId, string newName);
 }

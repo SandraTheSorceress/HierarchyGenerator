@@ -66,4 +66,19 @@ public class HierarchyRepository : IHierarchyRepository
         _context.Hierarchies.Add(hierarchy);
         _context.SaveChanges();
     }
+
+    public void UpdateHierarchyName(int hierarchyId, string newName)
+    {
+        Hierarchy? hierarchy = GetHierarchyById(hierarchyId);
+        if (hierarchy == null)
+        {
+            return;
+        }
+        else
+        {
+            hierarchy.Name = newName;
+            hierarchy.LastModified = DateTime.Now;
+            _context.SaveChanges();
+        }
+    }
 }
