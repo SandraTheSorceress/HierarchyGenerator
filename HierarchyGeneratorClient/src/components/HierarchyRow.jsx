@@ -2,7 +2,7 @@ import { useState } from "react";
 import { daysAgo } from "../utils/utils";
 import { ChevronRight, ChevronDown } from "lucide-react";
 
-function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
+function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -20,7 +20,12 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
           {isExpanded ? <ChevronDown size={24} /> : <ChevronRight size={24} />}
           {hierarchy.name}
         </th>
-
+        <td
+          className="px-6 py-4 cursor-pointer"
+          onClick={() => setIsExpanded(!isExpanded)}
+        >
+          {daysAgo(hierarchy.lastModified)}
+        </td>
         <td
           className="px-6 py-4 cursor-pointer"
           onClick={() => setIsExpanded(!isExpanded)}
@@ -42,6 +47,19 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
         </td>
 
         <td className="px-6 py-4 text-right">
+          {userInfo && (
+            <button
+              className="min-w-[90px] inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
+              onClick={(e) => {
+                onChangeNameClick(hierarchy);
+              }}
+            >
+              Change Name
+            </button>
+          )}
+        </td>
+
+        <td className="px-6 py-4 text-right">
           <a
             href={`/backend/api/hierarchy/${hierarchy.id}/download`}
             className="min-w-[90px] inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
@@ -53,7 +71,7 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick }) {
 
       {isExpanded && (
         <tr className="bg-gray-100 dark:bg-gray-800">
-          <td colSpan="4" className="px-6 py-4">
+          <td colSpan="6" className="px-6 py-4">
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg border dark:border-gray-700">
               <div className="space-y-3">
                 <p className="text-sm font-medium text-gray-800 dark:text-gray-200">

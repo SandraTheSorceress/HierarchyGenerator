@@ -87,6 +87,7 @@ function App() {
           setPage={setPage}
           refreshPage={refreshPage}
           setMessage={setMessage}
+          setMessageType={setMessageType}
           setView={setView}
           userInfo={userInfo}
           googleToken={googleToken}
