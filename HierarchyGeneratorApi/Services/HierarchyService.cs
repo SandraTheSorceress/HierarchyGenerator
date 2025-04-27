@@ -2,7 +2,6 @@
 using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Repositories;
 using Serilog;
-using System.Data.Entity.Hierarchy;
 
 namespace HierarchyGeneratorApi.Services;
 
@@ -88,5 +87,10 @@ public class HierarchyService : IHierarchyService
     {
         bool isExisting = _hierarchyRepository.IsHierarchyPresent(hierarchyId);
         return isExisting;
+    }
+
+    public void UpdateHierarchyName(int hierarchyId, string newName)
+    {
+        _hierarchyRepository.UpdateHierarchyName(hierarchyId, newName);
     }
 }

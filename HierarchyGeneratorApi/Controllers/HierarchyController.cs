@@ -99,6 +99,22 @@ public class HierarchyController : ControllerBase
         _hierarchyService.CreateHierarchy(parameters);
         return Created();
     }
+
+    [Authorize]
+    [HttpPut("/api/hierarchy/{id}")]
+    public ActionResult UpdateHierarchyName(int id, [FromBody] UpdateHierarchyNameDTO updateRequest)
+    {
+        bool isExisting = _hierarchyService.IsHierarchyPresent(id);
+        if (isExisting)
+        {
+            _hierarchyService.UpdateHierarchyName(id, updateRequest.NewName);
+            return Ok(new { message = "Hierarchy name updated successfully." });
+        } else
+        {
+            return NotFound(new { message = "Hierarchy does not exist." });
+        }
+    }
+
 }
 
 

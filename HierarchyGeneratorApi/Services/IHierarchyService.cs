@@ -11,4 +11,5 @@ public interface IHierarchyService
     string? GetCSV(int hierarchyId);
     List<Hierarchy> GetHierarchies();
     bool IsHierarchyPresent(int hierarchyId);
+    void UpdateHierarchyName(int hierarchyId, string newName);
 }
