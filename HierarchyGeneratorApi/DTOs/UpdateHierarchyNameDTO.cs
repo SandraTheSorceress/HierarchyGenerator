@@ -6,6 +6,6 @@ public class UpdateHierarchyNameDTO
 {
     [Required(ErrorMessage = "Name is required.")]
     [MinLength(1, ErrorMessage = "Name cannot be empty.")]
-    [MaxLength(200, ErrorMessage = "Name cannot be longer than 200.")]
+    [MaxLength(30, ErrorMessage = "Name cannot be longer than 30 charachters.")]
     public string NewName { get; set; }
 }
