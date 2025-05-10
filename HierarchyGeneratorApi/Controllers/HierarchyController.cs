@@ -47,6 +47,8 @@ public class HierarchyController : ControllerBase
             {
                 Id = hierarchy.Id,
                 Name = hierarchy.Name,
+                CreatedByName = hierarchy.CreatedByName,
+                CreatedByEmail = hierarchy.CreatedByEmail,
                 NumberOfNodes = numerOfNodes,
                 CreatedDate = hierarchy.CreatedDate,
                 LastModified = hierarchy.LastModified
