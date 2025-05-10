@@ -10,6 +10,7 @@ public interface IHierarchyService
     void DeleteHierarchy(int hierarchyId);
     string? GetCSV(int hierarchyId);
     List<Hierarchy> GetHierarchies();
+    bool IsHierarchyCreatedByUser(string userEmail, int hierarchyId);
     bool IsHierarchyPresent(int hierarchyId);
     void UpdateHierarchyName(int hierarchyId, string newName);
 }

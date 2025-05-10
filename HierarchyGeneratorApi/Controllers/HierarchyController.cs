@@ -78,15 +78,29 @@ public class HierarchyController : ControllerBase
     [HttpDelete("/api/hierarchy/{id}")]
     public ActionResult<string> DeleteHierarchy(int id)
     {
+
+
         Boolean isExisting = _hierarchyService.IsHierarchyPresent(id);
-        if (isExisting)
+        if (!isExisting)
         {
-            _hierarchyService.DeleteHierarchy(id);
-            return NoContent();
-        } else
-        {
-            return NotFound(new { message = "Hierarchy does not exist." });
+            return NotFound(new { message = "Hierarchy does not exist or is created by another user." });
         }
+
+        var userEmail = User?.FindFirst(ClaimTypes.Email)?.Value;
+        if (string.IsNullOrEmpty(userEmail))
+        {
+            return Unauthorized(new { message = "User email is missing inside OpenId JWT." });
+        }
+
+        Boolean isCreatedByUser = _hierarchyService.IsHierarchyCreatedByUser(userEmail, id);
+        if (!isCreatedByUser)
+        {
+            return Unauthorized(new { message = "Hierarchy is not created by user" });
+        }
+
+        _hierarchyService.DeleteHierarchy(id);
+        return NoContent();
+
         
     }
 
