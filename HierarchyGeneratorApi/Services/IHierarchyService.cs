@@ -6,7 +6,7 @@ namespace HierarchyGeneratorApi.Services;
 public interface IHierarchyService
 {
     int CountNodes(int hierarchyId);
-    void CreateHierarchy(CreateHierarchyParameters parameters);
+    void CreateHierarchy(string userFullName, string userEmail, CreateHierarchyParameters parameters);
     void DeleteHierarchy(int hierarchyId);
     string? GetCSV(int hierarchyId);
     List<Hierarchy> GetHierarchies();

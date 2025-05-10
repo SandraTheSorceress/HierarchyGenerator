@@ -1,9 +1,10 @@
 use hierarchy_generator;
 
-insert into Hierarchies (Id, Name, CreatedDate, LastModified) values
-(1, "Nordic Escape", '2025-04-17 08:15:00', '2025-04-17 09:45:00');
-insert into L1(Id, NodeId, Name, HierarchyId) values (1, 1, 'Sweden', 1);
-insert into L1(Id, NodeId, Name, HierarchyId) values (2, 2, 'Norway', 1);
+insert into Hierarchies (Id, Name, CreatedByName, CreatedByEmail, CreatedDate, LastModified) values
+(1, "Nordic Escape", 'System', 'system@hierarchygenerator.com','2025-04-17 08:15:00', '2025-04-17 09:45:00');
+
+insert into L1(Id, NodeId, Name, HierarchyId) values (1, 1, 'Sweden',  1);
+insert into L1(Id, NodeId, Name, HierarchyId) values (2, 2, 'Norway',  1);
 insert into L1(Id, NodeId, Name, HierarchyId) values (3, 3, 'Denmark', 1);
 
 insert into L1Contact(Name, L1Id) values ('Swedish King', 1);

@@ -3,6 +3,8 @@ using HierarchyGeneratorApi.Models;
 using HierarchyGeneratorApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
+using System.Security.Claims;
 
 namespace HierarchyGeneratorApi.Controllers;
 
@@ -94,7 +96,21 @@ public class HierarchyController : ControllerBase
         {
             return BadRequest("Bad request!");
         }
-        _hierarchyService.CreateHierarchy(parameters);
+
+        var userEmail = User?.FindFirst(ClaimTypes.Email)?.Value;
+        var userFullName = User?.FindFirst(ClaimTypes.Name)?.Value;
+
+        if (string.IsNullOrEmpty(userEmail) || string.IsNullOrEmpty(userFullName))
+        {
+            return Unauthorized("User name and email is missing inside OpenId JWT.");
+        } else
+        {
+            Log.Information("User Email: {userEmail}", userEmail);
+            Log.Information("User Full Name: {userEmail}", userFullName);
+        }
+
+
+        _hierarchyService.CreateHierarchy(userFullName, userEmail, parameters);
         return Created();
     }
 
