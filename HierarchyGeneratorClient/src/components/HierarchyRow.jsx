@@ -32,7 +32,11 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick })
         >
           {daysAgo(hierarchy.createdDate)}
         </td>
-
+        <td
+          className="px-6 py-4 cursor-pointer"
+        >
+          {hierarchy.createdByName}
+        </td>
         <td className="px-6 py-4 text-right">
           {userInfo && (
             <button
