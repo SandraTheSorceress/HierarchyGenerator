@@ -110,7 +110,7 @@ public class HierarchyController : ControllerBase
         }
 
 
-        _hierarchyService.CreateHierarchy(parameters);
+        _hierarchyService.CreateHierarchy(userFullName, userEmail, parameters);
         return Created();
     }
 

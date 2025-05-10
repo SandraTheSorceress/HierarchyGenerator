@@ -46,10 +46,12 @@ public class HierarchyService : IHierarchyService
         return hierarchyCount;
     }
 
-    public void CreateHierarchy(CreateHierarchyParameters parameters)
+    public void CreateHierarchy(string userFullName, string userEmail, CreateHierarchyParameters parameters)
     {
         Hierarchy hierarchy = new Hierarchy() {
             Name = parameters.Name,
+            CreatedByName = userFullName,
+            CreatedByEmail = userEmail,
             CreatedDate = DateTime.Now,
             LastModified = DateTime.Now,
         };

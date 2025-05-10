@@ -4,6 +4,8 @@ use hierarchy_generator;
 CREATE TABLE `Hierarchies` (
     `Id` int NOT NULL AUTO_INCREMENT,
     `Name` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `CreatedByName` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `CreatedByEmail` longtext CHARACTER SET utf8mb4 NOT NULL,
     `CreatedDate` datetime(6) NOT NULL,
     `LastModified` datetime(6) NOT NULL,
     CONSTRAINT `PK_Hierarchies` PRIMARY KEY (`Id`)
