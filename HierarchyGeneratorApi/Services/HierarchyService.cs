@@ -85,6 +85,17 @@ public class HierarchyService : IHierarchyService
         return hierarchies;
     }
 
+    public bool IsHierarchyCreatedByUser(string userEmail, int hierarchyId)
+    {
+        Hierarchy? hierarchy = _hierarchyRepository.GetHierarchyById(hierarchyId);
+        if (hierarchy == null)
+        {
+            return false;
+        }
+        bool createdByUser = hierarchy.CreatedByEmail == userEmail;
+        return createdByUser;
+    }
+
     public bool IsHierarchyPresent(int hierarchyId)
     {
         bool isExisting = _hierarchyRepository.IsHierarchyPresent(hierarchyId);
