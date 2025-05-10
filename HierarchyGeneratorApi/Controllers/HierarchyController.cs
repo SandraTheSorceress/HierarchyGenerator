@@ -78,12 +78,10 @@ public class HierarchyController : ControllerBase
     [HttpDelete("/api/hierarchy/{id}")]
     public ActionResult<string> DeleteHierarchy(int id)
     {
-
-
         Boolean isExisting = _hierarchyService.IsHierarchyPresent(id);
         if (!isExisting)
         {
-            return NotFound(new { message = "Hierarchy does not exist or is created by another user." });
+            return NotFound(new { message = "Hierarchy does not exist." });
         }
 
         var userEmail = User?.FindFirst(ClaimTypes.Email)?.Value;
@@ -100,8 +98,6 @@ public class HierarchyController : ControllerBase
 
         _hierarchyService.DeleteHierarchy(id);
         return NoContent();
-
-        
     }
 
     [Authorize]
@@ -139,15 +135,26 @@ public class HierarchyController : ControllerBase
             return BadRequest("Bad request!");
         }
 
-        bool isExisting = _hierarchyService.IsHierarchyPresent(id);
-        if (isExisting)
-        {
-            _hierarchyService.UpdateHierarchyName(id, updateRequest.NewName);
-            return Ok(new { message = "Hierarchy name updated successfully." });
-        } else
+        Boolean isExisting = _hierarchyService.IsHierarchyPresent(id);
+        if (!isExisting)
         {
             return NotFound(new { message = "Hierarchy does not exist." });
         }
+
+        var userEmail = User?.FindFirst(ClaimTypes.Email)?.Value;
+        if (string.IsNullOrEmpty(userEmail))
+        {
+            return Unauthorized(new { message = "User email is missing inside OpenId JWT." });
+        }
+
+        Boolean isCreatedByUser = _hierarchyService.IsHierarchyCreatedByUser(userEmail, id);
+        if (!isCreatedByUser)
+        {
+            return Unauthorized(new { message = "Hierarchy is not created by user" });
+        }
+
+        _hierarchyService.UpdateHierarchyName(id, updateRequest.NewName);
+        return Ok(new { message = "Hierarchy name updated successfully." });
     }
 
 }
