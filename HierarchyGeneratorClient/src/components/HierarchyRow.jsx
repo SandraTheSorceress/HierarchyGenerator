@@ -38,7 +38,7 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick })
           {hierarchy.createdByName}
         </td>
         <td className="px-6 py-4 text-right">
-          {userInfo && (
+          {(userInfo && userInfo.email === hierarchy.createdByEmail) && (
             <button
               className="min-w-[90px] inline-block px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 transition-colors"
               onClick={(e) => {
@@ -51,7 +51,7 @@ function HierarchyRow({ hierarchy, userInfo, onDeleteClick, onChangeNameClick })
         </td>
 
         <td className="px-6 py-4 text-right">
-          {userInfo && (
+          {(userInfo && userInfo.email === hierarchy.createdByEmail) && (
             <button
               className="min-w-[90px] inline-block px-4 py-2 bg-blue-400 text-white rounded-md hover:bg-blue-700 transition-colors"
               onClick={(e) => {
