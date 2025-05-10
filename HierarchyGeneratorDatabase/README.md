@@ -37,10 +37,8 @@ erDiagram
     Hierarchies {
         Id	int PK
         Name longtext
-        NumberOfNodes int
-        NumberOfEndUsers int
-        NumberOfAttributes int
-        NumberOfContacts int
+        CreatedByName longtext
+        CreatedByEmail longtext
         CreatedDate	datetime(6)
         LastModified datetime(6)
         Status longtext
