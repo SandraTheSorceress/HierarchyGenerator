@@ -6,7 +6,9 @@ echo "Please note that this will REMOVE the existing test data."
 echo "Type 'yes' to proceed, or 'no' to cancel: "
 read user_input
 
-if [[ "${user_input,,}" == "y" || "${user_input,,}" == "yes" ]]; then
+user_input=${user_input:l}
+
+if [[ "$user_input" == "y" || "$user_input" == "yes" ]]; then
     docker-compose down --rmi all --volumes
 
     docker-compose up -d
