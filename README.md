@@ -32,3 +32,27 @@ This script stops and removes the containers, along with associated images and v
 [About the API design](./documentation/api-design/README.md)
 
 [About the database design](./HierarchyGeneratorDatabase/README.md)
+
+### How to install and start the latest version of Hierarchy Generator
+
+> **⚠️ Warning:** This will delete all existing test data.
+
+1. Make sure you’ve pulled the latest version of the code:
+
+   ```bash
+   git pull
+   ```
+
+2. Run the reset script for your platform:
+
+   **macOS/Linux:**
+
+   ```bash
+   ./reset_hierarchy_generator.sh
+   ```
+
+   **Windows:**
+
+   ```cmd
+   reset_hierarchy_generator.bat
+   ```
