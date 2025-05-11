@@ -1,533 +1,534 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'AI-Controlled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Adaptable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Adaptive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Adeptus-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced Technology');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced-Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced-Spec');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced-Tech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced-Technological');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Affordable Luxury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Affordable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Air-Lock-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Alien');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Alien-Derived');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Alien-Engineered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'All-Terrain');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'All-Weather');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Always-Confusing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Amber');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ancient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ancient-Knowledge');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Apocalypse-Equipped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Arctic White');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Armor-Plated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Assault-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Astartes-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atmospheric-Secure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Autonomous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Azure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Battle-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Battle-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bio-Plasmid-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Biohazard-Protected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bladed-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blast-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blaster-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blighted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blood-Soaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blowback-Proof');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bounty-Hunter-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Budget-Friendly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Crushing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Cutter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Punisher');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Secure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Slaying');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Tamer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bug-Tracking');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Built-for-Combat');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bunker-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bureaucratically-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'CQC-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Capable-Of-Being-Overly-Complicated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Carbon Black');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Carbon Grey');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Celestial Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Certified-Spaceworthy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chaos-Corrupted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Clean');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Clean-Tech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cloak-Activated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Clone-Warrior-Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cobalt');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Colonial-Issued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Combat-Effective');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Combat-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Combat-Purposed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Combat-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Combat-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Comfortable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Comically-Bulky');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Command-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Command-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Communications-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Compact');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Compact-Design');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Completely-Baffling');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Completely-Inadequate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Completely-Unnecessary');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Conscious-Aware');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Convenient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Conveniently-Unlikely');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Corellian-Made');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Corrosive-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cosmic Red');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cost-Effective');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Costly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Covert-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crash-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crew-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crimson Blaze');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crimson Red');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crimson');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cursed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Customizable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cutting-Edge Design');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cutting-Edge');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cutting-Edge-Technology');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cyborg-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cylon-Repellent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cylon-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Daemon-Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dark Sapphire');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Deep Sky Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Defensive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Definitely-Not-What-You-Expected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Delightfully-Erratic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Delightfully-Obscure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dependable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Deployable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Devastating');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Durable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dynamic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'EMP-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eco-Friendly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Effortless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eldar-Constructed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Electric Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Electric Violet');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Elite');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Elite-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Elite-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Emerald');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Emergency-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Emissions-Free');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Empathetic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Empire-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Encrypted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Endlessly-Confusing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Endlessly-Quirky');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Endor-Crafted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Endurance-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energy-Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energy-Intensive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Environmentally-Friendly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Environmentally-Protected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ergonomically-Designed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Escape-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Escape-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eviscerating');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exclusive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exclusively-Designed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Expensive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exterminatus-Certified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Extreme-Duty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fast-Charging');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fast-Deploy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fast-Deploying');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Faster-than-Light');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Federation-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Federation-Issued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Federation-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Federation-Standard');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Federation-Trusted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ferrosteel-Reinforced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Field-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Field-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Firepower-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fireproof');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flamethrower-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flawless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fleet-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flesh-Tempered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Foolproof');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Force-Infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Force-Sensitive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Forge-World-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Formidable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Frosted Steel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Frustratingly-Unique');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fuel-Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fully-Integrated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fully-Specialized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Functional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Functional-In-Extreme-Conditions');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Functionality-First');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Futuristic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Galactic Purple');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Galactic-Reinforced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Glow Yellow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gold');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Green-Energy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gritty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hackable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hard-Wearing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hardened-Alloy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Harmonic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Harmonious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hassle-Free');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hazard-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hazard-Suited');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Health-Promoting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heat-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavily-Armored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavily-Refined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavy-Armor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavy-Duty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavy-Hitting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heavy-Impact');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heretical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Capacity');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Energy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Impact');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Performance');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Quality');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Tech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High-Velocity');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Advanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Durable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Intelligent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Modular');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Questionable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Highly-Secure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hive-Fighting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hive-Smart');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holistic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Human-Centric');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyper Green');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyper-Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyper-Resilient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyper-Responsive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyperdrive-Compatible');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Immaculate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Impact-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial-Issued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial-Spec');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial-Standard');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial-Tier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Impossible-To-Understand');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Improbably-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Indestructible');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Indispensable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Inexplicably-Clean');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Infinite-Loop-Capable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Infinitely-Mediocre');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Informed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Innovative');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Inquisitorial-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Instant-Access');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Integrated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Integrated-Social');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Interconnected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Intuitive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Invaluable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ionized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Iridescent Purple');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jedi-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jedi-Knight-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jet Black');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jetstream White');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser-Precision');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laughable-Design');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laughably-Sophisticated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Life-Saving');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Life-Support');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Light-Hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lightweight');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lime');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Long-Lasting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Low-Impact');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Low-Maintenance');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Luminous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lunar White');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Luxury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'M.I.-Certified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Magically-Faulty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Magnetic-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mandalorian-Built');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mass-Produced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Massive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Maximum-Power');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Melee-Combat-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Meteor Red');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mildly-Tolerable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Military-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Military-Spec');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Military-Standard');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mind-Bogglingly-Priced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Minimalist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mission-Complete');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mission-Critical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Modular');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Monstrous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Moonstone');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Most-Excellent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Multi-Purpose');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Multidimensional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Multifunctional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Munitions-Capable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mysterious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mystic Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nebula Green');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nebula Violet');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Necron-Tier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neon Green');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Night-Vision');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'No-Frills');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Non-Invasive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nonsensically-Clever');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Not-For-The-Faint-of-Heart');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Obsidian');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'One-Tenth-Of-The-Price');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Optimal-Cost');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ork-Built');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Otherworldly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Overloaded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Overpowered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Peaceful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Perfect-For-Space-Traffic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Performance-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Phantom Black');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Pioneering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plague-Blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Planet-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Platinum');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Portable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Possibly-Deliberately-Obsolete');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Power-Infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Powerful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Practical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Precise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Precision-Built');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Premium');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Prepped-For-Battle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Pressure-Sealed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Priority-Access');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Protoss-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psychic-Infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psyker-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Purified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Silver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum-Leap');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quick-Fix');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'R2-D2-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Radiant Silver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Radiant Yellow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Radiation-Shielded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ravenous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ready-for-Action');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rebel-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rebel-Designed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Regal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Reinforced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Reinforced-Circuitry');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rejuvenating');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Reliable-Under-Duress');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Relic-Bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resilient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resistance-Powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resistant-to-Toxicity');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resource-Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resource-Harvesting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resource-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Resourceful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Responsive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ridiculously-Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rigorous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ripley-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ritual-Smitten');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robust');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rookie-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Roughneck-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rugged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sapphire');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Savage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Seamless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Secretive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Secure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Healing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Maintaining');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Regenerating');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Repairing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Sustaining');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sensor-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shielded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shielded-Armor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Silver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sith-Infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Skywalker-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sleek');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Slightly-Dysfunctional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Slightly-Unreliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Smart-Integrated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Solid');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sophisticated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Soul-Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Soul-Fulfilling');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sovereign-Class');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Age');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Certified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Faring');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Worthy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spec-Ops Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Specialized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spectral Yellow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Squad-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starfire Orange');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starfleet-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starfleet-Engineered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starfleet-Quality');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starship-Compatible');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'State-of-the-Art');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealth-Activated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealth-Compatible');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealth-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealthy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Steel Blue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Storm-Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stormtrooper-Certified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Strategic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Strategically-Engineered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Streamlined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stress-Free');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stress-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Subtle-But-Effective');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sunset Orange');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Supercharged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Superior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Supernatural');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Surprisingly-Cheap');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Surprisingly-Functional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Proof');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survival-Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survivor-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Survivor-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sustainable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sustainable-Designed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Swift');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical-Advantage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical-Advantageous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical-Mastery');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactically-Sound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tatooine-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tau-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terran-Adapted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terran-Engineered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thunderous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thunderstrike-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time-Saving');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Titan-Grade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Titanium Grey');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Top-Tier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Totally-Not-That-Useful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Totally-Surprisingly-Usable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Totally-Unknown-Features');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Touch-Sensitive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tough-as-Nails');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Toxicity-Proof');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Transcendent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Trooper-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Turquoise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ultra-Refined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ultra-Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ultra-Sturdy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unbelievably-Efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unbelievably-Predictable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unbreakable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Underwhelming-But-Functional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unexpectedly-Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Universal-Design');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unlikely-to-Work-Under-Pressure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unquestionably-Effective');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unstoppable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Unyielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Upgradable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'User-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'User-Friendly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Utility-Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vacuum-Sealed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Value-for-Money');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Venus Pink');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vermilion');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Versatile');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Versatile-Tech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vibranium-Enhanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vibrant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Violet');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Void-Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wargear-Supreme');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp-Ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp-Ridden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp-Touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warrior-Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Well-Balanced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Well-Designed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wholesome');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Witch-Sealed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wonderfully-Complicated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wookiee-Tested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wookiee-Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Workhorse');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wraithbone-Crafted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'X-Wing-Modified');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xeno-Safe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xeno-Weaponized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenomorph-Resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenos-Defying');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenos-Rejecting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Y2K-Compliant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Yoda-Approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zealot-Blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg-Infested');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero-Gravity Optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero-Latency');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero-Waste');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L5', 'AI-Controlled'),
+   ('SPACE', 'PLACE', 'L5', 'Adaptable'),
+   ('SPACE', 'PLACE', 'L5', 'Adaptive'),
+   ('SPACE', 'PLACE', 'L5', 'Adeptus-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced Technology'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced-Reliable'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced-Spec'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced-Tech'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced-Technological'),
+   ('SPACE', 'PLACE', 'L5', 'Affordable Luxury'),
+   ('SPACE', 'PLACE', 'L5', 'Affordable'),
+   ('SPACE', 'PLACE', 'L5', 'Air-Lock-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Alien'),
+   ('SPACE', 'PLACE', 'L5', 'Alien-Derived'),
+   ('SPACE', 'PLACE', 'L5', 'Alien-Engineered'),
+   ('SPACE', 'PLACE', 'L5', 'All-Terrain'),
+   ('SPACE', 'PLACE', 'L5', 'All-Weather'),
+   ('SPACE', 'PLACE', 'L5', 'Always-Confusing'),
+   ('SPACE', 'PLACE', 'L5', 'Amber'),
+   ('SPACE', 'PLACE', 'L5', 'Ancient'),
+   ('SPACE', 'PLACE', 'L5', 'Ancient-Knowledge'),
+   ('SPACE', 'PLACE', 'L5', 'Apocalypse-Equipped'),
+   ('SPACE', 'PLACE', 'L5', 'Arctic White'),
+   ('SPACE', 'PLACE', 'L5', 'Armor-Plated'),
+   ('SPACE', 'PLACE', 'L5', 'Assault-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Astartes-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Atmospheric-Secure'),
+   ('SPACE', 'PLACE', 'L5', 'Automated'),
+   ('SPACE', 'PLACE', 'L5', 'Autonomous'),
+   ('SPACE', 'PLACE', 'L5', 'Azure'),
+   ('SPACE', 'PLACE', 'L5', 'Battle-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Battle-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Bio-Plasmid-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Biohazard-Protected'),
+   ('SPACE', 'PLACE', 'L5', 'Bladed-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Blast-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Blaster-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Blighted'),
+   ('SPACE', 'PLACE', 'L5', 'Blood-Soaked'),
+   ('SPACE', 'PLACE', 'L5', 'Blowback-Proof'),
+   ('SPACE', 'PLACE', 'L5', 'Bounty-Hunter-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Budget-Friendly'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Crushing'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Cutter'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Punisher'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Secure'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Slaying'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Tamer'),
+   ('SPACE', 'PLACE', 'L5', 'Bug-Tracking'),
+   ('SPACE', 'PLACE', 'L5', 'Built-for-Combat'),
+   ('SPACE', 'PLACE', 'L5', 'Bunker-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Bureaucratically-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'CQC-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Capable-Of-Being-Overly-Complicated'),
+   ('SPACE', 'PLACE', 'L5', 'Carbon Black'),
+   ('SPACE', 'PLACE', 'L5', 'Carbon Grey'),
+   ('SPACE', 'PLACE', 'L5', 'Celestial Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Certified-Spaceworthy'),
+   ('SPACE', 'PLACE', 'L5', 'Chaos-Corrupted'),
+   ('SPACE', 'PLACE', 'L5', 'Clean'),
+   ('SPACE', 'PLACE', 'L5', 'Clean-Tech'),
+   ('SPACE', 'PLACE', 'L5', 'Cloak-Activated'),
+   ('SPACE', 'PLACE', 'L5', 'Clone-Warrior-Tough'),
+   ('SPACE', 'PLACE', 'L5', 'Cobalt'),
+   ('SPACE', 'PLACE', 'L5', 'Colonial-Issued'),
+   ('SPACE', 'PLACE', 'L5', 'Combat-Effective'),
+   ('SPACE', 'PLACE', 'L5', 'Combat-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Combat-Purposed'),
+   ('SPACE', 'PLACE', 'L5', 'Combat-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Combat-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Comfortable'),
+   ('SPACE', 'PLACE', 'L5', 'Comically-Bulky'),
+   ('SPACE', 'PLACE', 'L5', 'Command-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Command-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Communications-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Compact'),
+   ('SPACE', 'PLACE', 'L5', 'Compact-Design'),
+   ('SPACE', 'PLACE', 'L5', 'Completely-Baffling'),
+   ('SPACE', 'PLACE', 'L5', 'Completely-Inadequate'),
+   ('SPACE', 'PLACE', 'L5', 'Completely-Unnecessary'),
+   ('SPACE', 'PLACE', 'L5', 'Conscious-Aware'),
+   ('SPACE', 'PLACE', 'L5', 'Convenient'),
+   ('SPACE', 'PLACE', 'L5', 'Conveniently-Unlikely'),
+   ('SPACE', 'PLACE', 'L5', 'Corellian-Made'),
+   ('SPACE', 'PLACE', 'L5', 'Corrosive-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Cosmic Red'),
+   ('SPACE', 'PLACE', 'L5', 'Cost-Effective'),
+   ('SPACE', 'PLACE', 'L5', 'Costly'),
+   ('SPACE', 'PLACE', 'L5', 'Covert-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Crash-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Crew-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Crimson Blaze'),
+   ('SPACE', 'PLACE', 'L5', 'Crimson Red'),
+   ('SPACE', 'PLACE', 'L5', 'Crimson'),
+   ('SPACE', 'PLACE', 'L5', 'Cursed'),
+   ('SPACE', 'PLACE', 'L5', 'Customizable'),
+   ('SPACE', 'PLACE', 'L5', 'Cutting-Edge Design'),
+   ('SPACE', 'PLACE', 'L5', 'Cutting-Edge'),
+   ('SPACE', 'PLACE', 'L5', 'Cutting-Edge-Technology'),
+   ('SPACE', 'PLACE', 'L5', 'Cyborg-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Cylon-Repellent'),
+   ('SPACE', 'PLACE', 'L5', 'Cylon-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Daemon-Forged'),
+   ('SPACE', 'PLACE', 'L5', 'Dark Sapphire'),
+   ('SPACE', 'PLACE', 'L5', 'Deep Sky Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Defensive'),
+   ('SPACE', 'PLACE', 'L5', 'Definitely-Not-What-You-Expected'),
+   ('SPACE', 'PLACE', 'L5', 'Delightfully-Erratic'),
+   ('SPACE', 'PLACE', 'L5', 'Delightfully-Obscure'),
+   ('SPACE', 'PLACE', 'L5', 'Dependable'),
+   ('SPACE', 'PLACE', 'L5', 'Deployable'),
+   ('SPACE', 'PLACE', 'L5', 'Devastating'),
+   ('SPACE', 'PLACE', 'L5', 'Durable'),
+   ('SPACE', 'PLACE', 'L5', 'Dynamic'),
+   ('SPACE', 'PLACE', 'L5', 'EMP-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Eco-Friendly'),
+   ('SPACE', 'PLACE', 'L5', 'Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Effortless'),
+   ('SPACE', 'PLACE', 'L5', 'Eldar-Constructed'),
+   ('SPACE', 'PLACE', 'L5', 'Electric Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Electric Violet'),
+   ('SPACE', 'PLACE', 'L5', 'Elite'),
+   ('SPACE', 'PLACE', 'L5', 'Elite-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Elite-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Emerald'),
+   ('SPACE', 'PLACE', 'L5', 'Emergency-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Emissions-Free'),
+   ('SPACE', 'PLACE', 'L5', 'Empathetic'),
+   ('SPACE', 'PLACE', 'L5', 'Empire-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Encrypted'),
+   ('SPACE', 'PLACE', 'L5', 'Endlessly-Confusing'),
+   ('SPACE', 'PLACE', 'L5', 'Endlessly-Quirky'),
+   ('SPACE', 'PLACE', 'L5', 'Endor-Crafted'),
+   ('SPACE', 'PLACE', 'L5', 'Endurance-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Energized'),
+   ('SPACE', 'PLACE', 'L5', 'Energy-Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Energy-Intensive'),
+   ('SPACE', 'PLACE', 'L5', 'Environmentally-Friendly'),
+   ('SPACE', 'PLACE', 'L5', 'Environmentally-Protected'),
+   ('SPACE', 'PLACE', 'L5', 'Ergonomically-Designed'),
+   ('SPACE', 'PLACE', 'L5', 'Escape-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Escape-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Eviscerating'),
+   ('SPACE', 'PLACE', 'L5', 'Exclusive'),
+   ('SPACE', 'PLACE', 'L5', 'Exclusively-Designed'),
+   ('SPACE', 'PLACE', 'L5', 'Expensive'),
+   ('SPACE', 'PLACE', 'L5', 'Exterminatus-Certified'),
+   ('SPACE', 'PLACE', 'L5', 'Extreme-Duty'),
+   ('SPACE', 'PLACE', 'L5', 'Fast'),
+   ('SPACE', 'PLACE', 'L5', 'Fast-Charging'),
+   ('SPACE', 'PLACE', 'L5', 'Fast-Deploy'),
+   ('SPACE', 'PLACE', 'L5', 'Fast-Deploying'),
+   ('SPACE', 'PLACE', 'L5', 'Faster-than-Light'),
+   ('SPACE', 'PLACE', 'L5', 'Federation-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Federation-Issued'),
+   ('SPACE', 'PLACE', 'L5', 'Federation-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Federation-Standard'),
+   ('SPACE', 'PLACE', 'L5', 'Federation-Trusted'),
+   ('SPACE', 'PLACE', 'L5', 'Ferrosteel-Reinforced'),
+   ('SPACE', 'PLACE', 'L5', 'Field-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Field-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Firepower-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Fireproof'),
+   ('SPACE', 'PLACE', 'L5', 'Flamethrower-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Flawless'),
+   ('SPACE', 'PLACE', 'L5', 'Fleet-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Flesh-Tempered'),
+   ('SPACE', 'PLACE', 'L5', 'Foolproof'),
+   ('SPACE', 'PLACE', 'L5', 'Force-Infused'),
+   ('SPACE', 'PLACE', 'L5', 'Force-Sensitive'),
+   ('SPACE', 'PLACE', 'L5', 'Forge-World-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Formidable'),
+   ('SPACE', 'PLACE', 'L5', 'Frosted Steel'),
+   ('SPACE', 'PLACE', 'L5', 'Frustratingly-Unique'),
+   ('SPACE', 'PLACE', 'L5', 'Fuel-Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Fully-Integrated'),
+   ('SPACE', 'PLACE', 'L5', 'Fully-Specialized'),
+   ('SPACE', 'PLACE', 'L5', 'Functional'),
+   ('SPACE', 'PLACE', 'L5', 'Functional-In-Extreme-Conditions'),
+   ('SPACE', 'PLACE', 'L5', 'Functionality-First'),
+   ('SPACE', 'PLACE', 'L5', 'Futuristic'),
+   ('SPACE', 'PLACE', 'L5', 'Galactic Purple'),
+   ('SPACE', 'PLACE', 'L5', 'Galactic-Reinforced'),
+   ('SPACE', 'PLACE', 'L5', 'Glow Yellow'),
+   ('SPACE', 'PLACE', 'L5', 'Gold'),
+   ('SPACE', 'PLACE', 'L5', 'Green-Energy'),
+   ('SPACE', 'PLACE', 'L5', 'Gritty'),
+   ('SPACE', 'PLACE', 'L5', 'Hackable'),
+   ('SPACE', 'PLACE', 'L5', 'Hard-Wearing'),
+   ('SPACE', 'PLACE', 'L5', 'Hardened-Alloy'),
+   ('SPACE', 'PLACE', 'L5', 'Harmonic'),
+   ('SPACE', 'PLACE', 'L5', 'Harmonious'),
+   ('SPACE', 'PLACE', 'L5', 'Hassle-Free'),
+   ('SPACE', 'PLACE', 'L5', 'Hazard-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Hazard-Suited'),
+   ('SPACE', 'PLACE', 'L5', 'Health-Promoting'),
+   ('SPACE', 'PLACE', 'L5', 'Heat-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Heavily-Armored'),
+   ('SPACE', 'PLACE', 'L5', 'Heavily-Refined'),
+   ('SPACE', 'PLACE', 'L5', 'Heavy-Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Heavy-Duty'),
+   ('SPACE', 'PLACE', 'L5', 'Heavy-Hitting'),
+   ('SPACE', 'PLACE', 'L5', 'Heavy-Impact'),
+   ('SPACE', 'PLACE', 'L5', 'Heretical'),
+   ('SPACE', 'PLACE', 'L5', 'High-Capacity'),
+   ('SPACE', 'PLACE', 'L5', 'High-Energy'),
+   ('SPACE', 'PLACE', 'L5', 'High-Impact'),
+   ('SPACE', 'PLACE', 'L5', 'High-Performance'),
+   ('SPACE', 'PLACE', 'L5', 'High-Quality'),
+   ('SPACE', 'PLACE', 'L5', 'High-Tech'),
+   ('SPACE', 'PLACE', 'L5', 'High-Velocity'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Advanced'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Durable'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Intelligent'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Modular'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Questionable'),
+   ('SPACE', 'PLACE', 'L5', 'Highly-Secure'),
+   ('SPACE', 'PLACE', 'L5', 'Hive-Fighting'),
+   ('SPACE', 'PLACE', 'L5', 'Hive-Smart'),
+   ('SPACE', 'PLACE', 'L5', 'Holistic'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Human-Centric'),
+   ('SPACE', 'PLACE', 'L5', 'Hyper Green'),
+   ('SPACE', 'PLACE', 'L5', 'Hyper-Reliable'),
+   ('SPACE', 'PLACE', 'L5', 'Hyper-Resilient'),
+   ('SPACE', 'PLACE', 'L5', 'Hyper-Responsive'),
+   ('SPACE', 'PLACE', 'L5', 'Hyperdrive-Compatible'),
+   ('SPACE', 'PLACE', 'L5', 'Immaculate'),
+   ('SPACE', 'PLACE', 'L5', 'Impact-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial-Issued'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial-Spec'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial-Standard'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial-Tier'),
+   ('SPACE', 'PLACE', 'L5', 'Impossible-To-Understand'),
+   ('SPACE', 'PLACE', 'L5', 'Improbably-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Indestructible'),
+   ('SPACE', 'PLACE', 'L5', 'Indispensable'),
+   ('SPACE', 'PLACE', 'L5', 'Inexplicably-Clean'),
+   ('SPACE', 'PLACE', 'L5', 'Infinite-Loop-Capable'),
+   ('SPACE', 'PLACE', 'L5', 'Infinitely-Mediocre'),
+   ('SPACE', 'PLACE', 'L5', 'Informed'),
+   ('SPACE', 'PLACE', 'L5', 'Innovative'),
+   ('SPACE', 'PLACE', 'L5', 'Inquisitorial-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Instant-Access'),
+   ('SPACE', 'PLACE', 'L5', 'Integrated'),
+   ('SPACE', 'PLACE', 'L5', 'Integrated-Social'),
+   ('SPACE', 'PLACE', 'L5', 'Interconnected'),
+   ('SPACE', 'PLACE', 'L5', 'Intuitive'),
+   ('SPACE', 'PLACE', 'L5', 'Invaluable'),
+   ('SPACE', 'PLACE', 'L5', 'Ion-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Ionized'),
+   ('SPACE', 'PLACE', 'L5', 'Iridescent Purple'),
+   ('SPACE', 'PLACE', 'L5', 'Jedi-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Jedi-Knight-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Jet Black'),
+   ('SPACE', 'PLACE', 'L5', 'Jetstream White'),
+   ('SPACE', 'PLACE', 'L5', 'Laser-Precision'),
+   ('SPACE', 'PLACE', 'L5', 'Laser-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Laughable-Design'),
+   ('SPACE', 'PLACE', 'L5', 'Laughably-Sophisticated'),
+   ('SPACE', 'PLACE', 'L5', 'Life-Saving'),
+   ('SPACE', 'PLACE', 'L5', 'Life-Support'),
+   ('SPACE', 'PLACE', 'L5', 'Light-Hearted'),
+   ('SPACE', 'PLACE', 'L5', 'Lightweight'),
+   ('SPACE', 'PLACE', 'L5', 'Lime'),
+   ('SPACE', 'PLACE', 'L5', 'Long-Lasting'),
+   ('SPACE', 'PLACE', 'L5', 'Low-Impact'),
+   ('SPACE', 'PLACE', 'L5', 'Low-Maintenance'),
+   ('SPACE', 'PLACE', 'L5', 'Luminous'),
+   ('SPACE', 'PLACE', 'L5', 'Lunar White'),
+   ('SPACE', 'PLACE', 'L5', 'Luxury'),
+   ('SPACE', 'PLACE', 'L5', 'M.I.-Certified'),
+   ('SPACE', 'PLACE', 'L5', 'Magically-Faulty'),
+   ('SPACE', 'PLACE', 'L5', 'Magnetic-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Mandalorian-Built'),
+   ('SPACE', 'PLACE', 'L5', 'Mass-Produced'),
+   ('SPACE', 'PLACE', 'L5', 'Massive'),
+   ('SPACE', 'PLACE', 'L5', 'Maximum-Power'),
+   ('SPACE', 'PLACE', 'L5', 'Melee-Combat-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Meteor Red'),
+   ('SPACE', 'PLACE', 'L5', 'Mildly-Tolerable'),
+   ('SPACE', 'PLACE', 'L5', 'Military-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Military-Spec'),
+   ('SPACE', 'PLACE', 'L5', 'Military-Standard'),
+   ('SPACE', 'PLACE', 'L5', 'Mind-Bogglingly-Priced'),
+   ('SPACE', 'PLACE', 'L5', 'Minimalist'),
+   ('SPACE', 'PLACE', 'L5', 'Mission-Complete'),
+   ('SPACE', 'PLACE', 'L5', 'Mission-Critical'),
+   ('SPACE', 'PLACE', 'L5', 'Modular'),
+   ('SPACE', 'PLACE', 'L5', 'Monstrous'),
+   ('SPACE', 'PLACE', 'L5', 'Moonstone'),
+   ('SPACE', 'PLACE', 'L5', 'Most-Excellent'),
+   ('SPACE', 'PLACE', 'L5', 'Multi-Purpose'),
+   ('SPACE', 'PLACE', 'L5', 'Multidimensional'),
+   ('SPACE', 'PLACE', 'L5', 'Multifunctional'),
+   ('SPACE', 'PLACE', 'L5', 'Munitions-Capable'),
+   ('SPACE', 'PLACE', 'L5', 'Mysterious'),
+   ('SPACE', 'PLACE', 'L5', 'Mystic Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Nebula Green'),
+   ('SPACE', 'PLACE', 'L5', 'Nebula Violet'),
+   ('SPACE', 'PLACE', 'L5', 'Necron-Tier'),
+   ('SPACE', 'PLACE', 'L5', 'Neon Green'),
+   ('SPACE', 'PLACE', 'L5', 'Night-Vision'),
+   ('SPACE', 'PLACE', 'L5', 'No-Frills'),
+   ('SPACE', 'PLACE', 'L5', 'Non-Invasive'),
+   ('SPACE', 'PLACE', 'L5', 'Nonsensically-Clever'),
+   ('SPACE', 'PLACE', 'L5', 'Not-For-The-Faint-of-Heart'),
+   ('SPACE', 'PLACE', 'L5', 'Obsidian'),
+   ('SPACE', 'PLACE', 'L5', 'One-Tenth-Of-The-Price'),
+   ('SPACE', 'PLACE', 'L5', 'Optimal-Cost'),
+   ('SPACE', 'PLACE', 'L5', 'Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Ork-Built'),
+   ('SPACE', 'PLACE', 'L5', 'Otherworldly'),
+   ('SPACE', 'PLACE', 'L5', 'Overloaded'),
+   ('SPACE', 'PLACE', 'L5', 'Overpowered'),
+   ('SPACE', 'PLACE', 'L5', 'Peaceful'),
+   ('SPACE', 'PLACE', 'L5', 'Perfect-For-Space-Traffic'),
+   ('SPACE', 'PLACE', 'L5', 'Performance-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Phantom Black'),
+   ('SPACE', 'PLACE', 'L5', 'Pioneering'),
+   ('SPACE', 'PLACE', 'L5', 'Plague-Blessed'),
+   ('SPACE', 'PLACE', 'L5', 'Planet-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Platinum'),
+   ('SPACE', 'PLACE', 'L5', 'Portable'),
+   ('SPACE', 'PLACE', 'L5', 'Possibly-Deliberately-Obsolete'),
+   ('SPACE', 'PLACE', 'L5', 'Power-Infused'),
+   ('SPACE', 'PLACE', 'L5', 'Powerful'),
+   ('SPACE', 'PLACE', 'L5', 'Practical'),
+   ('SPACE', 'PLACE', 'L5', 'Precise'),
+   ('SPACE', 'PLACE', 'L5', 'Precision-Built'),
+   ('SPACE', 'PLACE', 'L5', 'Premium'),
+   ('SPACE', 'PLACE', 'L5', 'Prepped-For-Battle'),
+   ('SPACE', 'PLACE', 'L5', 'Pressure-Sealed'),
+   ('SPACE', 'PLACE', 'L5', 'Priority-Access'),
+   ('SPACE', 'PLACE', 'L5', 'Protoss-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Psychic-Infused'),
+   ('SPACE', 'PLACE', 'L5', 'Psyker-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Purified'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Silver'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum-Leap'),
+   ('SPACE', 'PLACE', 'L5', 'Quick-Fix'),
+   ('SPACE', 'PLACE', 'L5', 'R2-D2-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Radiant Silver'),
+   ('SPACE', 'PLACE', 'L5', 'Radiant Yellow'),
+   ('SPACE', 'PLACE', 'L5', 'Radiation-Shielded'),
+   ('SPACE', 'PLACE', 'L5', 'Ravenous'),
+   ('SPACE', 'PLACE', 'L5', 'Ready-for-Action'),
+   ('SPACE', 'PLACE', 'L5', 'Rebel-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Rebel-Designed'),
+   ('SPACE', 'PLACE', 'L5', 'Regal'),
+   ('SPACE', 'PLACE', 'L5', 'Reinforced'),
+   ('SPACE', 'PLACE', 'L5', 'Reinforced-Circuitry'),
+   ('SPACE', 'PLACE', 'L5', 'Rejuvenating'),
+   ('SPACE', 'PLACE', 'L5', 'Reliable'),
+   ('SPACE', 'PLACE', 'L5', 'Reliable-Under-Duress'),
+   ('SPACE', 'PLACE', 'L5', 'Relic-Bound'),
+   ('SPACE', 'PLACE', 'L5', 'Resilient'),
+   ('SPACE', 'PLACE', 'L5', 'Resistance-Powered'),
+   ('SPACE', 'PLACE', 'L5', 'Resistant-to-Toxicity'),
+   ('SPACE', 'PLACE', 'L5', 'Resource-Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Resource-Harvesting'),
+   ('SPACE', 'PLACE', 'L5', 'Resource-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Resourceful'),
+   ('SPACE', 'PLACE', 'L5', 'Responsive'),
+   ('SPACE', 'PLACE', 'L5', 'Ridiculously-Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Rigorous'),
+   ('SPACE', 'PLACE', 'L5', 'Ripley-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Ritual-Smitten'),
+   ('SPACE', 'PLACE', 'L5', 'Robust'),
+   ('SPACE', 'PLACE', 'L5', 'Rookie-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Roughneck-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Rugged'),
+   ('SPACE', 'PLACE', 'L5', 'Sapphire'),
+   ('SPACE', 'PLACE', 'L5', 'Savage'),
+   ('SPACE', 'PLACE', 'L5', 'Seamless'),
+   ('SPACE', 'PLACE', 'L5', 'Secretive'),
+   ('SPACE', 'PLACE', 'L5', 'Secure'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Healing'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Maintaining'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Regenerating'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Repairing'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Sustaining'),
+   ('SPACE', 'PLACE', 'L5', 'Sensor-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Shielded'),
+   ('SPACE', 'PLACE', 'L5', 'Shielded-Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Silver'),
+   ('SPACE', 'PLACE', 'L5', 'Sith-Infused'),
+   ('SPACE', 'PLACE', 'L5', 'Skywalker-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Sleek'),
+   ('SPACE', 'PLACE', 'L5', 'Slightly-Dysfunctional'),
+   ('SPACE', 'PLACE', 'L5', 'Slightly-Unreliable'),
+   ('SPACE', 'PLACE', 'L5', 'Smart-Integrated'),
+   ('SPACE', 'PLACE', 'L5', 'Solid'),
+   ('SPACE', 'PLACE', 'L5', 'Sophisticated'),
+   ('SPACE', 'PLACE', 'L5', 'Soul-Forged'),
+   ('SPACE', 'PLACE', 'L5', 'Soul-Fulfilling'),
+   ('SPACE', 'PLACE', 'L5', 'Sovereign-Class'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Age'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Certified'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Faring'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Hardened'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Worthy'),
+   ('SPACE', 'PLACE', 'L5', 'Spec-Ops Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Specialized'),
+   ('SPACE', 'PLACE', 'L5', 'Spectral Yellow'),
+   ('SPACE', 'PLACE', 'L5', 'Squad-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Starfire Orange'),
+   ('SPACE', 'PLACE', 'L5', 'Starfleet-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Starfleet-Engineered'),
+   ('SPACE', 'PLACE', 'L5', 'Starfleet-Quality'),
+   ('SPACE', 'PLACE', 'L5', 'Starship-Compatible'),
+   ('SPACE', 'PLACE', 'L5', 'State-of-the-Art'),
+   ('SPACE', 'PLACE', 'L5', 'Stealth-Activated'),
+   ('SPACE', 'PLACE', 'L5', 'Stealth-Compatible'),
+   ('SPACE', 'PLACE', 'L5', 'Stealth-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Stealthy'),
+   ('SPACE', 'PLACE', 'L5', 'Steel Blue'),
+   ('SPACE', 'PLACE', 'L5', 'Storm-Forged'),
+   ('SPACE', 'PLACE', 'L5', 'Stormtrooper-Certified'),
+   ('SPACE', 'PLACE', 'L5', 'Strategic'),
+   ('SPACE', 'PLACE', 'L5', 'Strategically-Engineered'),
+   ('SPACE', 'PLACE', 'L5', 'Streamlined'),
+   ('SPACE', 'PLACE', 'L5', 'Stress-Free'),
+   ('SPACE', 'PLACE', 'L5', 'Stress-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Subtle-But-Effective'),
+   ('SPACE', 'PLACE', 'L5', 'Sunset Orange'),
+   ('SPACE', 'PLACE', 'L5', 'Supercharged'),
+   ('SPACE', 'PLACE', 'L5', 'Superior'),
+   ('SPACE', 'PLACE', 'L5', 'Supernatural'),
+   ('SPACE', 'PLACE', 'L5', 'Surprisingly-Cheap'),
+   ('SPACE', 'PLACE', 'L5', 'Surprisingly-Functional'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Hardened'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Proof'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Survival-Tough'),
+   ('SPACE', 'PLACE', 'L5', 'Survivor-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Survivor-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Sustainable'),
+   ('SPACE', 'PLACE', 'L5', 'Sustainable-Designed'),
+   ('SPACE', 'PLACE', 'L5', 'Swift'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical-Advantage'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical-Advantageous'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical-Mastery'),
+   ('SPACE', 'PLACE', 'L5', 'Tactically-Sound'),
+   ('SPACE', 'PLACE', 'L5', 'Tatooine-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Tau-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Terran-Adapted'),
+   ('SPACE', 'PLACE', 'L5', 'Terran-Engineered'),
+   ('SPACE', 'PLACE', 'L5', 'Thunderous'),
+   ('SPACE', 'PLACE', 'L5', 'Thunderstrike-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Time-Saving'),
+   ('SPACE', 'PLACE', 'L5', 'Titan-Grade'),
+   ('SPACE', 'PLACE', 'L5', 'Titanium Grey'),
+   ('SPACE', 'PLACE', 'L5', 'Top-Tier'),
+   ('SPACE', 'PLACE', 'L5', 'Totally-Not-That-Useful'),
+   ('SPACE', 'PLACE', 'L5', 'Totally-Surprisingly-Usable'),
+   ('SPACE', 'PLACE', 'L5', 'Totally-Unknown-Features'),
+   ('SPACE', 'PLACE', 'L5', 'Touch-Sensitive'),
+   ('SPACE', 'PLACE', 'L5', 'Tough'),
+   ('SPACE', 'PLACE', 'L5', 'Tough-as-Nails'),
+   ('SPACE', 'PLACE', 'L5', 'Toxicity-Proof'),
+   ('SPACE', 'PLACE', 'L5', 'Transcendent'),
+   ('SPACE', 'PLACE', 'L5', 'Trooper-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Turquoise'),
+   ('SPACE', 'PLACE', 'L5', 'Ultra-Refined'),
+   ('SPACE', 'PLACE', 'L5', 'Ultra-Reliable'),
+   ('SPACE', 'PLACE', 'L5', 'Ultra-Sturdy'),
+   ('SPACE', 'PLACE', 'L5', 'Unbelievably-Efficient'),
+   ('SPACE', 'PLACE', 'L5', 'Unbelievably-Predictable'),
+   ('SPACE', 'PLACE', 'L5', 'Unbreakable'),
+   ('SPACE', 'PLACE', 'L5', 'Underwhelming-But-Functional'),
+   ('SPACE', 'PLACE', 'L5', 'Unexpectedly-Reliable'),
+   ('SPACE', 'PLACE', 'L5', 'Universal-Design'),
+   ('SPACE', 'PLACE', 'L5', 'Unlikely-to-Work-Under-Pressure'),
+   ('SPACE', 'PLACE', 'L5', 'Unquestionably-Effective'),
+   ('SPACE', 'PLACE', 'L5', 'Unstoppable'),
+   ('SPACE', 'PLACE', 'L5', 'Unyielding'),
+   ('SPACE', 'PLACE', 'L5', 'Upgradable'),
+   ('SPACE', 'PLACE', 'L5', 'User-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'User-Friendly'),
+   ('SPACE', 'PLACE', 'L5', 'Utility-Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Vacuum-Sealed'),
+   ('SPACE', 'PLACE', 'L5', 'Value-for-Money'),
+   ('SPACE', 'PLACE', 'L5', 'Venus Pink'),
+   ('SPACE', 'PLACE', 'L5', 'Vermilion'),
+   ('SPACE', 'PLACE', 'L5', 'Versatile'),
+   ('SPACE', 'PLACE', 'L5', 'Versatile-Tech'),
+   ('SPACE', 'PLACE', 'L5', 'Vibranium-Enhanced'),
+   ('SPACE', 'PLACE', 'L5', 'Vibrant'),
+   ('SPACE', 'PLACE', 'L5', 'Violet'),
+   ('SPACE', 'PLACE', 'L5', 'Void-Forged'),
+   ('SPACE', 'PLACE', 'L5', 'Wargear-Supreme'),
+   ('SPACE', 'PLACE', 'L5', 'Warp-Ready'),
+   ('SPACE', 'PLACE', 'L5', 'Warp-Ridden'),
+   ('SPACE', 'PLACE', 'L5', 'Warp-Touched'),
+   ('SPACE', 'PLACE', 'L5', 'Warrior-Tough'),
+   ('SPACE', 'PLACE', 'L5', 'Well-Balanced'),
+   ('SPACE', 'PLACE', 'L5', 'Well-Designed'),
+   ('SPACE', 'PLACE', 'L5', 'Wholesome'),
+   ('SPACE', 'PLACE', 'L5', 'Witch-Sealed'),
+   ('SPACE', 'PLACE', 'L5', 'Wonderfully-Complicated'),
+   ('SPACE', 'PLACE', 'L5', 'Wookiee-Tested'),
+   ('SPACE', 'PLACE', 'L5', 'Wookiee-Tough'),
+   ('SPACE', 'PLACE', 'L5', 'Workhorse'),
+   ('SPACE', 'PLACE', 'L5', 'Wraithbone-Crafted'),
+   ('SPACE', 'PLACE', 'L5', 'X-Wing-Modified'),
+   ('SPACE', 'PLACE', 'L5', 'Xeno-Safe'),
+   ('SPACE', 'PLACE', 'L5', 'Xeno-Weaponized'),
+   ('SPACE', 'PLACE', 'L5', 'Xenomorph-Resistant'),
+   ('SPACE', 'PLACE', 'L5', 'Xenos-Defying'),
+   ('SPACE', 'PLACE', 'L5', 'Xenos-Rejecting'),
+   ('SPACE', 'PLACE', 'L5', 'Y2K-Compliant'),
+   ('SPACE', 'PLACE', 'L5', 'Yoda-Approved'),
+   ('SPACE', 'PLACE', 'L5', 'Zealot-Blessed'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg-Infested'),
+   ('SPACE', 'PLACE', 'L5', 'Zero-Gravity Optimized'),
+   ('SPACE', 'PLACE', 'L5', 'Zero-Latency'),
+   ('SPACE', 'PLACE', 'L5', 'Zero-Waste');
 
 commit;

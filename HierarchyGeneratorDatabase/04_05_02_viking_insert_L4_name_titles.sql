@@ -1,42 +1,43 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Chieftain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jarl of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Thane of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Overlord of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hersir of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Steward of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skald of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Warden of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Varangian of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Earl of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Captain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ruler of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Protector of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Guardian of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Chamberlain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Lord of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'High Chief of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bailiff of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Overseer of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Master of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ranger of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Harbinger of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Viggo of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hirdman of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Shield-bearer of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Watcher of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Vikinglord of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Vanguard of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hearthwarden of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skjaldmær of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Captain of the Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Tactical Commander of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Shield Captain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Berserker Chief of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Thane of the Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Loyal Companion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jarl’s Hand of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Landsman of');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('VIKING', 'PLACE', 'L4', 'Chieftain of'),
+   ('VIKING', 'PLACE', 'L4', 'Jarl of'),
+   ('VIKING', 'PLACE', 'L4', 'Thane of'),
+   ('VIKING', 'PLACE', 'L4', 'Overlord of'),
+   ('VIKING', 'PLACE', 'L4', 'Hersir of'),
+   ('VIKING', 'PLACE', 'L4', 'Steward of'),
+   ('VIKING', 'PLACE', 'L4', 'Skald of'),
+   ('VIKING', 'PLACE', 'L4', 'Warden of'),
+   ('VIKING', 'PLACE', 'L4', 'Varangian of'),
+   ('VIKING', 'PLACE', 'L4', 'Earl of'),
+   ('VIKING', 'PLACE', 'L4', 'Captain of'),
+   ('VIKING', 'PLACE', 'L4', 'Ruler of'),
+   ('VIKING', 'PLACE', 'L4', 'Protector of'),
+   ('VIKING', 'PLACE', 'L4', 'Guardian of'),
+   ('VIKING', 'PLACE', 'L4', 'Chamberlain of'),
+   ('VIKING', 'PLACE', 'L4', 'Lord of'),
+   ('VIKING', 'PLACE', 'L4', 'High Chief of'),
+   ('VIKING', 'PLACE', 'L4', 'Bailiff of'),
+   ('VIKING', 'PLACE', 'L4', 'Overseer of'),
+   ('VIKING', 'PLACE', 'L4', 'Master of'),
+   ('VIKING', 'PLACE', 'L4', 'Ranger of'),
+   ('VIKING', 'PLACE', 'L4', 'Harbinger of'),
+   ('VIKING', 'PLACE', 'L4', 'Viggo of'),
+   ('VIKING', 'PLACE', 'L4', 'Hirdman of'),
+   ('VIKING', 'PLACE', 'L4', 'Shield-bearer of'),
+   ('VIKING', 'PLACE', 'L4', 'Watcher of'),
+   ('VIKING', 'PLACE', 'L4', 'Vikinglord of'),
+   ('VIKING', 'PLACE', 'L4', 'Vanguard of'),
+   ('VIKING', 'PLACE', 'L4', 'Hearthwarden of'),
+   ('VIKING', 'PLACE', 'L4', 'Skjaldmær of'),
+   ('VIKING', 'PLACE', 'L4', 'Captain of the Watch'),
+   ('VIKING', 'PLACE', 'L4', 'Tactical Commander of'),
+   ('VIKING', 'PLACE', 'L4', 'Shield Captain of'),
+   ('VIKING', 'PLACE', 'L4', 'Berserker Chief of'),
+   ('VIKING', 'PLACE', 'L4', 'Thane of the Shield'),
+   ('VIKING', 'PLACE', 'L4', 'Loyal Companion of'),
+   ('VIKING', 'PLACE', 'L4', 'Jarl’s Hand of'),
+   ('VIKING', 'PLACE', 'L4', 'Landsman of');
 
 commit;

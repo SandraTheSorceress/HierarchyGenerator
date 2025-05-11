@@ -1,967 +1,968 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aerial Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aerial Nesting Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aerie Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aerie Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aerie of the Winds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aeris Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aetherblade Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Alchemist’s Laboratory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Alchemist’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Alchemy Laboratory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancestors Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancestral Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancient Foundry');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancient Oak Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancient Tree Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancient Wyrm’s Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ancients');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Anemone Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Animal Pen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Anvil Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Apothecary’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Apothecary’s Store');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aquatic Enclave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Conservatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Laboratories');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Research Facility');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arcane Sanctum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Archery Range');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Arena of Strength');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ascendant Pinnacle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Astral Conduit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Astral Gatehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Astral Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Astral Pathway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Aurora Gate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Baker’s Oven');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Banner of Dawn Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bard’s Amphitheater');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Barnacle-Encrusted Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bat-Flight Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bathhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Battered Jail');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Battle-Born Longhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Battle-Hardened Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Battle-Horn Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Beast-Binder’s Pen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Beggars’ Alley');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Berserker’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bifrost Waystation');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Birdsong Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bisonhide Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Black Throne Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blackened Mausoleum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blacksmith Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blacksmith’s Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blighted Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Fountain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Moon Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Bound Manor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Cursed Estate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Cursed Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Feast Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Red Manor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Soaked Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blood-Stained Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloodhorn Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloodied Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloodpit Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloodstained Battlefield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloodstone Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bloomstone Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Blossomveil Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Boar-Hunter’s Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone Pile Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Cursed Mausoleum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Fortified Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Hoarding Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Marked Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Pile Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Piled Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Piled Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bone-Shielded Barricade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bonework Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bottled Chaos House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Boulder-Piled Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bowyer’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bowyer’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Brewery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Brewpub');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Brewstone Cellar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Brimstone Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bubble-Bloom Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bull’s Blood Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Bull’s Eye Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Burrowed Cavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Butterfly Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Candle Maker’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Candlemaker’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cannibal’s Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Carpenter’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Castle Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cathedral');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cave Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cavefront Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cavern of Decay');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cavernous Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cavernous Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Celestial Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Celestial Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Celestial Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Celestial Warhall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Celestia’s Beacon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cemetery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Chasm Dwelling');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Chieftain’s Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Choir of Valor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Chronomancer’s Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Clash-Haven');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Clawmarked Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Clay-Ridge Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cliffside Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cliffside Throne');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Clifftop Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloud Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloudreach Arsenal');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloudreach Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloudscorn Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloudstone Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cloverhill Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cluttered Bazaar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cobble Stone Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cobblepath Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Coffin Chambers');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Collapsed Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Coral Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Coral Reef Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Coral Reef Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Corpse-Laden Bunker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Corruption Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Council Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Courthouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Courtroom');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Coven’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cradle of the Leaves');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crashing Wave Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Creaking Carriage House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crown of Winds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crumbling Bridge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crypt of the Forgotten');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cryptkeeper’s Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Cavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Dewdrop Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Grotto');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystal Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Crystalbloom Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cursed Burial Ground');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cursed Castle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cursed Coffin Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dandelion Enclave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dark Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dark Crystal Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dark Forest Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dark Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dark Horn Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Darkened Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Darkstone Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Darkwing Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dawn Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Deadroot House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Deathshroud Tomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Deep Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Deep Mines');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Deepwater Alcove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Desecrated Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Desolate Burial Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dewdrop Fountain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dewdrop Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dewlit Treehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dewveil Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Digging Pit Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Divination Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Divine Flight Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dolphin Watch Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Doomed Tombstone Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Doomstone Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Draconic Sanctum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragonflame Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragonflight Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragonflight Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragonshard Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragonstone Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragon’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dragon’s Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Drakewatch Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Drake’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dread Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dreambloom Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dreamweaver’s Cottage');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Driftwood Bridge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Driftwood Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Druidic Mage Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Drum Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dwarven Armory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dwarven Brewery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dwarven Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dwarven Hold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Dwarven Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eaglecrest Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eaglefeather Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eagleflight Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eaglewing Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ebbing Reef Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Echo of Shields');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Echoing Helm Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder Tree Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder´s Dragonhold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elderbark Hearth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder’s Council Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder’s Longhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder’s Moot');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elder’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eldritch Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elemental Conflux');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elemental Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elven Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elven Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elven Monastery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elven Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Elven Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ember Throne Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ember Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Emeraldleaf Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanted Flowerbed');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanted Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanted Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanted Treehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanted Vine Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanter’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Enchanter’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Essence Vial Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eternal Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eternal Flame Cave ');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eternal Hunger Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Eternal Night Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Evershade Council Ring');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fae Blossom Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Faerie Ring');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Faerie Ring Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fairy Queen’s Court');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Falcon’s Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fallen Hero’s Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Familiar’s Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fang-Drained Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fanged Manor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fanglord’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Farming Barn');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Farming Homestead');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Farmstead');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feasting Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathercrest Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathered Crag');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathered Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathered Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathered Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Featherlight Command Post');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Featherlore Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feathersong Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Featherstone Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Featherstone Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Featherwhisper Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feral Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feral Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fernshade Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fey Court Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feyleaf Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feywild Alcove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Feywild Gardens');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fighting Pits');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Filthy Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Firefly Lantern Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Firelance Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Firelord’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Firestone Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flame-Spire Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flameheart Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Crushing Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Eaters’ Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Heap Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Made Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flesh-Ridden Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fleshbound Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fletcher’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fletcher’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flightbound Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flintstone Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Flower Petal Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Forest Pathway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Forest Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Forge of the Minotaur');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fortress Gatehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Frostbinder’s Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Frostblossom Conservatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Frostfire Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Frosthammer Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Frostleaf Grotto');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fungi-Filled Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Fungus Cavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Furrier’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Galloping Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gemcutter’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gemstone Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ghastly Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ghoul’s Feeding Ground');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ghoul’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Giant Graveyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gilded Valor Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glade of Gentle Branches');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmerbrook Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmering Blossom Cottage');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmering Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmering Pool');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmering Root Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glimmering Tide Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glittering Fae Court');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glittering Halls');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gloomspire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gloomstone Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glory’s Summit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Glowing Clamshell Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gnarled Hovel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goblin Wreckyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goblin-Made Mill');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goblin-Touched Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goblins’ Grotto');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goblin’s Grotto');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Golden Hoard Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Golden Ivy Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Golden Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Golden Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Goldenwing Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gossamer Throne Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grand Plaza');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Granite Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Granite Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grave Mound');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grave-Pit Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gravel Pit Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Graveyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Graveyard Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Graveyard Mausoleum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Graveyard Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Great Mining Complex');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Great Smithy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Great Wyrm Cavern ');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Griffinwing Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Griffin’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Griffin’s Wing Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Griffon Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Griffon’s Eye Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grim-Halls Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grimey Hideout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Grimrock Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Guard Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Guildhall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Gunkhole Cavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hall ');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hall of the Chosen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hallowed Glade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Halls of Sacred Battle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hammerfall Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hammerstone Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Harpysong Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Haunting Obelisk');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hazelbough Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Heartgrove Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Heavenpiercer Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Herb Shack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Herbalist’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Herbalist’s Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Herding Barn');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Herdmaster’s Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hidden Mine Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Highbranch Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Highcliff Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Highflying Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hightalon Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Highwind Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hoard Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hollow Tree Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hollowed Flesh Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hollowed Out Burrow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hollowed Skull Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hoofbeat Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hoofprint Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hoofstone Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horned Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horned Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horned Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horned Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horns of War');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Horse Breeder’s Stables');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Howling Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hunter’s Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hunter’s Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hunter’s Stash');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Hunting Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Huntmaster’s Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Illusionist’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Infernal Throne');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Inferno Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Inn');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Iron Horn Gate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironclad Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironclad Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironclad Stronghold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironclaw Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironhoof Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironshard Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironwing Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ironwood Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Jadepetal Gathering Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Jeweler’s Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Junkpile Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Junkyard Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Knowledge Fountain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Labyrinthine Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lanceguard Watchpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lava Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Leafwoven Cottage');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lily Petal Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lilyshade Dome');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Longstride Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lore Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Luminous Lagoon Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lunar Moss Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lunar Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Lurking Tomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mages’ Guild');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mages’ Guildhall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mage’s Guildhall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Maggot-Crafted Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Magic Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Magic Item Emporium');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Magical Fountain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Magical Wing Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mane Gathering Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Market Square');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mausoleum of the Damned');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Maze Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Maze Prison');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Maze of the Minotaur');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Medicine Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Merchant’s Stall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Merman’s Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Midnight Courtyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Miller’s Windmill');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Minotaur Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Minotaur Tomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Minotaur’s Throne Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mischief Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mithril Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mithril Works');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mole-Hole Hideaway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Monastery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonbeam Conservatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonbeam Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonfern Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonflower Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Arbor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Cove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Grazing Grounds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Lagoon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Mausoleum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Necropolis');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonlit Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonstone Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonstone Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonvine Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moonwell');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moss-Cloaked Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moss-Covered Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Moss-Crusted Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mossbound Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mosswoven Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mossy Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mountain Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mountain Pass Gate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mountaincrest Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mountainpeak Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mud-Bound Shack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mud-Dug Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mud-Dwelling');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mudslide Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mudslide Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mudstone Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mushroom Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mystic Dragon Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mystic Fire Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mystic Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mystic Glade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Mystic Scriptorium');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Naiad’s Well');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nature’s Embrace Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nautical Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Necromancer’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Necrotic Lab');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nest of the Gale');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nest of the Storm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Night Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nightmare Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nightwatch Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Night’s Embrace Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nocturnal Mansion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nocturnal Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Nomad’s Camp');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Oakmother’s Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Oathfire Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Obsidian Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Obsidian Quarry');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Oceanic Chateau');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Oceanic Court');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Patchwork Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pearl Enclave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pearl Harbor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pearl Shell Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Perch of the Highwinds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Petal-Draped Canopy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Philosopher’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pinnacle Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pit of Honor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Pixie Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Poisoned Pit Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Potion Brewing Lab');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Potion Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Potion Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Prison');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Putrescent Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Putrid Shop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Putrid Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Quarry');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ragged Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Raiders’ Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Raiders’ Fort');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rainbow Meadow Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rat-Run Tunnel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rat’s Nest Tavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rat’s Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ravager’s Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Raven-Keeper’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ravencrest Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ravenwing Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Riders’ Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rider’s Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rider’s Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Riding Stables');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ritual Cave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ritual Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Ritual Ground');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Roaring Heights Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rockhide Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rootspire Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rot-Filled House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rotten Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rotting Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rotting Tomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rubble Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rune Carving Studio');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rune-Bound Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rune-Crafting Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Runehammer Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Runestone Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Runic Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rusty Cage Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Rusty Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sacred Fire Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sacred Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sacred Grove Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sacrificial Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sage’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Saltwater Reef House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sanctum of the Worthy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sandcastle Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sanguine Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sapstone Garden Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Savagery Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scalebound Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scavenger’s Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scavenger’s Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Schoolhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scorched Hearth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scorched Ritual Ground');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scorched Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scrapheap Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scrapstone Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scrapwood Cabin');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Scribe’s Office');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sea Breeze House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seafloor Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seafoam Haven');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Searing Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Searing Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seashell Cottage');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seashell Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seaweed Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Secret Door Tavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Secret Passage Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seer’s Dome');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seer’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Seraphic Gatehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sewer Maze Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sewer-Lair Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shade-Ridden Estate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shadow Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shadowed Courtyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shadows Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shaky Shack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shaman’s Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shaman’s Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sharkfin Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shattered Clifftop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shattered Coffin Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shattered Stone Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shield-Crafted Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shieldmaiden’s Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shimmering Sea Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shoddy Warehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Shrouded Tomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silver Current Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverbark Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverfeather Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverleaf Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silvermist Cove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silvermist Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverstone Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverwing Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Silverwood Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Singing Branch Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Siren’s Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skeletal Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skeletal Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skittering Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skull-Crowned Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skull-Splintered Gatehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skullgate Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sky-Palace of the Winds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyborne Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyclaw Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyforge Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyfury Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyhunter Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyshard Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyward Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyward Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyward Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skywarden’s Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skywatch Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skywatch Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Skyweaver Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Slime-Ridden Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Smelting Furnace Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Smithy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Smoldering Fire Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Soaring Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Soaring Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Softbark Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Songbird Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Songbird Sanctum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sorcerer’s Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sorcery Academy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Soulstone Altar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spearpeak Monastery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spearsworn Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spearwind Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spell Library');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spellcasting Arena');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spellcasting Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spiked Cage');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spiked Pit Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spirit Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spirit Totem Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spirit-Touched Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Spriggan’s Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stable');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stables');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starfall Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starfish Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starflower Archway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starleaf Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starlight Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starlight Enclave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starlight Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Starshine Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stinkpit Dungeon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stone Bridge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stone Horn Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stone Pillar Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stone-Hearted Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stone-Tunnel Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonecrag Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonecutters Guild');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonefoot Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stoneforge Guild');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonehearth Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonehelm Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stonemason’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stoneshield Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Storm-Cauldron Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormcall Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormcaller’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormcrest Palace');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormfeather Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormfeather Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormfury Aerie');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormrider’s Hold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormrider’s Lookout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormspire Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormwind Alcove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Stormwing Hold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Summoning Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunbeam Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunburst Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Suncatcher Aerie');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunfire Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunken Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunlit Encampment');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunlit Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunlit Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunpetal Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunset Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunshine Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunspire Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sunwoven Dome');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Swamp Hovel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Swamp Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Swanwing Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sylvan Archway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Sylvan Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tailor’s House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Talonstone Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Talons’ Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tangleleaf Watch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tattered Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tavern');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Teleportation Nexus');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tethered Stall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Blooming Archway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Bull’s Roar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Celestial Armory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Deepforge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Eclipsed Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Enleafed Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Eternal Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Great Labyrinth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Greenheart Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Griffin’s Talon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Ironroot Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Lichen Niche');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Living Arch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Minotaur’s Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Roosting Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Silver Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Stoneroom');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Sylvan Hearth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Valkyrie Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Valkyrie’s Flame');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Verdant Spiral');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Wildroot Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Winged Crown');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'The Wingguard Lodge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thistlebloom Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thistlewood Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thorn-Kissed Arbor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thorn-Snare Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thunderclaw Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thunderhoof Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thunderpeak Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thunderpeak Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Thunderwing Armory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tidal Archway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tidal Cavern Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tidal Pool Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tidecaller’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Time Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tinker’s Workshop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Torn Canvas Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Town Gatehouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Town Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Town Watchhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tracker’s Campfire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tracker’s Hideout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trading Post');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tranquility Gardens');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trap-Filled Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trapdoor House');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Travelers´ Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Treasure Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tree');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Treehouse Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tribal Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tribal Gathering Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tribe Elder’s Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tribe’s Hearth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trickster’s Tunnel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll Forge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll Market');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll-Bone Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll-Horn Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll-Keeper’s Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trollbone Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trollhold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trollwatch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll’s Bridge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll’s Den');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Troll’s Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trophy Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Trophy Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tumbleweed Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tunnels');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tunnels of the Buried King');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Tunnels of the Lost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Turtleback Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Twilight Blossom Glade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Twilight Lance Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Twilight Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Twitching Tunnel Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Twixtwind Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Undead Alcove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Undead Hall of Flesh');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Underdweller´s Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Cunning Underground Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Underground Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Undying Crypt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Valiance Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Valkyrie’s Vigil');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire Throne Room');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire’s Castle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire’s Garden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire’s Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire’s Lair');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampire’s Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampiric Estate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vampiric Parlor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vanguard Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Veilflower Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Veilroot Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Veilwood Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vengeful Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vermin’s Burrow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Victory Pole');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vile Hatchery');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Vineyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Volcanic Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Volcanic Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wandering Glade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wanderwood Dwelling');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'War Banner Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'War Chief’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'War Steed Stables');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'War Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warband’s Camp');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warband’s Enclave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warchief’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warchief’s Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warding Circle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warg-Rider’s Outpost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warhorn Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warlock’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warlord’s Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warlord’s Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warlord’s Throne');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warpath Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warren Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warren of Secrets');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Longhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Mead Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Rest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Stables');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Warrior’s Training Grounds');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wartorn Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wartusk’s Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Water-Whisperer’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Watermill');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wave-Crested Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whale-Bone Longhouse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whimsy Nook');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whirlpool Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whirlwind Shelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whisperbreeze Alcove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whispering Crypts');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whispering Glade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whispering Grove');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whispering Grove Pavilion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whisperwillow Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Whisperwind Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wicked Chapel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wilder’s Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wildstalker’s Watchtower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Willowroot Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Willowwood Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wind-Eagle’s Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wind-Swept Perch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wind-Touched Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windborne Sanctum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windcallers’ Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windcallers’ Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windcutter’s Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windmill');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windrider Keep');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windrider’s Observatory');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windrunner’s Tent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windshard Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windsong Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windsong Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windstorm Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Windward Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wingcliff Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Winged Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Winged Haven');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Winged Hollow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Winged Sanctuary');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wingshadow Spire');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wingshield Citadel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wingspan Barracks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wispwood Refuge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Witch’s Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wizard’s Retreat');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wizard’s Sanctum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wizard’s Tower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wobbling Wharf');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Worm-Eaten Bastion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wormhole Fortress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wormwood Hut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Woven Vineshelter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wraith-Filled Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wreckage Hall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wyrmstone Temple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Wyrm’s Roost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L5', 'Zigzagged Pit');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('FANTASY', 'PLACE', 'L5', 'Aerial Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Aerial Nesting Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Aerie Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Aerie Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Aerie of the Winds'),
+   ('FANTASY', 'PLACE', 'L5', 'Aeris Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Aetherblade Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Alchemist’s Laboratory'),
+   ('FANTASY', 'PLACE', 'L5', 'Alchemist’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Alchemy Laboratory'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancestors Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancestral Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancient Foundry'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancient Oak Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancient Tree Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancient Wyrm’s Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Ancients'),
+   ('FANTASY', 'PLACE', 'L5', 'Anemone Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Animal Pen'),
+   ('FANTASY', 'PLACE', 'L5', 'Anvil Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Apothecary’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Apothecary’s Store'),
+   ('FANTASY', 'PLACE', 'L5', 'Aquatic Enclave'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Conservatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Laboratories'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Research Facility'),
+   ('FANTASY', 'PLACE', 'L5', 'Arcane Sanctum'),
+   ('FANTASY', 'PLACE', 'L5', 'Archery Range'),
+   ('FANTASY', 'PLACE', 'L5', 'Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Arena of Strength'),
+   ('FANTASY', 'PLACE', 'L5', 'Ascendant Pinnacle'),
+   ('FANTASY', 'PLACE', 'L5', 'Astral Conduit'),
+   ('FANTASY', 'PLACE', 'L5', 'Astral Gatehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Astral Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Astral Pathway'),
+   ('FANTASY', 'PLACE', 'L5', 'Aurora Gate'),
+   ('FANTASY', 'PLACE', 'L5', 'Baker’s Oven'),
+   ('FANTASY', 'PLACE', 'L5', 'Banner of Dawn Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Bard’s Amphitheater'),
+   ('FANTASY', 'PLACE', 'L5', 'Barnacle-Encrusted Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Bat-Flight Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bathhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Battered Jail'),
+   ('FANTASY', 'PLACE', 'L5', 'Battle-Born Longhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Battle-Hardened Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Battle-Horn Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Beast-Binder’s Pen'),
+   ('FANTASY', 'PLACE', 'L5', 'Beggars’ Alley'),
+   ('FANTASY', 'PLACE', 'L5', 'Berserker’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Bifrost Waystation'),
+   ('FANTASY', 'PLACE', 'L5', 'Birdsong Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Bisonhide Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Black Throne Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Blackened Mausoleum'),
+   ('FANTASY', 'PLACE', 'L5', 'Blacksmith Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Blacksmith’s Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Blighted Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Fountain'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Moon Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Bound Manor'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Cursed Estate'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Cursed Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Feast Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Red Manor'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Soaked Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Blood-Stained Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloodhorn Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloodied Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloodpit Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloodstained Battlefield'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloodstone Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bloomstone Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Blossomveil Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Boar-Hunter’s Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone Pile Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Cursed Mausoleum'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Fortified Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Hoarding Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Marked Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Pile Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Piled Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Piled Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bone-Shielded Barricade'),
+   ('FANTASY', 'PLACE', 'L5', 'Bonework Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Bottled Chaos House'),
+   ('FANTASY', 'PLACE', 'L5', 'Boulder-Piled Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Bowyer’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Bowyer’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Brewery'),
+   ('FANTASY', 'PLACE', 'L5', 'Brewpub'),
+   ('FANTASY', 'PLACE', 'L5', 'Brewstone Cellar'),
+   ('FANTASY', 'PLACE', 'L5', 'Brimstone Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Bubble-Bloom Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Bull’s Blood Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Bull’s Eye Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Burrowed Cavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Butterfly Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Candle Maker’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Candlemaker’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Cannibal’s Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Carpenter’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Castle Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Cathedral'),
+   ('FANTASY', 'PLACE', 'L5', 'Cave Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Cavefront Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Cavern of Decay'),
+   ('FANTASY', 'PLACE', 'L5', 'Cavernous Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Cavernous Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Celestial Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Celestial Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Celestial Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Celestial Warhall'),
+   ('FANTASY', 'PLACE', 'L5', 'Celestia’s Beacon'),
+   ('FANTASY', 'PLACE', 'L5', 'Cemetery'),
+   ('FANTASY', 'PLACE', 'L5', 'Chasm Dwelling'),
+   ('FANTASY', 'PLACE', 'L5', 'Chieftain’s Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Choir of Valor'),
+   ('FANTASY', 'PLACE', 'L5', 'Chronomancer’s Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Clash-Haven'),
+   ('FANTASY', 'PLACE', 'L5', 'Clawmarked Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Clay-Ridge Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Cliffside Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Cliffside Throne'),
+   ('FANTASY', 'PLACE', 'L5', 'Clifftop Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloud Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloudreach Arsenal'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloudreach Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloudscorn Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloudstone Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Cloverhill Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Cluttered Bazaar'),
+   ('FANTASY', 'PLACE', 'L5', 'Cobble Stone Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Cobblepath Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Coffin Chambers'),
+   ('FANTASY', 'PLACE', 'L5', 'Collapsed Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Coral Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Coral Reef Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Coral Reef Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Corpse-Laden Bunker'),
+   ('FANTASY', 'PLACE', 'L5', 'Corruption Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Council Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Courthouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Courtroom'),
+   ('FANTASY', 'PLACE', 'L5', 'Coven’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Cradle of the Leaves'),
+   ('FANTASY', 'PLACE', 'L5', 'Crashing Wave Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Creaking Carriage House'),
+   ('FANTASY', 'PLACE', 'L5', 'Crown of Winds'),
+   ('FANTASY', 'PLACE', 'L5', 'Crumbling Bridge'),
+   ('FANTASY', 'PLACE', 'L5', 'Crypt of the Forgotten'),
+   ('FANTASY', 'PLACE', 'L5', 'Cryptkeeper’s Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Cavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Dewdrop Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Grotto'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystal Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Crystalbloom Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Cursed Burial Ground'),
+   ('FANTASY', 'PLACE', 'L5', 'Cursed Castle'),
+   ('FANTASY', 'PLACE', 'L5', 'Cursed Coffin Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Dandelion Enclave'),
+   ('FANTASY', 'PLACE', 'L5', 'Dark Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Dark Crystal Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Dark Forest Watch'),
+   ('FANTASY', 'PLACE', 'L5', 'Dark Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Dark Horn Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Darkened Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Darkstone Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Darkwing Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Dawn Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Deadroot House'),
+   ('FANTASY', 'PLACE', 'L5', 'Deathshroud Tomb'),
+   ('FANTASY', 'PLACE', 'L5', 'Deep Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Deep Mines'),
+   ('FANTASY', 'PLACE', 'L5', 'Deepwater Alcove'),
+   ('FANTASY', 'PLACE', 'L5', 'Desecrated Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Desolate Burial Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Dewdrop Fountain'),
+   ('FANTASY', 'PLACE', 'L5', 'Dewdrop Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Dewlit Treehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Dewveil Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Digging Pit Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Divination Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Divine Flight Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Dolphin Watch Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Doomed Tombstone Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Doomstone Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Draconic Sanctum'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragonflame Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragonflight Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragonflight Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragonshard Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragonstone Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragon’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Dragon’s Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Drakewatch Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Drake’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Dread Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Dreambloom Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Dreamweaver’s Cottage'),
+   ('FANTASY', 'PLACE', 'L5', 'Driftwood Bridge'),
+   ('FANTASY', 'PLACE', 'L5', 'Driftwood Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Druidic Mage Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Drum Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Dwarven Armory'),
+   ('FANTASY', 'PLACE', 'L5', 'Dwarven Brewery'),
+   ('FANTASY', 'PLACE', 'L5', 'Dwarven Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Dwarven Hold'),
+   ('FANTASY', 'PLACE', 'L5', 'Dwarven Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Eaglecrest Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Eaglefeather Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Eagleflight Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Eaglewing Watch'),
+   ('FANTASY', 'PLACE', 'L5', 'Ebbing Reef Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Echo of Shields'),
+   ('FANTASY', 'PLACE', 'L5', 'Echoing Helm Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder Tree Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder´s Dragonhold'),
+   ('FANTASY', 'PLACE', 'L5', 'Elderbark Hearth'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder’s Council Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder’s Longhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder’s Moot'),
+   ('FANTASY', 'PLACE', 'L5', 'Elder’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Eldritch Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Elemental Conflux'),
+   ('FANTASY', 'PLACE', 'L5', 'Elemental Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Elven Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Elven Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Elven Monastery'),
+   ('FANTASY', 'PLACE', 'L5', 'Elven Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Elven Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Ember Throne Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Ember Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Emeraldleaf Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanted Flowerbed'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanted Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanted Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanted Treehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanted Vine Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanter’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Enchanter’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Essence Vial Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Eternal Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Eternal Flame Cave '),
+   ('FANTASY', 'PLACE', 'L5', 'Eternal Hunger Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Eternal Night Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Evershade Council Ring'),
+   ('FANTASY', 'PLACE', 'L5', 'Fae Blossom Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Faerie Ring'),
+   ('FANTASY', 'PLACE', 'L5', 'Faerie Ring Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Fairy Queen’s Court'),
+   ('FANTASY', 'PLACE', 'L5', 'Falcon’s Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Fallen Hero’s Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Familiar’s Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Fang-Drained Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Fanged Manor'),
+   ('FANTASY', 'PLACE', 'L5', 'Fanglord’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Farming Barn'),
+   ('FANTASY', 'PLACE', 'L5', 'Farming Homestead'),
+   ('FANTASY', 'PLACE', 'L5', 'Farmstead'),
+   ('FANTASY', 'PLACE', 'L5', 'Feasting Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathercrest Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathered Crag'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathered Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathered Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathered Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Featherlight Command Post'),
+   ('FANTASY', 'PLACE', 'L5', 'Featherlore Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Feathersong Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Featherstone Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Featherstone Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Featherwhisper Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Feral Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Feral Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Fernshade Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Fey Court Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Feyleaf Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Feywild Alcove'),
+   ('FANTASY', 'PLACE', 'L5', 'Feywild Gardens'),
+   ('FANTASY', 'PLACE', 'L5', 'Fighting Pits'),
+   ('FANTASY', 'PLACE', 'L5', 'Filthy Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Firefly Lantern Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Firelance Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Firelord’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Firestone Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Flame-Spire Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Flameheart Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Crushing Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Eaters’ Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Heap Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Made Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Flesh-Ridden Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Fleshbound Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Fletcher’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Fletcher’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Flightbound Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Flintstone Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Flower Petal Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Forest Pathway'),
+   ('FANTASY', 'PLACE', 'L5', 'Forest Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Forge of the Minotaur'),
+   ('FANTASY', 'PLACE', 'L5', 'Fortress Gatehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Frostbinder’s Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Frostblossom Conservatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Frostfire Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Frosthammer Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Frostleaf Grotto'),
+   ('FANTASY', 'PLACE', 'L5', 'Fungi-Filled Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Fungus Cavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Furrier’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Galloping Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Gemcutter’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Gemstone Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Ghastly Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Ghoul’s Feeding Ground'),
+   ('FANTASY', 'PLACE', 'L5', 'Ghoul’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Giant Graveyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Gilded Valor Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Glade of Gentle Branches'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmerbrook Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmering Blossom Cottage'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmering Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmering Pool'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmering Root Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Glimmering Tide Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Glittering Fae Court'),
+   ('FANTASY', 'PLACE', 'L5', 'Glittering Halls'),
+   ('FANTASY', 'PLACE', 'L5', 'Gloomspire'),
+   ('FANTASY', 'PLACE', 'L5', 'Gloomstone Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Glory’s Summit'),
+   ('FANTASY', 'PLACE', 'L5', 'Glowing Clamshell Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Gnarled Hovel'),
+   ('FANTASY', 'PLACE', 'L5', 'Goblin Wreckyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Goblin-Made Mill'),
+   ('FANTASY', 'PLACE', 'L5', 'Goblin-Touched Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Goblins’ Grotto'),
+   ('FANTASY', 'PLACE', 'L5', 'Goblin’s Grotto'),
+   ('FANTASY', 'PLACE', 'L5', 'Golden Hoard Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Golden Ivy Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Golden Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Golden Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Goldenwing Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Gossamer Throne Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Grand Plaza'),
+   ('FANTASY', 'PLACE', 'L5', 'Granite Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Granite Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Grave Mound'),
+   ('FANTASY', 'PLACE', 'L5', 'Grave-Pit Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Gravel Pit Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Graveyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Graveyard Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Graveyard Mausoleum'),
+   ('FANTASY', 'PLACE', 'L5', 'Graveyard Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Great Mining Complex'),
+   ('FANTASY', 'PLACE', 'L5', 'Great Smithy'),
+   ('FANTASY', 'PLACE', 'L5', 'Great Wyrm Cavern '),
+   ('FANTASY', 'PLACE', 'L5', 'Griffinwing Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Griffin’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Griffin’s Wing Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Griffon Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Griffon’s Eye Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Grim-Halls Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Grimey Hideout'),
+   ('FANTASY', 'PLACE', 'L5', 'Grimrock Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Guard Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Guildhall'),
+   ('FANTASY', 'PLACE', 'L5', 'Gunkhole Cavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Hall '),
+   ('FANTASY', 'PLACE', 'L5', 'Hall of the Chosen'),
+   ('FANTASY', 'PLACE', 'L5', 'Hallowed Glade'),
+   ('FANTASY', 'PLACE', 'L5', 'Halls of Sacred Battle'),
+   ('FANTASY', 'PLACE', 'L5', 'Hammerfall Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Hammerstone Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Harpysong Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Haunting Obelisk'),
+   ('FANTASY', 'PLACE', 'L5', 'Hazelbough Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Heartgrove Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Heavenpiercer Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Herb Shack'),
+   ('FANTASY', 'PLACE', 'L5', 'Herbalist’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Herbalist’s Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Herding Barn'),
+   ('FANTASY', 'PLACE', 'L5', 'Herdmaster’s Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Hidden Mine Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Highbranch Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Highcliff Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Highflying Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Hightalon Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Highwind Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Hoard Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Hollow Tree Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Hollowed Flesh Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Hollowed Out Burrow'),
+   ('FANTASY', 'PLACE', 'L5', 'Hollowed Skull Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Hoofbeat Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Hoofprint Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Hoofstone Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Horned Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Horned Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Horned Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Horned Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Horns of War'),
+   ('FANTASY', 'PLACE', 'L5', 'Horse Breeder’s Stables'),
+   ('FANTASY', 'PLACE', 'L5', 'Howling Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Hunter’s Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Hunter’s Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Hunter’s Stash'),
+   ('FANTASY', 'PLACE', 'L5', 'Hunting Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Huntmaster’s Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Illusionist’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Infernal Throne'),
+   ('FANTASY', 'PLACE', 'L5', 'Inferno Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Inn'),
+   ('FANTASY', 'PLACE', 'L5', 'Iron Horn Gate'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironclad Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironclad Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironclad Stronghold'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironclaw Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironhoof Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironshard Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironwing Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Ironwood Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Jadepetal Gathering Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Jeweler’s Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Junkpile Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Junkyard Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Knowledge Fountain'),
+   ('FANTASY', 'PLACE', 'L5', 'Labyrinthine Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Lanceguard Watchpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Lava Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Leafwoven Cottage'),
+   ('FANTASY', 'PLACE', 'L5', 'Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Lily Petal Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Lilyshade Dome'),
+   ('FANTASY', 'PLACE', 'L5', 'Longstride Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Lore Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Luminous Lagoon Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Lunar Moss Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Lunar Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Lurking Tomb'),
+   ('FANTASY', 'PLACE', 'L5', 'Mages’ Guild'),
+   ('FANTASY', 'PLACE', 'L5', 'Mages’ Guildhall'),
+   ('FANTASY', 'PLACE', 'L5', 'Mage’s Guildhall'),
+   ('FANTASY', 'PLACE', 'L5', 'Maggot-Crafted Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Magic Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Magic Item Emporium'),
+   ('FANTASY', 'PLACE', 'L5', 'Magical Fountain'),
+   ('FANTASY', 'PLACE', 'L5', 'Magical Wing Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Mane Gathering Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Market Square'),
+   ('FANTASY', 'PLACE', 'L5', 'Mausoleum of the Damned'),
+   ('FANTASY', 'PLACE', 'L5', 'Maze Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Maze Prison'),
+   ('FANTASY', 'PLACE', 'L5', 'Maze of the Minotaur'),
+   ('FANTASY', 'PLACE', 'L5', 'Medicine Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Merchant’s Stall'),
+   ('FANTASY', 'PLACE', 'L5', 'Merman’s Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Midnight Courtyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Miller’s Windmill'),
+   ('FANTASY', 'PLACE', 'L5', 'Minotaur Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Minotaur Tomb'),
+   ('FANTASY', 'PLACE', 'L5', 'Minotaur’s Throne Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Mischief Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Mithril Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Mithril Works'),
+   ('FANTASY', 'PLACE', 'L5', 'Mole-Hole Hideaway'),
+   ('FANTASY', 'PLACE', 'L5', 'Monastery'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonbeam Conservatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonbeam Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonfern Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonflower Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Arbor'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Cove'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Grazing Grounds'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Lagoon'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Mausoleum'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Necropolis'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonlit Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonstone Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonstone Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonvine Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Moonwell'),
+   ('FANTASY', 'PLACE', 'L5', 'Moss-Cloaked Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Moss-Covered Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Moss-Crusted Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Mossbound Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Mosswoven Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Mossy Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Mountain Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Mountain Pass Gate'),
+   ('FANTASY', 'PLACE', 'L5', 'Mountaincrest Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Mountainpeak Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Mud-Bound Shack'),
+   ('FANTASY', 'PLACE', 'L5', 'Mud-Dug Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Mud-Dwelling'),
+   ('FANTASY', 'PLACE', 'L5', 'Mudslide Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Mudslide Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Mudstone Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Mushroom Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Mystic Dragon Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Mystic Fire Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Mystic Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Mystic Glade'),
+   ('FANTASY', 'PLACE', 'L5', 'Mystic Scriptorium'),
+   ('FANTASY', 'PLACE', 'L5', 'Naiad’s Well'),
+   ('FANTASY', 'PLACE', 'L5', 'Nature’s Embrace Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Nautical Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Necromancer’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Necrotic Lab'),
+   ('FANTASY', 'PLACE', 'L5', 'Nest of the Gale'),
+   ('FANTASY', 'PLACE', 'L5', 'Nest of the Storm'),
+   ('FANTASY', 'PLACE', 'L5', 'Night Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Nightmare Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Nightwatch Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Night’s Embrace Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Nocturnal Mansion'),
+   ('FANTASY', 'PLACE', 'L5', 'Nocturnal Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Nomad’s Camp'),
+   ('FANTASY', 'PLACE', 'L5', 'Oakmother’s Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Oathfire Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Obsidian Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Obsidian Quarry'),
+   ('FANTASY', 'PLACE', 'L5', 'Oceanic Chateau'),
+   ('FANTASY', 'PLACE', 'L5', 'Oceanic Court'),
+   ('FANTASY', 'PLACE', 'L5', 'Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Patchwork Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Pearl Enclave'),
+   ('FANTASY', 'PLACE', 'L5', 'Pearl Harbor'),
+   ('FANTASY', 'PLACE', 'L5', 'Pearl Shell Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Perch of the Highwinds'),
+   ('FANTASY', 'PLACE', 'L5', 'Petal-Draped Canopy'),
+   ('FANTASY', 'PLACE', 'L5', 'Philosopher’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Pinnacle Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Pit of Honor'),
+   ('FANTASY', 'PLACE', 'L5', 'Pixie Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Poisoned Pit Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Potion Brewing Lab'),
+   ('FANTASY', 'PLACE', 'L5', 'Potion Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Potion Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Prison'),
+   ('FANTASY', 'PLACE', 'L5', 'Putrescent Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Putrid Shop'),
+   ('FANTASY', 'PLACE', 'L5', 'Putrid Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Quarry'),
+   ('FANTASY', 'PLACE', 'L5', 'Ragged Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Raiders’ Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Raiders’ Fort'),
+   ('FANTASY', 'PLACE', 'L5', 'Rainbow Meadow Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Rat-Run Tunnel'),
+   ('FANTASY', 'PLACE', 'L5', 'Rat’s Nest Tavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Rat’s Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Ravager’s Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Raven-Keeper’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Ravencrest Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Ravenwing Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Riders’ Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Rider’s Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Rider’s Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Riding Stables'),
+   ('FANTASY', 'PLACE', 'L5', 'Ritual Cave'),
+   ('FANTASY', 'PLACE', 'L5', 'Ritual Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Ritual Ground'),
+   ('FANTASY', 'PLACE', 'L5', 'Roaring Heights Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Rockhide Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Rootspire Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Rot-Filled House'),
+   ('FANTASY', 'PLACE', 'L5', 'Rotten Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Rotting Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Rotting Tomb'),
+   ('FANTASY', 'PLACE', 'L5', 'Rubble Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Rune Carving Studio'),
+   ('FANTASY', 'PLACE', 'L5', 'Rune-Bound Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Rune-Crafting Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Runehammer Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Runestone Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Runic Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Rusty Cage Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Rusty Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Sacred Fire Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Sacred Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Sacred Grove Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Sacrificial Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Sage’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Saltwater Reef House'),
+   ('FANTASY', 'PLACE', 'L5', 'Sanctum of the Worthy'),
+   ('FANTASY', 'PLACE', 'L5', 'Sandcastle Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Sanguine Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Sapstone Garden Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Savagery Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Scalebound Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Scavenger’s Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Scavenger’s Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Schoolhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Scorched Hearth'),
+   ('FANTASY', 'PLACE', 'L5', 'Scorched Ritual Ground'),
+   ('FANTASY', 'PLACE', 'L5', 'Scorched Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Scrapheap Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Scrapstone Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Scrapwood Cabin'),
+   ('FANTASY', 'PLACE', 'L5', 'Scribe’s Office'),
+   ('FANTASY', 'PLACE', 'L5', 'Sea Breeze House'),
+   ('FANTASY', 'PLACE', 'L5', 'Seafloor Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Seafoam Haven'),
+   ('FANTASY', 'PLACE', 'L5', 'Searing Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Searing Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Seashell Cottage'),
+   ('FANTASY', 'PLACE', 'L5', 'Seashell Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Seaweed Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Secret Door Tavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Secret Passage Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Seer’s Dome'),
+   ('FANTASY', 'PLACE', 'L5', 'Seer’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Seraphic Gatehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Sewer Maze Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Sewer-Lair Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Shade-Ridden Estate'),
+   ('FANTASY', 'PLACE', 'L5', 'Shadow Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Shadowed Courtyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Shadows Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Shaky Shack'),
+   ('FANTASY', 'PLACE', 'L5', 'Shaman’s Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Shaman’s Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Sharkfin Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Shattered Clifftop'),
+   ('FANTASY', 'PLACE', 'L5', 'Shattered Coffin Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Shattered Stone Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Shield-Crafted Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Shieldmaiden’s Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Shimmering Sea Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Shoddy Warehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Shrouded Tomb'),
+   ('FANTASY', 'PLACE', 'L5', 'Silver Current Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverbark Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverfeather Watch'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverleaf Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Silvermist Cove'),
+   ('FANTASY', 'PLACE', 'L5', 'Silvermist Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverstone Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverwing Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Silverwood Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Singing Branch Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Siren’s Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Skeletal Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Skeletal Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Skittering Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Skull-Crowned Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Skull-Splintered Gatehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Skullgate Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Sky-Palace of the Winds'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyborne Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyclaw Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyforge Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyfury Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyhunter Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyshard Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyward Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyward Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyward Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Skywarden’s Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Skywatch Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Skywatch Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Skyweaver Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Slime-Ridden Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Smelting Furnace Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Smithy'),
+   ('FANTASY', 'PLACE', 'L5', 'Smoldering Fire Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Soaring Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Soaring Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Softbark Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Songbird Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Songbird Sanctum'),
+   ('FANTASY', 'PLACE', 'L5', 'Sorcerer’s Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Sorcery Academy'),
+   ('FANTASY', 'PLACE', 'L5', 'Soulstone Altar'),
+   ('FANTASY', 'PLACE', 'L5', 'Spearpeak Monastery'),
+   ('FANTASY', 'PLACE', 'L5', 'Spearsworn Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Spearwind Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Spell Library'),
+   ('FANTASY', 'PLACE', 'L5', 'Spellcasting Arena'),
+   ('FANTASY', 'PLACE', 'L5', 'Spellcasting Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Spiked Cage'),
+   ('FANTASY', 'PLACE', 'L5', 'Spiked Pit Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Spirit Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Spirit Totem Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Spirit-Touched Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Spriggan’s Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Stable'),
+   ('FANTASY', 'PLACE', 'L5', 'Stables'),
+   ('FANTASY', 'PLACE', 'L5', 'Starfall Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Starfish Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Starflower Archway'),
+   ('FANTASY', 'PLACE', 'L5', 'Starleaf Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Starlight Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Starlight Enclave'),
+   ('FANTASY', 'PLACE', 'L5', 'Starlight Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Starshine Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Stinkpit Dungeon'),
+   ('FANTASY', 'PLACE', 'L5', 'Stone Bridge'),
+   ('FANTASY', 'PLACE', 'L5', 'Stone Horn Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Stone Pillar Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Stone-Hearted Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Stone-Tunnel Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonecrag Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonecutters Guild'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonefoot Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Stoneforge Guild'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonehearth Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonehelm Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Stonemason’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Stoneshield Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Storm-Cauldron Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormcall Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormcaller’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormcrest Palace'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormfeather Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormfeather Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormfury Aerie'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormrider’s Hold'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormrider’s Lookout'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormspire Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormwind Alcove'),
+   ('FANTASY', 'PLACE', 'L5', 'Stormwing Hold'),
+   ('FANTASY', 'PLACE', 'L5', 'Summoning Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunbeam Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunburst Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Suncatcher Aerie'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunfire Watch'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunken Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunlit Encampment'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunlit Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunlit Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunpetal Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunset Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunshine Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunspire Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Sunwoven Dome'),
+   ('FANTASY', 'PLACE', 'L5', 'Swamp Hovel'),
+   ('FANTASY', 'PLACE', 'L5', 'Swamp Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Swanwing Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Sylvan Archway'),
+   ('FANTASY', 'PLACE', 'L5', 'Sylvan Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Tailor’s House'),
+   ('FANTASY', 'PLACE', 'L5', 'Talonstone Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Talons’ Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Tangleleaf Watch'),
+   ('FANTASY', 'PLACE', 'L5', 'Tattered Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Tavern'),
+   ('FANTASY', 'PLACE', 'L5', 'Teleportation Nexus'),
+   ('FANTASY', 'PLACE', 'L5', 'Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Tethered Stall'),
+   ('FANTASY', 'PLACE', 'L5', 'The Blooming Archway'),
+   ('FANTASY', 'PLACE', 'L5', 'The Bull’s Roar'),
+   ('FANTASY', 'PLACE', 'L5', 'The Celestial Armory'),
+   ('FANTASY', 'PLACE', 'L5', 'The Deepforge'),
+   ('FANTASY', 'PLACE', 'L5', 'The Eclipsed Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'The Enleafed Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'The Eternal Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'The Great Labyrinth'),
+   ('FANTASY', 'PLACE', 'L5', 'The Greenheart Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'The Griffin’s Talon'),
+   ('FANTASY', 'PLACE', 'L5', 'The Ironroot Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'The Lichen Niche'),
+   ('FANTASY', 'PLACE', 'L5', 'The Living Arch'),
+   ('FANTASY', 'PLACE', 'L5', 'The Minotaur’s Den'),
+   ('FANTASY', 'PLACE', 'L5', 'The Roosting Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'The Silver Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'The Stoneroom'),
+   ('FANTASY', 'PLACE', 'L5', 'The Sylvan Hearth'),
+   ('FANTASY', 'PLACE', 'L5', 'The Valkyrie Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'The Valkyrie’s Flame'),
+   ('FANTASY', 'PLACE', 'L5', 'The Verdant Spiral'),
+   ('FANTASY', 'PLACE', 'L5', 'The Wildroot Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'The Winged Crown'),
+   ('FANTASY', 'PLACE', 'L5', 'The Wingguard Lodge'),
+   ('FANTASY', 'PLACE', 'L5', 'Thistlebloom Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Thistlewood Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Thorn-Kissed Arbor'),
+   ('FANTASY', 'PLACE', 'L5', 'Thorn-Snare Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Thunderclaw Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Thunderhoof Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Thunderpeak Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Thunderpeak Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Thunderwing Armory'),
+   ('FANTASY', 'PLACE', 'L5', 'Tidal Archway'),
+   ('FANTASY', 'PLACE', 'L5', 'Tidal Cavern Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Tidal Pool Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Tidecaller’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Time Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Tinker’s Workshop'),
+   ('FANTASY', 'PLACE', 'L5', 'Torn Canvas Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Town Gatehouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Town Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Town Watchhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Tracker’s Campfire'),
+   ('FANTASY', 'PLACE', 'L5', 'Tracker’s Hideout'),
+   ('FANTASY', 'PLACE', 'L5', 'Trading Post'),
+   ('FANTASY', 'PLACE', 'L5', 'Tranquility Gardens'),
+   ('FANTASY', 'PLACE', 'L5', 'Trap-Filled Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Trapdoor House'),
+   ('FANTASY', 'PLACE', 'L5', 'Travelers´ Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Treasure Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Tree'),
+   ('FANTASY', 'PLACE', 'L5', 'Treehouse Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Tribal Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Tribal Gathering Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Tribe Elder’s Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Tribe’s Hearth'),
+   ('FANTASY', 'PLACE', 'L5', 'Trickster’s Tunnel'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll Forge'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll Market'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll Pit'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll-Bone Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll-Horn Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll-Keeper’s Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Trollbone Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Trollhold'),
+   ('FANTASY', 'PLACE', 'L5', 'Trollwatch'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll’s Bridge'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll’s Den'),
+   ('FANTASY', 'PLACE', 'L5', 'Troll’s Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Trophy Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Trophy Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Tumbleweed Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Tunnels'),
+   ('FANTASY', 'PLACE', 'L5', 'Tunnels of the Buried King'),
+   ('FANTASY', 'PLACE', 'L5', 'Tunnels of the Lost'),
+   ('FANTASY', 'PLACE', 'L5', 'Turtleback Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Twilight Blossom Glade'),
+   ('FANTASY', 'PLACE', 'L5', 'Twilight Lance Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Twilight Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Twitching Tunnel Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Twixtwind Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Undead Alcove'),
+   ('FANTASY', 'PLACE', 'L5', 'Undead Hall of Flesh'),
+   ('FANTASY', 'PLACE', 'L5', 'Underdweller´s Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Cunning Underground Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Underground Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Undying Crypt'),
+   ('FANTASY', 'PLACE', 'L5', 'Valiance Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Valkyrie’s Vigil'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire Throne Room'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire’s Castle'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire’s Garden'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire’s Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire’s Lair'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampire’s Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampiric Estate'),
+   ('FANTASY', 'PLACE', 'L5', 'Vampiric Parlor'),
+   ('FANTASY', 'PLACE', 'L5', 'Vanguard Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Veilflower Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Veilroot Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Veilwood Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Vengeful Vault'),
+   ('FANTASY', 'PLACE', 'L5', 'Vermin’s Burrow'),
+   ('FANTASY', 'PLACE', 'L5', 'Victory Pole'),
+   ('FANTASY', 'PLACE', 'L5', 'Vile Hatchery'),
+   ('FANTASY', 'PLACE', 'L5', 'Vineyard'),
+   ('FANTASY', 'PLACE', 'L5', 'Volcanic Chamber'),
+   ('FANTASY', 'PLACE', 'L5', 'Volcanic Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Wandering Glade'),
+   ('FANTASY', 'PLACE', 'L5', 'Wanderwood Dwelling'),
+   ('FANTASY', 'PLACE', 'L5', 'War Banner Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'War Chief’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'War Steed Stables'),
+   ('FANTASY', 'PLACE', 'L5', 'War Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Warband’s Camp'),
+   ('FANTASY', 'PLACE', 'L5', 'Warband’s Enclave'),
+   ('FANTASY', 'PLACE', 'L5', 'Warchief’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Warchief’s Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Warding Circle'),
+   ('FANTASY', 'PLACE', 'L5', 'Warg-Rider’s Outpost'),
+   ('FANTASY', 'PLACE', 'L5', 'Warhorn Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Warlock’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Warlord’s Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Warlord’s Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Warlord’s Throne'),
+   ('FANTASY', 'PLACE', 'L5', 'Warpath Shrine'),
+   ('FANTASY', 'PLACE', 'L5', 'Warren Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Warren of Secrets'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Longhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Mead Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Rest'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Stables'),
+   ('FANTASY', 'PLACE', 'L5', 'Warrior’s Training Grounds'),
+   ('FANTASY', 'PLACE', 'L5', 'Wartorn Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Wartusk’s Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Water-Whisperer’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Watermill'),
+   ('FANTASY', 'PLACE', 'L5', 'Wave-Crested Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Whale-Bone Longhouse'),
+   ('FANTASY', 'PLACE', 'L5', 'Whimsy Nook'),
+   ('FANTASY', 'PLACE', 'L5', 'Whirlpool Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Whirlwind Shelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Whisperbreeze Alcove'),
+   ('FANTASY', 'PLACE', 'L5', 'Whispering Crypts'),
+   ('FANTASY', 'PLACE', 'L5', 'Whispering Glade'),
+   ('FANTASY', 'PLACE', 'L5', 'Whispering Grove'),
+   ('FANTASY', 'PLACE', 'L5', 'Whispering Grove Pavilion'),
+   ('FANTASY', 'PLACE', 'L5', 'Whisperwillow Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Whisperwind Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Wicked Chapel'),
+   ('FANTASY', 'PLACE', 'L5', 'Wilder’s Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Wildstalker’s Watchtower'),
+   ('FANTASY', 'PLACE', 'L5', 'Willowroot Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Willowwood Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Wind-Eagle’s Nest'),
+   ('FANTASY', 'PLACE', 'L5', 'Wind-Swept Perch'),
+   ('FANTASY', 'PLACE', 'L5', 'Wind-Touched Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Windborne Sanctum'),
+   ('FANTASY', 'PLACE', 'L5', 'Windcallers’ Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Windcallers’ Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Windcutter’s Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Windmill'),
+   ('FANTASY', 'PLACE', 'L5', 'Windrider Keep'),
+   ('FANTASY', 'PLACE', 'L5', 'Windrider’s Observatory'),
+   ('FANTASY', 'PLACE', 'L5', 'Windrunner’s Tent'),
+   ('FANTASY', 'PLACE', 'L5', 'Windshard Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Windsong Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Windsong Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Windstorm Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Windward Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Wingcliff Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Winged Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Winged Haven'),
+   ('FANTASY', 'PLACE', 'L5', 'Winged Hollow'),
+   ('FANTASY', 'PLACE', 'L5', 'Winged Sanctuary'),
+   ('FANTASY', 'PLACE', 'L5', 'Wingshadow Spire'),
+   ('FANTASY', 'PLACE', 'L5', 'Wingshield Citadel'),
+   ('FANTASY', 'PLACE', 'L5', 'Wingspan Barracks'),
+   ('FANTASY', 'PLACE', 'L5', 'Wispwood Refuge'),
+   ('FANTASY', 'PLACE', 'L5', 'Witch’s Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Wizard’s Retreat'),
+   ('FANTASY', 'PLACE', 'L5', 'Wizard’s Sanctum'),
+   ('FANTASY', 'PLACE', 'L5', 'Wizard’s Tower'),
+   ('FANTASY', 'PLACE', 'L5', 'Wobbling Wharf'),
+   ('FANTASY', 'PLACE', 'L5', 'Worm-Eaten Bastion'),
+   ('FANTASY', 'PLACE', 'L5', 'Wormhole Fortress'),
+   ('FANTASY', 'PLACE', 'L5', 'Wormwood Hut'),
+   ('FANTASY', 'PLACE', 'L5', 'Woven Vineshelter'),
+   ('FANTASY', 'PLACE', 'L5', 'Wraith-Filled Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Wreckage Hall'),
+   ('FANTASY', 'PLACE', 'L5', 'Wyrmstone Temple'),
+   ('FANTASY', 'PLACE', 'L5', 'Wyrm’s Roost'),
+   ('FANTASY', 'PLACE', 'L5', 'Zigzagged Pit');
 
 commit;

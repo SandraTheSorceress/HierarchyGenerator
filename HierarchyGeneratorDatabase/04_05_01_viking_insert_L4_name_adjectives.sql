@@ -1,95 +1,96 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Aesir-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ambitious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Asgard-risen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Asgardian');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Battle-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Berserker-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bifrost-crossed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bold');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bold-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Commanding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Courageous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Cunning');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Defiant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Determined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Diligent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Driven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fearless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fearsome');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fenrir-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fenrir-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fierce');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fiercely Loyal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fimbulwinter-ridden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Frey-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Freya-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Freyja-favored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Freyja’s Blessing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hamingja-filled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Heimdall’s Watchful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hel-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Honorable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Infallible');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Insightful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jotun-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jotun-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jörmungandr-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Jörmungandr’s Coil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Loki-esque');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Loki-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Loyal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Midgardian');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Mighty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Niflheim-ice');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Noble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Norn-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Odin-favored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Odinic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Odin’s Wisdom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Patient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Powerful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Pragmatic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ragnarök-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ragnarök-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Raven-winged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Resolute');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Respected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Righteous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ruthless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Savage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Self-Reliant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Sif-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skadi-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skaldic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skaldic-inspired');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Sleipnir-ridden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Sleipnir-rider');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Steadfast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Strategic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Stubborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Surtur-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Tactical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Thor-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Thor’s Hammered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Tyr-like');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Unstoppable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Unyielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Valhalla-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Valiant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Valkyrie-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Valkyrie-chosen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Valkyrie-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Vengeful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Viking-fated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Virtuous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Víðarr-strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Víðarr-vengeful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Wise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Worthy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Yggdrasil-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ymir’s Legacy');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('VIKING', 'PLACE', 'L4', 'Aesir-hearted'),
+   ('VIKING', 'PLACE', 'L4', 'Ambitious'),
+   ('VIKING', 'PLACE', 'L4', 'Asgard-risen'),
+   ('VIKING', 'PLACE', 'L4', 'Asgardian'),
+   ('VIKING', 'PLACE', 'L4', 'Battle-hardened'),
+   ('VIKING', 'PLACE', 'L4', 'Berserker-like'),
+   ('VIKING', 'PLACE', 'L4', 'Bifrost-crossed'),
+   ('VIKING', 'PLACE', 'L4', 'Bold'),
+   ('VIKING', 'PLACE', 'L4', 'Bold-hearted'),
+   ('VIKING', 'PLACE', 'L4', 'Commanding'),
+   ('VIKING', 'PLACE', 'L4', 'Courageous'),
+   ('VIKING', 'PLACE', 'L4', 'Cunning'),
+   ('VIKING', 'PLACE', 'L4', 'Defiant'),
+   ('VIKING', 'PLACE', 'L4', 'Determined'),
+   ('VIKING', 'PLACE', 'L4', 'Diligent'),
+   ('VIKING', 'PLACE', 'L4', 'Driven'),
+   ('VIKING', 'PLACE', 'L4', 'Fearless'),
+   ('VIKING', 'PLACE', 'L4', 'Fearsome'),
+   ('VIKING', 'PLACE', 'L4', 'Fenrir-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Fenrir-like'),
+   ('VIKING', 'PLACE', 'L4', 'Fierce'),
+   ('VIKING', 'PLACE', 'L4', 'Fiercely Loyal'),
+   ('VIKING', 'PLACE', 'L4', 'Fimbulwinter-ridden'),
+   ('VIKING', 'PLACE', 'L4', 'Frey-like'),
+   ('VIKING', 'PLACE', 'L4', 'Freya-like'),
+   ('VIKING', 'PLACE', 'L4', 'Freyja-favored'),
+   ('VIKING', 'PLACE', 'L4', 'Freyja’s Blessing'),
+   ('VIKING', 'PLACE', 'L4', 'Hamingja-filled'),
+   ('VIKING', 'PLACE', 'L4', 'Heimdall’s Watchful'),
+   ('VIKING', 'PLACE', 'L4', 'Hel-like'),
+   ('VIKING', 'PLACE', 'L4', 'Honorable'),
+   ('VIKING', 'PLACE', 'L4', 'Infallible'),
+   ('VIKING', 'PLACE', 'L4', 'Insightful'),
+   ('VIKING', 'PLACE', 'L4', 'Jotun-like'),
+   ('VIKING', 'PLACE', 'L4', 'Jotun-touched'),
+   ('VIKING', 'PLACE', 'L4', 'Jörmungandr-touched'),
+   ('VIKING', 'PLACE', 'L4', 'Jörmungandr’s Coil'),
+   ('VIKING', 'PLACE', 'L4', 'Loki-esque'),
+   ('VIKING', 'PLACE', 'L4', 'Loki-touched'),
+   ('VIKING', 'PLACE', 'L4', 'Loyal'),
+   ('VIKING', 'PLACE', 'L4', 'Midgardian'),
+   ('VIKING', 'PLACE', 'L4', 'Mighty'),
+   ('VIKING', 'PLACE', 'L4', 'Niflheim-ice'),
+   ('VIKING', 'PLACE', 'L4', 'Noble'),
+   ('VIKING', 'PLACE', 'L4', 'Norn-like'),
+   ('VIKING', 'PLACE', 'L4', 'Odin-favored'),
+   ('VIKING', 'PLACE', 'L4', 'Odinic'),
+   ('VIKING', 'PLACE', 'L4', 'Odin’s Wisdom'),
+   ('VIKING', 'PLACE', 'L4', 'Patient'),
+   ('VIKING', 'PLACE', 'L4', 'Powerful'),
+   ('VIKING', 'PLACE', 'L4', 'Pragmatic'),
+   ('VIKING', 'PLACE', 'L4', 'Ragnarök-born'),
+   ('VIKING', 'PLACE', 'L4', 'Ragnarök-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Raven-winged'),
+   ('VIKING', 'PLACE', 'L4', 'Resolute'),
+   ('VIKING', 'PLACE', 'L4', 'Respected'),
+   ('VIKING', 'PLACE', 'L4', 'Righteous'),
+   ('VIKING', 'PLACE', 'L4', 'Ruthless'),
+   ('VIKING', 'PLACE', 'L4', 'Savage'),
+   ('VIKING', 'PLACE', 'L4', 'Self-Reliant'),
+   ('VIKING', 'PLACE', 'L4', 'Sif-like'),
+   ('VIKING', 'PLACE', 'L4', 'Skadi-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Skaldic'),
+   ('VIKING', 'PLACE', 'L4', 'Skaldic-inspired'),
+   ('VIKING', 'PLACE', 'L4', 'Sleipnir-ridden'),
+   ('VIKING', 'PLACE', 'L4', 'Sleipnir-rider'),
+   ('VIKING', 'PLACE', 'L4', 'Steadfast'),
+   ('VIKING', 'PLACE', 'L4', 'Strategic'),
+   ('VIKING', 'PLACE', 'L4', 'Stubborn'),
+   ('VIKING', 'PLACE', 'L4', 'Surtur-like'),
+   ('VIKING', 'PLACE', 'L4', 'Tactical'),
+   ('VIKING', 'PLACE', 'L4', 'Thor-like'),
+   ('VIKING', 'PLACE', 'L4', 'Thor’s Hammered'),
+   ('VIKING', 'PLACE', 'L4', 'Tough'),
+   ('VIKING', 'PLACE', 'L4', 'Tyr-like'),
+   ('VIKING', 'PLACE', 'L4', 'Unstoppable'),
+   ('VIKING', 'PLACE', 'L4', 'Unyielding'),
+   ('VIKING', 'PLACE', 'L4', 'Valhalla-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Valiant'),
+   ('VIKING', 'PLACE', 'L4', 'Valkyrie-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Valkyrie-chosen'),
+   ('VIKING', 'PLACE', 'L4', 'Valkyrie-hearted'),
+   ('VIKING', 'PLACE', 'L4', 'Vengeful'),
+   ('VIKING', 'PLACE', 'L4', 'Viking-fated'),
+   ('VIKING', 'PLACE', 'L4', 'Virtuous'),
+   ('VIKING', 'PLACE', 'L4', 'Víðarr-strong'),
+   ('VIKING', 'PLACE', 'L4', 'Víðarr-vengeful'),
+   ('VIKING', 'PLACE', 'L4', 'Wise'),
+   ('VIKING', 'PLACE', 'L4', 'Worthy'),
+   ('VIKING', 'PLACE', 'L4', 'Yggdrasil-touched'),
+   ('VIKING', 'PLACE', 'L4', 'Ymir’s Legacy');
 
 commit;

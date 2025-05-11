@@ -1,40 +1,41 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'empire of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'union of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'alliance of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'republic of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'confederation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'empire of the stars');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'galactic dominion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'interstellar empire of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'province of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'galactic realm of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'star system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'supercluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'star federation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'intergalactic kingdom of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'cosmic empire of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'solar dominion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'unified realm of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'cosmic union of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'galactic federation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'universal dominion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'intergalactic alliance of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'sector of the stars');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'stellar empire of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'interstellar republic of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'celestial domain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'constellation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'unified empire of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'universe of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'stellar federation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'galactic kingdom of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'galactic federation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'realm of the stars');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'solar federation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'void dominion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'cosmic union of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L1', 'extragalactic empire of');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L1', 'empire of'),
+   ('SPACE', 'PLACE', 'L1', 'union of'),
+   ('SPACE', 'PLACE', 'L1', 'alliance of'),
+   ('SPACE', 'PLACE', 'L1', 'republic of'),
+   ('SPACE', 'PLACE', 'L1', 'confederation of'),
+   ('SPACE', 'PLACE', 'L1', 'empire of the stars'),
+   ('SPACE', 'PLACE', 'L1', 'galactic dominion of'),
+   ('SPACE', 'PLACE', 'L1', 'interstellar empire of'),
+   ('SPACE', 'PLACE', 'L1', 'province of'),
+   ('SPACE', 'PLACE', 'L1', 'galactic realm of'),
+   ('SPACE', 'PLACE', 'L1', 'star system of'),
+   ('SPACE', 'PLACE', 'L1', 'supercluster of'),
+   ('SPACE', 'PLACE', 'L1', 'star federation of'),
+   ('SPACE', 'PLACE', 'L1', 'intergalactic kingdom of'),
+   ('SPACE', 'PLACE', 'L1', 'cosmic empire of'),
+   ('SPACE', 'PLACE', 'L1', 'solar dominion of'),
+   ('SPACE', 'PLACE', 'L1', 'unified realm of'),
+   ('SPACE', 'PLACE', 'L1', 'cosmic union of'),
+   ('SPACE', 'PLACE', 'L1', 'galactic federation of'),
+   ('SPACE', 'PLACE', 'L1', 'universal dominion of'),
+   ('SPACE', 'PLACE', 'L1', 'intergalactic alliance of'),
+   ('SPACE', 'PLACE', 'L1', 'sector of the stars'),
+   ('SPACE', 'PLACE', 'L1', 'stellar empire of'),
+   ('SPACE', 'PLACE', 'L1', 'interstellar republic of'),
+   ('SPACE', 'PLACE', 'L1', 'celestial domain of'),
+   ('SPACE', 'PLACE', 'L1', 'constellation of'),
+   ('SPACE', 'PLACE', 'L1', 'unified empire of'),
+   ('SPACE', 'PLACE', 'L1', 'universe of'),
+   ('SPACE', 'PLACE', 'L1', 'stellar federation of'),
+   ('SPACE', 'PLACE', 'L1', 'galactic kingdom of'),
+   ('SPACE', 'PLACE', 'L1', 'galactic federation of'),
+   ('SPACE', 'PLACE', 'L1', 'realm of the stars'),
+   ('SPACE', 'PLACE', 'L1', 'solar federation of'),
+   ('SPACE', 'PLACE', 'L1', 'void dominion of'),
+   ('SPACE', 'PLACE', 'L1', 'cosmic union of'),
+   ('SPACE', 'PLACE', 'L1', 'extragalactic empire of');
 
 commit;

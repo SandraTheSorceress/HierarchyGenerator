@@ -1,44 +1,45 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'planet of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'moon of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'colony of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'habitat of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'dome of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'bastion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'colony base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'sector of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'ring of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'orbit of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'zone of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'realm of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'expanse of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'sector station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'ark of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'habitat ring of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'superstation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'colony world of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'planetary system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'exoplanet of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'orbital city of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'space hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'stellar station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'settlement ring of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'planet base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'system hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'starbase of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'colony planet of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'exoplanet of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'dyson sphere of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'energy node of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'orbital station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'twin suns of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'black hole of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'neutron star of');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L3', 'planet of'),
+   ('SPACE', 'PLACE', 'L3', 'moon of'),
+   ('SPACE', 'PLACE', 'L3', 'colony of'),
+   ('SPACE', 'PLACE', 'L3', 'station of'),
+   ('SPACE', 'PLACE', 'L3', 'outpost of'),
+   ('SPACE', 'PLACE', 'L3', 'habitat of'),
+   ('SPACE', 'PLACE', 'L3', 'base of'),
+   ('SPACE', 'PLACE', 'L3', 'dome of'),
+   ('SPACE', 'PLACE', 'L3', 'bastion of'),
+   ('SPACE', 'PLACE', 'L3', 'colony base of'),
+   ('SPACE', 'PLACE', 'L3', 'sector of'),
+   ('SPACE', 'PLACE', 'L3', 'ring of'),
+   ('SPACE', 'PLACE', 'L3', 'orbit of'),
+   ('SPACE', 'PLACE', 'L3', 'zone of'),
+   ('SPACE', 'PLACE', 'L3', 'cluster of'),
+   ('SPACE', 'PLACE', 'L3', 'realm of'),
+   ('SPACE', 'PLACE', 'L3', 'system of'),
+   ('SPACE', 'PLACE', 'L3', 'expanse of'),
+   ('SPACE', 'PLACE', 'L3', 'sector station of'),
+   ('SPACE', 'PLACE', 'L3', 'ark of'),
+   ('SPACE', 'PLACE', 'L3', 'habitat ring of'),
+   ('SPACE', 'PLACE', 'L3', 'superstation of'),
+   ('SPACE', 'PLACE', 'L3', 'colony world of'),
+   ('SPACE', 'PLACE', 'L3', 'planetary system of'),
+   ('SPACE', 'PLACE', 'L3', 'exoplanet of'),
+   ('SPACE', 'PLACE', 'L3', 'orbital city of'),
+   ('SPACE', 'PLACE', 'L3', 'space hub of'),
+   ('SPACE', 'PLACE', 'L3', 'stellar station of'),
+   ('SPACE', 'PLACE', 'L3', 'settlement ring of'),
+   ('SPACE', 'PLACE', 'L3', 'planet base of'),
+   ('SPACE', 'PLACE', 'L3', 'system hub of'),
+   ('SPACE', 'PLACE', 'L3', 'starbase of'),
+   ('SPACE', 'PLACE', 'L3', 'colony planet of'),
+   ('SPACE', 'PLACE', 'L3', 'exoplanet of'),
+   ('SPACE', 'PLACE', 'L3', 'dyson sphere of'),
+   ('SPACE', 'PLACE', 'L3', 'energy node of'),
+   ('SPACE', 'PLACE', 'L3', 'orbital station of'),
+   ('SPACE', 'PLACE', 'L3', 'twin suns of'),
+   ('SPACE', 'PLACE', 'L3', 'black hole of'),
+   ('SPACE', 'PLACE', 'L3', 'neutron star of');
 
 commit;

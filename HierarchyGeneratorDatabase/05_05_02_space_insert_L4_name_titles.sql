@@ -1,163 +1,164 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'advanced research base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'aeldari webway gate of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'alien technology center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'asteroid base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'asteroid colony of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'astropathic relay of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'away team base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'battle station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'battlefront base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'battleship yard of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'battleshipyard of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'bio-lab of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'bio-research station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'black legion fortress of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'black templar citadel of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'cargo hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'chaos stronghold of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'chaos war station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'colonial hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'command center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'command post of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'communications relay of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'cryogenics station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'dark angels retreat of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'data center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'death guard citadel of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deathwatch station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deep space communication center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deep space observatory of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deep-space facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deep-space monitoring of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'deep-space station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'defense grid of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'defense station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'diplomatic envoy of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'diplomatic station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'docking port of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'docking ring of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'eldar craftworld of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'energy converter of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'energy nexus of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'engineering station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'escape pod station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'exploration outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'extraterrestrial research station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'federation hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'first contact station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'fleet command of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'fleet dock of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'fleet dockyard of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'forge world of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'fortress-monastery of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'fusion reactor station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'galactic embassy of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'galactic station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'geneticae lab of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'gravity well of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'gravity well station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'habitation dome of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'high command station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'hollowed moon base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'imperial command post of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'imperial guard depot of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'imperial shrine of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'imperial vault of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'imperial war factory of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'intergalactic gateway of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'intergalactic relay of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'interstellar command of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'interstellar station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'iron hands facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'launch pad of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'librarius station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'logistics base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'long-range sensor array of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'lunar base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'lunar bastion of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'maintenance hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'mechanicus forge of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'medical facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'military base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'military outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'military research center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'mining facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'navigation relay of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'navy fleet station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'necron tomb of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'observation post of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'observation station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'orbital defense of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'orbital observatory of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'orbital platform of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'orbital station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'orx battle station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'outreach station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'planetary defense station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'planetary gateway of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'planetary outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'planetary research of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'quantum lab of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'quantum station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'quarantine station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'radar array of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'raven guard stronghold of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'recovery station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'redemptor station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'refueling station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'repair facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'research colony of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'research facility of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'research hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'research station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'resource depot of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'resupply station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'satellite relay of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'science lab of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'scientific base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'scientific outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'scion enclave of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'sectarius command of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'security outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'sensor array of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'sensor node of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space dock of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space marine barracks of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space mining colony of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space observatory of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space refueling station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space repair center of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'space wolf outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'spaceport of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'starbase of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'starfleet dock of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'starship repair dock of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'stellar observatory of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'strategic outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'supply depot of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'supply hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'supply station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'surveillance station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'tactical outpost of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'tactical station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'tau city of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'tech-priest enclave of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'terraforming base of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'terraforming station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'throneworld citadel of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'tithe collection station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'transgalactic station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'transport hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'universal translator hub of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'vigilator station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'void fortress of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'voidborne sanctum of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'warboss lair of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'warfare station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'warp gate of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'warp gate station of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L4', 'xenos research center of');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L4', 'advanced research base of'),
+   ('SPACE', 'PLACE', 'L4', 'aeldari webway gate of'),
+   ('SPACE', 'PLACE', 'L4', 'alien technology center of'),
+   ('SPACE', 'PLACE', 'L4', 'asteroid base of'),
+   ('SPACE', 'PLACE', 'L4', 'asteroid colony of'),
+   ('SPACE', 'PLACE', 'L4', 'astropathic relay of'),
+   ('SPACE', 'PLACE', 'L4', 'away team base of'),
+   ('SPACE', 'PLACE', 'L4', 'battle station of'),
+   ('SPACE', 'PLACE', 'L4', 'battlefront base of'),
+   ('SPACE', 'PLACE', 'L4', 'battleship yard of'),
+   ('SPACE', 'PLACE', 'L4', 'battleshipyard of'),
+   ('SPACE', 'PLACE', 'L4', 'bio-lab of'),
+   ('SPACE', 'PLACE', 'L4', 'bio-research station of'),
+   ('SPACE', 'PLACE', 'L4', 'black legion fortress of'),
+   ('SPACE', 'PLACE', 'L4', 'black templar citadel of'),
+   ('SPACE', 'PLACE', 'L4', 'cargo hub of'),
+   ('SPACE', 'PLACE', 'L4', 'chaos stronghold of'),
+   ('SPACE', 'PLACE', 'L4', 'chaos war station of'),
+   ('SPACE', 'PLACE', 'L4', 'colonial hub of'),
+   ('SPACE', 'PLACE', 'L4', 'command center of'),
+   ('SPACE', 'PLACE', 'L4', 'command post of'),
+   ('SPACE', 'PLACE', 'L4', 'communications relay of'),
+   ('SPACE', 'PLACE', 'L4', 'cryogenics station of'),
+   ('SPACE', 'PLACE', 'L4', 'dark angels retreat of'),
+   ('SPACE', 'PLACE', 'L4', 'data center of'),
+   ('SPACE', 'PLACE', 'L4', 'death guard citadel of'),
+   ('SPACE', 'PLACE', 'L4', 'deathwatch station of'),
+   ('SPACE', 'PLACE', 'L4', 'deep space communication center of'),
+   ('SPACE', 'PLACE', 'L4', 'deep space observatory of'),
+   ('SPACE', 'PLACE', 'L4', 'deep-space facility of'),
+   ('SPACE', 'PLACE', 'L4', 'deep-space monitoring of'),
+   ('SPACE', 'PLACE', 'L4', 'deep-space station of'),
+   ('SPACE', 'PLACE', 'L4', 'defense grid of'),
+   ('SPACE', 'PLACE', 'L4', 'defense station of'),
+   ('SPACE', 'PLACE', 'L4', 'diplomatic envoy of'),
+   ('SPACE', 'PLACE', 'L4', 'diplomatic station of'),
+   ('SPACE', 'PLACE', 'L4', 'docking port of'),
+   ('SPACE', 'PLACE', 'L4', 'docking ring of'),
+   ('SPACE', 'PLACE', 'L4', 'eldar craftworld of'),
+   ('SPACE', 'PLACE', 'L4', 'energy converter of'),
+   ('SPACE', 'PLACE', 'L4', 'energy nexus of'),
+   ('SPACE', 'PLACE', 'L4', 'engineering station of'),
+   ('SPACE', 'PLACE', 'L4', 'escape pod station of'),
+   ('SPACE', 'PLACE', 'L4', 'exploration outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'extraterrestrial research station of'),
+   ('SPACE', 'PLACE', 'L4', 'federation hub of'),
+   ('SPACE', 'PLACE', 'L4', 'first contact station of'),
+   ('SPACE', 'PLACE', 'L4', 'fleet command of'),
+   ('SPACE', 'PLACE', 'L4', 'fleet dock of'),
+   ('SPACE', 'PLACE', 'L4', 'fleet dockyard of'),
+   ('SPACE', 'PLACE', 'L4', 'forge world of'),
+   ('SPACE', 'PLACE', 'L4', 'fortress-monastery of'),
+   ('SPACE', 'PLACE', 'L4', 'fusion reactor station of'),
+   ('SPACE', 'PLACE', 'L4', 'galactic embassy of'),
+   ('SPACE', 'PLACE', 'L4', 'galactic station of'),
+   ('SPACE', 'PLACE', 'L4', 'geneticae lab of'),
+   ('SPACE', 'PLACE', 'L4', 'gravity well of'),
+   ('SPACE', 'PLACE', 'L4', 'gravity well station of'),
+   ('SPACE', 'PLACE', 'L4', 'habitation dome of'),
+   ('SPACE', 'PLACE', 'L4', 'high command station of'),
+   ('SPACE', 'PLACE', 'L4', 'hollowed moon base of'),
+   ('SPACE', 'PLACE', 'L4', 'imperial command post of'),
+   ('SPACE', 'PLACE', 'L4', 'imperial guard depot of'),
+   ('SPACE', 'PLACE', 'L4', 'imperial shrine of'),
+   ('SPACE', 'PLACE', 'L4', 'imperial vault of'),
+   ('SPACE', 'PLACE', 'L4', 'imperial war factory of'),
+   ('SPACE', 'PLACE', 'L4', 'intergalactic gateway of'),
+   ('SPACE', 'PLACE', 'L4', 'intergalactic relay of'),
+   ('SPACE', 'PLACE', 'L4', 'interstellar command of'),
+   ('SPACE', 'PLACE', 'L4', 'interstellar station of'),
+   ('SPACE', 'PLACE', 'L4', 'iron hands facility of'),
+   ('SPACE', 'PLACE', 'L4', 'launch pad of'),
+   ('SPACE', 'PLACE', 'L4', 'librarius station of'),
+   ('SPACE', 'PLACE', 'L4', 'logistics base of'),
+   ('SPACE', 'PLACE', 'L4', 'long-range sensor array of'),
+   ('SPACE', 'PLACE', 'L4', 'lunar base of'),
+   ('SPACE', 'PLACE', 'L4', 'lunar bastion of'),
+   ('SPACE', 'PLACE', 'L4', 'maintenance hub of'),
+   ('SPACE', 'PLACE', 'L4', 'mechanicus forge of'),
+   ('SPACE', 'PLACE', 'L4', 'medical facility of'),
+   ('SPACE', 'PLACE', 'L4', 'military base of'),
+   ('SPACE', 'PLACE', 'L4', 'military outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'military research center of'),
+   ('SPACE', 'PLACE', 'L4', 'mining facility of'),
+   ('SPACE', 'PLACE', 'L4', 'navigation relay of'),
+   ('SPACE', 'PLACE', 'L4', 'navy fleet station of'),
+   ('SPACE', 'PLACE', 'L4', 'necron tomb of'),
+   ('SPACE', 'PLACE', 'L4', 'observation post of'),
+   ('SPACE', 'PLACE', 'L4', 'observation station of'),
+   ('SPACE', 'PLACE', 'L4', 'orbital defense of'),
+   ('SPACE', 'PLACE', 'L4', 'orbital observatory of'),
+   ('SPACE', 'PLACE', 'L4', 'orbital platform of'),
+   ('SPACE', 'PLACE', 'L4', 'orbital station of'),
+   ('SPACE', 'PLACE', 'L4', 'orx battle station of'),
+   ('SPACE', 'PLACE', 'L4', 'outreach station of'),
+   ('SPACE', 'PLACE', 'L4', 'planetary defense station of'),
+   ('SPACE', 'PLACE', 'L4', 'planetary gateway of'),
+   ('SPACE', 'PLACE', 'L4', 'planetary outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'planetary research of'),
+   ('SPACE', 'PLACE', 'L4', 'quantum lab of'),
+   ('SPACE', 'PLACE', 'L4', 'quantum station of'),
+   ('SPACE', 'PLACE', 'L4', 'quarantine station of'),
+   ('SPACE', 'PLACE', 'L4', 'radar array of'),
+   ('SPACE', 'PLACE', 'L4', 'raven guard stronghold of'),
+   ('SPACE', 'PLACE', 'L4', 'recovery station of'),
+   ('SPACE', 'PLACE', 'L4', 'redemptor station of'),
+   ('SPACE', 'PLACE', 'L4', 'refueling station of'),
+   ('SPACE', 'PLACE', 'L4', 'repair facility of'),
+   ('SPACE', 'PLACE', 'L4', 'research colony of'),
+   ('SPACE', 'PLACE', 'L4', 'research facility of'),
+   ('SPACE', 'PLACE', 'L4', 'research hub of'),
+   ('SPACE', 'PLACE', 'L4', 'research station of'),
+   ('SPACE', 'PLACE', 'L4', 'resource depot of'),
+   ('SPACE', 'PLACE', 'L4', 'resupply station of'),
+   ('SPACE', 'PLACE', 'L4', 'satellite relay of'),
+   ('SPACE', 'PLACE', 'L4', 'science lab of'),
+   ('SPACE', 'PLACE', 'L4', 'scientific base of'),
+   ('SPACE', 'PLACE', 'L4', 'scientific outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'scion enclave of'),
+   ('SPACE', 'PLACE', 'L4', 'sectarius command of'),
+   ('SPACE', 'PLACE', 'L4', 'security outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'sensor array of'),
+   ('SPACE', 'PLACE', 'L4', 'sensor node of'),
+   ('SPACE', 'PLACE', 'L4', 'space dock of'),
+   ('SPACE', 'PLACE', 'L4', 'space marine barracks of'),
+   ('SPACE', 'PLACE', 'L4', 'space mining colony of'),
+   ('SPACE', 'PLACE', 'L4', 'space observatory of'),
+   ('SPACE', 'PLACE', 'L4', 'space refueling station of'),
+   ('SPACE', 'PLACE', 'L4', 'space repair center of'),
+   ('SPACE', 'PLACE', 'L4', 'space wolf outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'spaceport of'),
+   ('SPACE', 'PLACE', 'L4', 'starbase of'),
+   ('SPACE', 'PLACE', 'L4', 'starfleet dock of'),
+   ('SPACE', 'PLACE', 'L4', 'starship repair dock of'),
+   ('SPACE', 'PLACE', 'L4', 'stellar observatory of'),
+   ('SPACE', 'PLACE', 'L4', 'strategic outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'supply depot of'),
+   ('SPACE', 'PLACE', 'L4', 'supply hub of'),
+   ('SPACE', 'PLACE', 'L4', 'supply station of'),
+   ('SPACE', 'PLACE', 'L4', 'surveillance station of'),
+   ('SPACE', 'PLACE', 'L4', 'tactical outpost of'),
+   ('SPACE', 'PLACE', 'L4', 'tactical station of'),
+   ('SPACE', 'PLACE', 'L4', 'tau city of'),
+   ('SPACE', 'PLACE', 'L4', 'tech-priest enclave of'),
+   ('SPACE', 'PLACE', 'L4', 'terraforming base of'),
+   ('SPACE', 'PLACE', 'L4', 'terraforming station of'),
+   ('SPACE', 'PLACE', 'L4', 'throneworld citadel of'),
+   ('SPACE', 'PLACE', 'L4', 'tithe collection station of'),
+   ('SPACE', 'PLACE', 'L4', 'transgalactic station of'),
+   ('SPACE', 'PLACE', 'L4', 'transport hub of'),
+   ('SPACE', 'PLACE', 'L4', 'universal translator hub of'),
+   ('SPACE', 'PLACE', 'L4', 'vigilator station of'),
+   ('SPACE', 'PLACE', 'L4', 'void fortress of'),
+   ('SPACE', 'PLACE', 'L4', 'voidborne sanctum of'),
+   ('SPACE', 'PLACE', 'L4', 'warboss lair of'),
+   ('SPACE', 'PLACE', 'L4', 'warfare station of'),
+   ('SPACE', 'PLACE', 'L4', 'warp gate of'),
+   ('SPACE', 'PLACE', 'L4', 'warp gate station of'),
+   ('SPACE', 'PLACE', 'L4', 'xenos research center of');
 
 commit;

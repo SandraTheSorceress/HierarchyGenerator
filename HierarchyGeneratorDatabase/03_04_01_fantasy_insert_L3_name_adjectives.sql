@@ -1,251 +1,253 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ancient Oracle’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ancient Singer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Anvilborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Arcane Owl');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Arcane Spiral');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Arcanist’s Wake');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ash-Born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ash-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ash-Stained');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ash-Tongued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ashen Vow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Astral-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Axebitten');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Barreldelver’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Battle-Cursed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blackblood');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blackstone');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blacktongue');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blacktooth');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bladeshorn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blight-Touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blightborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blistered Iron');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blood-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blood-Touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bloodbraid');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blooddrinker’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bloodmarked Warrior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Blooming Thistle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bone-Cracked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bone-Torched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bonefire’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bonehowler’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Brimstone-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Broken Fang');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Broken Sword');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Bronzebeard’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Brute-Wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Burning Covenant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Burnt-Earth');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Celestial Seal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Chainbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Chainbound Flame');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Charnel Warden’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Chieftain’s Wrath');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Chronoglyph');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Chronomancer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Cinder-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Cloaked Star');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Coalhearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Copper-Browed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Corpse-Splitter’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Cracked Helm');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Cragborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crimson Grave');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crimson Pact');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crown of Thorns');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crowned Anvil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crystal Veil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Crystal-Spined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Curse-Marked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Daggermaw');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dark Promise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Death-Tide');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Deathchant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Deep-Hammered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Deep-Warded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Deepdelver’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Demon’s Grin');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Desecrator’s Mark');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Doomchant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dread Sorcerer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dread-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dream-Linked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dreaming Star');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dreamthorn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Duskborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Dust-Warded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Earthblooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Elderscribed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ember-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ember-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ember-Wreathed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Emberglyph');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Enchanted Lantern');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ether-Sung');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ethereal Bloom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Featherquill’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Fey-Whisper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Fire-Anointed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Fire-Braided');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Fire-Eyed Giant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Fire-Lashed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Flamebrand');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Flaybrand');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Forge-Kissed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Forgefather’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Forgotten Wraith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Frostjaw');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Gemcarver’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Gentle Deer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Gilded Antler');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Gilded Page');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Glimmering Spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Goldbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Golden Sunbeam');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Goldvein');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Gravetusk');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Greathammer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Grim Raven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Grime-Clad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Grimoire-Keeper’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Grudgebearer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hammerdeep');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hammerthane');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hate-Wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Haunted Widow’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hearth-Hollowed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hellborne');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hellfire’s Whisper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Helmcarver’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hexcarved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Hollow-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Horn-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Howling Fang');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Illusion-Braided');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Infernal Eye');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ink-Stained');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Iron Wolf');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Iron-Burnt');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ironflame');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ironforged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ironjaw');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Lava-Bathed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Leaf-Kissed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Lore-Bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Loreforged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Magma-Blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Malice-Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Mawscarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Mindpiercer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Mirror-Wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Misty Hill');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Mithril-Clad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Moon-Hallowed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Moon-Scribed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Moon-Warped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Moonlit Sage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Mossy Elm');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Nightwhispered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Oath-Shattered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Oathbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Oathbreaker’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Oracle’s Ash');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ore-Drinker’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Oreheart’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Pale Moon');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Pickhand’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Quiet Shepherd’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Quill-Bent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rageforged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Ravager’s Grin');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Razorbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Red-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Red-Eyed Horns');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Red-Fanged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Red-Vein');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Riftborn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rockrooted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rotfang');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rune-Sealed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rune-etched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Runemarked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rustfang');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Rustling Willow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Sapphire Archer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Scarhound’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Scarred Tusker’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Scary Vampire');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Scorch-Cursed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Screaming Flame');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Scroll-Kissed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Shadow-Cloaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Shieldwright’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Shrieking Maw');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Sigil-Spun');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Silver Flame');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Silverveined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Sin-Eater’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Singing River');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Sinshackled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Skarr-Blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Skullhammer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Slaughtermark');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Soft Wind');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Soulflayer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Spellbound Wind');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Spellburned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Spellmarked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Spiral-Eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Splitbone');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Staff-Bearer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Starcaller’s Echo');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Starlight Wanderer’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Starlit Arcanum');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Starroot');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Starwoven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Steel-Sung');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Stonefather’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Stonethrone’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Storm-Hammered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Stoutshield');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Sweet Clover');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'The Broken Sigil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'The Fallen Seal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Thirsting Flame');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Thorn-Crowned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Thunderhide');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Thundersteel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Time-Bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Timelost');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Tome-Cracked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Tuskbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Twilight Glyph');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Vault of Thought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Vault-Keeper’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Vilebrand');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Void-Inked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Voidbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wand-Touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wandering Candle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wandering Fey');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wandering Sigil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wandlight');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'War-Cursed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warborn Forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warhowler’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warmaw');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warp-Fanged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warpainted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Warpfire’s');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Whispering Ember');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Whispering Ghoul');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Whispering Tome');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wither-Soaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Woe-Wrapped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Woundtaker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('FANTASY', 'PLACE', 'L3', 'Wrathcloaked');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('FANTASY', 'PLACE', 'L3', 'Ancient Oracle’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Ancient Singer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Anvilborn'),
+   ('FANTASY', 'PLACE', 'L3', 'Arcane Owl'),
+   ('FANTASY', 'PLACE', 'L3', 'Arcane Spiral'),
+   ('FANTASY', 'PLACE', 'L3', 'Arcanist’s Wake'),
+   ('FANTASY', 'PLACE', 'L3', 'Ash-Born'),
+   ('FANTASY', 'PLACE', 'L3', 'Ash-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Ash-Stained'),
+   ('FANTASY', 'PLACE', 'L3', 'Ash-Tongued'),
+   ('FANTASY', 'PLACE', 'L3', 'Ashen Vow'),
+   ('FANTASY', 'PLACE', 'L3', 'Astral-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Axebitten'),
+   ('FANTASY', 'PLACE', 'L3', 'Barreldelver’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Battle-Cursed'),
+   ('FANTASY', 'PLACE', 'L3', 'Blackblood'),
+   ('FANTASY', 'PLACE', 'L3', 'Blackstone'),
+   ('FANTASY', 'PLACE', 'L3', 'Blacktongue'),
+   ('FANTASY', 'PLACE', 'L3', 'Blacktooth'),
+   ('FANTASY', 'PLACE', 'L3', 'Bladeshorn'),
+   ('FANTASY', 'PLACE', 'L3', 'Blight-Touched'),
+   ('FANTASY', 'PLACE', 'L3', 'Blightborn'),
+   ('FANTASY', 'PLACE', 'L3', 'Blistered Iron'),
+   ('FANTASY', 'PLACE', 'L3', 'Blood-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Blood-Touched'),
+   ('FANTASY', 'PLACE', 'L3', 'Bloodbraid'),
+   ('FANTASY', 'PLACE', 'L3', 'Blooddrinker’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Bloodmarked Warrior'),
+   ('FANTASY', 'PLACE', 'L3', 'Blooming Thistle'),
+   ('FANTASY', 'PLACE', 'L3', 'Bone-Cracked'),
+   ('FANTASY', 'PLACE', 'L3', 'Bone-Torched'),
+   ('FANTASY', 'PLACE', 'L3', 'Bonefire’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Bonehowler’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Brimstone-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Broken Fang'),
+   ('FANTASY', 'PLACE', 'L3', 'Broken Sword'),
+   ('FANTASY', 'PLACE', 'L3', 'Bronzebeard’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Brute-Wrought'),
+   ('FANTASY', 'PLACE', 'L3', 'Burning Covenant'),
+   ('FANTASY', 'PLACE', 'L3', 'Burnt-Earth'),
+   ('FANTASY', 'PLACE', 'L3', 'Celestial Seal'),
+   ('FANTASY', 'PLACE', 'L3', 'Chainbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Chainbound Flame'),
+   ('FANTASY', 'PLACE', 'L3', 'Charnel Warden’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Chieftain’s Wrath'),
+   ('FANTASY', 'PLACE', 'L3', 'Chronoglyph'),
+   ('FANTASY', 'PLACE', 'L3', 'Chronomancer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Cinder-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Cloaked Star'),
+   ('FANTASY', 'PLACE', 'L3', 'Coalhearted'),
+   ('FANTASY', 'PLACE', 'L3', 'Copper-Browed'),
+   ('FANTASY', 'PLACE', 'L3', 'Corpse-Splitter’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Cracked Helm'),
+   ('FANTASY', 'PLACE', 'L3', 'Cragborn'),
+   ('FANTASY', 'PLACE', 'L3', 'Crimson Grave'),
+   ('FANTASY', 'PLACE', 'L3', 'Crimson Pact'),
+   ('FANTASY', 'PLACE', 'L3', 'Crown of Thorns'),
+   ('FANTASY', 'PLACE', 'L3', 'Crowned Anvil'),
+   ('FANTASY', 'PLACE', 'L3', 'Crystal Veil'),
+   ('FANTASY', 'PLACE', 'L3', 'Crystal-Spined'),
+   ('FANTASY', 'PLACE', 'L3', 'Curse-Marked'),
+   ('FANTASY', 'PLACE', 'L3', 'Daggermaw'),
+   ('FANTASY', 'PLACE', 'L3', 'Dark Promise'),
+   ('FANTASY', 'PLACE', 'L3', 'Death-Tide'),
+   ('FANTASY', 'PLACE', 'L3', 'Deathchant'),
+   ('FANTASY', 'PLACE', 'L3', 'Deep-Hammered'),
+   ('FANTASY', 'PLACE', 'L3', 'Deep-Warded'),
+   ('FANTASY', 'PLACE', 'L3', 'Deepdelver’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Demon’s Grin'),
+   ('FANTASY', 'PLACE', 'L3', 'Desecrator’s Mark'),
+   ('FANTASY', 'PLACE', 'L3', 'Doomchant'),
+   ('FANTASY', 'PLACE', 'L3', 'Dread Sorcerer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Dread-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Dream-Linked'),
+   ('FANTASY', 'PLACE', 'L3', 'Dreaming Star'),
+   ('FANTASY', 'PLACE', 'L3', 'Dreamthorn'),
+   ('FANTASY', 'PLACE', 'L3', 'Duskborn'),
+   ('FANTASY', 'PLACE', 'L3', 'Dust-Warded'),
+   ('FANTASY', 'PLACE', 'L3', 'Earthblooded'),
+   ('FANTASY', 'PLACE', 'L3', 'Elderscribed'),
+   ('FANTASY', 'PLACE', 'L3', 'Ember-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Ember-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Ember-Wreathed'),
+   ('FANTASY', 'PLACE', 'L3', 'Emberglyph'),
+   ('FANTASY', 'PLACE', 'L3', 'Enchanted Lantern'),
+   ('FANTASY', 'PLACE', 'L3', 'Ether-Sung'),
+   ('FANTASY', 'PLACE', 'L3', 'Ethereal Bloom'),
+   ('FANTASY', 'PLACE', 'L3', 'Featherquill’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Fey-Whisper'),
+   ('FANTASY', 'PLACE', 'L3', 'Fire-Anointed'),
+   ('FANTASY', 'PLACE', 'L3', 'Fire-Braided'),
+   ('FANTASY', 'PLACE', 'L3', 'Fire-Eyed Giant'),
+   ('FANTASY', 'PLACE', 'L3', 'Fire-Lashed'),
+   ('FANTASY', 'PLACE', 'L3', 'Flamebrand'),
+   ('FANTASY', 'PLACE', 'L3', 'Flaybrand'),
+   ('FANTASY', 'PLACE', 'L3', 'Forge-Kissed'),
+   ('FANTASY', 'PLACE', 'L3', 'Forgefather’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Forgotten Wraith'),
+   ('FANTASY', 'PLACE', 'L3', 'Frostjaw'),
+   ('FANTASY', 'PLACE', 'L3', 'Gemcarver’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Gentle Deer'),
+   ('FANTASY', 'PLACE', 'L3', 'Gilded Antler'),
+   ('FANTASY', 'PLACE', 'L3', 'Gilded Page'),
+   ('FANTASY', 'PLACE', 'L3', 'Glimmering Spirit'),
+   ('FANTASY', 'PLACE', 'L3', 'Goldbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Golden Sunbeam'),
+   ('FANTASY', 'PLACE', 'L3', 'Goldvein'),
+   ('FANTASY', 'PLACE', 'L3', 'Gravetusk'),
+   ('FANTASY', 'PLACE', 'L3', 'Greathammer'),
+   ('FANTASY', 'PLACE', 'L3', 'Grim Raven'),
+   ('FANTASY', 'PLACE', 'L3', 'Grime-Clad'),
+   ('FANTASY', 'PLACE', 'L3', 'Grimoire-Keeper’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Grudgebearer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Hammerdeep'),
+   ('FANTASY', 'PLACE', 'L3', 'Hammerthane'),
+   ('FANTASY', 'PLACE', 'L3', 'Hate-Wrought'),
+   ('FANTASY', 'PLACE', 'L3', 'Haunted Widow’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Hearth-Hollowed'),
+   ('FANTASY', 'PLACE', 'L3', 'Hellborne'),
+   ('FANTASY', 'PLACE', 'L3', 'Hellfire’s Whisper'),
+   ('FANTASY', 'PLACE', 'L3', 'Helmcarver’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Hexcarved'),
+   ('FANTASY', 'PLACE', 'L3', 'Hollow-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Horn-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Howling Fang'),
+   ('FANTASY', 'PLACE', 'L3', 'Illusion-Braided'),
+   ('FANTASY', 'PLACE', 'L3', 'Infernal Eye'),
+   ('FANTASY', 'PLACE', 'L3', 'Ink-Stained'),
+   ('FANTASY', 'PLACE', 'L3', 'Iron Wolf'),
+   ('FANTASY', 'PLACE', 'L3', 'Iron-Burnt'),
+   ('FANTASY', 'PLACE', 'L3', 'Ironflame'),
+   ('FANTASY', 'PLACE', 'L3', 'Ironforged'),
+   ('FANTASY', 'PLACE', 'L3', 'Ironjaw'),
+   ('FANTASY', 'PLACE', 'L3', 'Lava-Bathed'),
+   ('FANTASY', 'PLACE', 'L3', 'Leaf-Kissed'),
+   ('FANTASY', 'PLACE', 'L3', 'Lore-Bound'),
+   ('FANTASY', 'PLACE', 'L3', 'Loreforged'),
+   ('FANTASY', 'PLACE', 'L3', 'Magma-Blooded'),
+   ('FANTASY', 'PLACE', 'L3', 'Malice-Forged'),
+   ('FANTASY', 'PLACE', 'L3', 'Mawscarred'),
+   ('FANTASY', 'PLACE', 'L3', 'Mindpiercer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Mirror-Wrought'),
+   ('FANTASY', 'PLACE', 'L3', 'Misty Hill'),
+   ('FANTASY', 'PLACE', 'L3', 'Mithril-Clad'),
+   ('FANTASY', 'PLACE', 'L3', 'Moon-Hallowed'),
+   ('FANTASY', 'PLACE', 'L3', 'Moon-Scribed'),
+   ('FANTASY', 'PLACE', 'L3', 'Moon-Warped'),
+   ('FANTASY', 'PLACE', 'L3', 'Moonlit Sage'),
+   ('FANTASY', 'PLACE', 'L3', 'Mossy Elm'),
+   ('FANTASY', 'PLACE', 'L3', 'Nightwhispered'),
+   ('FANTASY', 'PLACE', 'L3', 'Oath-Shattered'),
+   ('FANTASY', 'PLACE', 'L3', 'Oathbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Oathbreaker’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Oracle’s Ash'),
+   ('FANTASY', 'PLACE', 'L3', 'Ore-Drinker’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Oreheart’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Pale Moon'),
+   ('FANTASY', 'PLACE', 'L3', 'Pickhand’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Quiet Shepherd’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Quill-Bent'),
+   ('FANTASY', 'PLACE', 'L3', 'Rageforged'),
+   ('FANTASY', 'PLACE', 'L3', 'Ravager’s Grin'),
+   ('FANTASY', 'PLACE', 'L3', 'Razorbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Red-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Red-Eyed Horns'),
+   ('FANTASY', 'PLACE', 'L3', 'Red-Fanged'),
+   ('FANTASY', 'PLACE', 'L3', 'Red-Vein'),
+   ('FANTASY', 'PLACE', 'L3', 'Riftborn'),
+   ('FANTASY', 'PLACE', 'L3', 'Rockrooted'),
+   ('FANTASY', 'PLACE', 'L3', 'Rotfang'),
+   ('FANTASY', 'PLACE', 'L3', 'Rune-Sealed'),
+   ('FANTASY', 'PLACE', 'L3', 'Rune-etched'),
+   ('FANTASY', 'PLACE', 'L3', 'Runemarked'),
+   ('FANTASY', 'PLACE', 'L3', 'Rustfang'),
+   ('FANTASY', 'PLACE', 'L3', 'Rustling Willow'),
+   ('FANTASY', 'PLACE', 'L3', 'Sapphire Archer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Scarhound’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Scarred Tusker’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Scary Vampire'),
+   ('FANTASY', 'PLACE', 'L3', 'Scorch-Cursed'),
+   ('FANTASY', 'PLACE', 'L3', 'Screaming Flame'),
+   ('FANTASY', 'PLACE', 'L3', 'Scroll-Kissed'),
+   ('FANTASY', 'PLACE', 'L3', 'Shadow-Cloaked'),
+   ('FANTASY', 'PLACE', 'L3', 'Shieldwright’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Shrieking Maw'),
+   ('FANTASY', 'PLACE', 'L3', 'Sigil-Spun'),
+   ('FANTASY', 'PLACE', 'L3', 'Silver Flame'),
+   ('FANTASY', 'PLACE', 'L3', 'Silverveined'),
+   ('FANTASY', 'PLACE', 'L3', 'Sin-Eater’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Singing River'),
+   ('FANTASY', 'PLACE', 'L3', 'Sinshackled'),
+   ('FANTASY', 'PLACE', 'L3', 'Skarr-Blessed'),
+   ('FANTASY', 'PLACE', 'L3', 'Skullhammer'),
+   ('FANTASY', 'PLACE', 'L3', 'Slaughtermark'),
+   ('FANTASY', 'PLACE', 'L3', 'Soft Wind'),
+   ('FANTASY', 'PLACE', 'L3', 'Soulflayer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Spellbound Wind'),
+   ('FANTASY', 'PLACE', 'L3', 'Spellburned'),
+   ('FANTASY', 'PLACE', 'L3', 'Spellmarked'),
+   ('FANTASY', 'PLACE', 'L3', 'Spiral-Eyed'),
+   ('FANTASY', 'PLACE', 'L3', 'Splitbone'),
+   ('FANTASY', 'PLACE', 'L3', 'Staff-Bearer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Starcaller’s Echo'),
+   ('FANTASY', 'PLACE', 'L3', 'Starlight Wanderer’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Starlit Arcanum'),
+   ('FANTASY', 'PLACE', 'L3', 'Starroot'),
+   ('FANTASY', 'PLACE', 'L3', 'Starwoven'),
+   ('FANTASY', 'PLACE', 'L3', 'Steel-Sung'),
+   ('FANTASY', 'PLACE', 'L3', 'Stonefather’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Stonethrone’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Storm-Hammered'),
+   ('FANTASY', 'PLACE', 'L3', 'Stoutshield'),
+   ('FANTASY', 'PLACE', 'L3', 'Sweet Clover'),
+   ('FANTASY', 'PLACE', 'L3', 'The Broken Sigil'),
+   ('FANTASY', 'PLACE', 'L3', 'The Fallen Seal'),
+   ('FANTASY', 'PLACE', 'L3', 'Thirsting Flame'),
+   ('FANTASY', 'PLACE', 'L3', 'Thorn-Crowned'),
+   ('FANTASY', 'PLACE', 'L3', 'Thunderhide'),
+   ('FANTASY', 'PLACE', 'L3', 'Thundersteel'),
+   ('FANTASY', 'PLACE', 'L3', 'Time-Bound'),
+   ('FANTASY', 'PLACE', 'L3', 'Timelost'),
+   ('FANTASY', 'PLACE', 'L3', 'Tome-Cracked'),
+   ('FANTASY', 'PLACE', 'L3', 'Tuskbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Twilight Glyph'),
+   ('FANTASY', 'PLACE', 'L3', 'Vault of Thought'),
+   ('FANTASY', 'PLACE', 'L3', 'Vault-Keeper’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Vilebrand'),
+   ('FANTASY', 'PLACE', 'L3', 'Void-Inked'),
+   ('FANTASY', 'PLACE', 'L3', 'Voidbound'),
+   ('FANTASY', 'PLACE', 'L3', 'Wand-Touched'),
+   ('FANTASY', 'PLACE', 'L3', 'Wandering Candle'),
+   ('FANTASY', 'PLACE', 'L3', 'Wandering Fey'),
+   ('FANTASY', 'PLACE', 'L3', 'Wandering Sigil'),
+   ('FANTASY', 'PLACE', 'L3', 'Wandlight'),
+   ('FANTASY', 'PLACE', 'L3', 'War-Cursed'),
+   ('FANTASY', 'PLACE', 'L3', 'Warborn Forger'),
+   ('FANTASY', 'PLACE', 'L3', 'Warhowler’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Warmaw'),
+   ('FANTASY', 'PLACE', 'L3', 'Warp-Fanged'),
+   ('FANTASY', 'PLACE', 'L3', 'Warpainted'),
+   ('FANTASY', 'PLACE', 'L3', 'Warpfire’s'),
+   ('FANTASY', 'PLACE', 'L3', 'Whispering Ember'),
+   ('FANTASY', 'PLACE', 'L3', 'Whispering Ghoul'),
+   ('FANTASY', 'PLACE', 'L3', 'Whispering Tome'),
+   ('FANTASY', 'PLACE', 'L3', 'Wither-Soaked'),
+   ('FANTASY', 'PLACE', 'L3', 'Woe-Wrapped'),
+   ('FANTASY', 'PLACE', 'L3', 'Woundtaker'),
+   ('FANTASY', 'PLACE', 'L3', 'Wrathcloaked');
+   
 commit;
