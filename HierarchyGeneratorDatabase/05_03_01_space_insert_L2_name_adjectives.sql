@@ -1,60 +1,61 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Abandoned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Ancient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Astartes-held');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Blackened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Blighted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Blood-soaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Boundless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Burning');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Celestial');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Chaotic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Corrupted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Crimson');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Crimson-plagued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Dark Imperium');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Dark');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Deathworld');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Doomed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Endless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Epic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Eternal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Exiled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Fading');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Forbidden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Forsaken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Fragmented');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Frozen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Galactic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Glorious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Glowing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'God-forsaken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Hellish');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Heretic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Hidden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Imperial');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Lifeless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Lost');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Luminous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Mysterious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Nebular');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Oblivion-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Ominous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Radiant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Ruinous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Shattered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Shimmering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Stellar');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Uncharted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Unknown');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Unyielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Vast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Vengeful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Void');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'War-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'War-torn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'Warp-infested');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L2', 'Abandoned'),
+   ('SPACE', 'PLACE', 'L2', 'Ancient'),
+   ('SPACE', 'PLACE', 'L2', 'Astartes-held'),
+   ('SPACE', 'PLACE', 'L2', 'Blackened'),
+   ('SPACE', 'PLACE', 'L2', 'Blighted'),
+   ('SPACE', 'PLACE', 'L2', 'Blood-soaked'),
+   ('SPACE', 'PLACE', 'L2', 'Boundless'),
+   ('SPACE', 'PLACE', 'L2', 'Burning'),
+   ('SPACE', 'PLACE', 'L2', 'Celestial'),
+   ('SPACE', 'PLACE', 'L2', 'Chaotic'),
+   ('SPACE', 'PLACE', 'L2', 'Corrupted'),
+   ('SPACE', 'PLACE', 'L2', 'Crimson'),
+   ('SPACE', 'PLACE', 'L2', 'Crimson-plagued'),
+   ('SPACE', 'PLACE', 'L2', 'Dark Imperium'),
+   ('SPACE', 'PLACE', 'L2', 'Dark'),
+   ('SPACE', 'PLACE', 'L2', 'Deathworld'),
+   ('SPACE', 'PLACE', 'L2', 'Doomed'),
+   ('SPACE', 'PLACE', 'L2', 'Endless'),
+   ('SPACE', 'PLACE', 'L2', 'Epic'),
+   ('SPACE', 'PLACE', 'L2', 'Eternal'),
+   ('SPACE', 'PLACE', 'L2', 'Exiled'),
+   ('SPACE', 'PLACE', 'L2', 'Fading'),
+   ('SPACE', 'PLACE', 'L2', 'Forbidden'),
+   ('SPACE', 'PLACE', 'L2', 'Forged'),
+   ('SPACE', 'PLACE', 'L2', 'Forsaken'),
+   ('SPACE', 'PLACE', 'L2', 'Fragmented'),
+   ('SPACE', 'PLACE', 'L2', 'Frozen'),
+   ('SPACE', 'PLACE', 'L2', 'Galactic'),
+   ('SPACE', 'PLACE', 'L2', 'Glorious'),
+   ('SPACE', 'PLACE', 'L2', 'Glowing'),
+   ('SPACE', 'PLACE', 'L2', 'God-forsaken'),
+   ('SPACE', 'PLACE', 'L2', 'Hellish'),
+   ('SPACE', 'PLACE', 'L2', 'Heretic'),
+   ('SPACE', 'PLACE', 'L2', 'Hidden'),
+   ('SPACE', 'PLACE', 'L2', 'Imperial'),
+   ('SPACE', 'PLACE', 'L2', 'Lifeless'),
+   ('SPACE', 'PLACE', 'L2', 'Lost'),
+   ('SPACE', 'PLACE', 'L2', 'Luminous'),
+   ('SPACE', 'PLACE', 'L2', 'Mysterious'),
+   ('SPACE', 'PLACE', 'L2', 'Nebular'),
+   ('SPACE', 'PLACE', 'L2', 'Oblivion-bound'),
+   ('SPACE', 'PLACE', 'L2', 'Ominous'),
+   ('SPACE', 'PLACE', 'L2', 'Radiant'),
+   ('SPACE', 'PLACE', 'L2', 'Ruinous'),
+   ('SPACE', 'PLACE', 'L2', 'Shattered'),
+   ('SPACE', 'PLACE', 'L2', 'Shimmering'),
+   ('SPACE', 'PLACE', 'L2', 'Stellar'),
+   ('SPACE', 'PLACE', 'L2', 'Uncharted'),
+   ('SPACE', 'PLACE', 'L2', 'Unknown'),
+   ('SPACE', 'PLACE', 'L2', 'Unyielding'),
+   ('SPACE', 'PLACE', 'L2', 'Vast'),
+   ('SPACE', 'PLACE', 'L2', 'Vengeful'),
+   ('SPACE', 'PLACE', 'L2', 'Void'),
+   ('SPACE', 'PLACE', 'L2', 'War-hardened'),
+   ('SPACE', 'PLACE', 'L2', 'War-torn'),
+   ('SPACE', 'PLACE', 'L2', 'Warp-infested');
 
 commit;

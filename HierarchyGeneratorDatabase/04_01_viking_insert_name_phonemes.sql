@@ -1,227 +1,228 @@
 use hierarchy_generator;
 
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Alf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Alv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'As');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Birk');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Bjarn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Bjor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Borg');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Dr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Eirik');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Erik');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Falk');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Fjall');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Frode');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Gald');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Gor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Grim');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Gunnar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Gust');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Ha');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Hal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Hald');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Hauk');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Hel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Herv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Hrolf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Jarl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Jor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Kast');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Kolv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Lod');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Njal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Njord');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Olaf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Ragn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Rolf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Ryn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Sig');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Styr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Sve');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Sven');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Thor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Torge');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Tork');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Tyr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Ulf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Vann');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Vid');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Vidd');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Vik');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'STARTING', 'Volf');
-
-
-
-/* Middle phonemes */
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ad');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ag');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ah');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'al');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'an');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'arv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'as');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'at');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'au');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'av');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ed');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'el');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'en');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'er');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'es');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'et');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ev');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ig');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ik');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'il');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ild');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'im');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'in');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'is');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'iv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'od');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'og');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'om');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'on');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'or');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ov');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'sa');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ud');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ug');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ul');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ut');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'yr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'MIDDLE', 'ys');
-
-
-/* Ending phones */
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bakken');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'berg');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bo');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'borg');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'botn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bro');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'brygge');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bryn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bråten');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'by');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'byn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bäck');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'böle');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'bølgen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'dal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'daldi');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'dalen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'dalr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'dun');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'fell');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'fellin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'fjell');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'fjord');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'foss');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'fält');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'gard');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'garde');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'glänta');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'grav');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'grend');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'grun');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'gränd');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'gärde');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'gård');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'haga');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'hage');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'hammar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'hamn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'haug');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'havn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'heim');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'heimd');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'holm');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'holmen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'holt');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'holtet');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'hult');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'huvud');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'jord');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'karl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'kilen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'klippen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'kloster');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'krig');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'krok');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'kråk');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'kulle');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'kullen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'köping');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'land');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'leif');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'li');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'liden');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'lilla');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'lund');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'lunda');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'löv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'løa');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'løkken');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'mark');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'mosse');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'myra');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'myren');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'nes');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ness');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'nessa');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'norr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'näset');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ro');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'rud');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'run');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'rund');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'røys');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sjö');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sjøen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skaret');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skjold');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skjær');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skog');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skogen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skov');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'skär');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'slette');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'stad');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'storf');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'strand');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'strum');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ström');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'stuga');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sund');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'svall');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'säter');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sås');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'sæter');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'tangen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'torn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'torp');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'tuna');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'und');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vall');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vallen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vangen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vik');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vikar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'viken');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vikin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'voll');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'vollen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'änge');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ås');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'åsen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ö');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('VIKING', 'PLACE', 'ENDING', 'ör');
+INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES 
+   ('VIKING', 'PLACE', 'STARTING', 'Alf'),
+   ('VIKING', 'PLACE', 'STARTING', 'Alv'),
+   ('VIKING', 'PLACE', 'STARTING', 'As'),
+   ('VIKING', 'PLACE', 'STARTING', 'Birk'),
+   ('VIKING', 'PLACE', 'STARTING', 'Bjarn'),
+   ('VIKING', 'PLACE', 'STARTING', 'Bjor'),
+   ('VIKING', 'PLACE', 'STARTING', 'Borg'),
+   ('VIKING', 'PLACE', 'STARTING', 'Dr'),
+   ('VIKING', 'PLACE', 'STARTING', 'Eirik'),
+   ('VIKING', 'PLACE', 'STARTING', 'Erik'),
+   ('VIKING', 'PLACE', 'STARTING', 'Falk'),
+   ('VIKING', 'PLACE', 'STARTING', 'Fjall'),
+   ('VIKING', 'PLACE', 'STARTING', 'Frode'),
+   ('VIKING', 'PLACE', 'STARTING', 'Gald'),
+   ('VIKING', 'PLACE', 'STARTING', 'Gor'),
+   ('VIKING', 'PLACE', 'STARTING', 'Grim'),
+   ('VIKING', 'PLACE', 'STARTING', 'Gunnar'),
+   ('VIKING', 'PLACE', 'STARTING', 'Gust'),
+   ('VIKING', 'PLACE', 'STARTING', 'Ha'),
+   ('VIKING', 'PLACE', 'STARTING', 'Hal'),
+   ('VIKING', 'PLACE', 'STARTING', 'Hald'),
+   ('VIKING', 'PLACE', 'STARTING', 'Hauk'),
+   ('VIKING', 'PLACE', 'STARTING', 'Hel'),
+   ('VIKING', 'PLACE', 'STARTING', 'Herv'),
+   ('VIKING', 'PLACE', 'STARTING', 'Hrolf'),
+   ('VIKING', 'PLACE', 'STARTING', 'Jarl'),
+   ('VIKING', 'PLACE', 'STARTING', 'Jor'),
+   ('VIKING', 'PLACE', 'STARTING', 'Kast'),
+   ('VIKING', 'PLACE', 'STARTING', 'Kolv'),
+   ('VIKING', 'PLACE', 'STARTING', 'Lod'),
+   ('VIKING', 'PLACE', 'STARTING', 'Njal'),
+   ('VIKING', 'PLACE', 'STARTING', 'Njord'),
+   ('VIKING', 'PLACE', 'STARTING', 'Olaf'),
+   ('VIKING', 'PLACE', 'STARTING', 'Ragn'),
+   ('VIKING', 'PLACE', 'STARTING', 'Rolf'),
+   ('VIKING', 'PLACE', 'STARTING', 'Ryn'),
+   ('VIKING', 'PLACE', 'STARTING', 'Sig'),
+   ('VIKING', 'PLACE', 'STARTING', 'Styr'),
+   ('VIKING', 'PLACE', 'STARTING', 'Sve'),
+   ('VIKING', 'PLACE', 'STARTING', 'Sven'),
+   ('VIKING', 'PLACE', 'STARTING', 'Thor'),
+   ('VIKING', 'PLACE', 'STARTING', 'Torge'),
+   ('VIKING', 'PLACE', 'STARTING', 'Tork'),
+   ('VIKING', 'PLACE', 'STARTING', 'Tyr'),
+   ('VIKING', 'PLACE', 'STARTING', 'Ulf'),
+   ('VIKING', 'PLACE', 'STARTING', 'Vann'),
+   ('VIKING', 'PLACE', 'STARTING', 'Vid'),
+   ('VIKING', 'PLACE', 'STARTING', 'Vidd'),
+   ('VIKING', 'PLACE', 'STARTING', 'Vik'),
+   ('VIKING', 'PLACE', 'STARTING', 'Volf'),
+   
+   
+   
+   
+   ('VIKING', 'PLACE', 'MIDDLE', 'ad'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ag'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ah'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'al'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'an'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ar'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'arv'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'as'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'at'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'au'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'av'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ed'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'el'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'en'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'er'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'es'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'et'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ev'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ig'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ik'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'il'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ild'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'im'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'in'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ir'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'is'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'iv'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'od'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'og'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ol'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'om'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'on'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'or'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ov'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'sa'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ud'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ug'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ul'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ut'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'yr'),
+   ('VIKING', 'PLACE', 'MIDDLE', 'ys'),
+   
+   
+   
+   ('VIKING', 'PLACE', 'ENDING', 'bakken'),
+   ('VIKING', 'PLACE', 'ENDING', 'berg'),
+   ('VIKING', 'PLACE', 'ENDING', 'bo'),
+   ('VIKING', 'PLACE', 'ENDING', 'borg'),
+   ('VIKING', 'PLACE', 'ENDING', 'botn'),
+   ('VIKING', 'PLACE', 'ENDING', 'bro'),
+   ('VIKING', 'PLACE', 'ENDING', 'brygge'),
+   ('VIKING', 'PLACE', 'ENDING', 'bryn'),
+   ('VIKING', 'PLACE', 'ENDING', 'bråten'),
+   ('VIKING', 'PLACE', 'ENDING', 'by'),
+   ('VIKING', 'PLACE', 'ENDING', 'byn'),
+   ('VIKING', 'PLACE', 'ENDING', 'bäck'),
+   ('VIKING', 'PLACE', 'ENDING', 'böle'),
+   ('VIKING', 'PLACE', 'ENDING', 'bølgen'),
+   ('VIKING', 'PLACE', 'ENDING', 'dal'),
+   ('VIKING', 'PLACE', 'ENDING', 'daldi'),
+   ('VIKING', 'PLACE', 'ENDING', 'dalen'),
+   ('VIKING', 'PLACE', 'ENDING', 'dalr'),
+   ('VIKING', 'PLACE', 'ENDING', 'dun'),
+   ('VIKING', 'PLACE', 'ENDING', 'fell'),
+   ('VIKING', 'PLACE', 'ENDING', 'fellin'),
+   ('VIKING', 'PLACE', 'ENDING', 'fjell'),
+   ('VIKING', 'PLACE', 'ENDING', 'fjord'),
+   ('VIKING', 'PLACE', 'ENDING', 'foss'),
+   ('VIKING', 'PLACE', 'ENDING', 'fält'),
+   ('VIKING', 'PLACE', 'ENDING', 'gard'),
+   ('VIKING', 'PLACE', 'ENDING', 'garde'),
+   ('VIKING', 'PLACE', 'ENDING', 'glänta'),
+   ('VIKING', 'PLACE', 'ENDING', 'grav'),
+   ('VIKING', 'PLACE', 'ENDING', 'grend'),
+   ('VIKING', 'PLACE', 'ENDING', 'grun'),
+   ('VIKING', 'PLACE', 'ENDING', 'gränd'),
+   ('VIKING', 'PLACE', 'ENDING', 'gärde'),
+   ('VIKING', 'PLACE', 'ENDING', 'gård'),
+   ('VIKING', 'PLACE', 'ENDING', 'haga'),
+   ('VIKING', 'PLACE', 'ENDING', 'hage'),
+   ('VIKING', 'PLACE', 'ENDING', 'hammar'),
+   ('VIKING', 'PLACE', 'ENDING', 'hamn'),
+   ('VIKING', 'PLACE', 'ENDING', 'haug'),
+   ('VIKING', 'PLACE', 'ENDING', 'havn'),
+   ('VIKING', 'PLACE', 'ENDING', 'heim'),
+   ('VIKING', 'PLACE', 'ENDING', 'heimd'),
+   ('VIKING', 'PLACE', 'ENDING', 'holm'),
+   ('VIKING', 'PLACE', 'ENDING', 'holmen'),
+   ('VIKING', 'PLACE', 'ENDING', 'holt'),
+   ('VIKING', 'PLACE', 'ENDING', 'holtet'),
+   ('VIKING', 'PLACE', 'ENDING', 'hult'),
+   ('VIKING', 'PLACE', 'ENDING', 'huvud'),
+   ('VIKING', 'PLACE', 'ENDING', 'jord'),
+   ('VIKING', 'PLACE', 'ENDING', 'karl'),
+   ('VIKING', 'PLACE', 'ENDING', 'kilen'),
+   ('VIKING', 'PLACE', 'ENDING', 'klippen'),
+   ('VIKING', 'PLACE', 'ENDING', 'kloster'),
+   ('VIKING', 'PLACE', 'ENDING', 'krig'),
+   ('VIKING', 'PLACE', 'ENDING', 'krok'),
+   ('VIKING', 'PLACE', 'ENDING', 'kråk'),
+   ('VIKING', 'PLACE', 'ENDING', 'kulle'),
+   ('VIKING', 'PLACE', 'ENDING', 'kullen'),
+   ('VIKING', 'PLACE', 'ENDING', 'köping'),
+   ('VIKING', 'PLACE', 'ENDING', 'land'),
+   ('VIKING', 'PLACE', 'ENDING', 'leif'),
+   ('VIKING', 'PLACE', 'ENDING', 'li'),
+   ('VIKING', 'PLACE', 'ENDING', 'liden'),
+   ('VIKING', 'PLACE', 'ENDING', 'lilla'),
+   ('VIKING', 'PLACE', 'ENDING', 'lund'),
+   ('VIKING', 'PLACE', 'ENDING', 'lunda'),
+   ('VIKING', 'PLACE', 'ENDING', 'löv'),
+   ('VIKING', 'PLACE', 'ENDING', 'løa'),
+   ('VIKING', 'PLACE', 'ENDING', 'løkken'),
+   ('VIKING', 'PLACE', 'ENDING', 'mark'),
+   ('VIKING', 'PLACE', 'ENDING', 'mosse'),
+   ('VIKING', 'PLACE', 'ENDING', 'myra'),
+   ('VIKING', 'PLACE', 'ENDING', 'myren'),
+   ('VIKING', 'PLACE', 'ENDING', 'nes'),
+   ('VIKING', 'PLACE', 'ENDING', 'ness'),
+   ('VIKING', 'PLACE', 'ENDING', 'nessa'),
+   ('VIKING', 'PLACE', 'ENDING', 'norr'),
+   ('VIKING', 'PLACE', 'ENDING', 'näset'),
+   ('VIKING', 'PLACE', 'ENDING', 'ro'),
+   ('VIKING', 'PLACE', 'ENDING', 'rud'),
+   ('VIKING', 'PLACE', 'ENDING', 'run'),
+   ('VIKING', 'PLACE', 'ENDING', 'rund'),
+   ('VIKING', 'PLACE', 'ENDING', 'røys'),
+   ('VIKING', 'PLACE', 'ENDING', 'sen'),
+   ('VIKING', 'PLACE', 'ENDING', 'sjö'),
+   ('VIKING', 'PLACE', 'ENDING', 'sjøen'),
+   ('VIKING', 'PLACE', 'ENDING', 'skaret'),
+   ('VIKING', 'PLACE', 'ENDING', 'skjold'),
+   ('VIKING', 'PLACE', 'ENDING', 'skjær'),
+   ('VIKING', 'PLACE', 'ENDING', 'skog'),
+   ('VIKING', 'PLACE', 'ENDING', 'skogen'),
+   ('VIKING', 'PLACE', 'ENDING', 'skov'),
+   ('VIKING', 'PLACE', 'ENDING', 'skär'),
+   ('VIKING', 'PLACE', 'ENDING', 'slette'),
+   ('VIKING', 'PLACE', 'ENDING', 'stad'),
+   ('VIKING', 'PLACE', 'ENDING', 'storf'),
+   ('VIKING', 'PLACE', 'ENDING', 'strand'),
+   ('VIKING', 'PLACE', 'ENDING', 'strum'),
+   ('VIKING', 'PLACE', 'ENDING', 'ström'),
+   ('VIKING', 'PLACE', 'ENDING', 'stuga'),
+   ('VIKING', 'PLACE', 'ENDING', 'sund'),
+   ('VIKING', 'PLACE', 'ENDING', 'svall'),
+   ('VIKING', 'PLACE', 'ENDING', 'säter'),
+   ('VIKING', 'PLACE', 'ENDING', 'sås'),
+   ('VIKING', 'PLACE', 'ENDING', 'sæter'),
+   ('VIKING', 'PLACE', 'ENDING', 'tangen'),
+   ('VIKING', 'PLACE', 'ENDING', 'torn'),
+   ('VIKING', 'PLACE', 'ENDING', 'torp'),
+   ('VIKING', 'PLACE', 'ENDING', 'tuna'),
+   ('VIKING', 'PLACE', 'ENDING', 'und'),
+   ('VIKING', 'PLACE', 'ENDING', 'vall'),
+   ('VIKING', 'PLACE', 'ENDING', 'vallen'),
+   ('VIKING', 'PLACE', 'ENDING', 'vangen'),
+   ('VIKING', 'PLACE', 'ENDING', 'vik'),
+   ('VIKING', 'PLACE', 'ENDING', 'vikar'),
+   ('VIKING', 'PLACE', 'ENDING', 'viken'),
+   ('VIKING', 'PLACE', 'ENDING', 'vikin'),
+   ('VIKING', 'PLACE', 'ENDING', 'vin'),
+   ('VIKING', 'PLACE', 'ENDING', 'voll'),
+   ('VIKING', 'PLACE', 'ENDING', 'vollen'),
+   ('VIKING', 'PLACE', 'ENDING', 'änge'),
+   ('VIKING', 'PLACE', 'ENDING', 'ås'),
+   ('VIKING', 'PLACE', 'ENDING', 'åsen'),
+   ('VIKING', 'PLACE', 'ENDING', 'ö'),
+   ('VIKING', 'PLACE', 'ENDING', 'ör');
 
 commit;

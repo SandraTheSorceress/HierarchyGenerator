@@ -1,595 +1,596 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Banshee');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Battlecruiser Yamato Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cyclone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dark Archon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dark Shrine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ghost Cloak');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Infestation Pit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mothership Core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nydus Worm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Oracle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Fuser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Protoss Colossus');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Protoss Immortal');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tempest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terran Command Center');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terran Reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Viking Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Viper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp Gate Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp-In Gateway');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp-In Nexus');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Widow Mine Drop');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Widow Mine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Larvae');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Mutalisks');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Queen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Swarm Host');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'AI assistant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'AI-powered ship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'AT-AT Walker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Adeptus Custodes Guardian Spear');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Adeptus Mechanicus Skitari');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Advanced pulse rifle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Aeldari Phoenix Bomber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Agriculture Synthesizer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Airlock');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Alien Artifact');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Alien Egg Container');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anacreon Battlecruiser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Andorian Phased Plasma Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Android Body');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Android Companion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-Gravity Boots');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-Gravity Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-Matter Containment Unit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-Matter Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-Matter Propulsion System');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-gravity boots');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Anti-matter reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Antigravity Boots');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Antigravity Ray');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Antimatter Collector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Antimatter Containment');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Antimatter cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Arrakis Spice Sifter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Artificial Gravity Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Artificial Intelligence Core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Assault Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Astro-Scooter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Astrophysics Research Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atmospheric Control');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atom Smasher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atomic Blast Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atomic Engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atomic Mining Laser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atomic Rocket');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atomic Thrusters');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Atreides Sword');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automated Alarm Clock');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automated Shipyard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automated Vacuum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automatic Laundry');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Automatic Toaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Babel Fish');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bajoran Orb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bajoran Wormhole');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Baneling Nest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Battle suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bene Gesserit Ring');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bene Gesserit Secrets');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bene Gesserit training');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bio-Plasma Injector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bioroid Processor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bioscanner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bistro at the End of the Universe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Blood Angels Jump Pack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Boba Fett’s Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bolter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Borg Assimilator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Borg Collective Cube');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bounty Hunter’s Helmet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Bureaucratic Starship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'C-3PO');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cannon Turret');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cardassian Orbital Weapon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chainsword');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chaos Daemon Lord');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chaos Space Marine Daemon Prince');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chewbacca’s Bowcaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Chrono Detector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cloaking Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Clone Trooper Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Comet Harvester');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Communicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Control Console');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cosmic Array');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cosmic Engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cosmic Ray Detector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crait Resistance Base');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crisis Evacuation Plan');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cryo-Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cryo-Weapon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cryo-pod');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cryogenic Preservation Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Crysknife');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cybernetic Arm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cybernetic Enhancer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Cyclotron Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Daemon Prince of Tzeentch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dark Eldar Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dark Matter Manipulator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Darth Maul’s Double-Bladed Lightsaber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Data Storage Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Data core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Data-Mining Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Data’s Neural Processor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Data’s Positronic Brain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Death Orb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Death Star Plans');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Death Star');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Death Trooper Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Deep Thought Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Deflector Dish');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Deflector Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Delta Flyer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dimensional Ripper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Doubly Accelerated Hitchhiking Kit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dreadnought');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Droid Army');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'EMP Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eager Colonist Pods');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eagle Nebula');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Eldar Fire Prism');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Electro-Magnetic Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Electromagnetic Pulse');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Encyclopedia Galactica');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energy Axe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energy Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Energy blade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Enterprise-D');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Environmental Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ewok Spear');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exoplanet Survey Drone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exoskeleton Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Exosuit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Explosive Spear');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ferengi Marauder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fission Reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flying Bed');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flying Car');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flying Dishwasher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Flying Saucer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Food Dispenser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Food Synthesizer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Force Ghost');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Force field generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ford Prefect`s Hitchhiking Kit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Forge World Warhound Titan');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fremen Knife');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fremen Warrior Gear');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fremen Water Drum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fremen stillsuit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion Blade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion Engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion Power Cell');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion Reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion blade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Fusion reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Futuristic Mirror');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Galactic Fusion Reactor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gaseous Nebula Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gene Engineering Lab');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Genestealer Cults Cult Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Giant Gravity Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gom Jabbar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gorkanaut');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravitational Collapse Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravitational Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravitational Manipulator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravitational Tractor Beam');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Graviton Manipulator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Graviton weapon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravity Well Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Gravity manipulator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Guild Navigator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Han Solo’s Blaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Harkonnen Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Harvester Drone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Heart of Gold');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'High Templar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Communicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Dome');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Droid');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Emitter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holo-Monitor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holodeck');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic Decoy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic Disguise Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic Projector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic emitter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Holographic shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hoth Base');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hover Skates');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hover Tank');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hover Vacuum');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hoverboard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hovercraft');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hovering Trash Can');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hydraulic Desalinators');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyperdrive Engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyperdrive core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyperdrive engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Hyperspace Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial Fists Siege Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial Guard Valkyrie');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial Knight');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial Star Destroyer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Imperial Vault');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Infiltration Pod');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Infinite Improbability Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Instant Cleaner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Instant Meal Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Inter-Galactic Travel Pod');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Interactive Calendar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Interdimensional Portal');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Intergalactic Navigator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Interstellar Communicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Invisibility Cloak');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion Cannons');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion Storm Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion Thruster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ion thruster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ionic Interference Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ixian Navigator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jabba’s Sail Barge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jedi Holocron');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jem’Hadar Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jet Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jetpack Backpack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jetpack Thruster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Jetpack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'K7 Starbase');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Kinetic Energy Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Klingon Bat’leth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Klingon Bird-of-Prey');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Klingon Disruptor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Klingon Empire Battle Cruiser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Kwisatz Haderach Ritual');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Kyber Crystal');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Land Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lando’s Cloud City Ship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Landsraad Embargo');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Landsraad Seal');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Blaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Harpoon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Knife');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Pen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Pistol');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser Telescope');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Laser cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lasgun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Leman Russ Tank');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Leto´s Elephant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Lightsaber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Long-range scanner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Magnetic Field Manipulator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Magnetic Grapple');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Magnetic Grav-Plate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mandalorian Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Paranoid Android');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mass-Wavelength Antenna');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Matter Beam');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Matter Disassembler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mech Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Medical bay');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Medivac Dropship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Melange');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mental Health Recovery Kit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mentalic Amplifier');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mentat Processor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Millennium Falcon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Millennium Falcon’s Kessel Run');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mind Probe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Molecular Analyzer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Molecular Disassembler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Molecular Scrambler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mood Ring');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Moon Rover');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Moonwalker Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Mutant Amplifier');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nanite Healing Pack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nano-drones');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nano-fabricator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nano-repair kit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nanobot Fabricator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nanobot Injector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nanobot swarm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Nanotech Injector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Navigational Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Necron Monolith');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Necron Triarch Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neural Hacking Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neural Interface Helmet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neural interface');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neuralizer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neuro-Enhanced Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neutron Beam Rifle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neutron Bomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Neutron Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Null Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Optical Camouflage Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Orbital Mining Rig');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ork Battlewagon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ork Mekboy Kustom Force Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ork Warboss');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ornithopter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'PADD (Personal Access Display Device)');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Pan Galactic Gargle Blaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Personal Jetpack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Personal Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Personal Teleportation Pad');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Personal Teleporter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Phase Cloak');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Phased Energy Weapon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Phaser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Phoenix');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Photon Blaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Photon Torpedo');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Picard’s Sword');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Planetary Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Planetary rover');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Planetary shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Accelerator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Grenade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Grenades');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Regenerator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Rifle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Shielding');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma Torpedo');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Plasma rifle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Pod Racer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Portable Rift Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Power Sword');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Prime Radiant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Protoss Pylon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psychic Data Receiver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psychic Hood');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psychic Interface');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psychohistorical Equations');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Psyker Familiar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Pulse Rifle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Chisel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Communicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Computer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Lens');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Probability Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Pulse Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Slipstream Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum Teleportation Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Quantum teleporter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'R&D Lab PLACE');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'R2-D2');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Radar Dish');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Radial Pulse Bomb');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ray Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Reactor Core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rebel Alliance Starfighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rebreather Mask');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Regenerative Nanoprobes');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Replicator System');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Replicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Republic Gunship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Repulsion Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Riker’s Phaser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rim of the Galaxy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robo-Chauffeur');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robot Assistant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robot Butler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robot Cook');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robot Maid');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robotic Arm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robotic Dog');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robotic Harvesters');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Robotic arm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rocket Thruster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Romulan Cloaking Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Romulan Warbird');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Rover Drone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sandstorm Gear');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sandtrout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sandworm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sardaukar Blade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Satellite Laser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Seldon Crisis');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Seldon Plan');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Seldon Projection Engine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Cleaning Toilet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Self-Watering Plant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sentient Cybernetic Brain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shield Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shield generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shield');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ship Re-entry Kit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Shuttlecraft');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Siege Tank');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sietch Box');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Signal Jammer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sisko’s Baseball');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sisters of Battle Immolator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sith Blade');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sith Holocron');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Slartibartfast´s Starship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Smart Refrigerator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Smart Visor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Smartphone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Smartwatch');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Solar Panel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Solar sail');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sonic Disruptor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Beacon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Capsule Escape Pod');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Capsule');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Dock');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Elevator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Faring Drones');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Marine Power Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Marine Terminator Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Pod');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Radio');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Shuttle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Sofa');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Station Dock');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Submarine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space Walker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space dock');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Time Distorter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Time Stabilizer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Time Warp Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Space-Warp Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spaceport Landing Pads');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spacer Navigation Computers');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spaceship in a Box');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Speeder Bike');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Speeder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spice Harvester');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Spock’s Science Station');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Star Destroyer Superweapon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starfleet Uniform');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starship Hyperdrive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Starship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stasis Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stasis field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealth Cloak');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stealth cloak');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stellar Conduit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stellar Converter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stellar Pylons');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stillsuit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Storm Bolter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stormtrooper Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Stormtrooper Helmet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Strategic Trade Network');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Sub-Etha Wave');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Suborbital Rocket');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Subspace communicator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Superconducting Power Core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Suspensor Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Synthesized Cake');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'T-16 Skyhopper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'TIE Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tachyon Detection Grid');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Armor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Command Center');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Control Panel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Drone');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Probe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical Scanner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tactical nanoforge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Talking TV');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tau Crisis Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tau Ion Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tau Riptide');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Telekinetic Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Telekinetic Gauntlet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Beam');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Chamber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Device');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Door');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Module');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Teleportation Ring');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Television Remote');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Television Screen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terminator Arm');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terraformer module');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Terran Battlecruiser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tesseract Drive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Black Hole of Time');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Electric Monk');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Fremen Dune Buggy');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Galactic Government´s Bureaucratic Approval');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The God of the Universe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Golden Lion Throne');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Guide´s Entry on Earth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Hitchhiker´s Guide');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Meaning of Life');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Navigator´s Dome');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Point of No Return');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Ship That Flew Through Time');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Spacing Guild Ship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'The Ultimate Question');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thermal Detonator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thermal Exchanger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thermal Imaging System');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thermal Rocket');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thopter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thumper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time Dilation Module');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time Displacement Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time Freeze Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time Loop Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Time Machine');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Towel');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Toxins of the Planet Earth');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Trans-Galactic Hyperdrive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Transmitter Array');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Transport Tube');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Transporter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Trantor Prime Generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Travelator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tricorder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Trillian´s Emergency Pack');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tuvok’s Tactical Console');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Tyranid Hive Tyrant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Ultralisk');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Universal Translator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vader’s TIE Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vader’s Tie Advanced');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vindicare Assassin');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Virtual Reality Interface');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vogon Battle Fleet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vogon Poetry');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Voice');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Voice-Activated Lights');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Void Ray');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Void Rocket');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vortex Cannon');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vulcan Mind Meld Tool');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Vulcan Science Academy Scanner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Walking Canes');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp Core');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp Gate');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Warp Prism');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Water of Life');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wormhole generator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wormsign Detector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Wraithknight');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'X-Wing Pilot Helmet');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'X-Wing Starfighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenobot Analyzer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenobot');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenomorph Containment Unit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Xenon Fuel for Spaceship');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Yoda’s Lightsaber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zaphod´s Second Head');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Hive');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zerg Overlord');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero Gravity Suit');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero Point Field');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zero-G toolset');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Zeta Ray Gun');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Dentrassi Restaurant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L5', 'Thermo-Absorption Panel');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L5', 'Banshee'),
+   ('SPACE', 'PLACE', 'L5', 'Battlecruiser Yamato Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Cyclone'),
+   ('SPACE', 'PLACE', 'L5', 'Dark Archon'),
+   ('SPACE', 'PLACE', 'L5', 'Dark Shrine'),
+   ('SPACE', 'PLACE', 'L5', 'Ghost Cloak'),
+   ('SPACE', 'PLACE', 'L5', 'Infestation Pit'),
+   ('SPACE', 'PLACE', 'L5', 'Mothership Core'),
+   ('SPACE', 'PLACE', 'L5', 'Nydus Worm'),
+   ('SPACE', 'PLACE', 'L5', 'Oracle'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Fuser'),
+   ('SPACE', 'PLACE', 'L5', 'Protoss Colossus'),
+   ('SPACE', 'PLACE', 'L5', 'Protoss Immortal'),
+   ('SPACE', 'PLACE', 'L5', 'Tempest'),
+   ('SPACE', 'PLACE', 'L5', 'Terran Command Center'),
+   ('SPACE', 'PLACE', 'L5', 'Terran Reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Viking Fighter'),
+   ('SPACE', 'PLACE', 'L5', 'Viper'),
+   ('SPACE', 'PLACE', 'L5', 'Warp Gate Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Warp-In Gateway'),
+   ('SPACE', 'PLACE', 'L5', 'Warp-In Nexus'),
+   ('SPACE', 'PLACE', 'L5', 'Widow Mine Drop'),
+   ('SPACE', 'PLACE', 'L5', 'Widow Mine'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Larvae'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Mutalisks'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Queen'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Swarm Host'),
+   ('SPACE', 'PLACE', 'L5', 'AI assistant'),
+   ('SPACE', 'PLACE', 'L5', 'AI-powered ship'),
+   ('SPACE', 'PLACE', 'L5', 'AT-AT Walker'),
+   ('SPACE', 'PLACE', 'L5', 'Adeptus Custodes Guardian Spear'),
+   ('SPACE', 'PLACE', 'L5', 'Adeptus Mechanicus Skitari'),
+   ('SPACE', 'PLACE', 'L5', 'Advanced pulse rifle'),
+   ('SPACE', 'PLACE', 'L5', 'Aeldari Phoenix Bomber'),
+   ('SPACE', 'PLACE', 'L5', 'Agriculture Synthesizer'),
+   ('SPACE', 'PLACE', 'L5', 'Airlock'),
+   ('SPACE', 'PLACE', 'L5', 'Alien Artifact'),
+   ('SPACE', 'PLACE', 'L5', 'Alien Egg Container'),
+   ('SPACE', 'PLACE', 'L5', 'Anacreon Battlecruiser'),
+   ('SPACE', 'PLACE', 'L5', 'Andorian Phased Plasma Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Android Body'),
+   ('SPACE', 'PLACE', 'L5', 'Android Companion'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-Gravity Boots'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-Gravity Drive'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-Matter Containment Unit'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-Matter Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-Matter Propulsion System'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-gravity boots'),
+   ('SPACE', 'PLACE', 'L5', 'Anti-matter reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Antigravity Boots'),
+   ('SPACE', 'PLACE', 'L5', 'Antigravity Ray'),
+   ('SPACE', 'PLACE', 'L5', 'Antimatter Collector'),
+   ('SPACE', 'PLACE', 'L5', 'Antimatter Containment'),
+   ('SPACE', 'PLACE', 'L5', 'Antimatter cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Arrakis Spice Sifter'),
+   ('SPACE', 'PLACE', 'L5', 'Artificial Gravity Field'),
+   ('SPACE', 'PLACE', 'L5', 'Artificial Intelligence Core'),
+   ('SPACE', 'PLACE', 'L5', 'Assault Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Astro-Scooter'),
+   ('SPACE', 'PLACE', 'L5', 'Astrophysics Research Device'),
+   ('SPACE', 'PLACE', 'L5', 'Atmospheric Control'),
+   ('SPACE', 'PLACE', 'L5', 'Atom Smasher'),
+   ('SPACE', 'PLACE', 'L5', 'Atomic Blast Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Atomic Engine'),
+   ('SPACE', 'PLACE', 'L5', 'Atomic Mining Laser'),
+   ('SPACE', 'PLACE', 'L5', 'Atomic Rocket'),
+   ('SPACE', 'PLACE', 'L5', 'Atomic Thrusters'),
+   ('SPACE', 'PLACE', 'L5', 'Atreides Sword'),
+   ('SPACE', 'PLACE', 'L5', 'Automated Alarm Clock'),
+   ('SPACE', 'PLACE', 'L5', 'Automated Shipyard'),
+   ('SPACE', 'PLACE', 'L5', 'Automated Vacuum'),
+   ('SPACE', 'PLACE', 'L5', 'Automatic Laundry'),
+   ('SPACE', 'PLACE', 'L5', 'Automatic Toaster'),
+   ('SPACE', 'PLACE', 'L5', 'Babel Fish'),
+   ('SPACE', 'PLACE', 'L5', 'Bajoran Orb'),
+   ('SPACE', 'PLACE', 'L5', 'Bajoran Wormhole'),
+   ('SPACE', 'PLACE', 'L5', 'Baneling Nest'),
+   ('SPACE', 'PLACE', 'L5', 'Battle suit'),
+   ('SPACE', 'PLACE', 'L5', 'Bene Gesserit Ring'),
+   ('SPACE', 'PLACE', 'L5', 'Bene Gesserit Secrets'),
+   ('SPACE', 'PLACE', 'L5', 'Bene Gesserit training'),
+   ('SPACE', 'PLACE', 'L5', 'Bio-Plasma Injector'),
+   ('SPACE', 'PLACE', 'L5', 'Bioroid Processor'),
+   ('SPACE', 'PLACE', 'L5', 'Bioscanner'),
+   ('SPACE', 'PLACE', 'L5', 'Bistro at the End of the Universe'),
+   ('SPACE', 'PLACE', 'L5', 'Blood Angels Jump Pack'),
+   ('SPACE', 'PLACE', 'L5', 'Boba Fett’s Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Bolter'),
+   ('SPACE', 'PLACE', 'L5', 'Borg Assimilator'),
+   ('SPACE', 'PLACE', 'L5', 'Borg Collective Cube'),
+   ('SPACE', 'PLACE', 'L5', 'Bounty Hunter’s Helmet'),
+   ('SPACE', 'PLACE', 'L5', 'Bureaucratic Starship'),
+   ('SPACE', 'PLACE', 'L5', 'C-3PO'),
+   ('SPACE', 'PLACE', 'L5', 'Cannon Turret'),
+   ('SPACE', 'PLACE', 'L5', 'Cardassian Orbital Weapon'),
+   ('SPACE', 'PLACE', 'L5', 'Chainsword'),
+   ('SPACE', 'PLACE', 'L5', 'Chaos Daemon Lord'),
+   ('SPACE', 'PLACE', 'L5', 'Chaos Space Marine Daemon Prince'),
+   ('SPACE', 'PLACE', 'L5', 'Chewbacca’s Bowcaster'),
+   ('SPACE', 'PLACE', 'L5', 'Chrono Detector'),
+   ('SPACE', 'PLACE', 'L5', 'Cloaking Field'),
+   ('SPACE', 'PLACE', 'L5', 'Clone Trooper Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Comet Harvester'),
+   ('SPACE', 'PLACE', 'L5', 'Communicator'),
+   ('SPACE', 'PLACE', 'L5', 'Control Console'),
+   ('SPACE', 'PLACE', 'L5', 'Cosmic Array'),
+   ('SPACE', 'PLACE', 'L5', 'Cosmic Engine'),
+   ('SPACE', 'PLACE', 'L5', 'Cosmic Ray Detector'),
+   ('SPACE', 'PLACE', 'L5', 'Crait Resistance Base'),
+   ('SPACE', 'PLACE', 'L5', 'Crisis Evacuation Plan'),
+   ('SPACE', 'PLACE', 'L5', 'Cryo-Chamber'),
+   ('SPACE', 'PLACE', 'L5', 'Cryo-Weapon'),
+   ('SPACE', 'PLACE', 'L5', 'Cryo-pod'),
+   ('SPACE', 'PLACE', 'L5', 'Cryogenic Preservation Chamber'),
+   ('SPACE', 'PLACE', 'L5', 'Crysknife'),
+   ('SPACE', 'PLACE', 'L5', 'Cybernetic Arm'),
+   ('SPACE', 'PLACE', 'L5', 'Cybernetic Enhancer'),
+   ('SPACE', 'PLACE', 'L5', 'Cyclotron Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Daemon Prince of Tzeentch'),
+   ('SPACE', 'PLACE', 'L5', 'Dark Eldar Raider'),
+   ('SPACE', 'PLACE', 'L5', 'Dark Matter Manipulator'),
+   ('SPACE', 'PLACE', 'L5', 'Darth Maul’s Double-Bladed Lightsaber'),
+   ('SPACE', 'PLACE', 'L5', 'Data Storage Vault'),
+   ('SPACE', 'PLACE', 'L5', 'Data core'),
+   ('SPACE', 'PLACE', 'L5', 'Data-Mining Device'),
+   ('SPACE', 'PLACE', 'L5', 'Data’s Neural Processor'),
+   ('SPACE', 'PLACE', 'L5', 'Data’s Positronic Brain'),
+   ('SPACE', 'PLACE', 'L5', 'Death Orb'),
+   ('SPACE', 'PLACE', 'L5', 'Death Star Plans'),
+   ('SPACE', 'PLACE', 'L5', 'Death Star'),
+   ('SPACE', 'PLACE', 'L5', 'Death Trooper Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Deep Thought Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Deflector Dish'),
+   ('SPACE', 'PLACE', 'L5', 'Deflector Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Delta Flyer'),
+   ('SPACE', 'PLACE', 'L5', 'Dimensional Ripper'),
+   ('SPACE', 'PLACE', 'L5', 'Doubly Accelerated Hitchhiking Kit'),
+   ('SPACE', 'PLACE', 'L5', 'Dreadnought'),
+   ('SPACE', 'PLACE', 'L5', 'Droid Army'),
+   ('SPACE', 'PLACE', 'L5', 'EMP Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Eager Colonist Pods'),
+   ('SPACE', 'PLACE', 'L5', 'Eagle Nebula'),
+   ('SPACE', 'PLACE', 'L5', 'Eldar Fire Prism'),
+   ('SPACE', 'PLACE', 'L5', 'Electro-Magnetic Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Electromagnetic Pulse'),
+   ('SPACE', 'PLACE', 'L5', 'Encyclopedia Galactica'),
+   ('SPACE', 'PLACE', 'L5', 'Energy Axe'),
+   ('SPACE', 'PLACE', 'L5', 'Energy Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Energy blade'),
+   ('SPACE', 'PLACE', 'L5', 'Enterprise-D'),
+   ('SPACE', 'PLACE', 'L5', 'Environmental Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Ewok Spear'),
+   ('SPACE', 'PLACE', 'L5', 'Exoplanet Survey Drone'),
+   ('SPACE', 'PLACE', 'L5', 'Exoskeleton Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Exosuit'),
+   ('SPACE', 'PLACE', 'L5', 'Explosive Spear'),
+   ('SPACE', 'PLACE', 'L5', 'Ferengi Marauder'),
+   ('SPACE', 'PLACE', 'L5', 'Fission Reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Flying Bed'),
+   ('SPACE', 'PLACE', 'L5', 'Flying Car'),
+   ('SPACE', 'PLACE', 'L5', 'Flying Dishwasher'),
+   ('SPACE', 'PLACE', 'L5', 'Flying Saucer'),
+   ('SPACE', 'PLACE', 'L5', 'Food Dispenser'),
+   ('SPACE', 'PLACE', 'L5', 'Food Synthesizer'),
+   ('SPACE', 'PLACE', 'L5', 'Force Ghost'),
+   ('SPACE', 'PLACE', 'L5', 'Force field generator'),
+   ('SPACE', 'PLACE', 'L5', 'Ford Prefect`s Hitchhiking Kit'),
+   ('SPACE', 'PLACE', 'L5', 'Forge World Warhound Titan'),
+   ('SPACE', 'PLACE', 'L5', 'Fremen Knife'),
+   ('SPACE', 'PLACE', 'L5', 'Fremen Warrior Gear'),
+   ('SPACE', 'PLACE', 'L5', 'Fremen Water Drum'),
+   ('SPACE', 'PLACE', 'L5', 'Fremen stillsuit'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion Blade'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion Engine'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion Power Cell'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion Reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion blade'),
+   ('SPACE', 'PLACE', 'L5', 'Fusion reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Futuristic Mirror'),
+   ('SPACE', 'PLACE', 'L5', 'Galactic Fusion Reactor'),
+   ('SPACE', 'PLACE', 'L5', 'Gaseous Nebula Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Gene Engineering Lab'),
+   ('SPACE', 'PLACE', 'L5', 'Genestealer Cults Cult Leader'),
+   ('SPACE', 'PLACE', 'L5', 'Giant Gravity Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Gom Jabbar'),
+   ('SPACE', 'PLACE', 'L5', 'Gorkanaut'),
+   ('SPACE', 'PLACE', 'L5', 'Gravitational Collapse Device'),
+   ('SPACE', 'PLACE', 'L5', 'Gravitational Drive'),
+   ('SPACE', 'PLACE', 'L5', 'Gravitational Manipulator'),
+   ('SPACE', 'PLACE', 'L5', 'Gravitational Tractor Beam'),
+   ('SPACE', 'PLACE', 'L5', 'Graviton Manipulator'),
+   ('SPACE', 'PLACE', 'L5', 'Graviton weapon'),
+   ('SPACE', 'PLACE', 'L5', 'Gravity Well Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Gravity manipulator'),
+   ('SPACE', 'PLACE', 'L5', 'Guild Navigator'),
+   ('SPACE', 'PLACE', 'L5', 'Han Solo’s Blaster'),
+   ('SPACE', 'PLACE', 'L5', 'Harkonnen Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Harvester Drone'),
+   ('SPACE', 'PLACE', 'L5', 'Heart of Gold'),
+   ('SPACE', 'PLACE', 'L5', 'High Templar'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Communicator'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Dome'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Droid'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Emitter'),
+   ('SPACE', 'PLACE', 'L5', 'Holo-Monitor'),
+   ('SPACE', 'PLACE', 'L5', 'Holodeck'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic Decoy'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic Disguise Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic Projector'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic emitter'),
+   ('SPACE', 'PLACE', 'L5', 'Holographic shield'),
+   ('SPACE', 'PLACE', 'L5', 'Hoth Base'),
+   ('SPACE', 'PLACE', 'L5', 'Hover Skates'),
+   ('SPACE', 'PLACE', 'L5', 'Hover Tank'),
+   ('SPACE', 'PLACE', 'L5', 'Hover Vacuum'),
+   ('SPACE', 'PLACE', 'L5', 'Hoverboard'),
+   ('SPACE', 'PLACE', 'L5', 'Hovercraft'),
+   ('SPACE', 'PLACE', 'L5', 'Hovering Trash Can'),
+   ('SPACE', 'PLACE', 'L5', 'Hydraulic Desalinators'),
+   ('SPACE', 'PLACE', 'L5', 'Hyperdrive Engine'),
+   ('SPACE', 'PLACE', 'L5', 'Hyperdrive core'),
+   ('SPACE', 'PLACE', 'L5', 'Hyperdrive engine'),
+   ('SPACE', 'PLACE', 'L5', 'Hyperspace Drive'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial Fists Siege Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial Guard Valkyrie'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial Knight'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial Star Destroyer'),
+   ('SPACE', 'PLACE', 'L5', 'Imperial Vault'),
+   ('SPACE', 'PLACE', 'L5', 'Infiltration Pod'),
+   ('SPACE', 'PLACE', 'L5', 'Infinite Improbability Drive'),
+   ('SPACE', 'PLACE', 'L5', 'Instant Cleaner'),
+   ('SPACE', 'PLACE', 'L5', 'Instant Meal Maker'),
+   ('SPACE', 'PLACE', 'L5', 'Inter-Galactic Travel Pod'),
+   ('SPACE', 'PLACE', 'L5', 'Interactive Calendar'),
+   ('SPACE', 'PLACE', 'L5', 'Interdimensional Portal'),
+   ('SPACE', 'PLACE', 'L5', 'Intergalactic Navigator'),
+   ('SPACE', 'PLACE', 'L5', 'Interstellar Communicator'),
+   ('SPACE', 'PLACE', 'L5', 'Invisibility Cloak'),
+   ('SPACE', 'PLACE', 'L5', 'Ion Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Ion Cannons'),
+   ('SPACE', 'PLACE', 'L5', 'Ion Storm Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Ion Thruster'),
+   ('SPACE', 'PLACE', 'L5', 'Ion thruster'),
+   ('SPACE', 'PLACE', 'L5', 'Ionic Interference Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Ixian Navigator'),
+   ('SPACE', 'PLACE', 'L5', 'Jabba’s Sail Barge'),
+   ('SPACE', 'PLACE', 'L5', 'Jedi Holocron'),
+   ('SPACE', 'PLACE', 'L5', 'Jem’Hadar Fighter'),
+   ('SPACE', 'PLACE', 'L5', 'Jet Fighter'),
+   ('SPACE', 'PLACE', 'L5', 'Jetpack Backpack'),
+   ('SPACE', 'PLACE', 'L5', 'Jetpack Thruster'),
+   ('SPACE', 'PLACE', 'L5', 'Jetpack'),
+   ('SPACE', 'PLACE', 'L5', 'K7 Starbase'),
+   ('SPACE', 'PLACE', 'L5', 'Kinetic Energy Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Klingon Bat’leth'),
+   ('SPACE', 'PLACE', 'L5', 'Klingon Bird-of-Prey'),
+   ('SPACE', 'PLACE', 'L5', 'Klingon Disruptor'),
+   ('SPACE', 'PLACE', 'L5', 'Klingon Empire Battle Cruiser'),
+   ('SPACE', 'PLACE', 'L5', 'Kwisatz Haderach Ritual'),
+   ('SPACE', 'PLACE', 'L5', 'Kyber Crystal'),
+   ('SPACE', 'PLACE', 'L5', 'Land Raider'),
+   ('SPACE', 'PLACE', 'L5', 'Lando’s Cloud City Ship'),
+   ('SPACE', 'PLACE', 'L5', 'Landsraad Embargo'),
+   ('SPACE', 'PLACE', 'L5', 'Landsraad Seal'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Blaster'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Cutter'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Harpoon'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Knife'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Pen'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Pistol'),
+   ('SPACE', 'PLACE', 'L5', 'Laser Telescope'),
+   ('SPACE', 'PLACE', 'L5', 'Laser cutter'),
+   ('SPACE', 'PLACE', 'L5', 'Lasgun'),
+   ('SPACE', 'PLACE', 'L5', 'Leman Russ Tank'),
+   ('SPACE', 'PLACE', 'L5', 'Leto´s Elephant'),
+   ('SPACE', 'PLACE', 'L5', 'Lightsaber'),
+   ('SPACE', 'PLACE', 'L5', 'Long-range scanner'),
+   ('SPACE', 'PLACE', 'L5', 'Magnetic Field Manipulator'),
+   ('SPACE', 'PLACE', 'L5', 'Magnetic Grapple'),
+   ('SPACE', 'PLACE', 'L5', 'Magnetic Grav-Plate'),
+   ('SPACE', 'PLACE', 'L5', 'Mandalorian Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Paranoid Android'),
+   ('SPACE', 'PLACE', 'L5', 'Mass-Wavelength Antenna'),
+   ('SPACE', 'PLACE', 'L5', 'Matter Beam'),
+   ('SPACE', 'PLACE', 'L5', 'Matter Disassembler'),
+   ('SPACE', 'PLACE', 'L5', 'Mech Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Medical bay'),
+   ('SPACE', 'PLACE', 'L5', 'Medivac Dropship'),
+   ('SPACE', 'PLACE', 'L5', 'Melange'),
+   ('SPACE', 'PLACE', 'L5', 'Mental Health Recovery Kit'),
+   ('SPACE', 'PLACE', 'L5', 'Mentalic Amplifier'),
+   ('SPACE', 'PLACE', 'L5', 'Mentat Processor'),
+   ('SPACE', 'PLACE', 'L5', 'Millennium Falcon'),
+   ('SPACE', 'PLACE', 'L5', 'Millennium Falcon’s Kessel Run'),
+   ('SPACE', 'PLACE', 'L5', 'Mind Probe'),
+   ('SPACE', 'PLACE', 'L5', 'Molecular Analyzer'),
+   ('SPACE', 'PLACE', 'L5', 'Molecular Disassembler'),
+   ('SPACE', 'PLACE', 'L5', 'Molecular Scrambler'),
+   ('SPACE', 'PLACE', 'L5', 'Mood Ring'),
+   ('SPACE', 'PLACE', 'L5', 'Moon Rover'),
+   ('SPACE', 'PLACE', 'L5', 'Moonwalker Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Mutant Amplifier'),
+   ('SPACE', 'PLACE', 'L5', 'Nanite Healing Pack'),
+   ('SPACE', 'PLACE', 'L5', 'Nano-drones'),
+   ('SPACE', 'PLACE', 'L5', 'Nano-fabricator'),
+   ('SPACE', 'PLACE', 'L5', 'Nano-repair kit'),
+   ('SPACE', 'PLACE', 'L5', 'Nanobot Fabricator'),
+   ('SPACE', 'PLACE', 'L5', 'Nanobot Injector'),
+   ('SPACE', 'PLACE', 'L5', 'Nanobot swarm'),
+   ('SPACE', 'PLACE', 'L5', 'Nanotech Injector'),
+   ('SPACE', 'PLACE', 'L5', 'Navigational Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Necron Monolith'),
+   ('SPACE', 'PLACE', 'L5', 'Necron Triarch Stalker'),
+   ('SPACE', 'PLACE', 'L5', 'Neural Hacking Device'),
+   ('SPACE', 'PLACE', 'L5', 'Neural Interface Helmet'),
+   ('SPACE', 'PLACE', 'L5', 'Neural interface'),
+   ('SPACE', 'PLACE', 'L5', 'Neuralizer'),
+   ('SPACE', 'PLACE', 'L5', 'Neuro-Enhanced Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Neutron Beam Rifle'),
+   ('SPACE', 'PLACE', 'L5', 'Neutron Bomb'),
+   ('SPACE', 'PLACE', 'L5', 'Neutron Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Null Field'),
+   ('SPACE', 'PLACE', 'L5', 'Optical Camouflage Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Orbital Mining Rig'),
+   ('SPACE', 'PLACE', 'L5', 'Ork Battlewagon'),
+   ('SPACE', 'PLACE', 'L5', 'Ork Mekboy Kustom Force Field'),
+   ('SPACE', 'PLACE', 'L5', 'Ork Warboss'),
+   ('SPACE', 'PLACE', 'L5', 'Ornithopter'),
+   ('SPACE', 'PLACE', 'L5', 'PADD (Personal Access Display Device)'),
+   ('SPACE', 'PLACE', 'L5', 'Pan Galactic Gargle Blaster'),
+   ('SPACE', 'PLACE', 'L5', 'Personal Jetpack'),
+   ('SPACE', 'PLACE', 'L5', 'Personal Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Personal Teleportation Pad'),
+   ('SPACE', 'PLACE', 'L5', 'Personal Teleporter'),
+   ('SPACE', 'PLACE', 'L5', 'Phase Cloak'),
+   ('SPACE', 'PLACE', 'L5', 'Phased Energy Weapon'),
+   ('SPACE', 'PLACE', 'L5', 'Phaser'),
+   ('SPACE', 'PLACE', 'L5', 'Phoenix'),
+   ('SPACE', 'PLACE', 'L5', 'Photon Blaster'),
+   ('SPACE', 'PLACE', 'L5', 'Photon Torpedo'),
+   ('SPACE', 'PLACE', 'L5', 'Picard’s Sword'),
+   ('SPACE', 'PLACE', 'L5', 'Planetary Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Planetary rover'),
+   ('SPACE', 'PLACE', 'L5', 'Planetary shield'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Accelerator'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Cutter'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Grenade'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Grenades'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Regenerator'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Rifle'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Shielding'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma Torpedo'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma cutter'),
+   ('SPACE', 'PLACE', 'L5', 'Plasma rifle'),
+   ('SPACE', 'PLACE', 'L5', 'Pod Racer'),
+   ('SPACE', 'PLACE', 'L5', 'Portable Rift Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Power Sword'),
+   ('SPACE', 'PLACE', 'L5', 'Prime Radiant'),
+   ('SPACE', 'PLACE', 'L5', 'Protoss Pylon'),
+   ('SPACE', 'PLACE', 'L5', 'Psychic Data Receiver'),
+   ('SPACE', 'PLACE', 'L5', 'Psychic Hood'),
+   ('SPACE', 'PLACE', 'L5', 'Psychic Interface'),
+   ('SPACE', 'PLACE', 'L5', 'Psychohistorical Equations'),
+   ('SPACE', 'PLACE', 'L5', 'Psyker Familiar'),
+   ('SPACE', 'PLACE', 'L5', 'Pulse Rifle'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Chisel'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Communicator'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Computer'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Lens'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Probability Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Pulse Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Slipstream Drive'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum Teleportation Device'),
+   ('SPACE', 'PLACE', 'L5', 'Quantum teleporter'),
+   ('SPACE', 'PLACE', 'L5', 'R&D Lab PLACE'),
+   ('SPACE', 'PLACE', 'L5', 'R2-D2'),
+   ('SPACE', 'PLACE', 'L5', 'Radar Dish'),
+   ('SPACE', 'PLACE', 'L5', 'Radial Pulse Bomb'),
+   ('SPACE', 'PLACE', 'L5', 'Ray Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Reactor Core'),
+   ('SPACE', 'PLACE', 'L5', 'Rebel Alliance Starfighter'),
+   ('SPACE', 'PLACE', 'L5', 'Rebreather Mask'),
+   ('SPACE', 'PLACE', 'L5', 'Regenerative Nanoprobes'),
+   ('SPACE', 'PLACE', 'L5', 'Replicator System'),
+   ('SPACE', 'PLACE', 'L5', 'Replicator'),
+   ('SPACE', 'PLACE', 'L5', 'Republic Gunship'),
+   ('SPACE', 'PLACE', 'L5', 'Repulsion Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Riker’s Phaser'),
+   ('SPACE', 'PLACE', 'L5', 'Rim of the Galaxy'),
+   ('SPACE', 'PLACE', 'L5', 'Robo-Chauffeur'),
+   ('SPACE', 'PLACE', 'L5', 'Robot Assistant'),
+   ('SPACE', 'PLACE', 'L5', 'Robot Butler'),
+   ('SPACE', 'PLACE', 'L5', 'Robot Cook'),
+   ('SPACE', 'PLACE', 'L5', 'Robot Maid'),
+   ('SPACE', 'PLACE', 'L5', 'Robotic Arm'),
+   ('SPACE', 'PLACE', 'L5', 'Robotic Dog'),
+   ('SPACE', 'PLACE', 'L5', 'Robotic Harvesters'),
+   ('SPACE', 'PLACE', 'L5', 'Robotic arm'),
+   ('SPACE', 'PLACE', 'L5', 'Rocket Thruster'),
+   ('SPACE', 'PLACE', 'L5', 'Romulan Cloaking Device'),
+   ('SPACE', 'PLACE', 'L5', 'Romulan Warbird'),
+   ('SPACE', 'PLACE', 'L5', 'Rover Drone'),
+   ('SPACE', 'PLACE', 'L5', 'Sandstorm Gear'),
+   ('SPACE', 'PLACE', 'L5', 'Sandtrout'),
+   ('SPACE', 'PLACE', 'L5', 'Sandworm'),
+   ('SPACE', 'PLACE', 'L5', 'Sardaukar Blade'),
+   ('SPACE', 'PLACE', 'L5', 'Satellite Laser'),
+   ('SPACE', 'PLACE', 'L5', 'Seldon Crisis'),
+   ('SPACE', 'PLACE', 'L5', 'Seldon Plan'),
+   ('SPACE', 'PLACE', 'L5', 'Seldon Projection Engine'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Cleaning Toilet'),
+   ('SPACE', 'PLACE', 'L5', 'Self-Watering Plant'),
+   ('SPACE', 'PLACE', 'L5', 'Sentient Cybernetic Brain'),
+   ('SPACE', 'PLACE', 'L5', 'Shield Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Shield generator'),
+   ('SPACE', 'PLACE', 'L5', 'Shield'),
+   ('SPACE', 'PLACE', 'L5', 'Ship Re-entry Kit'),
+   ('SPACE', 'PLACE', 'L5', 'Shuttlecraft'),
+   ('SPACE', 'PLACE', 'L5', 'Siege Tank'),
+   ('SPACE', 'PLACE', 'L5', 'Sietch Box'),
+   ('SPACE', 'PLACE', 'L5', 'Signal Jammer'),
+   ('SPACE', 'PLACE', 'L5', 'Sisko’s Baseball'),
+   ('SPACE', 'PLACE', 'L5', 'Sisters of Battle Immolator'),
+   ('SPACE', 'PLACE', 'L5', 'Sith Blade'),
+   ('SPACE', 'PLACE', 'L5', 'Sith Holocron'),
+   ('SPACE', 'PLACE', 'L5', 'Slartibartfast´s Starship'),
+   ('SPACE', 'PLACE', 'L5', 'Smart Refrigerator'),
+   ('SPACE', 'PLACE', 'L5', 'Smart Visor'),
+   ('SPACE', 'PLACE', 'L5', 'Smartphone'),
+   ('SPACE', 'PLACE', 'L5', 'Smartwatch'),
+   ('SPACE', 'PLACE', 'L5', 'Solar Panel'),
+   ('SPACE', 'PLACE', 'L5', 'Solar sail'),
+   ('SPACE', 'PLACE', 'L5', 'Sonic Disruptor'),
+   ('SPACE', 'PLACE', 'L5', 'Space Beacon'),
+   ('SPACE', 'PLACE', 'L5', 'Space Capsule Escape Pod'),
+   ('SPACE', 'PLACE', 'L5', 'Space Capsule'),
+   ('SPACE', 'PLACE', 'L5', 'Space Dock'),
+   ('SPACE', 'PLACE', 'L5', 'Space Elevator'),
+   ('SPACE', 'PLACE', 'L5', 'Space Faring Drones'),
+   ('SPACE', 'PLACE', 'L5', 'Space Marine Power Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Space Marine Terminator Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Space Pod'),
+   ('SPACE', 'PLACE', 'L5', 'Space Radio'),
+   ('SPACE', 'PLACE', 'L5', 'Space Shuttle'),
+   ('SPACE', 'PLACE', 'L5', 'Space Sofa'),
+   ('SPACE', 'PLACE', 'L5', 'Space Station Dock'),
+   ('SPACE', 'PLACE', 'L5', 'Space Submarine'),
+   ('SPACE', 'PLACE', 'L5', 'Space Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Space Walker'),
+   ('SPACE', 'PLACE', 'L5', 'Space dock'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Time Distorter'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Time Stabilizer'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Time Warp Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Space-Warp Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Spaceport Landing Pads'),
+   ('SPACE', 'PLACE', 'L5', 'Spacer Navigation Computers'),
+   ('SPACE', 'PLACE', 'L5', 'Spaceship in a Box'),
+   ('SPACE', 'PLACE', 'L5', 'Speeder Bike'),
+   ('SPACE', 'PLACE', 'L5', 'Speeder'),
+   ('SPACE', 'PLACE', 'L5', 'Spice Harvester'),
+   ('SPACE', 'PLACE', 'L5', 'Spock’s Science Station'),
+   ('SPACE', 'PLACE', 'L5', 'Star Destroyer Superweapon'),
+   ('SPACE', 'PLACE', 'L5', 'Starfleet Uniform'),
+   ('SPACE', 'PLACE', 'L5', 'Starship Hyperdrive'),
+   ('SPACE', 'PLACE', 'L5', 'Starship'),
+   ('SPACE', 'PLACE', 'L5', 'Stasis Field'),
+   ('SPACE', 'PLACE', 'L5', 'Stasis field'),
+   ('SPACE', 'PLACE', 'L5', 'Stealth Cloak'),
+   ('SPACE', 'PLACE', 'L5', 'Stealth cloak'),
+   ('SPACE', 'PLACE', 'L5', 'Stellar Conduit'),
+   ('SPACE', 'PLACE', 'L5', 'Stellar Converter'),
+   ('SPACE', 'PLACE', 'L5', 'Stellar Pylons'),
+   ('SPACE', 'PLACE', 'L5', 'Stillsuit'),
+   ('SPACE', 'PLACE', 'L5', 'Storm Bolter'),
+   ('SPACE', 'PLACE', 'L5', 'Stormtrooper Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Stormtrooper Helmet'),
+   ('SPACE', 'PLACE', 'L5', 'Strategic Trade Network'),
+   ('SPACE', 'PLACE', 'L5', 'Sub-Etha Wave'),
+   ('SPACE', 'PLACE', 'L5', 'Suborbital Rocket'),
+   ('SPACE', 'PLACE', 'L5', 'Subspace communicator'),
+   ('SPACE', 'PLACE', 'L5', 'Superconducting Power Core'),
+   ('SPACE', 'PLACE', 'L5', 'Suspensor Field'),
+   ('SPACE', 'PLACE', 'L5', 'Synthesized Cake'),
+   ('SPACE', 'PLACE', 'L5', 'T-16 Skyhopper'),
+   ('SPACE', 'PLACE', 'L5', 'TIE Fighter'),
+   ('SPACE', 'PLACE', 'L5', 'Tachyon Detection Grid'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Armor'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Command Center'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Control Panel'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Drone'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Probe'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical Scanner'),
+   ('SPACE', 'PLACE', 'L5', 'Tactical nanoforge'),
+   ('SPACE', 'PLACE', 'L5', 'Talking TV'),
+   ('SPACE', 'PLACE', 'L5', 'Tau Crisis Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Tau Ion Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Tau Riptide'),
+   ('SPACE', 'PLACE', 'L5', 'Telekinetic Device'),
+   ('SPACE', 'PLACE', 'L5', 'Telekinetic Gauntlet'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Beam'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Chamber'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Device'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Door'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Module'),
+   ('SPACE', 'PLACE', 'L5', 'Teleportation Ring'),
+   ('SPACE', 'PLACE', 'L5', 'Television Remote'),
+   ('SPACE', 'PLACE', 'L5', 'Television Screen'),
+   ('SPACE', 'PLACE', 'L5', 'Terminator Arm'),
+   ('SPACE', 'PLACE', 'L5', 'Terraformer module'),
+   ('SPACE', 'PLACE', 'L5', 'Terran Battlecruiser'),
+   ('SPACE', 'PLACE', 'L5', 'Tesseract Drive'),
+   ('SPACE', 'PLACE', 'L5', 'The Black Hole of Time'),
+   ('SPACE', 'PLACE', 'L5', 'The Electric Monk'),
+   ('SPACE', 'PLACE', 'L5', 'The Fremen Dune Buggy'),
+   ('SPACE', 'PLACE', 'L5', 'The Galactic Government´s Bureaucratic Approval'),
+   ('SPACE', 'PLACE', 'L5', 'The God of the Universe'),
+   ('SPACE', 'PLACE', 'L5', 'The Golden Lion Throne'),
+   ('SPACE', 'PLACE', 'L5', 'The Guide´s Entry on Earth'),
+   ('SPACE', 'PLACE', 'L5', 'The Hitchhiker´s Guide'),
+   ('SPACE', 'PLACE', 'L5', 'The Meaning of Life'),
+   ('SPACE', 'PLACE', 'L5', 'The Navigator´s Dome'),
+   ('SPACE', 'PLACE', 'L5', 'The Point of No Return'),
+   ('SPACE', 'PLACE', 'L5', 'The Ship That Flew Through Time'),
+   ('SPACE', 'PLACE', 'L5', 'The Spacing Guild Ship'),
+   ('SPACE', 'PLACE', 'L5', 'The Ultimate Question'),
+   ('SPACE', 'PLACE', 'L5', 'Thermal Detonator'),
+   ('SPACE', 'PLACE', 'L5', 'Thermal Exchanger'),
+   ('SPACE', 'PLACE', 'L5', 'Thermal Imaging System'),
+   ('SPACE', 'PLACE', 'L5', 'Thermal Rocket'),
+   ('SPACE', 'PLACE', 'L5', 'Thopter'),
+   ('SPACE', 'PLACE', 'L5', 'Thor'),
+   ('SPACE', 'PLACE', 'L5', 'Thumper'),
+   ('SPACE', 'PLACE', 'L5', 'Time Dilation Module'),
+   ('SPACE', 'PLACE', 'L5', 'Time Displacement Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Time Freeze Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Time Loop Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Time Machine'),
+   ('SPACE', 'PLACE', 'L5', 'Towel'),
+   ('SPACE', 'PLACE', 'L5', 'Toxins of the Planet Earth'),
+   ('SPACE', 'PLACE', 'L5', 'Trans-Galactic Hyperdrive'),
+   ('SPACE', 'PLACE', 'L5', 'Transmitter Array'),
+   ('SPACE', 'PLACE', 'L5', 'Transport Tube'),
+   ('SPACE', 'PLACE', 'L5', 'Transporter'),
+   ('SPACE', 'PLACE', 'L5', 'Trantor Prime Generator'),
+   ('SPACE', 'PLACE', 'L5', 'Travelator'),
+   ('SPACE', 'PLACE', 'L5', 'Tricorder'),
+   ('SPACE', 'PLACE', 'L5', 'Trillian´s Emergency Pack'),
+   ('SPACE', 'PLACE', 'L5', 'Tuvok’s Tactical Console'),
+   ('SPACE', 'PLACE', 'L5', 'Tyranid Hive Tyrant'),
+   ('SPACE', 'PLACE', 'L5', 'Ultralisk'),
+   ('SPACE', 'PLACE', 'L5', 'Universal Translator'),
+   ('SPACE', 'PLACE', 'L5', 'Vader’s TIE Fighter'),
+   ('SPACE', 'PLACE', 'L5', 'Vader’s Tie Advanced'),
+   ('SPACE', 'PLACE', 'L5', 'Vindicare Assassin'),
+   ('SPACE', 'PLACE', 'L5', 'Virtual Reality Interface'),
+   ('SPACE', 'PLACE', 'L5', 'Vogon Battle Fleet'),
+   ('SPACE', 'PLACE', 'L5', 'Vogon Poetry'),
+   ('SPACE', 'PLACE', 'L5', 'Voice'),
+   ('SPACE', 'PLACE', 'L5', 'Voice-Activated Lights'),
+   ('SPACE', 'PLACE', 'L5', 'Void Ray'),
+   ('SPACE', 'PLACE', 'L5', 'Void Rocket'),
+   ('SPACE', 'PLACE', 'L5', 'Vortex Cannon'),
+   ('SPACE', 'PLACE', 'L5', 'Vulcan Mind Meld Tool'),
+   ('SPACE', 'PLACE', 'L5', 'Vulcan Science Academy Scanner'),
+   ('SPACE', 'PLACE', 'L5', 'Walking Canes'),
+   ('SPACE', 'PLACE', 'L5', 'Warp Core'),
+   ('SPACE', 'PLACE', 'L5', 'Warp Gate'),
+   ('SPACE', 'PLACE', 'L5', 'Warp Prism'),
+   ('SPACE', 'PLACE', 'L5', 'Water of Life'),
+   ('SPACE', 'PLACE', 'L5', 'Wormhole generator'),
+   ('SPACE', 'PLACE', 'L5', 'Wormsign Detector'),
+   ('SPACE', 'PLACE', 'L5', 'Wraithknight'),
+   ('SPACE', 'PLACE', 'L5', 'X-Wing Pilot Helmet'),
+   ('SPACE', 'PLACE', 'L5', 'X-Wing Starfighter'),
+   ('SPACE', 'PLACE', 'L5', 'Xenobot Analyzer'),
+   ('SPACE', 'PLACE', 'L5', 'Xenobot'),
+   ('SPACE', 'PLACE', 'L5', 'Xenomorph Containment Unit'),
+   ('SPACE', 'PLACE', 'L5', 'Xenon Fuel for Spaceship'),
+   ('SPACE', 'PLACE', 'L5', 'Yoda’s Lightsaber'),
+   ('SPACE', 'PLACE', 'L5', 'Zaphod´s Second Head'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Hive'),
+   ('SPACE', 'PLACE', 'L5', 'Zerg Overlord'),
+   ('SPACE', 'PLACE', 'L5', 'Zero Gravity Suit'),
+   ('SPACE', 'PLACE', 'L5', 'Zero Point Field'),
+   ('SPACE', 'PLACE', 'L5', 'Zero-G toolset'),
+   ('SPACE', 'PLACE', 'L5', 'Zeta Ray Gun'),
+   ('SPACE', 'PLACE', 'L5', 'Dentrassi Restaurant'),
+   ('SPACE', 'PLACE', 'L5', 'Thermo-Absorption Panel');
 
 commit;

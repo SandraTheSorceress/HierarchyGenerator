@@ -1,47 +1,48 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Ironclad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Raven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Stormy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Frozen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Bloodbound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Shielded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Wolf-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Iron-tongued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Hallowed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Grim');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Storm-washed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Rune-marked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Thunder-struck');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Frostbitten');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Troll-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Dragon-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Elder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Berserker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Mighty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Ruthless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Fury-fueled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Bloodied');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Savage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Stone-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Sun-kissed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Cinder-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Iron-fisted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Sea-scorched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Steel-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Shadowed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Bitter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Ashen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Steel-wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Gold-wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Iron-guarded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Wolf-hunted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Mist-covered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Storm-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Ash-buried');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Frost-kingdom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Wind-whipped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Sky-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L2', 'Thunder-blessed');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('VIKING', 'PLACE', 'L2', 'Ironclad'),
+   ('VIKING', 'PLACE', 'L2', 'Raven'),
+   ('VIKING', 'PLACE', 'L2', 'Stormy'),
+   ('VIKING', 'PLACE', 'L2', 'Frozen'),
+   ('VIKING', 'PLACE', 'L2', 'Bloodbound'),
+   ('VIKING', 'PLACE', 'L2', 'Shielded'),
+   ('VIKING', 'PLACE', 'L2', 'Wolf-blooded'),
+   ('VIKING', 'PLACE', 'L2', 'Iron-tongued'),
+   ('VIKING', 'PLACE', 'L2', 'Hallowed'),
+   ('VIKING', 'PLACE', 'L2', 'Grim'),
+   ('VIKING', 'PLACE', 'L2', 'Storm-washed'),
+   ('VIKING', 'PLACE', 'L2', 'Rune-marked'),
+   ('VIKING', 'PLACE', 'L2', 'Thunder-struck'),
+   ('VIKING', 'PLACE', 'L2', 'Frostbitten'),
+   ('VIKING', 'PLACE', 'L2', 'Troll-blooded'),
+   ('VIKING', 'PLACE', 'L2', 'Dragon-blooded'),
+   ('VIKING', 'PLACE', 'L2', 'Elder'),
+   ('VIKING', 'PLACE', 'L2', 'Berserker'),
+   ('VIKING', 'PLACE', 'L2', 'Mighty'),
+   ('VIKING', 'PLACE', 'L2', 'Ruthless'),
+   ('VIKING', 'PLACE', 'L2', 'Fury-fueled'),
+   ('VIKING', 'PLACE', 'L2', 'Bloodied'),
+   ('VIKING', 'PLACE', 'L2', 'Savage'),
+   ('VIKING', 'PLACE', 'L2', 'Stone-hearted'),
+   ('VIKING', 'PLACE', 'L2', 'Sun-kissed'),
+   ('VIKING', 'PLACE', 'L2', 'Cinder-touched'),
+   ('VIKING', 'PLACE', 'L2', 'Iron-fisted'),
+   ('VIKING', 'PLACE', 'L2', 'Sea-scorched'),
+   ('VIKING', 'PLACE', 'L2', 'Steel-bound'),
+   ('VIKING', 'PLACE', 'L2', 'Shadowed'),
+   ('VIKING', 'PLACE', 'L2', 'Bitter'),
+   ('VIKING', 'PLACE', 'L2', 'Ashen'),
+   ('VIKING', 'PLACE', 'L2', 'Steel-wrought'),
+   ('VIKING', 'PLACE', 'L2', 'Gold-wrought'),
+   ('VIKING', 'PLACE', 'L2', 'Iron-guarded'),
+   ('VIKING', 'PLACE', 'L2', 'Wolf-hunted'),
+   ('VIKING', 'PLACE', 'L2', 'Mist-covered'),
+   ('VIKING', 'PLACE', 'L2', 'Storm-touched'),
+   ('VIKING', 'PLACE', 'L2', 'Ash-buried'),
+   ('VIKING', 'PLACE', 'L2', 'Frost-kingdom'),
+   ('VIKING', 'PLACE', 'L2', 'Wind-whipped'),
+   ('VIKING', 'PLACE', 'L2', 'Sky-blessed'),
+   ('VIKING', 'PLACE', 'L2', 'Thunder-blessed');
 
 commit;

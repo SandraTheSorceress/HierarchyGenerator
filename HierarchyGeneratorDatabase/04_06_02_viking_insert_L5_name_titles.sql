@@ -1,396 +1,397 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Aegir’s Fisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Aegir’s Wavecaller');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ambush Specialist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ambusher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anchor Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Angrboða’s Hunt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Baldur’s Seeker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Baldur’s Soulkeeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beast Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Berserker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Berserker’s Fury');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boat Builder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boat Joiner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Booty Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boreas’s Predator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bragi’s Bard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bragi’s Rhapsodist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brawler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Carpenter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Chisel Carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Chisel Crafter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Coastal Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Coastal Scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Deck Placer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Despoiler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Door Carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Draugr Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Draugr’s Last Breath');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fafnir’s Vanquisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fenrir’s Bane');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fenrir’s Last Stand');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forager');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Foray Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forest Troll Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fornjot’s Wrath');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forseti’s Judge');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fort Wall Builder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fortress Constructor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s Huntress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s Priestess');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s Seer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s Valkyrie');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyr’s Gardener');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyr’s Priest');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frigg’s Matron');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frigg’s Oracle');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Garmr’s Conqueror');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Giant Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grave Ransacker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hati’s Hunt');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hati’s Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hati’s Pursuer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Heimdall’s Watcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Helblindi’s Cursed');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Helblindi’s Shadow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hel’s Enforcer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hel’s Warden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hengikjoll Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Huldufólk Seeker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hull Builder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Höðr’s Silent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Idunn’s Keeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron Smith');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ironworker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jotun Riddler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jotun’s Bane');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Killer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Prey');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Ruler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Serpent');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keel Setter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Kraken Foe');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Lindworm’s Pursuer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loki’s Cunning');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loki’s Harbinger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loki’s Trickster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Longboat Crewman');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Longboat Oarsman');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Longhouse Builder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loot Collector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loot Master');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Looting Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Marauder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Marauder’s Bane');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mast Binder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mast Builder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mimir’s Riddlekeeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mimir’s Scholar');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mokkurkalfi’s Vanquisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mountain Troll Fighter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Njord’s Sailor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Nokken Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Níðhöggr’s Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin’s Allfather');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin’s Chosen');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pillager');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pillaging Strategist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pillar Setter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plank Joiner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plank Layer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plunder Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plunderer Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plunderer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rafter Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raid Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raiding Commander');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raiding Scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ransacker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ran’s Seeker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ratatoskr’s Pursuer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ravager');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Roof Beamer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Roof Thatcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rope Weaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sacker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sailmaker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sailor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seafarer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield Bearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield Carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield Wall Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship Carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship Chaser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship Designer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship Finisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shipwright (Raids)');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shipwright');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sif’s Protectress');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sif’s Weaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skadi’s Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skogsrå Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skoll’s Chaser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sköll’s Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sleipnir’s Rider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stealthy Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stone Mason');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stone Troll Vanquisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stonemason');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Strategist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Surprise Attacker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Surtur’s Vengeful');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Svartálfar Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Svartálfar Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tannery Worker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thor’s Hammerbearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thor’s Hammerer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thor’s Thunderer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Timber Cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Ambusher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Baiter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Bane');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Bastard');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Battle Warden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Beast Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Beastmaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Breaker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Cleaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Defeater');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Destroyer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Dismemberer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Eliminator');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Executioner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Expert');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Fang Collector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Hunter Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Hunter Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Hunter Scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Kill Squad Leader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Massacre Specialist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Mounter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Pursuer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Skewerer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Skinner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Slayer Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Smasher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Snare Expert');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Snatcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Specialist');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Stabber Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Stabber');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Tamer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Tracker Captain');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Tracker Expert');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Trapper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Troll Warden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Trollhunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Trollskogen Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tyr’s Avenger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tyr’s Defender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ulfhednar Hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Champion');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Shadow');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Stalker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vampyr Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vidar’s Avenger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking Invader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking Ship Blacksmith');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking Thief');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Víðarr’s Tracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Víðarr’s Vengeance');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vörgr’s Conqueror');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wagon Maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warg’s Bane');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warrior Raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wind Sailer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wolftracker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Woodcarver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Woodworker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ymir’s Slayer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ale-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ale-keeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'arrow-maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ash-collector');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ash-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'axe-bearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'axe-grinder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'axe-hurler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bale-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'barley-harvester');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'barn-cleaner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'barrel-filler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'battle-banner holder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bean-planter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'beast-watcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'berry-forager');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-dancer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-engraver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-hewer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-oiler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-runner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'blade-smith');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'boar-roaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'boar-skinner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'boatwright');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bone-picker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bowmaker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bowstring-puller');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'bread-baker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'brewer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'buckler-lifter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'butter-churner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'chain-mail repairer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'cheese-rind scraper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'cheese-turner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'coal-burner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'coal-digger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'combat-drummer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'combat-tester');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'cook');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'crossbow cranker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'dagger-dancer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'duel-spotter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'eel-catcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'egg-gatherer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ember-tender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'field hand');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'field-tiler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'firewood-splitter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'fish-smoker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'fisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'flame-tosser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'fur-brusher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'game-dresser');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'goat-herder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'goat-milker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'grain-thresher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'gravedigger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'griddle-tender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'grip-winder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'gruel-cooker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'haft-carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'halberd-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'harpooner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'hay-baler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'helm-polisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'herb-drier');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'herb-grinder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'herd-watcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'herder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'hide-cleaner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'hilt-binder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'honey-gatherer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'hoof-caretaker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'horn-carver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'hunter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ice-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ice-splitter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'iron-hammerer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'javelin-flinger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'kettle-watcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'kindler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'knife-thrower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'lamb-roaster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'leather-worker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'log-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'lookout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mail-weaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mead-brewer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mead-hall brawler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mead-runner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mead-sipper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'meat-hanger');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'meat-salter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'melee-trainer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'milk-maiden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'moss-scraper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mud-patcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'mushroom-finder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'net-caster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'net-mender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'oat-planter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'ore-hauler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'oven-feeder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'oven-keeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'pan-scraper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'path-mender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'peasant');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'pig-herder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'pig-slopper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'pottage-maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'quiver-bearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'raider');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'reed-gatherer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'reed-weaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'root-forager');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'root-picker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'rope-maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'saber-tester');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'sailor');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'salt-curer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'salt-panner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'scrimshander');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'seed-keeper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'shepherd');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'shield-breaker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'shield-maiden');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'shield-painter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'shield-splitter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'skald');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'skillet-turner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'skirmish-scout');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'sling-stone hurler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'sling-wielder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'smith');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'smokehouse-tender');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'snow-packer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'snow-runner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'snow-shoveler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'soup-sipper');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'spear-caster');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'spear-polisher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'spear-setter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'spear-thrower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'stew-brewer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'stew-sampler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'stock-pot stirrer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'stone-cutter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'storm-watcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'sword-sharpener');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'sword-wielder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'tanner');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'thatcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'thrall');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'torch-bearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'track-layer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'trader');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'training-dummy maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'trap-setter');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'turnip-grower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'vinegar-bottler');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'war-club maker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'war-horn blower');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'war-pick bearer');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'water-fetcher');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'weaver');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'wheat-binder');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'wood-fired baker');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'woodcutter');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('VIKING', 'PLACE', 'L5', 'Aegir’s Fisher'),
+   ('VIKING', 'PLACE', 'L5', 'Aegir’s Wavecaller'),
+   ('VIKING', 'PLACE', 'L5', 'Ambush Specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Ambusher'),
+   ('VIKING', 'PLACE', 'L5', 'Anchor Maker'),
+   ('VIKING', 'PLACE', 'L5', 'Angrboða’s Hunt'),
+   ('VIKING', 'PLACE', 'L5', 'Baldur’s Seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Baldur’s Soulkeeper'),
+   ('VIKING', 'PLACE', 'L5', 'Beast Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Berserker'),
+   ('VIKING', 'PLACE', 'L5', 'Berserker’s Fury'),
+   ('VIKING', 'PLACE', 'L5', 'Boat Builder'),
+   ('VIKING', 'PLACE', 'L5', 'Boat Joiner'),
+   ('VIKING', 'PLACE', 'L5', 'Booty Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Boreas’s Predator'),
+   ('VIKING', 'PLACE', 'L5', 'Bragi’s Bard'),
+   ('VIKING', 'PLACE', 'L5', 'Bragi’s Rhapsodist'),
+   ('VIKING', 'PLACE', 'L5', 'Brawler'),
+   ('VIKING', 'PLACE', 'L5', 'Carpenter'),
+   ('VIKING', 'PLACE', 'L5', 'Chisel Carver'),
+   ('VIKING', 'PLACE', 'L5', 'Chisel Crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Coastal Raider'),
+   ('VIKING', 'PLACE', 'L5', 'Coastal Scout'),
+   ('VIKING', 'PLACE', 'L5', 'Deck Placer'),
+   ('VIKING', 'PLACE', 'L5', 'Despoiler'),
+   ('VIKING', 'PLACE', 'L5', 'Door Carver'),
+   ('VIKING', 'PLACE', 'L5', 'Draugr Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Draugr’s Last Breath'),
+   ('VIKING', 'PLACE', 'L5', 'Fafnir’s Vanquisher'),
+   ('VIKING', 'PLACE', 'L5', 'Fenrir’s Bane'),
+   ('VIKING', 'PLACE', 'L5', 'Fenrir’s Last Stand'),
+   ('VIKING', 'PLACE', 'L5', 'Fighter'),
+   ('VIKING', 'PLACE', 'L5', 'Forager'),
+   ('VIKING', 'PLACE', 'L5', 'Foray Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Forest Troll Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Fornjot’s Wrath'),
+   ('VIKING', 'PLACE', 'L5', 'Forseti’s Judge'),
+   ('VIKING', 'PLACE', 'L5', 'Fort Wall Builder'),
+   ('VIKING', 'PLACE', 'L5', 'Fortress Constructor'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s Huntress'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s Priestess'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s Seer'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s Valkyrie'),
+   ('VIKING', 'PLACE', 'L5', 'Freyr’s Gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Freyr’s Priest'),
+   ('VIKING', 'PLACE', 'L5', 'Frigg’s Matron'),
+   ('VIKING', 'PLACE', 'L5', 'Frigg’s Oracle'),
+   ('VIKING', 'PLACE', 'L5', 'Garmr’s Conqueror'),
+   ('VIKING', 'PLACE', 'L5', 'Giant Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Grave Ransacker'),
+   ('VIKING', 'PLACE', 'L5', 'Hati’s Hunt'),
+   ('VIKING', 'PLACE', 'L5', 'Hati’s Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Hati’s Pursuer'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth Maker'),
+   ('VIKING', 'PLACE', 'L5', 'Heimdall’s Watcher'),
+   ('VIKING', 'PLACE', 'L5', 'Helblindi’s Cursed'),
+   ('VIKING', 'PLACE', 'L5', 'Helblindi’s Shadow'),
+   ('VIKING', 'PLACE', 'L5', 'Hel’s Enforcer'),
+   ('VIKING', 'PLACE', 'L5', 'Hel’s Warden'),
+   ('VIKING', 'PLACE', 'L5', 'Hengikjoll Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Huldufólk Seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Hull Builder'),
+   ('VIKING', 'PLACE', 'L5', 'Höðr’s Silent'),
+   ('VIKING', 'PLACE', 'L5', 'Idunn’s Keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Iron Smith'),
+   ('VIKING', 'PLACE', 'L5', 'Ironworker'),
+   ('VIKING', 'PLACE', 'L5', 'Jotun Riddler'),
+   ('VIKING', 'PLACE', 'L5', 'Jotun’s Bane'),
+   ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Killer'),
+   ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Prey'),
+   ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Ruler'),
+   ('VIKING', 'PLACE', 'L5', 'Jörmungandr’s Serpent'),
+   ('VIKING', 'PLACE', 'L5', 'Keel Setter'),
+   ('VIKING', 'PLACE', 'L5', 'Kraken Foe'),
+   ('VIKING', 'PLACE', 'L5', 'Lindworm’s Pursuer'),
+   ('VIKING', 'PLACE', 'L5', 'Loki’s Cunning'),
+   ('VIKING', 'PLACE', 'L5', 'Loki’s Harbinger'),
+   ('VIKING', 'PLACE', 'L5', 'Loki’s Trickster'),
+   ('VIKING', 'PLACE', 'L5', 'Longboat Crewman'),
+   ('VIKING', 'PLACE', 'L5', 'Longboat Oarsman'),
+   ('VIKING', 'PLACE', 'L5', 'Longhouse Builder'),
+   ('VIKING', 'PLACE', 'L5', 'Loot Collector'),
+   ('VIKING', 'PLACE', 'L5', 'Loot Master'),
+   ('VIKING', 'PLACE', 'L5', 'Looting Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Marauder'),
+   ('VIKING', 'PLACE', 'L5', 'Marauder’s Bane'),
+   ('VIKING', 'PLACE', 'L5', 'Mast Binder'),
+   ('VIKING', 'PLACE', 'L5', 'Mast Builder'),
+   ('VIKING', 'PLACE', 'L5', 'Mimir’s Riddlekeeper'),
+   ('VIKING', 'PLACE', 'L5', 'Mimir’s Scholar'),
+   ('VIKING', 'PLACE', 'L5', 'Mokkurkalfi’s Vanquisher'),
+   ('VIKING', 'PLACE', 'L5', 'Mountain Troll Fighter'),
+   ('VIKING', 'PLACE', 'L5', 'Njord’s Sailor'),
+   ('VIKING', 'PLACE', 'L5', 'Nokken Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Níðhöggr’s Stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Odin’s Allfather'),
+   ('VIKING', 'PLACE', 'L5', 'Odin’s Chosen'),
+   ('VIKING', 'PLACE', 'L5', 'Pillager'),
+   ('VIKING', 'PLACE', 'L5', 'Pillaging Strategist'),
+   ('VIKING', 'PLACE', 'L5', 'Pillar Setter'),
+   ('VIKING', 'PLACE', 'L5', 'Plank Joiner'),
+   ('VIKING', 'PLACE', 'L5', 'Plank Layer'),
+   ('VIKING', 'PLACE', 'L5', 'Plunder Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Plunderer Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Plunderer'),
+   ('VIKING', 'PLACE', 'L5', 'Rafter Maker'),
+   ('VIKING', 'PLACE', 'L5', 'Raid Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Raider'),
+   ('VIKING', 'PLACE', 'L5', 'Raiding Commander'),
+   ('VIKING', 'PLACE', 'L5', 'Raiding Scout'),
+   ('VIKING', 'PLACE', 'L5', 'Ransacker'),
+   ('VIKING', 'PLACE', 'L5', 'Ran’s Seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Ratatoskr’s Pursuer'),
+   ('VIKING', 'PLACE', 'L5', 'Ravager'),
+   ('VIKING', 'PLACE', 'L5', 'Roof Beamer'),
+   ('VIKING', 'PLACE', 'L5', 'Roof Thatcher'),
+   ('VIKING', 'PLACE', 'L5', 'Rope Weaver'),
+   ('VIKING', 'PLACE', 'L5', 'Sacker'),
+   ('VIKING', 'PLACE', 'L5', 'Sailmaker'),
+   ('VIKING', 'PLACE', 'L5', 'Sailor'),
+   ('VIKING', 'PLACE', 'L5', 'Scout'),
+   ('VIKING', 'PLACE', 'L5', 'Seafarer'),
+   ('VIKING', 'PLACE', 'L5', 'Shield Bearer'),
+   ('VIKING', 'PLACE', 'L5', 'Shield Carver'),
+   ('VIKING', 'PLACE', 'L5', 'Shield Maker'),
+   ('VIKING', 'PLACE', 'L5', 'Shield Wall Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Ship Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Ship Carver'),
+   ('VIKING', 'PLACE', 'L5', 'Ship Chaser'),
+   ('VIKING', 'PLACE', 'L5', 'Ship Designer'),
+   ('VIKING', 'PLACE', 'L5', 'Ship Finisher'),
+   ('VIKING', 'PLACE', 'L5', 'Shipwright (Raids)'),
+   ('VIKING', 'PLACE', 'L5', 'Shipwright'),
+   ('VIKING', 'PLACE', 'L5', 'Sif’s Protectress'),
+   ('VIKING', 'PLACE', 'L5', 'Sif’s Weaver'),
+   ('VIKING', 'PLACE', 'L5', 'Skadi’s Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Skogsrå Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Skoll’s Chaser'),
+   ('VIKING', 'PLACE', 'L5', 'Sköll’s Stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Sleipnir’s Rider'),
+   ('VIKING', 'PLACE', 'L5', 'Stealthy Raider'),
+   ('VIKING', 'PLACE', 'L5', 'Stone Mason'),
+   ('VIKING', 'PLACE', 'L5', 'Stone Troll Vanquisher'),
+   ('VIKING', 'PLACE', 'L5', 'Stonemason'),
+   ('VIKING', 'PLACE', 'L5', 'Strategist'),
+   ('VIKING', 'PLACE', 'L5', 'Surprise Attacker'),
+   ('VIKING', 'PLACE', 'L5', 'Surtur’s Vengeful'),
+   ('VIKING', 'PLACE', 'L5', 'Svartálfar Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Svartálfar Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Tannery Worker'),
+   ('VIKING', 'PLACE', 'L5', 'Thor’s Hammerbearer'),
+   ('VIKING', 'PLACE', 'L5', 'Thor’s Hammerer'),
+   ('VIKING', 'PLACE', 'L5', 'Thor’s Thunderer'),
+   ('VIKING', 'PLACE', 'L5', 'Timber Cutter'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Ambusher'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Baiter'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Bane'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Bastard'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Battle Warden'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Beast Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Beastmaster'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Breaker'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Cleaver'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Defeater'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Destroyer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Dismemberer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Eliminator'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Executioner'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Expert'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Fang Collector'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Hunter Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Hunter Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Hunter Scout'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Kill Squad Leader'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Massacre Specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Mounter'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Pursuer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Scout'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Skewerer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Skinner'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Slayer Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Smasher'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Snare Expert'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Snatcher'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Stabber Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Stabber'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Tamer'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Tracker Captain'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Tracker Expert'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Trapper'),
+   ('VIKING', 'PLACE', 'L5', 'Troll Warden'),
+   ('VIKING', 'PLACE', 'L5', 'Trollhunter'),
+   ('VIKING', 'PLACE', 'L5', 'Trollskogen Stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Tyr’s Avenger'),
+   ('VIKING', 'PLACE', 'L5', 'Tyr’s Defender'),
+   ('VIKING', 'PLACE', 'L5', 'Ulfhednar Hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Champion'),
+   ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Shadow'),
+   ('VIKING', 'PLACE', 'L5', 'Valkyrie’s Stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Vampyr Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Vidar’s Avenger'),
+   ('VIKING', 'PLACE', 'L5', 'Viking Invader'),
+   ('VIKING', 'PLACE', 'L5', 'Viking Raider'),
+   ('VIKING', 'PLACE', 'L5', 'Viking Ship Blacksmith'),
+   ('VIKING', 'PLACE', 'L5', 'Viking Thief'),
+   ('VIKING', 'PLACE', 'L5', 'Víðarr’s Tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Víðarr’s Vengeance'),
+   ('VIKING', 'PLACE', 'L5', 'Vörgr’s Conqueror'),
+   ('VIKING', 'PLACE', 'L5', 'Wagon Maker'),
+   ('VIKING', 'PLACE', 'L5', 'Warg’s Bane'),
+   ('VIKING', 'PLACE', 'L5', 'Warrior Raider'),
+   ('VIKING', 'PLACE', 'L5', 'Wind Sailer'),
+   ('VIKING', 'PLACE', 'L5', 'Wolftracker'),
+   ('VIKING', 'PLACE', 'L5', 'Woodcarver'),
+   ('VIKING', 'PLACE', 'L5', 'Woodworker'),
+   ('VIKING', 'PLACE', 'L5', 'Ymir’s Slayer'),
+   ('VIKING', 'PLACE', 'L5', 'ale-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'ale-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'arrow-maker'),
+   ('VIKING', 'PLACE', 'L5', 'ash-collector'),
+   ('VIKING', 'PLACE', 'L5', 'ash-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'axe-bearer'),
+   ('VIKING', 'PLACE', 'L5', 'axe-grinder'),
+   ('VIKING', 'PLACE', 'L5', 'axe-hurler'),
+   ('VIKING', 'PLACE', 'L5', 'bale-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'barley-harvester'),
+   ('VIKING', 'PLACE', 'L5', 'barn-cleaner'),
+   ('VIKING', 'PLACE', 'L5', 'barrel-filler'),
+   ('VIKING', 'PLACE', 'L5', 'battle-banner holder'),
+   ('VIKING', 'PLACE', 'L5', 'bean-planter'),
+   ('VIKING', 'PLACE', 'L5', 'beast-watcher'),
+   ('VIKING', 'PLACE', 'L5', 'berry-forager'),
+   ('VIKING', 'PLACE', 'L5', 'blade-dancer'),
+   ('VIKING', 'PLACE', 'L5', 'blade-engraver'),
+   ('VIKING', 'PLACE', 'L5', 'blade-hewer'),
+   ('VIKING', 'PLACE', 'L5', 'blade-oiler'),
+   ('VIKING', 'PLACE', 'L5', 'blade-runner'),
+   ('VIKING', 'PLACE', 'L5', 'blade-smith'),
+   ('VIKING', 'PLACE', 'L5', 'boar-roaster'),
+   ('VIKING', 'PLACE', 'L5', 'boar-skinner'),
+   ('VIKING', 'PLACE', 'L5', 'boatwright'),
+   ('VIKING', 'PLACE', 'L5', 'bone-picker'),
+   ('VIKING', 'PLACE', 'L5', 'bowmaker'),
+   ('VIKING', 'PLACE', 'L5', 'bowstring-puller'),
+   ('VIKING', 'PLACE', 'L5', 'bread-baker'),
+   ('VIKING', 'PLACE', 'L5', 'brewer'),
+   ('VIKING', 'PLACE', 'L5', 'buckler-lifter'),
+   ('VIKING', 'PLACE', 'L5', 'butter-churner'),
+   ('VIKING', 'PLACE', 'L5', 'carver'),
+   ('VIKING', 'PLACE', 'L5', 'chain-mail repairer'),
+   ('VIKING', 'PLACE', 'L5', 'cheese-rind scraper'),
+   ('VIKING', 'PLACE', 'L5', 'cheese-turner'),
+   ('VIKING', 'PLACE', 'L5', 'coal-burner'),
+   ('VIKING', 'PLACE', 'L5', 'coal-digger'),
+   ('VIKING', 'PLACE', 'L5', 'combat-drummer'),
+   ('VIKING', 'PLACE', 'L5', 'combat-tester'),
+   ('VIKING', 'PLACE', 'L5', 'cook'),
+   ('VIKING', 'PLACE', 'L5', 'crossbow cranker'),
+   ('VIKING', 'PLACE', 'L5', 'dagger-dancer'),
+   ('VIKING', 'PLACE', 'L5', 'duel-spotter'),
+   ('VIKING', 'PLACE', 'L5', 'eel-catcher'),
+   ('VIKING', 'PLACE', 'L5', 'egg-gatherer'),
+   ('VIKING', 'PLACE', 'L5', 'ember-tender'),
+   ('VIKING', 'PLACE', 'L5', 'field hand'),
+   ('VIKING', 'PLACE', 'L5', 'field-tiler'),
+   ('VIKING', 'PLACE', 'L5', 'firewood-splitter'),
+   ('VIKING', 'PLACE', 'L5', 'fish-smoker'),
+   ('VIKING', 'PLACE', 'L5', 'fisher'),
+   ('VIKING', 'PLACE', 'L5', 'flame-tosser'),
+   ('VIKING', 'PLACE', 'L5', 'fur-brusher'),
+   ('VIKING', 'PLACE', 'L5', 'game-dresser'),
+   ('VIKING', 'PLACE', 'L5', 'goat-herder'),
+   ('VIKING', 'PLACE', 'L5', 'goat-milker'),
+   ('VIKING', 'PLACE', 'L5', 'grain-thresher'),
+   ('VIKING', 'PLACE', 'L5', 'gravedigger'),
+   ('VIKING', 'PLACE', 'L5', 'griddle-tender'),
+   ('VIKING', 'PLACE', 'L5', 'grip-winder'),
+   ('VIKING', 'PLACE', 'L5', 'gruel-cooker'),
+   ('VIKING', 'PLACE', 'L5', 'haft-carver'),
+   ('VIKING', 'PLACE', 'L5', 'halberd-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'harpooner'),
+   ('VIKING', 'PLACE', 'L5', 'hay-baler'),
+   ('VIKING', 'PLACE', 'L5', 'helm-polisher'),
+   ('VIKING', 'PLACE', 'L5', 'herb-drier'),
+   ('VIKING', 'PLACE', 'L5', 'herb-grinder'),
+   ('VIKING', 'PLACE', 'L5', 'herd-watcher'),
+   ('VIKING', 'PLACE', 'L5', 'herder'),
+   ('VIKING', 'PLACE', 'L5', 'hide-cleaner'),
+   ('VIKING', 'PLACE', 'L5', 'hilt-binder'),
+   ('VIKING', 'PLACE', 'L5', 'honey-gatherer'),
+   ('VIKING', 'PLACE', 'L5', 'hoof-caretaker'),
+   ('VIKING', 'PLACE', 'L5', 'horn-carver'),
+   ('VIKING', 'PLACE', 'L5', 'hunter'),
+   ('VIKING', 'PLACE', 'L5', 'ice-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'ice-splitter'),
+   ('VIKING', 'PLACE', 'L5', 'iron-hammerer'),
+   ('VIKING', 'PLACE', 'L5', 'javelin-flinger'),
+   ('VIKING', 'PLACE', 'L5', 'kettle-watcher'),
+   ('VIKING', 'PLACE', 'L5', 'kindler'),
+   ('VIKING', 'PLACE', 'L5', 'knife-thrower'),
+   ('VIKING', 'PLACE', 'L5', 'lamb-roaster'),
+   ('VIKING', 'PLACE', 'L5', 'leather-worker'),
+   ('VIKING', 'PLACE', 'L5', 'log-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'lookout'),
+   ('VIKING', 'PLACE', 'L5', 'mail-weaver'),
+   ('VIKING', 'PLACE', 'L5', 'mead-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'mead-hall brawler'),
+   ('VIKING', 'PLACE', 'L5', 'mead-runner'),
+   ('VIKING', 'PLACE', 'L5', 'mead-sipper'),
+   ('VIKING', 'PLACE', 'L5', 'meat-hanger'),
+   ('VIKING', 'PLACE', 'L5', 'meat-salter'),
+   ('VIKING', 'PLACE', 'L5', 'melee-trainer'),
+   ('VIKING', 'PLACE', 'L5', 'milk-maiden'),
+   ('VIKING', 'PLACE', 'L5', 'moss-scraper'),
+   ('VIKING', 'PLACE', 'L5', 'mud-patcher'),
+   ('VIKING', 'PLACE', 'L5', 'mushroom-finder'),
+   ('VIKING', 'PLACE', 'L5', 'net-caster'),
+   ('VIKING', 'PLACE', 'L5', 'net-mender'),
+   ('VIKING', 'PLACE', 'L5', 'oat-planter'),
+   ('VIKING', 'PLACE', 'L5', 'ore-hauler'),
+   ('VIKING', 'PLACE', 'L5', 'oven-feeder'),
+   ('VIKING', 'PLACE', 'L5', 'oven-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'pan-scraper'),
+   ('VIKING', 'PLACE', 'L5', 'path-mender'),
+   ('VIKING', 'PLACE', 'L5', 'peasant'),
+   ('VIKING', 'PLACE', 'L5', 'pig-herder'),
+   ('VIKING', 'PLACE', 'L5', 'pig-slopper'),
+   ('VIKING', 'PLACE', 'L5', 'pottage-maker'),
+   ('VIKING', 'PLACE', 'L5', 'quiver-bearer'),
+   ('VIKING', 'PLACE', 'L5', 'raider'),
+   ('VIKING', 'PLACE', 'L5', 'reed-gatherer'),
+   ('VIKING', 'PLACE', 'L5', 'reed-weaver'),
+   ('VIKING', 'PLACE', 'L5', 'root-forager'),
+   ('VIKING', 'PLACE', 'L5', 'root-picker'),
+   ('VIKING', 'PLACE', 'L5', 'rope-maker'),
+   ('VIKING', 'PLACE', 'L5', 'saber-tester'),
+   ('VIKING', 'PLACE', 'L5', 'sailor'),
+   ('VIKING', 'PLACE', 'L5', 'salt-curer'),
+   ('VIKING', 'PLACE', 'L5', 'salt-panner'),
+   ('VIKING', 'PLACE', 'L5', 'scout'),
+   ('VIKING', 'PLACE', 'L5', 'scrimshander'),
+   ('VIKING', 'PLACE', 'L5', 'seed-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'shepherd'),
+   ('VIKING', 'PLACE', 'L5', 'shield-breaker'),
+   ('VIKING', 'PLACE', 'L5', 'shield-maiden'),
+   ('VIKING', 'PLACE', 'L5', 'shield-painter'),
+   ('VIKING', 'PLACE', 'L5', 'shield-splitter'),
+   ('VIKING', 'PLACE', 'L5', 'skald'),
+   ('VIKING', 'PLACE', 'L5', 'skillet-turner'),
+   ('VIKING', 'PLACE', 'L5', 'skirmish-scout'),
+   ('VIKING', 'PLACE', 'L5', 'sling-stone hurler'),
+   ('VIKING', 'PLACE', 'L5', 'sling-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'smith'),
+   ('VIKING', 'PLACE', 'L5', 'smokehouse-tender'),
+   ('VIKING', 'PLACE', 'L5', 'snow-packer'),
+   ('VIKING', 'PLACE', 'L5', 'snow-runner'),
+   ('VIKING', 'PLACE', 'L5', 'snow-shoveler'),
+   ('VIKING', 'PLACE', 'L5', 'soup-sipper'),
+   ('VIKING', 'PLACE', 'L5', 'spear-caster'),
+   ('VIKING', 'PLACE', 'L5', 'spear-polisher'),
+   ('VIKING', 'PLACE', 'L5', 'spear-setter'),
+   ('VIKING', 'PLACE', 'L5', 'spear-thrower'),
+   ('VIKING', 'PLACE', 'L5', 'stew-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'stew-sampler'),
+   ('VIKING', 'PLACE', 'L5', 'stock-pot stirrer'),
+   ('VIKING', 'PLACE', 'L5', 'stone-cutter'),
+   ('VIKING', 'PLACE', 'L5', 'storm-watcher'),
+   ('VIKING', 'PLACE', 'L5', 'sword-sharpener'),
+   ('VIKING', 'PLACE', 'L5', 'sword-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'tanner'),
+   ('VIKING', 'PLACE', 'L5', 'thatcher'),
+   ('VIKING', 'PLACE', 'L5', 'thrall'),
+   ('VIKING', 'PLACE', 'L5', 'torch-bearer'),
+   ('VIKING', 'PLACE', 'L5', 'track-layer'),
+   ('VIKING', 'PLACE', 'L5', 'trader'),
+   ('VIKING', 'PLACE', 'L5', 'training-dummy maker'),
+   ('VIKING', 'PLACE', 'L5', 'trap-setter'),
+   ('VIKING', 'PLACE', 'L5', 'turnip-grower'),
+   ('VIKING', 'PLACE', 'L5', 'vinegar-bottler'),
+   ('VIKING', 'PLACE', 'L5', 'war-club maker'),
+   ('VIKING', 'PLACE', 'L5', 'war-horn blower'),
+   ('VIKING', 'PLACE', 'L5', 'war-pick bearer'),
+   ('VIKING', 'PLACE', 'L5', 'water-fetcher'),
+   ('VIKING', 'PLACE', 'L5', 'weaver'),
+   ('VIKING', 'PLACE', 'L5', 'wheat-binder'),
+   ('VIKING', 'PLACE', 'L5', 'wood-fired baker'),
+   ('VIKING', 'PLACE', 'L5', 'woodcutter');
 
 commit;

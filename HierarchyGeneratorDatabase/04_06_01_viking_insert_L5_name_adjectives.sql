@@ -1,721 +1,722 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Axe-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Battle-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Battle-worn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Berserk-rage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Blaze-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Blessed by nature');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Blood-spilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bloodthirsty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Bountiful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Brave');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Brutal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Brutal-shield');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Capable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Coastal-predator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Connected to the land');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Cunning');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Deadly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Dependable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Determined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Devoted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Diligent laborer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Diligent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Doombringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Dragon-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Drakkar-sailor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Eager');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Earth-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Enduring');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fear-slayer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fearless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fearsome');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ferocious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Fertile');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Gentle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Gifted in planting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Grain bearer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Grain-sower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Grateful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Grim-eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hard-working');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hardy as oak');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Hardy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Humble servant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Humble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'In touch with earth');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Indomitable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Industrious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Lifeblood-stealer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Loyal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Marauder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Merciless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Merciless-cut');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Mighty-sword');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Noble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Patient in toil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Patient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Pirate-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Practical');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Proud');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Raider-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ravager');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Relentless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Reliable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Resilient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Resourceful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Ruthless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Savage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Savage-fanged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Shield-splitter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skald-singer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skilled in labor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skull-crushing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Skull-seeker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Steadfast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Steady');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Steady-handed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Storm-rider');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Storm-strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Sturdy worker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Sustaining');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Thor-favored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Tireless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Treacherous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Trustworthy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Unyielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Vicious');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Victory-bringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Vigorous');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Viking-spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'War-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'War-scorched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Warlord-spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L4', 'Warrior-spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Adept');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ale-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ale-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ale-mage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'All-seeing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anger-driven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anvil-sculptor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anvil-strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anvil-tough');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Anvil-wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Apple-harvester');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Arrow-skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Axe-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bargain-skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barley-brew crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barley-brew specialist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barley-fermenter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barley-raiser');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barter-savvy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Barter-tactful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bartering-skillful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-crazed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-hungry');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-raging');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-ready');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-smith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Battle-wine maker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beast-bane');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beast-hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beast-slayer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beast-tamer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beastly-rage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Beastly-warrior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Berry-cultivator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Berserk hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Berserk-rage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bitter-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blackened-hands');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blade-bent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blade-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blaze-tempered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blessed of Valhalla');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blissfully serene');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blood-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blood-driven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blood-fueled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blood-soaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blood-thirsty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bloodthirsty-fury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Blow-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bold-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boldly honest');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boreal craftsman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Boreal-bred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bound by faith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bramble-cutter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brave-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Bravely modest');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewed-amber craftsman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewed-liquor maker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewed-nectar master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewed-spirit crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewed-sunshine master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brewer of Valhalla');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brutal determination');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brutal-charger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Brutal-fighting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Business-keen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cabbage-gardener');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cargo-hawker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cargo-loaded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cask-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cask-wine specialist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cattle-herder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Champion of faith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cheerfully devoted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Claw-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Clever builder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Coast-trader');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Coastal-supplier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Coin-borne');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cold-blooded stalker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cold-hearted precision');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cold-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cold-tempered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Compassionate soul');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Courage-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Courage-filled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Courageously humble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Craftsman of steel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Crop-guardian');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Crop-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cunning marksman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Cunning predator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Dawn-worker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Deadly efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Deadly focused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Deal-making');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Destiny-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Dew-brew creator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Diligent farmhand');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Distant-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Divine-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Divinely-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Dragon-fruit grower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Dream-walked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Drunken-brew master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Eager to serve');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Earth-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Echo-walker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Elder-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Elder-shaman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Elderberry-gardener');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Endlessly patient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ever-humble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Exchange-adept');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Eye of the prey');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Faithfully devoted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Falcon-eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Far-flung');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Farm-gardener');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Farmstead worker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fate-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fate-weaver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fated-walker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearless pursuer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearless-blood');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearless-fighting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearless-souled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearlessly humble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearsome bloodhound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fearsome-foe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ferocious expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ferocious hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ferocity in focus');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fertile-earth keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fertile-minder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Field-keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Field-tiller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fierce hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fierce-clashed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fierce-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fiercely determined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fire-clad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fire-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fire-scarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fire-wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Flame-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Flax-cultivator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fleet-supplier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Flower-binder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Flower-bloomer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Foresight-favored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Foresight-giver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Foresight-guided');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forest-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forest-dweller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forest-strider');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forest-watcher');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forge-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forged-in-blood');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Forgiving-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frenzied-warrior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s emissary');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Freyja’s servant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frost-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frost-horn brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frost-tolerant grower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Frost-wine crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fruit-brew expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fruit-raiser');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Furrowed brow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fury-driven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fury-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Fury-wielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Future-echoed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Future-sighted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Generously gentle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Generously humble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gentle in heart');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gentle yet firm');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ginger-brew expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'God-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Goddess-spoken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Goddess-worshipper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gold-bearing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gold-seeker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Golden-brew expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Good-spoken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Goods-courier');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Goods-savvy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Graceful in wisdom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gracious in speech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Gracious-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grain-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grain-bringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grain-cultivator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grain-stained');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grape-picker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Green-fingered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Green-thumbed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grim-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Grimly focused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Guardian of wisdom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hail-weathered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hammer-scarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hammer-struck');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hammer-wielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hard-scrabble');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hard-working');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hardened by toil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Harmoniously grounded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Healer of wounds');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth-bonded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth-carved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth-sitter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hearth-smith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Heavy-handed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Herald of the gods');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Herb-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Herb-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Herbal-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Herbalist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'High-priest of Thor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honey-ale master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honey-malt brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honey-wine maker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honor-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honorable guide');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Honorable-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hop-brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hop-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hops-brew specialist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Horn-brew');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Howling-ravager');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hull-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Humble soul');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Humbly revered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hunt-scarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hunter of beasts');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hunter of nightmares');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hunter of the wicked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Hunting hound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Interpreter of visions');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-bolted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-brew master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-carver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-clad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-fisted tracker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-hammered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-hewn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-seller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-tusked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-welded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-willed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Iron-wolf');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Joyfully spirited');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keel-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keel-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keeper of rites');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keeper of rituals');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Keeper of sacrifices');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Labored hands');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Land-tilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Leaf-pruner');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Legendary-brew master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Light-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Livestock-fed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loki’s foe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Lorekeeper of Asgard');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Low-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loyal beyond measure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Loyal-trader');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Malt-fermenter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Malt-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Market-cantering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Master craftsman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Master of hulls');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Master-fermenter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mead-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Meek laborer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merchant-crafting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merchant-fluent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merchant-minded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merciless in battle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merciless in pursuit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Merciless-warrior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Messenger of Valhalla');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Metal-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Metal-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mighty hull-builder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mighty in humility');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mighty in spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Molten-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Molten-skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Moon-gardener');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Moon-hunted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Moonlit hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Moss-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Moss-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mud-stained');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mystic of the gods');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mystic-minded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mystic-sensed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Mystical-sense');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Naval-dealer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Night prowler');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Night-tracker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Noble and steadfast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Noble-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Nordic-ale maker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Nordic-brew master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Nurturing spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Oak-aged brew creator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Oak-planting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Oar-builder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin-chosen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin-given');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin’s chosen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin’s interpreter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Odin’s oracle');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Oracle-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Patient teacher');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Peacefully resolute');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Peddler-wise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pitiless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plank-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Plant-binder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Planting-sage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pragmatic destroyer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Predator-skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Predator´s shadow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Price-negotiator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Pride-strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Priest of Midgard');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Priest of the Nine');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Profit-seeking');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Prophet of Thor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Prophet of Yggdrasil');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Prophet-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Prophetess of fate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Prowler at dusk');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Quiet-footed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Quiet-spoken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Quietly compassionate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Quietly wise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Radiantly wise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rage-filled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rage-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raging-beast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raging-blade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rain-soaker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ravaging-wolf');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raven-bringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raven-keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raven-scarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Raven-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Realm-walker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentless fury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentless in pursuit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentless pursuit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentless-beast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentless-hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Relentlessly efficient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Resolutely merciless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Resolutely selfless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ritualistic healer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Riverman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Root-crafter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Root-digger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Root-grower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Root-picker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rudder-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-guided');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-scribe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rune-walker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Runestone-carver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Runestone-keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Runestone-seeker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Runic-guided');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Runic-soul');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ruthless stalker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ruthless tracker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ruthless-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ruthlessly cunning');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Rye-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sacred diviner');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sacred-blessed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sacred-brew keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sacrificial-priest');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sage of the gods');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sailing-dealer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Salt-farmer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage determination');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage in spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage snare');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage-fighter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Savage-hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sea-dweller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sea-iron');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sea-routes');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sea-strong');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seafaring craftsman');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seafaring-trader');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seashell-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Season-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seawind expert');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seawolf');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seaworthy designer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seeding-keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seeker of wisdom');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seer of Ragnarok');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seer of fate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seer of runes');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seer-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Seer-soul');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Serenely composed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shadow in woods');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shaman of the North');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sharp-clawed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sharp-eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield-bearer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield-clad');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield-wielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shield-wrapped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Shining-steel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship-forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship-master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Ship-sculptor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sibyl of fate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sight-forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silent arrow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silent as shadows');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silent fangs');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silent stalker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silent tracker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Silver-tongued');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Simple-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skilled archer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skilled in silence');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skilled shipwright');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Skilled slayer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sky-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sky-seer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sly predator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Smelting master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Soot-smeared');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spade-wielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sparks-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spear-dancer’s advisor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spear-striking');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spiced-brew master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spiced-malt master');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spicy-brew creator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spirit-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Spring-planner');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stalwart in spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Staunch protector');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steadfast hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steadfastly loyal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stealthy as night');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stealthy in approach');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stealthy killer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stealthy stalker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steel-bent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steel-crafted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steel-gripped');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steel-smith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steel-willed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Steely resolve');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stock-pastured');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stone-carved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-bringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-charged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-ridden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-stable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-thrashed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Storm-touched');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Strengthened-steel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Strike-hardened');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Strong-hulled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Stubborn tracker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sun-browned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sun-tender');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sweat-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sweat-soaked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sweet-wine brewer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Swift-footed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Swift-sword');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sword-forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sword-sharp');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sword-swinging');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Sword-wielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tactical-brilliant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tale-teller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tending-sage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thorn-cutter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thor’s mouthpiece');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thrifty cultivator');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thunder-rage');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thunder-speaker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thunderous-fury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Thyme-sower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tide-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Timber-forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Timber-shaper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Timber-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tireless worker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tracker of trails');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Trackmaster');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Trade-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Trade-worn');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Traveler-shrewd');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Treasure-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Treasure-dealer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Tree-planter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Truth-seeker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unbreakable resolve');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unfaltering in faith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unfaltering in pursuit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unholy-force');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unshakably calm');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unstoppable force');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unstoppable-force');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unstoppable-fury');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unswervingly devoted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Untamed strength');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Untamed wrath');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unyielding');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unyielding-berserker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unyieldingly brave');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Unyieldingly kind');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valhalla-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valhalla-wine maker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valiantly compassionate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valiantly wise');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valkyrie-caller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valkyrie’s voice');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valor-driven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Valorous-fighter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vengeful heart');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vengeful');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vengeful-blade');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vengeful-spirit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Victory-bound');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Victory-seeking');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vigilant priest');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vigilantly brutal');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking prophet');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking-brew keeper');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Viking-wild');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Violent-fighter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Violently relentless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vision-seeking');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vision-wielder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Vision-woven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Visionary-eyed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wander-trader');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'War-crazed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'War-crazy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'War-scarred');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wares-bearing');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wares-carried');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warm and welcoming');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warmly welcoming');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warrior-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warrior-proud');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Warrior-spirited');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Watcher of souls');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wave-carver');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wave-woven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Waves-sculptor');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wealth-bringer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Weapon-binder');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Weapon-forger');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Weapon-smith');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wheat-fermenter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wheat-harvester');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wickedly skilled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wild-flower grower');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wild-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wild-ravager');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Willingly selfless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wind-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wind-wrought');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Windswept');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Winter-brew specialist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Winter-harvester');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Winter-spiced brewmaster');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wisdom-bearer');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wise beyond measure');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wolf-caller');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wolf-hearted hunter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wolf-hearted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wolf-hunted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wood-and-steel');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wood-bent');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wood-harvester');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wood-splitter');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wood-woven');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wooden artist');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Woodland-gardener');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Woods-walker');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Worthy-blooded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wrath-born');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wrath-filled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wrath-fueled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wrathful-warrior');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('VIKING', 'PLACE', 'L5', 'Wrought in fire');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('VIKING', 'PLACE', 'L4', 'Axe-blooded'),
+   ('VIKING', 'PLACE', 'L4', 'Battle-hardened'),
+   ('VIKING', 'PLACE', 'L4', 'Battle-worn'),
+   ('VIKING', 'PLACE', 'L4', 'Berserk-rage'),
+   ('VIKING', 'PLACE', 'L4', 'Blaze-hearted'),
+   ('VIKING', 'PLACE', 'L4', 'Blessed by nature'),
+   ('VIKING', 'PLACE', 'L4', 'Blood-spilled'),
+   ('VIKING', 'PLACE', 'L4', 'Bloodthirsty'),
+   ('VIKING', 'PLACE', 'L4', 'Bountiful'),
+   ('VIKING', 'PLACE', 'L4', 'Brave'),
+   ('VIKING', 'PLACE', 'L4', 'Brutal'),
+   ('VIKING', 'PLACE', 'L4', 'Brutal-shield'),
+   ('VIKING', 'PLACE', 'L4', 'Capable'),
+   ('VIKING', 'PLACE', 'L4', 'Coastal-predator'),
+   ('VIKING', 'PLACE', 'L4', 'Connected to the land'),
+   ('VIKING', 'PLACE', 'L4', 'Cunning'),
+   ('VIKING', 'PLACE', 'L4', 'Deadly'),
+   ('VIKING', 'PLACE', 'L4', 'Dependable'),
+   ('VIKING', 'PLACE', 'L4', 'Determined'),
+   ('VIKING', 'PLACE', 'L4', 'Devoted'),
+   ('VIKING', 'PLACE', 'L4', 'Diligent laborer'),
+   ('VIKING', 'PLACE', 'L4', 'Diligent'),
+   ('VIKING', 'PLACE', 'L4', 'Doombringer'),
+   ('VIKING', 'PLACE', 'L4', 'Dragon-blooded'),
+   ('VIKING', 'PLACE', 'L4', 'Drakkar-sailor'),
+   ('VIKING', 'PLACE', 'L4', 'Eager'),
+   ('VIKING', 'PLACE', 'L4', 'Earth-bound'),
+   ('VIKING', 'PLACE', 'L4', 'Enduring'),
+   ('VIKING', 'PLACE', 'L4', 'Fear-slayer'),
+   ('VIKING', 'PLACE', 'L4', 'Fearless'),
+   ('VIKING', 'PLACE', 'L4', 'Fearsome'),
+   ('VIKING', 'PLACE', 'L4', 'Ferocious'),
+   ('VIKING', 'PLACE', 'L4', 'Fertile'),
+   ('VIKING', 'PLACE', 'L4', 'Gentle'),
+   ('VIKING', 'PLACE', 'L4', 'Gifted in planting'),
+   ('VIKING', 'PLACE', 'L4', 'Grain bearer'),
+   ('VIKING', 'PLACE', 'L4', 'Grain-sower'),
+   ('VIKING', 'PLACE', 'L4', 'Grateful'),
+   ('VIKING', 'PLACE', 'L4', 'Grim-eyed'),
+   ('VIKING', 'PLACE', 'L4', 'Hard-working'),
+   ('VIKING', 'PLACE', 'L4', 'Hardy as oak'),
+   ('VIKING', 'PLACE', 'L4', 'Hardy'),
+   ('VIKING', 'PLACE', 'L4', 'Humble servant'),
+   ('VIKING', 'PLACE', 'L4', 'Humble'),
+   ('VIKING', 'PLACE', 'L4', 'In touch with earth'),
+   ('VIKING', 'PLACE', 'L4', 'Indomitable'),
+   ('VIKING', 'PLACE', 'L4', 'Industrious'),
+   ('VIKING', 'PLACE', 'L4', 'Lifeblood-stealer'),
+   ('VIKING', 'PLACE', 'L4', 'Loyal'),
+   ('VIKING', 'PLACE', 'L4', 'Marauder'),
+   ('VIKING', 'PLACE', 'L4', 'Merciless'),
+   ('VIKING', 'PLACE', 'L4', 'Merciless-cut'),
+   ('VIKING', 'PLACE', 'L4', 'Mighty-sword'),
+   ('VIKING', 'PLACE', 'L4', 'Noble'),
+   ('VIKING', 'PLACE', 'L4', 'Patient in toil'),
+   ('VIKING', 'PLACE', 'L4', 'Patient'),
+   ('VIKING', 'PLACE', 'L4', 'Pirate-hearted'),
+   ('VIKING', 'PLACE', 'L4', 'Practical'),
+   ('VIKING', 'PLACE', 'L4', 'Proud'),
+   ('VIKING', 'PLACE', 'L4', 'Raider-hardened'),
+   ('VIKING', 'PLACE', 'L4', 'Ravager'),
+   ('VIKING', 'PLACE', 'L4', 'Relentless'),
+   ('VIKING', 'PLACE', 'L4', 'Reliable'),
+   ('VIKING', 'PLACE', 'L4', 'Resilient'),
+   ('VIKING', 'PLACE', 'L4', 'Resourceful'),
+   ('VIKING', 'PLACE', 'L4', 'Ruthless'),
+   ('VIKING', 'PLACE', 'L4', 'Savage'),
+   ('VIKING', 'PLACE', 'L4', 'Savage-fanged'),
+   ('VIKING', 'PLACE', 'L4', 'Shield-splitter'),
+   ('VIKING', 'PLACE', 'L4', 'Skald-singer'),
+   ('VIKING', 'PLACE', 'L4', 'Skilled in labor'),
+   ('VIKING', 'PLACE', 'L4', 'Skilled'),
+   ('VIKING', 'PLACE', 'L4', 'Skull-crushing'),
+   ('VIKING', 'PLACE', 'L4', 'Skull-seeker'),
+   ('VIKING', 'PLACE', 'L4', 'Steadfast'),
+   ('VIKING', 'PLACE', 'L4', 'Steady'),
+   ('VIKING', 'PLACE', 'L4', 'Steady-handed'),
+   ('VIKING', 'PLACE', 'L4', 'Storm-rider'),
+   ('VIKING', 'PLACE', 'L4', 'Storm-strong'),
+   ('VIKING', 'PLACE', 'L4', 'Strong'),
+   ('VIKING', 'PLACE', 'L4', 'Sturdy worker'),
+   ('VIKING', 'PLACE', 'L4', 'Sustaining'),
+   ('VIKING', 'PLACE', 'L4', 'Thor-favored'),
+   ('VIKING', 'PLACE', 'L4', 'Tireless'),
+   ('VIKING', 'PLACE', 'L4', 'Treacherous'),
+   ('VIKING', 'PLACE', 'L4', 'Trustworthy'),
+   ('VIKING', 'PLACE', 'L4', 'Unyielding'),
+   ('VIKING', 'PLACE', 'L4', 'Vicious'),
+   ('VIKING', 'PLACE', 'L4', 'Victory-bringer'),
+   ('VIKING', 'PLACE', 'L4', 'Vigorous'),
+   ('VIKING', 'PLACE', 'L4', 'Viking-spirit'),
+   ('VIKING', 'PLACE', 'L4', 'War-born'),
+   ('VIKING', 'PLACE', 'L4', 'War-scorched'),
+   ('VIKING', 'PLACE', 'L4', 'Warlord-spirit'),
+   ('VIKING', 'PLACE', 'L4', 'Warrior-spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Adept'),
+   ('VIKING', 'PLACE', 'L5', 'Ale-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Ale-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Ale-mage'),
+   ('VIKING', 'PLACE', 'L5', 'All-seeing'),
+   ('VIKING', 'PLACE', 'L5', 'Anger-driven'),
+   ('VIKING', 'PLACE', 'L5', 'Anvil-sculptor'),
+   ('VIKING', 'PLACE', 'L5', 'Anvil-strong'),
+   ('VIKING', 'PLACE', 'L5', 'Anvil-tough'),
+   ('VIKING', 'PLACE', 'L5', 'Anvil-wrought'),
+   ('VIKING', 'PLACE', 'L5', 'Apple-harvester'),
+   ('VIKING', 'PLACE', 'L5', 'Arrow-skilled'),
+   ('VIKING', 'PLACE', 'L5', 'Axe-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Bargain-skilled'),
+   ('VIKING', 'PLACE', 'L5', 'Barley-brew crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Barley-brew specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Barley-fermenter'),
+   ('VIKING', 'PLACE', 'L5', 'Barley-raiser'),
+   ('VIKING', 'PLACE', 'L5', 'Barter-savvy'),
+   ('VIKING', 'PLACE', 'L5', 'Barter-tactful'),
+   ('VIKING', 'PLACE', 'L5', 'Bartering-skillful'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-crazed'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-hardened'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-hungry'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-raging'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-ready'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-smith'),
+   ('VIKING', 'PLACE', 'L5', 'Battle-wine maker'),
+   ('VIKING', 'PLACE', 'L5', 'Beast-bane'),
+   ('VIKING', 'PLACE', 'L5', 'Beast-hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Beast-slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Beast-tamer'),
+   ('VIKING', 'PLACE', 'L5', 'Beastly-rage'),
+   ('VIKING', 'PLACE', 'L5', 'Beastly-warrior'),
+   ('VIKING', 'PLACE', 'L5', 'Berry-cultivator'),
+   ('VIKING', 'PLACE', 'L5', 'Berserk hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Berserk-rage'),
+   ('VIKING', 'PLACE', 'L5', 'Bitter-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Blackened-hands'),
+   ('VIKING', 'PLACE', 'L5', 'Blade-bent'),
+   ('VIKING', 'PLACE', 'L5', 'Blade-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Blaze-tempered'),
+   ('VIKING', 'PLACE', 'L5', 'Blessed of Valhalla'),
+   ('VIKING', 'PLACE', 'L5', 'Blissfully serene'),
+   ('VIKING', 'PLACE', 'L5', 'Blood-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Blood-driven'),
+   ('VIKING', 'PLACE', 'L5', 'Blood-fueled'),
+   ('VIKING', 'PLACE', 'L5', 'Blood-soaked'),
+   ('VIKING', 'PLACE', 'L5', 'Blood-thirsty'),
+   ('VIKING', 'PLACE', 'L5', 'Bloodthirsty-fury'),
+   ('VIKING', 'PLACE', 'L5', 'Blow-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Bold-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Boldly honest'),
+   ('VIKING', 'PLACE', 'L5', 'Boreal craftsman'),
+   ('VIKING', 'PLACE', 'L5', 'Boreal-bred'),
+   ('VIKING', 'PLACE', 'L5', 'Bound by faith'),
+   ('VIKING', 'PLACE', 'L5', 'Bramble-cutter'),
+   ('VIKING', 'PLACE', 'L5', 'Brave-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Bravely modest'),
+   ('VIKING', 'PLACE', 'L5', 'Brewed-amber craftsman'),
+   ('VIKING', 'PLACE', 'L5', 'Brewed-liquor maker'),
+   ('VIKING', 'PLACE', 'L5', 'Brewed-nectar master'),
+   ('VIKING', 'PLACE', 'L5', 'Brewed-spirit crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Brewed-sunshine master'),
+   ('VIKING', 'PLACE', 'L5', 'Brewer of Valhalla'),
+   ('VIKING', 'PLACE', 'L5', 'Brutal determination'),
+   ('VIKING', 'PLACE', 'L5', 'Brutal-charger'),
+   ('VIKING', 'PLACE', 'L5', 'Brutal-fighting'),
+   ('VIKING', 'PLACE', 'L5', 'Business-keen'),
+   ('VIKING', 'PLACE', 'L5', 'Cabbage-gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Cargo-hawker'),
+   ('VIKING', 'PLACE', 'L5', 'Cargo-loaded'),
+   ('VIKING', 'PLACE', 'L5', 'Cask-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Cask-wine specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Cattle-herder'),
+   ('VIKING', 'PLACE', 'L5', 'Champion of faith'),
+   ('VIKING', 'PLACE', 'L5', 'Cheerfully devoted'),
+   ('VIKING', 'PLACE', 'L5', 'Claw-master'),
+   ('VIKING', 'PLACE', 'L5', 'Clever builder'),
+   ('VIKING', 'PLACE', 'L5', 'Coast-trader'),
+   ('VIKING', 'PLACE', 'L5', 'Coastal-supplier'),
+   ('VIKING', 'PLACE', 'L5', 'Coin-borne'),
+   ('VIKING', 'PLACE', 'L5', 'Cold-blooded stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Cold-hearted precision'),
+   ('VIKING', 'PLACE', 'L5', 'Cold-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Cold-tempered'),
+   ('VIKING', 'PLACE', 'L5', 'Compassionate soul'),
+   ('VIKING', 'PLACE', 'L5', 'Courage-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Courage-filled'),
+   ('VIKING', 'PLACE', 'L5', 'Courageously humble'),
+   ('VIKING', 'PLACE', 'L5', 'Craftsman of steel'),
+   ('VIKING', 'PLACE', 'L5', 'Crop-guardian'),
+   ('VIKING', 'PLACE', 'L5', 'Crop-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Cunning marksman'),
+   ('VIKING', 'PLACE', 'L5', 'Cunning predator'),
+   ('VIKING', 'PLACE', 'L5', 'Dawn-worker'),
+   ('VIKING', 'PLACE', 'L5', 'Deadly efficient'),
+   ('VIKING', 'PLACE', 'L5', 'Deadly focused'),
+   ('VIKING', 'PLACE', 'L5', 'Deal-making'),
+   ('VIKING', 'PLACE', 'L5', 'Destiny-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Dew-brew creator'),
+   ('VIKING', 'PLACE', 'L5', 'Diligent farmhand'),
+   ('VIKING', 'PLACE', 'L5', 'Distant-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Divine-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Divinely-blessed'),
+   ('VIKING', 'PLACE', 'L5', 'Dragon-fruit grower'),
+   ('VIKING', 'PLACE', 'L5', 'Dream-walked'),
+   ('VIKING', 'PLACE', 'L5', 'Drunken-brew master'),
+   ('VIKING', 'PLACE', 'L5', 'Eager to serve'),
+   ('VIKING', 'PLACE', 'L5', 'Earth-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Echo-walker'),
+   ('VIKING', 'PLACE', 'L5', 'Elder-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Elder-shaman'),
+   ('VIKING', 'PLACE', 'L5', 'Elderberry-gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Endlessly patient'),
+   ('VIKING', 'PLACE', 'L5', 'Ever-humble'),
+   ('VIKING', 'PLACE', 'L5', 'Exchange-adept'),
+   ('VIKING', 'PLACE', 'L5', 'Eye of the prey'),
+   ('VIKING', 'PLACE', 'L5', 'Faithfully devoted'),
+   ('VIKING', 'PLACE', 'L5', 'Falcon-eyed'),
+   ('VIKING', 'PLACE', 'L5', 'Far-flung'),
+   ('VIKING', 'PLACE', 'L5', 'Farm-gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Farmstead worker'),
+   ('VIKING', 'PLACE', 'L5', 'Fate-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Fate-weaver'),
+   ('VIKING', 'PLACE', 'L5', 'Fated-walker'),
+   ('VIKING', 'PLACE', 'L5', 'Fearless pursuer'),
+   ('VIKING', 'PLACE', 'L5', 'Fearless-blood'),
+   ('VIKING', 'PLACE', 'L5', 'Fearless-fighting'),
+   ('VIKING', 'PLACE', 'L5', 'Fearless-souled'),
+   ('VIKING', 'PLACE', 'L5', 'Fearlessly humble'),
+   ('VIKING', 'PLACE', 'L5', 'Fearsome bloodhound'),
+   ('VIKING', 'PLACE', 'L5', 'Fearsome-foe'),
+   ('VIKING', 'PLACE', 'L5', 'Ferocious expert'),
+   ('VIKING', 'PLACE', 'L5', 'Ferocious hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Ferocity in focus'),
+   ('VIKING', 'PLACE', 'L5', 'Fertile-earth keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Fertile-minder'),
+   ('VIKING', 'PLACE', 'L5', 'Field-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Field-tiller'),
+   ('VIKING', 'PLACE', 'L5', 'Fierce hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Fierce-clashed'),
+   ('VIKING', 'PLACE', 'L5', 'Fierce-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Fiercely determined'),
+   ('VIKING', 'PLACE', 'L5', 'Fire-clad'),
+   ('VIKING', 'PLACE', 'L5', 'Fire-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Fire-scarred'),
+   ('VIKING', 'PLACE', 'L5', 'Fire-wrought'),
+   ('VIKING', 'PLACE', 'L5', 'Flame-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Flax-cultivator'),
+   ('VIKING', 'PLACE', 'L5', 'Fleet-supplier'),
+   ('VIKING', 'PLACE', 'L5', 'Flower-binder'),
+   ('VIKING', 'PLACE', 'L5', 'Flower-bloomer'),
+   ('VIKING', 'PLACE', 'L5', 'Foresight-favored'),
+   ('VIKING', 'PLACE', 'L5', 'Foresight-giver'),
+   ('VIKING', 'PLACE', 'L5', 'Foresight-guided'),
+   ('VIKING', 'PLACE', 'L5', 'Forest-born'),
+   ('VIKING', 'PLACE', 'L5', 'Forest-dweller'),
+   ('VIKING', 'PLACE', 'L5', 'Forest-strider'),
+   ('VIKING', 'PLACE', 'L5', 'Forest-watcher'),
+   ('VIKING', 'PLACE', 'L5', 'Forge-master'),
+   ('VIKING', 'PLACE', 'L5', 'Forged-in-blood'),
+   ('VIKING', 'PLACE', 'L5', 'Forgiving-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Frenzied-warrior'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s emissary'),
+   ('VIKING', 'PLACE', 'L5', 'Freyja’s servant'),
+   ('VIKING', 'PLACE', 'L5', 'Frost-hardened'),
+   ('VIKING', 'PLACE', 'L5', 'Frost-horn brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Frost-tolerant grower'),
+   ('VIKING', 'PLACE', 'L5', 'Frost-wine crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Fruit-brew expert'),
+   ('VIKING', 'PLACE', 'L5', 'Fruit-raiser'),
+   ('VIKING', 'PLACE', 'L5', 'Furrowed brow'),
+   ('VIKING', 'PLACE', 'L5', 'Fury-driven'),
+   ('VIKING', 'PLACE', 'L5', 'Fury-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Fury-wielding'),
+   ('VIKING', 'PLACE', 'L5', 'Future-echoed'),
+   ('VIKING', 'PLACE', 'L5', 'Future-sighted'),
+   ('VIKING', 'PLACE', 'L5', 'Generously gentle'),
+   ('VIKING', 'PLACE', 'L5', 'Generously humble'),
+   ('VIKING', 'PLACE', 'L5', 'Gentle in heart'),
+   ('VIKING', 'PLACE', 'L5', 'Gentle yet firm'),
+   ('VIKING', 'PLACE', 'L5', 'Ginger-brew expert'),
+   ('VIKING', 'PLACE', 'L5', 'God-blessed'),
+   ('VIKING', 'PLACE', 'L5', 'Goddess-spoken'),
+   ('VIKING', 'PLACE', 'L5', 'Goddess-worshipper'),
+   ('VIKING', 'PLACE', 'L5', 'Gold-bearing'),
+   ('VIKING', 'PLACE', 'L5', 'Gold-seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Golden-brew expert'),
+   ('VIKING', 'PLACE', 'L5', 'Good-spoken'),
+   ('VIKING', 'PLACE', 'L5', 'Goods-courier'),
+   ('VIKING', 'PLACE', 'L5', 'Goods-savvy'),
+   ('VIKING', 'PLACE', 'L5', 'Graceful in wisdom'),
+   ('VIKING', 'PLACE', 'L5', 'Gracious in speech'),
+   ('VIKING', 'PLACE', 'L5', 'Gracious-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Grain-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Grain-bringer'),
+   ('VIKING', 'PLACE', 'L5', 'Grain-cultivator'),
+   ('VIKING', 'PLACE', 'L5', 'Grain-stained'),
+   ('VIKING', 'PLACE', 'L5', 'Grape-picker'),
+   ('VIKING', 'PLACE', 'L5', 'Green-fingered'),
+   ('VIKING', 'PLACE', 'L5', 'Green-thumbed'),
+   ('VIKING', 'PLACE', 'L5', 'Grim-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Grimly focused'),
+   ('VIKING', 'PLACE', 'L5', 'Guardian of wisdom'),
+   ('VIKING', 'PLACE', 'L5', 'Hail-weathered'),
+   ('VIKING', 'PLACE', 'L5', 'Hammer-scarred'),
+   ('VIKING', 'PLACE', 'L5', 'Hammer-struck'),
+   ('VIKING', 'PLACE', 'L5', 'Hammer-wielding'),
+   ('VIKING', 'PLACE', 'L5', 'Hard-scrabble'),
+   ('VIKING', 'PLACE', 'L5', 'Hard-working'),
+   ('VIKING', 'PLACE', 'L5', 'Hardened by toil'),
+   ('VIKING', 'PLACE', 'L5', 'Harmoniously grounded'),
+   ('VIKING', 'PLACE', 'L5', 'Healer of wounds'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth-bonded'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth-carved'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth-sitter'),
+   ('VIKING', 'PLACE', 'L5', 'Hearth-smith'),
+   ('VIKING', 'PLACE', 'L5', 'Heavy-handed'),
+   ('VIKING', 'PLACE', 'L5', 'Herald of the gods'),
+   ('VIKING', 'PLACE', 'L5', 'Herb-master'),
+   ('VIKING', 'PLACE', 'L5', 'Herb-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Herbal-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Herbalist'),
+   ('VIKING', 'PLACE', 'L5', 'High-priest of Thor'),
+   ('VIKING', 'PLACE', 'L5', 'Honey-ale master'),
+   ('VIKING', 'PLACE', 'L5', 'Honey-malt brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Honey-wine maker'),
+   ('VIKING', 'PLACE', 'L5', 'Honor-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Honorable guide'),
+   ('VIKING', 'PLACE', 'L5', 'Honorable-blooded'),
+   ('VIKING', 'PLACE', 'L5', 'Hop-brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Hop-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Hops-brew specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Horn-brew'),
+   ('VIKING', 'PLACE', 'L5', 'Howling-ravager'),
+   ('VIKING', 'PLACE', 'L5', 'Hull-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Humble soul'),
+   ('VIKING', 'PLACE', 'L5', 'Humbly revered'),
+   ('VIKING', 'PLACE', 'L5', 'Hunt-scarred'),
+   ('VIKING', 'PLACE', 'L5', 'Hunter of beasts'),
+   ('VIKING', 'PLACE', 'L5', 'Hunter of nightmares'),
+   ('VIKING', 'PLACE', 'L5', 'Hunter of the wicked'),
+   ('VIKING', 'PLACE', 'L5', 'Hunting hound'),
+   ('VIKING', 'PLACE', 'L5', 'Interpreter of visions'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-blooded'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-bolted'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-brew master'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-carver'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-clad'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-fisted tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-hammered'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-hewn'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-seller'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-tusked'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-welded'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-willed'),
+   ('VIKING', 'PLACE', 'L5', 'Iron-wolf'),
+   ('VIKING', 'PLACE', 'L5', 'Joyfully spirited'),
+   ('VIKING', 'PLACE', 'L5', 'Keel-master'),
+   ('VIKING', 'PLACE', 'L5', 'Keel-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Keeper of rites'),
+   ('VIKING', 'PLACE', 'L5', 'Keeper of rituals'),
+   ('VIKING', 'PLACE', 'L5', 'Keeper of sacrifices'),
+   ('VIKING', 'PLACE', 'L5', 'Labored hands'),
+   ('VIKING', 'PLACE', 'L5', 'Land-tilled'),
+   ('VIKING', 'PLACE', 'L5', 'Leaf-pruner'),
+   ('VIKING', 'PLACE', 'L5', 'Legendary-brew master'),
+   ('VIKING', 'PLACE', 'L5', 'Light-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Livestock-fed'),
+   ('VIKING', 'PLACE', 'L5', 'Loki’s foe'),
+   ('VIKING', 'PLACE', 'L5', 'Lorekeeper of Asgard'),
+   ('VIKING', 'PLACE', 'L5', 'Low-born'),
+   ('VIKING', 'PLACE', 'L5', 'Loyal beyond measure'),
+   ('VIKING', 'PLACE', 'L5', 'Loyal-trader'),
+   ('VIKING', 'PLACE', 'L5', 'Malt-fermenter'),
+   ('VIKING', 'PLACE', 'L5', 'Malt-master'),
+   ('VIKING', 'PLACE', 'L5', 'Market-cantering'),
+   ('VIKING', 'PLACE', 'L5', 'Master craftsman'),
+   ('VIKING', 'PLACE', 'L5', 'Master of hulls'),
+   ('VIKING', 'PLACE', 'L5', 'Master-fermenter'),
+   ('VIKING', 'PLACE', 'L5', 'Mead-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Meek laborer'),
+   ('VIKING', 'PLACE', 'L5', 'Merchant-crafting'),
+   ('VIKING', 'PLACE', 'L5', 'Merchant-fluent'),
+   ('VIKING', 'PLACE', 'L5', 'Merchant-minded'),
+   ('VIKING', 'PLACE', 'L5', 'Merciless in battle'),
+   ('VIKING', 'PLACE', 'L5', 'Merciless in pursuit'),
+   ('VIKING', 'PLACE', 'L5', 'Merciless-warrior'),
+   ('VIKING', 'PLACE', 'L5', 'Messenger of Valhalla'),
+   ('VIKING', 'PLACE', 'L5', 'Metal-hardened'),
+   ('VIKING', 'PLACE', 'L5', 'Metal-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Mighty hull-builder'),
+   ('VIKING', 'PLACE', 'L5', 'Mighty in humility'),
+   ('VIKING', 'PLACE', 'L5', 'Mighty in spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Molten-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Molten-skilled'),
+   ('VIKING', 'PLACE', 'L5', 'Moon-gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Moon-hunted'),
+   ('VIKING', 'PLACE', 'L5', 'Moonlit hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Moss-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Moss-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Mud-stained'),
+   ('VIKING', 'PLACE', 'L5', 'Mystic of the gods'),
+   ('VIKING', 'PLACE', 'L5', 'Mystic-minded'),
+   ('VIKING', 'PLACE', 'L5', 'Mystic-sensed'),
+   ('VIKING', 'PLACE', 'L5', 'Mystical-sense'),
+   ('VIKING', 'PLACE', 'L5', 'Naval-dealer'),
+   ('VIKING', 'PLACE', 'L5', 'Night prowler'),
+   ('VIKING', 'PLACE', 'L5', 'Night-tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Noble and steadfast'),
+   ('VIKING', 'PLACE', 'L5', 'Noble-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Nordic-ale maker'),
+   ('VIKING', 'PLACE', 'L5', 'Nordic-brew master'),
+   ('VIKING', 'PLACE', 'L5', 'Nurturing spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Oak-aged brew creator'),
+   ('VIKING', 'PLACE', 'L5', 'Oak-planting'),
+   ('VIKING', 'PLACE', 'L5', 'Oar-builder'),
+   ('VIKING', 'PLACE', 'L5', 'Odin-blessed'),
+   ('VIKING', 'PLACE', 'L5', 'Odin-chosen'),
+   ('VIKING', 'PLACE', 'L5', 'Odin-given'),
+   ('VIKING', 'PLACE', 'L5', 'Odin’s chosen'),
+   ('VIKING', 'PLACE', 'L5', 'Odin’s interpreter'),
+   ('VIKING', 'PLACE', 'L5', 'Odin’s oracle'),
+   ('VIKING', 'PLACE', 'L5', 'Oracle-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Patient teacher'),
+   ('VIKING', 'PLACE', 'L5', 'Peacefully resolute'),
+   ('VIKING', 'PLACE', 'L5', 'Peddler-wise'),
+   ('VIKING', 'PLACE', 'L5', 'Pitiless'),
+   ('VIKING', 'PLACE', 'L5', 'Plank-master'),
+   ('VIKING', 'PLACE', 'L5', 'Plant-binder'),
+   ('VIKING', 'PLACE', 'L5', 'Planting-sage'),
+   ('VIKING', 'PLACE', 'L5', 'Pragmatic destroyer'),
+   ('VIKING', 'PLACE', 'L5', 'Predator-skilled'),
+   ('VIKING', 'PLACE', 'L5', 'Predator´s shadow'),
+   ('VIKING', 'PLACE', 'L5', 'Price-negotiator'),
+   ('VIKING', 'PLACE', 'L5', 'Pride-strong'),
+   ('VIKING', 'PLACE', 'L5', 'Priest of Midgard'),
+   ('VIKING', 'PLACE', 'L5', 'Priest of the Nine'),
+   ('VIKING', 'PLACE', 'L5', 'Profit-seeking'),
+   ('VIKING', 'PLACE', 'L5', 'Prophet of Thor'),
+   ('VIKING', 'PLACE', 'L5', 'Prophet of Yggdrasil'),
+   ('VIKING', 'PLACE', 'L5', 'Prophet-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Prophetess of fate'),
+   ('VIKING', 'PLACE', 'L5', 'Prowler at dusk'),
+   ('VIKING', 'PLACE', 'L5', 'Quiet-footed'),
+   ('VIKING', 'PLACE', 'L5', 'Quiet-spoken'),
+   ('VIKING', 'PLACE', 'L5', 'Quietly compassionate'),
+   ('VIKING', 'PLACE', 'L5', 'Quietly wise'),
+   ('VIKING', 'PLACE', 'L5', 'Radiantly wise'),
+   ('VIKING', 'PLACE', 'L5', 'Rage-filled'),
+   ('VIKING', 'PLACE', 'L5', 'Rage-hardened'),
+   ('VIKING', 'PLACE', 'L5', 'Raging-beast'),
+   ('VIKING', 'PLACE', 'L5', 'Raging-blade'),
+   ('VIKING', 'PLACE', 'L5', 'Rain-soaker'),
+   ('VIKING', 'PLACE', 'L5', 'Ravaging-wolf'),
+   ('VIKING', 'PLACE', 'L5', 'Raven-bringer'),
+   ('VIKING', 'PLACE', 'L5', 'Raven-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Raven-scarred'),
+   ('VIKING', 'PLACE', 'L5', 'Raven-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Realm-walker'),
+   ('VIKING', 'PLACE', 'L5', 'Relentless fury'),
+   ('VIKING', 'PLACE', 'L5', 'Relentless in pursuit'),
+   ('VIKING', 'PLACE', 'L5', 'Relentless pursuit'),
+   ('VIKING', 'PLACE', 'L5', 'Relentless-beast'),
+   ('VIKING', 'PLACE', 'L5', 'Relentless-hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Relentlessly efficient'),
+   ('VIKING', 'PLACE', 'L5', 'Resolutely merciless'),
+   ('VIKING', 'PLACE', 'L5', 'Resolutely selfless'),
+   ('VIKING', 'PLACE', 'L5', 'Ritualistic healer'),
+   ('VIKING', 'PLACE', 'L5', 'Riverman'),
+   ('VIKING', 'PLACE', 'L5', 'Root-crafter'),
+   ('VIKING', 'PLACE', 'L5', 'Root-digger'),
+   ('VIKING', 'PLACE', 'L5', 'Root-grower'),
+   ('VIKING', 'PLACE', 'L5', 'Root-picker'),
+   ('VIKING', 'PLACE', 'L5', 'Rudder-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-blessed'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-guided'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-scribe'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Rune-walker'),
+   ('VIKING', 'PLACE', 'L5', 'Runestone-carver'),
+   ('VIKING', 'PLACE', 'L5', 'Runestone-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Runestone-seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Runic-guided'),
+   ('VIKING', 'PLACE', 'L5', 'Runic-soul'),
+   ('VIKING', 'PLACE', 'L5', 'Ruthless stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Ruthless tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Ruthless-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Ruthlessly cunning'),
+   ('VIKING', 'PLACE', 'L5', 'Rye-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Sacred diviner'),
+   ('VIKING', 'PLACE', 'L5', 'Sacred-blessed'),
+   ('VIKING', 'PLACE', 'L5', 'Sacred-brew keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Sacrificial-priest'),
+   ('VIKING', 'PLACE', 'L5', 'Sage of the gods'),
+   ('VIKING', 'PLACE', 'L5', 'Sailing-dealer'),
+   ('VIKING', 'PLACE', 'L5', 'Salt-farmer'),
+   ('VIKING', 'PLACE', 'L5', 'Savage determination'),
+   ('VIKING', 'PLACE', 'L5', 'Savage expert'),
+   ('VIKING', 'PLACE', 'L5', 'Savage in spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Savage snare'),
+   ('VIKING', 'PLACE', 'L5', 'Savage-fighter'),
+   ('VIKING', 'PLACE', 'L5', 'Savage-hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Sea-dweller'),
+   ('VIKING', 'PLACE', 'L5', 'Sea-iron'),
+   ('VIKING', 'PLACE', 'L5', 'Sea-routes'),
+   ('VIKING', 'PLACE', 'L5', 'Sea-strong'),
+   ('VIKING', 'PLACE', 'L5', 'Seafaring craftsman'),
+   ('VIKING', 'PLACE', 'L5', 'Seafaring-trader'),
+   ('VIKING', 'PLACE', 'L5', 'Seashell-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Season-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Seawind expert'),
+   ('VIKING', 'PLACE', 'L5', 'Seawolf'),
+   ('VIKING', 'PLACE', 'L5', 'Seaworthy designer'),
+   ('VIKING', 'PLACE', 'L5', 'Seeding-keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Seeker of wisdom'),
+   ('VIKING', 'PLACE', 'L5', 'Seer of Ragnarok'),
+   ('VIKING', 'PLACE', 'L5', 'Seer of fate'),
+   ('VIKING', 'PLACE', 'L5', 'Seer of runes'),
+   ('VIKING', 'PLACE', 'L5', 'Seer-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Seer-soul'),
+   ('VIKING', 'PLACE', 'L5', 'Serenely composed'),
+   ('VIKING', 'PLACE', 'L5', 'Shadow in woods'),
+   ('VIKING', 'PLACE', 'L5', 'Shaman of the North'),
+   ('VIKING', 'PLACE', 'L5', 'Sharp-clawed'),
+   ('VIKING', 'PLACE', 'L5', 'Sharp-eyed'),
+   ('VIKING', 'PLACE', 'L5', 'Shield-bearer'),
+   ('VIKING', 'PLACE', 'L5', 'Shield-clad'),
+   ('VIKING', 'PLACE', 'L5', 'Shield-wielding'),
+   ('VIKING', 'PLACE', 'L5', 'Shield-wrapped'),
+   ('VIKING', 'PLACE', 'L5', 'Shining-steel'),
+   ('VIKING', 'PLACE', 'L5', 'Ship-born'),
+   ('VIKING', 'PLACE', 'L5', 'Ship-forger'),
+   ('VIKING', 'PLACE', 'L5', 'Ship-master'),
+   ('VIKING', 'PLACE', 'L5', 'Ship-sculptor'),
+   ('VIKING', 'PLACE', 'L5', 'Sibyl of fate'),
+   ('VIKING', 'PLACE', 'L5', 'Sight-forger'),
+   ('VIKING', 'PLACE', 'L5', 'Silent arrow'),
+   ('VIKING', 'PLACE', 'L5', 'Silent as shadows'),
+   ('VIKING', 'PLACE', 'L5', 'Silent fangs'),
+   ('VIKING', 'PLACE', 'L5', 'Silent stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Silent tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Silver-tongued'),
+   ('VIKING', 'PLACE', 'L5', 'Simple-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Skilled archer'),
+   ('VIKING', 'PLACE', 'L5', 'Skilled in silence'),
+   ('VIKING', 'PLACE', 'L5', 'Skilled shipwright'),
+   ('VIKING', 'PLACE', 'L5', 'Skilled slayer'),
+   ('VIKING', 'PLACE', 'L5', 'Sky-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Sky-seer'),
+   ('VIKING', 'PLACE', 'L5', 'Sly predator'),
+   ('VIKING', 'PLACE', 'L5', 'Smelting master'),
+   ('VIKING', 'PLACE', 'L5', 'Soot-smeared'),
+   ('VIKING', 'PLACE', 'L5', 'Spade-wielding'),
+   ('VIKING', 'PLACE', 'L5', 'Sparks-born'),
+   ('VIKING', 'PLACE', 'L5', 'Spear-dancer’s advisor'),
+   ('VIKING', 'PLACE', 'L5', 'Spear-striking'),
+   ('VIKING', 'PLACE', 'L5', 'Spiced-brew master'),
+   ('VIKING', 'PLACE', 'L5', 'Spiced-malt master'),
+   ('VIKING', 'PLACE', 'L5', 'Spicy-brew creator'),
+   ('VIKING', 'PLACE', 'L5', 'Spirit-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Spring-planner'),
+   ('VIKING', 'PLACE', 'L5', 'Stalwart in spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Staunch protector'),
+   ('VIKING', 'PLACE', 'L5', 'Steadfast hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Steadfastly loyal'),
+   ('VIKING', 'PLACE', 'L5', 'Stealthy as night'),
+   ('VIKING', 'PLACE', 'L5', 'Stealthy in approach'),
+   ('VIKING', 'PLACE', 'L5', 'Stealthy killer'),
+   ('VIKING', 'PLACE', 'L5', 'Stealthy stalker'),
+   ('VIKING', 'PLACE', 'L5', 'Steel-bent'),
+   ('VIKING', 'PLACE', 'L5', 'Steel-crafted'),
+   ('VIKING', 'PLACE', 'L5', 'Steel-gripped'),
+   ('VIKING', 'PLACE', 'L5', 'Steel-smith'),
+   ('VIKING', 'PLACE', 'L5', 'Steel-willed'),
+   ('VIKING', 'PLACE', 'L5', 'Steely resolve'),
+   ('VIKING', 'PLACE', 'L5', 'Stock-pastured'),
+   ('VIKING', 'PLACE', 'L5', 'Stone-carved'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-bringer'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-charged'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-ridden'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-stable'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-thrashed'),
+   ('VIKING', 'PLACE', 'L5', 'Storm-touched'),
+   ('VIKING', 'PLACE', 'L5', 'Strengthened-steel'),
+   ('VIKING', 'PLACE', 'L5', 'Strike-hardened'),
+   ('VIKING', 'PLACE', 'L5', 'Strong-hulled'),
+   ('VIKING', 'PLACE', 'L5', 'Stubborn tracker'),
+   ('VIKING', 'PLACE', 'L5', 'Sun-browned'),
+   ('VIKING', 'PLACE', 'L5', 'Sun-tender'),
+   ('VIKING', 'PLACE', 'L5', 'Sweat-blooded'),
+   ('VIKING', 'PLACE', 'L5', 'Sweat-soaked'),
+   ('VIKING', 'PLACE', 'L5', 'Sweet-wine brewer'),
+   ('VIKING', 'PLACE', 'L5', 'Swift-footed'),
+   ('VIKING', 'PLACE', 'L5', 'Swift-sword'),
+   ('VIKING', 'PLACE', 'L5', 'Sword-forger'),
+   ('VIKING', 'PLACE', 'L5', 'Sword-sharp'),
+   ('VIKING', 'PLACE', 'L5', 'Sword-swinging'),
+   ('VIKING', 'PLACE', 'L5', 'Sword-wielding'),
+   ('VIKING', 'PLACE', 'L5', 'Tactical-brilliant'),
+   ('VIKING', 'PLACE', 'L5', 'Tale-teller'),
+   ('VIKING', 'PLACE', 'L5', 'Tending-sage'),
+   ('VIKING', 'PLACE', 'L5', 'Thorn-cutter'),
+   ('VIKING', 'PLACE', 'L5', 'Thor’s mouthpiece'),
+   ('VIKING', 'PLACE', 'L5', 'Thrifty cultivator'),
+   ('VIKING', 'PLACE', 'L5', 'Thunder-rage'),
+   ('VIKING', 'PLACE', 'L5', 'Thunder-speaker'),
+   ('VIKING', 'PLACE', 'L5', 'Thunderous-fury'),
+   ('VIKING', 'PLACE', 'L5', 'Thyme-sower'),
+   ('VIKING', 'PLACE', 'L5', 'Tide-forged'),
+   ('VIKING', 'PLACE', 'L5', 'Timber-forger'),
+   ('VIKING', 'PLACE', 'L5', 'Timber-shaper'),
+   ('VIKING', 'PLACE', 'L5', 'Timber-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Tireless worker'),
+   ('VIKING', 'PLACE', 'L5', 'Tracker of trails'),
+   ('VIKING', 'PLACE', 'L5', 'Trackmaster'),
+   ('VIKING', 'PLACE', 'L5', 'Trade-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Trade-worn'),
+   ('VIKING', 'PLACE', 'L5', 'Traveler-shrewd'),
+   ('VIKING', 'PLACE', 'L5', 'Treasure-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Treasure-dealer'),
+   ('VIKING', 'PLACE', 'L5', 'Tree-planter'),
+   ('VIKING', 'PLACE', 'L5', 'Truth-seeker'),
+   ('VIKING', 'PLACE', 'L5', 'Unbreakable resolve'),
+   ('VIKING', 'PLACE', 'L5', 'Unfaltering in faith'),
+   ('VIKING', 'PLACE', 'L5', 'Unfaltering in pursuit'),
+   ('VIKING', 'PLACE', 'L5', 'Unholy-force'),
+   ('VIKING', 'PLACE', 'L5', 'Unshakably calm'),
+   ('VIKING', 'PLACE', 'L5', 'Unstoppable force'),
+   ('VIKING', 'PLACE', 'L5', 'Unstoppable-force'),
+   ('VIKING', 'PLACE', 'L5', 'Unstoppable-fury'),
+   ('VIKING', 'PLACE', 'L5', 'Unswervingly devoted'),
+   ('VIKING', 'PLACE', 'L5', 'Untamed strength'),
+   ('VIKING', 'PLACE', 'L5', 'Untamed wrath'),
+   ('VIKING', 'PLACE', 'L5', 'Unyielding'),
+   ('VIKING', 'PLACE', 'L5', 'Unyielding-berserker'),
+   ('VIKING', 'PLACE', 'L5', 'Unyieldingly brave'),
+   ('VIKING', 'PLACE', 'L5', 'Unyieldingly kind'),
+   ('VIKING', 'PLACE', 'L5', 'Valhalla-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Valhalla-wine maker'),
+   ('VIKING', 'PLACE', 'L5', 'Valiantly compassionate'),
+   ('VIKING', 'PLACE', 'L5', 'Valiantly wise'),
+   ('VIKING', 'PLACE', 'L5', 'Valkyrie-caller'),
+   ('VIKING', 'PLACE', 'L5', 'Valkyrie’s voice'),
+   ('VIKING', 'PLACE', 'L5', 'Valor-driven'),
+   ('VIKING', 'PLACE', 'L5', 'Valorous-fighter'),
+   ('VIKING', 'PLACE', 'L5', 'Vengeful heart'),
+   ('VIKING', 'PLACE', 'L5', 'Vengeful'),
+   ('VIKING', 'PLACE', 'L5', 'Vengeful-blade'),
+   ('VIKING', 'PLACE', 'L5', 'Vengeful-spirit'),
+   ('VIKING', 'PLACE', 'L5', 'Victory-bound'),
+   ('VIKING', 'PLACE', 'L5', 'Victory-seeking'),
+   ('VIKING', 'PLACE', 'L5', 'Vigilant priest'),
+   ('VIKING', 'PLACE', 'L5', 'Vigilantly brutal'),
+   ('VIKING', 'PLACE', 'L5', 'Viking prophet'),
+   ('VIKING', 'PLACE', 'L5', 'Viking-born'),
+   ('VIKING', 'PLACE', 'L5', 'Viking-brew keeper'),
+   ('VIKING', 'PLACE', 'L5', 'Viking-wild'),
+   ('VIKING', 'PLACE', 'L5', 'Violent-fighter'),
+   ('VIKING', 'PLACE', 'L5', 'Violently relentless'),
+   ('VIKING', 'PLACE', 'L5', 'Vision-seeking'),
+   ('VIKING', 'PLACE', 'L5', 'Vision-wielder'),
+   ('VIKING', 'PLACE', 'L5', 'Vision-woven'),
+   ('VIKING', 'PLACE', 'L5', 'Visionary-eyed'),
+   ('VIKING', 'PLACE', 'L5', 'Wander-trader'),
+   ('VIKING', 'PLACE', 'L5', 'War-crazed'),
+   ('VIKING', 'PLACE', 'L5', 'War-crazy'),
+   ('VIKING', 'PLACE', 'L5', 'War-scarred'),
+   ('VIKING', 'PLACE', 'L5', 'Wares-bearing'),
+   ('VIKING', 'PLACE', 'L5', 'Wares-carried'),
+   ('VIKING', 'PLACE', 'L5', 'Warm and welcoming'),
+   ('VIKING', 'PLACE', 'L5', 'Warmly welcoming'),
+   ('VIKING', 'PLACE', 'L5', 'Warrior-born'),
+   ('VIKING', 'PLACE', 'L5', 'Warrior-proud'),
+   ('VIKING', 'PLACE', 'L5', 'Warrior-spirited'),
+   ('VIKING', 'PLACE', 'L5', 'Watcher of souls'),
+   ('VIKING', 'PLACE', 'L5', 'Wave-carver'),
+   ('VIKING', 'PLACE', 'L5', 'Wave-woven'),
+   ('VIKING', 'PLACE', 'L5', 'Waves-sculptor'),
+   ('VIKING', 'PLACE', 'L5', 'Wealth-bringer'),
+   ('VIKING', 'PLACE', 'L5', 'Weapon-binder'),
+   ('VIKING', 'PLACE', 'L5', 'Weapon-forger'),
+   ('VIKING', 'PLACE', 'L5', 'Weapon-smith'),
+   ('VIKING', 'PLACE', 'L5', 'Wheat-fermenter'),
+   ('VIKING', 'PLACE', 'L5', 'Wheat-harvester'),
+   ('VIKING', 'PLACE', 'L5', 'Wickedly skilled'),
+   ('VIKING', 'PLACE', 'L5', 'Wild-flower grower'),
+   ('VIKING', 'PLACE', 'L5', 'Wild-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Wild-ravager'),
+   ('VIKING', 'PLACE', 'L5', 'Willingly selfless'),
+   ('VIKING', 'PLACE', 'L5', 'Wind-born'),
+   ('VIKING', 'PLACE', 'L5', 'Wind-wrought'),
+   ('VIKING', 'PLACE', 'L5', 'Windswept'),
+   ('VIKING', 'PLACE', 'L5', 'Winter-brew specialist'),
+   ('VIKING', 'PLACE', 'L5', 'Winter-harvester'),
+   ('VIKING', 'PLACE', 'L5', 'Winter-spiced brewmaster'),
+   ('VIKING', 'PLACE', 'L5', 'Wisdom-bearer'),
+   ('VIKING', 'PLACE', 'L5', 'Wise beyond measure'),
+   ('VIKING', 'PLACE', 'L5', 'Wolf-caller'),
+   ('VIKING', 'PLACE', 'L5', 'Wolf-hearted hunter'),
+   ('VIKING', 'PLACE', 'L5', 'Wolf-hearted'),
+   ('VIKING', 'PLACE', 'L5', 'Wolf-hunted'),
+   ('VIKING', 'PLACE', 'L5', 'Wood-and-steel'),
+   ('VIKING', 'PLACE', 'L5', 'Wood-bent'),
+   ('VIKING', 'PLACE', 'L5', 'Wood-harvester'),
+   ('VIKING', 'PLACE', 'L5', 'Wood-splitter'),
+   ('VIKING', 'PLACE', 'L5', 'Wood-woven'),
+   ('VIKING', 'PLACE', 'L5', 'Wooden artist'),
+   ('VIKING', 'PLACE', 'L5', 'Woodland-gardener'),
+   ('VIKING', 'PLACE', 'L5', 'Woods-walker'),
+   ('VIKING', 'PLACE', 'L5', 'Worthy-blooded'),
+   ('VIKING', 'PLACE', 'L5', 'Wrath-born'),
+   ('VIKING', 'PLACE', 'L5', 'Wrath-filled'),
+   ('VIKING', 'PLACE', 'L5', 'Wrath-fueled'),
+   ('VIKING', 'PLACE', 'L5', 'Wrathful-warrior'),
+   ('VIKING', 'PLACE', 'L5', 'Wrought in fire');
 
 commit;

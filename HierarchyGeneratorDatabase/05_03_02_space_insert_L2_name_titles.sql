@@ -1,39 +1,41 @@
 use hierarchy_generator;
 
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'solar system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'star system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'stellar system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'astronomical system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'orbital cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'celestial cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'stellar cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'galactic sector of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'interstellar region of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'planetary system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'nebula system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'binary star system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'multi-star system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'intergalactic system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'deep-space system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'exoplanetary system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'stellar nursery of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'habitable zone of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'constellation of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'cosmic sector of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'supercluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'galactic arm of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'supernova remnant of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'cosmic web of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'distant star system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'star cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'orbiting system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'vortex system of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'warp zone of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'intergalactic cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'astral domain of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'quasar region of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'nebula cluster of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'starfield of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'luminous region of');
-INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L2', 'interstellar void of');
+INSERT INTO `NameTitles` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L2', 'solar system of'),
+   ('SPACE', 'PLACE', 'L2', 'star system of'),
+   ('SPACE', 'PLACE', 'L2', 'stellar system of'),
+   ('SPACE', 'PLACE', 'L2', 'astronomical system of'),
+   ('SPACE', 'PLACE', 'L2', 'orbital cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'celestial cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'stellar cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'galactic sector of'),
+   ('SPACE', 'PLACE', 'L2', 'interstellar region of'),
+   ('SPACE', 'PLACE', 'L2', 'planetary system of'),
+   ('SPACE', 'PLACE', 'L2', 'nebula system of'),
+   ('SPACE', 'PLACE', 'L2', 'binary star system of'),
+   ('SPACE', 'PLACE', 'L2', 'multi-star system of'),
+   ('SPACE', 'PLACE', 'L2', 'intergalactic system of'),
+   ('SPACE', 'PLACE', 'L2', 'deep-space system of'),
+   ('SPACE', 'PLACE', 'L2', 'exoplanetary system of'),
+   ('SPACE', 'PLACE', 'L2', 'stellar nursery of'),
+   ('SPACE', 'PLACE', 'L2', 'habitable zone of'),
+   ('SPACE', 'PLACE', 'L2', 'constellation of'),
+   ('SPACE', 'PLACE', 'L2', 'cosmic sector of'),
+   ('SPACE', 'PLACE', 'L2', 'supercluster of'),
+   ('SPACE', 'PLACE', 'L2', 'galactic arm of'),
+   ('SPACE', 'PLACE', 'L2', 'supernova remnant of'),
+   ('SPACE', 'PLACE', 'L2', 'cosmic web of'),
+   ('SPACE', 'PLACE', 'L2', 'distant star system of'),
+   ('SPACE', 'PLACE', 'L2', 'star cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'orbiting system of'),
+   ('SPACE', 'PLACE', 'L2', 'vortex system of'),
+   ('SPACE', 'PLACE', 'L2', 'warp zone of'),
+   ('SPACE', 'PLACE', 'L2', 'intergalactic cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'astral domain of'),
+   ('SPACE', 'PLACE', 'L2', 'quasar region of'),
+   ('SPACE', 'PLACE', 'L2', 'nebula cluster of'),
+   ('SPACE', 'PLACE', 'L2', 'starfield of'),
+   ('SPACE', 'PLACE', 'L2', 'luminous region of'),
+   ('SPACE', 'PLACE', 'L2', 'interstellar void of');
+   
 commit;

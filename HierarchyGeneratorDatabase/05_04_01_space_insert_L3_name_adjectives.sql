@@ -1,135 +1,137 @@
 use hierarchy_generator;
 
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Abandoned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Alternate-reality');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Ancient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Andorian-settled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Antigravity');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Augmented');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Bajoran-influenced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Barren');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Bioengineered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Biorganic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Bleak');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Borg-infiltrated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Borg-resistant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Broken');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Cardassian-occupied');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Coded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Collapsed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Corroded');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Cybernetic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Cyborg');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dark');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Decay-ridden');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Delta-quadrant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Desolate');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dim');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dimensional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dominion-enslaved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Droid-controlled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dusty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Dying');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Empty');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Endangered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Energy-infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Energy-matrix');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Exo-constructed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Exoplanetary');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Failed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Faint');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Falling');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Faltering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Federation-aligned');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Federation-controlled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Federation-neutral');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Flickering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Forgotten');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Fractured');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Frostbitten');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Frozen');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Fusion-powered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Galactic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Galvanized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Ghostly');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Hazy');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Hollow');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Holodeck-capable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Holographic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Holographic-projected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Hypergalactic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Hyperlinked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Hypernova');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Interdimensional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Interstellar');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Ionized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Isolated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Klingon-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Klingon-ruled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Lifeless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Lonely');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Lost');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Magnetically-locked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Matrix-based');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Mirror-universe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Multi-phasic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Nanite-controlled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Nanotech');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Nanotextured');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Neon-lit');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Neural');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Neuro-optimized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Phase-shifted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Pioneering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Plasma-infused');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Prime-universe');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Primitive');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Protoplanetary');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Q-affected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Quantum');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Quantum-locked');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Radiant');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Ravaged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Romulan-dominated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Romulan-neutral');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Ruined');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Rusting');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Shattered');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Singularity');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Solar');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Spock-approved');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Star-forged');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Starbase-operated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Starfleet-controlled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Starfleet-designated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Starfleet-maintained');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Starless');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Suffocating');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'TNG-era');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'TOS-era');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Tachyon-stabilized');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Techno-organic');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Teleportation-enabled');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Teleportational');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Temporal-dilated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Temporal-loop');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Terraformable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Terraforming');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Transdimensional');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Uncharted');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Unexplored');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Uninhabited');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Untamed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Vast');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Virtual');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Vulcan-ancient');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Vulcan-influenced');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Vulcan-initiated');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Vulnerable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Wandering');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Warp-capable');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Warp-speed');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Wasteland');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Wormhole-connected');
-INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES ('SPACE', 'PLACE', 'L3', 'Wrecked');
+INSERT INTO `NameAdjectives` (`Theme`, `Category`, `NodeLevel`, `Value`) VALUES 
+   ('SPACE', 'PLACE', 'L3', 'Abandoned'),
+   ('SPACE', 'PLACE', 'L3', 'Alternate-reality'),
+   ('SPACE', 'PLACE', 'L3', 'Ancient'),
+   ('SPACE', 'PLACE', 'L3', 'Andorian-settled'),
+   ('SPACE', 'PLACE', 'L3', 'Antigravity'),
+   ('SPACE', 'PLACE', 'L3', 'Augmented'),
+   ('SPACE', 'PLACE', 'L3', 'Bajoran-influenced'),
+   ('SPACE', 'PLACE', 'L3', 'Barren'),
+   ('SPACE', 'PLACE', 'L3', 'Bioengineered'),
+   ('SPACE', 'PLACE', 'L3', 'Biorganic'),
+   ('SPACE', 'PLACE', 'L3', 'Bleak'),
+   ('SPACE', 'PLACE', 'L3', 'Borg-infiltrated'),
+   ('SPACE', 'PLACE', 'L3', 'Borg-resistant'),
+   ('SPACE', 'PLACE', 'L3', 'Broken'),
+   ('SPACE', 'PLACE', 'L3', 'Cardassian-occupied'),
+   ('SPACE', 'PLACE', 'L3', 'Coded'),
+   ('SPACE', 'PLACE', 'L3', 'Collapsed'),
+   ('SPACE', 'PLACE', 'L3', 'Corroded'),
+   ('SPACE', 'PLACE', 'L3', 'Cybernetic'),
+   ('SPACE', 'PLACE', 'L3', 'Cyborg'),
+   ('SPACE', 'PLACE', 'L3', 'Dark'),
+   ('SPACE', 'PLACE', 'L3', 'Decay-ridden'),
+   ('SPACE', 'PLACE', 'L3', 'Delta-quadrant'),
+   ('SPACE', 'PLACE', 'L3', 'Desolate'),
+   ('SPACE', 'PLACE', 'L3', 'Dim'),
+   ('SPACE', 'PLACE', 'L3', 'Dimensional'),
+   ('SPACE', 'PLACE', 'L3', 'Dominion-enslaved'),
+   ('SPACE', 'PLACE', 'L3', 'Droid-controlled'),
+   ('SPACE', 'PLACE', 'L3', 'Dusty'),
+   ('SPACE', 'PLACE', 'L3', 'Dying'),
+   ('SPACE', 'PLACE', 'L3', 'Empty'),
+   ('SPACE', 'PLACE', 'L3', 'Endangered'),
+   ('SPACE', 'PLACE', 'L3', 'Energy-infused'),
+   ('SPACE', 'PLACE', 'L3', 'Energy-matrix'),
+   ('SPACE', 'PLACE', 'L3', 'Exo-constructed'),
+   ('SPACE', 'PLACE', 'L3', 'Exoplanetary'),
+   ('SPACE', 'PLACE', 'L3', 'Failed'),
+   ('SPACE', 'PLACE', 'L3', 'Faint'),
+   ('SPACE', 'PLACE', 'L3', 'Falling'),
+   ('SPACE', 'PLACE', 'L3', 'Faltering'),
+   ('SPACE', 'PLACE', 'L3', 'Federation-aligned'),
+   ('SPACE', 'PLACE', 'L3', 'Federation-controlled'),
+   ('SPACE', 'PLACE', 'L3', 'Federation-neutral'),
+   ('SPACE', 'PLACE', 'L3', 'Flickering'),
+   ('SPACE', 'PLACE', 'L3', 'Forgotten'),
+   ('SPACE', 'PLACE', 'L3', 'Fractured'),
+   ('SPACE', 'PLACE', 'L3', 'Frostbitten'),
+   ('SPACE', 'PLACE', 'L3', 'Frozen'),
+   ('SPACE', 'PLACE', 'L3', 'Fusion-powered'),
+   ('SPACE', 'PLACE', 'L3', 'Galactic'),
+   ('SPACE', 'PLACE', 'L3', 'Galvanized'),
+   ('SPACE', 'PLACE', 'L3', 'Ghostly'),
+   ('SPACE', 'PLACE', 'L3', 'Hazy'),
+   ('SPACE', 'PLACE', 'L3', 'Hollow'),
+   ('SPACE', 'PLACE', 'L3', 'Holodeck-capable'),
+   ('SPACE', 'PLACE', 'L3', 'Holographic'),
+   ('SPACE', 'PLACE', 'L3', 'Holographic-projected'),
+   ('SPACE', 'PLACE', 'L3', 'Hypergalactic'),
+   ('SPACE', 'PLACE', 'L3', 'Hyperlinked'),
+   ('SPACE', 'PLACE', 'L3', 'Hypernova'),
+   ('SPACE', 'PLACE', 'L3', 'Interdimensional'),
+   ('SPACE', 'PLACE', 'L3', 'Interstellar'),
+   ('SPACE', 'PLACE', 'L3', 'Ionized'),
+   ('SPACE', 'PLACE', 'L3', 'Isolated'),
+   ('SPACE', 'PLACE', 'L3', 'Klingon-forged'),
+   ('SPACE', 'PLACE', 'L3', 'Klingon-ruled'),
+   ('SPACE', 'PLACE', 'L3', 'Lifeless'),
+   ('SPACE', 'PLACE', 'L3', 'Lonely'),
+   ('SPACE', 'PLACE', 'L3', 'Lost'),
+   ('SPACE', 'PLACE', 'L3', 'Magnetically-locked'),
+   ('SPACE', 'PLACE', 'L3', 'Matrix-based'),
+   ('SPACE', 'PLACE', 'L3', 'Mirror-universe'),
+   ('SPACE', 'PLACE', 'L3', 'Multi-phasic'),
+   ('SPACE', 'PLACE', 'L3', 'Nanite-controlled'),
+   ('SPACE', 'PLACE', 'L3', 'Nanotech'),
+   ('SPACE', 'PLACE', 'L3', 'Nanotextured'),
+   ('SPACE', 'PLACE', 'L3', 'Neon-lit'),
+   ('SPACE', 'PLACE', 'L3', 'Neural'),
+   ('SPACE', 'PLACE', 'L3', 'Neuro-optimized'),
+   ('SPACE', 'PLACE', 'L3', 'Phase-shifted'),
+   ('SPACE', 'PLACE', 'L3', 'Pioneering'),
+   ('SPACE', 'PLACE', 'L3', 'Plasma-infused'),
+   ('SPACE', 'PLACE', 'L3', 'Prime-universe'),
+   ('SPACE', 'PLACE', 'L3', 'Primitive'),
+   ('SPACE', 'PLACE', 'L3', 'Protoplanetary'),
+   ('SPACE', 'PLACE', 'L3', 'Q-affected'),
+   ('SPACE', 'PLACE', 'L3', 'Quantum'),
+   ('SPACE', 'PLACE', 'L3', 'Quantum-locked'),
+   ('SPACE', 'PLACE', 'L3', 'Radiant'),
+   ('SPACE', 'PLACE', 'L3', 'Ravaged'),
+   ('SPACE', 'PLACE', 'L3', 'Romulan-dominated'),
+   ('SPACE', 'PLACE', 'L3', 'Romulan-neutral'),
+   ('SPACE', 'PLACE', 'L3', 'Ruined'),
+   ('SPACE', 'PLACE', 'L3', 'Rusting'),
+   ('SPACE', 'PLACE', 'L3', 'Shattered'),
+   ('SPACE', 'PLACE', 'L3', 'Singularity'),
+   ('SPACE', 'PLACE', 'L3', 'Solar'),
+   ('SPACE', 'PLACE', 'L3', 'Spock-approved'),
+   ('SPACE', 'PLACE', 'L3', 'Star-forged'),
+   ('SPACE', 'PLACE', 'L3', 'Starbase-operated'),
+   ('SPACE', 'PLACE', 'L3', 'Starfleet-controlled'),
+   ('SPACE', 'PLACE', 'L3', 'Starfleet-designated'),
+   ('SPACE', 'PLACE', 'L3', 'Starfleet-maintained'),
+   ('SPACE', 'PLACE', 'L3', 'Starless'),
+   ('SPACE', 'PLACE', 'L3', 'Suffocating'),
+   ('SPACE', 'PLACE', 'L3', 'TNG-era'),
+   ('SPACE', 'PLACE', 'L3', 'TOS-era'),
+   ('SPACE', 'PLACE', 'L3', 'Tachyon-stabilized'),
+   ('SPACE', 'PLACE', 'L3', 'Techno-organic'),
+   ('SPACE', 'PLACE', 'L3', 'Teleportation-enabled'),
+   ('SPACE', 'PLACE', 'L3', 'Teleportational'),
+   ('SPACE', 'PLACE', 'L3', 'Temporal-dilated'),
+   ('SPACE', 'PLACE', 'L3', 'Temporal-loop'),
+   ('SPACE', 'PLACE', 'L3', 'Terraformable'),
+   ('SPACE', 'PLACE', 'L3', 'Terraforming'),
+   ('SPACE', 'PLACE', 'L3', 'Transdimensional'),
+   ('SPACE', 'PLACE', 'L3', 'Uncharted'),
+   ('SPACE', 'PLACE', 'L3', 'Unexplored'),
+   ('SPACE', 'PLACE', 'L3', 'Uninhabited'),
+   ('SPACE', 'PLACE', 'L3', 'Untamed'),
+   ('SPACE', 'PLACE', 'L3', 'Vast'),
+   ('SPACE', 'PLACE', 'L3', 'Virtual'),
+   ('SPACE', 'PLACE', 'L3', 'Vulcan-ancient'),
+   ('SPACE', 'PLACE', 'L3', 'Vulcan-influenced'),
+   ('SPACE', 'PLACE', 'L3', 'Vulcan-initiated'),
+   ('SPACE', 'PLACE', 'L3', 'Vulnerable'),
+   ('SPACE', 'PLACE', 'L3', 'Wandering'),
+   ('SPACE', 'PLACE', 'L3', 'Warp-capable'),
+   ('SPACE', 'PLACE', 'L3', 'Warp-speed'),
+   ('SPACE', 'PLACE', 'L3', 'Wasteland'),
+   ('SPACE', 'PLACE', 'L3', 'Wormhole-connected'),
+   ('SPACE', 'PLACE', 'L3', 'Wrecked');
+   
 commit;

@@ -1,235 +1,234 @@
 use hierarchy_generator;
 
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Thal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Kael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Al');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Riv');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Toran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Valth');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'El');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Zar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Cor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Syl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dra');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ith');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Mord');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ner');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Rha');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Lor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Hald');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Fael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vyr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Kal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ber');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Zeth');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Eld');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Gor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Tir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Sal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Rys');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Fenn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Khor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dyl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Shal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ryn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Oran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Cail');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Zel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ald');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Thir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Fel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Lorn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vren');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Glan');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Nir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Tor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Aran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Jor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Harn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Myl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ari');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Var');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Kiel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dren');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Sil');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dorn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Har');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Alth');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Elor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Raen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vorth');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Tarn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Khal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Ral');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Hran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Sith');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Mel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dorin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vath');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Frel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Kel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Marth');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Bryn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Lir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Draen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Thar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Sian');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Rein');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Kor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Dros');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Viran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Far');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Krin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Lar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Jol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Bhal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Fal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Vin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'STARTING', 'Mal');
-/* Middle phonemes */
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'en');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'or');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ai');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ul');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'an');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'el');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'al');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'il');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'yn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'er');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ur');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'om');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'es');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'as');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'os');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ew');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'oy');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ay');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ee');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'au');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'oo');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ei');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ua');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ou');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ia');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ie');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ae');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ea');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ya');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'yo');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'zu');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ze');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'za');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'zi');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ri');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ka');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'li');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'mi');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'on');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'in');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ian');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'eil');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ail');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'et');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'at');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ot');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'io');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ui');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'oi');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'MIDDLE', 'ra');
-/* Ending phones */
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'heim');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'spire');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'thal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'drak');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'orim');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dun');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ril');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'gor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'nath');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ilith');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'mar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'morn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ros');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'tar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'vel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lon');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'thar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'resh');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'vorn');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lith');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sair');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'din');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'aric');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'mith');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sil');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ran');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'thos');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'gar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'shar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'tash');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'raen');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lore');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'han');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'torr');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'bael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'rak');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'win');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'aeon');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'val');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ris');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'bri');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'zan');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'all');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'kael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'len');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'mir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'zael');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'shin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'kan');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'rin');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'san');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'tor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'hal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'nor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ven');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'lir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'mor');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'kar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'nar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dal');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'zir');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ray');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'vear');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'zel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ryl');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'vil');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ser');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'tol');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'zar');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'nel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'hel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'ral');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'mon');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'sel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'dan');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'kel');
-INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES ('FANTASY', 'PLACE', 'ENDING', 'rol');
+INSERT INTO NamePhonemes (Theme, Category, Position, Value) VALUES 
+   ('FANTASY', 'PLACE', 'STARTING', 'Ar'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Thal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Kael'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Al'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Riv'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Toran'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Valth'),
+   ('FANTASY', 'PLACE', 'STARTING', 'El'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Zar'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Cor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Syl'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dra'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ith'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Mord'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ner'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Rha'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Lor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Hald'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Fael'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vyr'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Kal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ber'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Zeth'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Eld'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Gor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Tir'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Sal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Rys'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Fenn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Khor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dyl'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Shal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ryn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Oran'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Cail'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Zel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vael'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ald'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Thir'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Fel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Lorn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vren'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Glan'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Nir'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Tor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Aran'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Jor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Harn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Myl'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ari'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Var'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Kiel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dren'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Sil'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dorn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Har'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Alth'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Elor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Raen'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vorth'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Tarn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Khal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Ral'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Hran'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Sith'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Mel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dorin'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vath'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Frel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Kel'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Marth'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Bryn'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Lir'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Draen'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Thar'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Sian'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Rein'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Kor'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Dros'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Viran'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Far'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Krin'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Lar'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Jol'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Bhal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Fal'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Vin'),
+   ('FANTASY', 'PLACE', 'STARTING', 'Mal'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'en'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'or'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ai'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ul'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ar'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ol'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'an'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'el'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ir'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'al'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'il'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'yn'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'er'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ur'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'om'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'es'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'as'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'os'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ew'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'oy'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ay'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ee'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'au'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'oo'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ei'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ua'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ou'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ia'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ie'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ae'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ea'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ya'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'yo'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'zu'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ze'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'za'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'zi'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ri'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ka'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'li'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'mi'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'on'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'in'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ian'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'eil'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ail'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'et'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'at'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ot'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'io'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ui'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'oi'),
+   ('FANTASY', 'PLACE', 'MIDDLE', 'ra'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'heim'),
+   ('FANTASY', 'PLACE', 'ENDING', 'spire'),
+   ('FANTASY', 'PLACE', 'ENDING', 'thal'),
+   ('FANTASY', 'PLACE', 'ENDING', 'drak'),
+   ('FANTASY', 'PLACE', 'ENDING', 'orim'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dun'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ril'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'gor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'nath'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ilith'),
+   ('FANTASY', 'PLACE', 'ENDING', 'mar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'morn'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ros'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'tar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'vel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lon'),
+   ('FANTASY', 'PLACE', 'ENDING', 'thar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'resh'),
+   ('FANTASY', 'PLACE', 'ENDING', 'vorn'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lith'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ir'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sair'),
+   ('FANTASY', 'PLACE', 'ENDING', 'din'),
+   ('FANTASY', 'PLACE', 'ENDING', 'aric'),
+   ('FANTASY', 'PLACE', 'ENDING', 'mith'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sil'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ran'),
+   ('FANTASY', 'PLACE', 'ENDING', 'thos'),
+   ('FANTASY', 'PLACE', 'ENDING', 'gar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'shar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'tash'),
+   ('FANTASY', 'PLACE', 'ENDING', 'raen'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lore'),
+   ('FANTASY', 'PLACE', 'ENDING', 'han'),
+   ('FANTASY', 'PLACE', 'ENDING', 'torr'),
+   ('FANTASY', 'PLACE', 'ENDING', 'bael'),
+   ('FANTASY', 'PLACE', 'ENDING', 'rak'),
+   ('FANTASY', 'PLACE', 'ENDING', 'win'),
+   ('FANTASY', 'PLACE', 'ENDING', 'aeon'),
+   ('FANTASY', 'PLACE', 'ENDING', 'val'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ris'),
+   ('FANTASY', 'PLACE', 'ENDING', 'bri'),
+   ('FANTASY', 'PLACE', 'ENDING', 'zan'),
+   ('FANTASY', 'PLACE', 'ENDING', 'all'),
+   ('FANTASY', 'PLACE', 'ENDING', 'kael'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sol'),
+   ('FANTASY', 'PLACE', 'ENDING', 'len'),
+   ('FANTASY', 'PLACE', 'ENDING', 'mir'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'zael'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dol'),
+   ('FANTASY', 'PLACE', 'ENDING', 'shin'),
+   ('FANTASY', 'PLACE', 'ENDING', 'kan'),
+   ('FANTASY', 'PLACE', 'ENDING', 'rin'),
+   ('FANTASY', 'PLACE', 'ENDING', 'san'),
+   ('FANTASY', 'PLACE', 'ENDING', 'tor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'hal'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dir'),
+   ('FANTASY', 'PLACE', 'ENDING', 'nor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ven'),
+   ('FANTASY', 'PLACE', 'ENDING', 'lir'),
+   ('FANTASY', 'PLACE', 'ENDING', 'mor'),
+   ('FANTASY', 'PLACE', 'ENDING', 'kar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'nar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dal'),
+   ('FANTASY', 'PLACE', 'ENDING', 'zir'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ray'),
+   ('FANTASY', 'PLACE', 'ENDING', 'vear'),
+   ('FANTASY', 'PLACE', 'ENDING', 'zel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ryl'),
+   ('FANTASY', 'PLACE', 'ENDING', 'vil'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ser'),
+   ('FANTASY', 'PLACE', 'ENDING', 'tol'),
+   ('FANTASY', 'PLACE', 'ENDING', 'zar'),
+   ('FANTASY', 'PLACE', 'ENDING', 'nel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'hel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'ral'),
+   ('FANTASY', 'PLACE', 'ENDING', 'mon'),
+   ('FANTASY', 'PLACE', 'ENDING', 'sel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'dan'),
+   ('FANTASY', 'PLACE', 'ENDING', 'kel'),
+   ('FANTASY', 'PLACE', 'ENDING', 'rol');
 
 commit;
