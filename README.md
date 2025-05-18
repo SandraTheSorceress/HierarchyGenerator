@@ -13,6 +13,8 @@ Open [Hierarchy Generator App](http://localhost:8080)
     docker-compose down
 
 ## For development
+[Swagger for the API](http://localhost:1337/swagger/index.html)
+
 This script builds images from the code and starts the containers:
 
     dev_run.bat
